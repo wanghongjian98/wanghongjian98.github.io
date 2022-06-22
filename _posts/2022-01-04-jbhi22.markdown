@@ -5,7 +5,7 @@ date:   2022-01-04 08:00:00 +00:00
 image: /images/RFormer.png
 author: "Yuanhao Cai"
 categories: research
-venue: "preprint"
+venue: "IEEE Journal of Biomedical and Health Informatics (J-BHI)"
 paper: https://arxiv.org/pdf/2201.00466.pdf
 bibtex: /bibtex/rformer.txt
 authors: Zhuo Deng *, <strong>Yuanhao Cai *</strong>, Lu Chen, Zheng Gong, Qiqi Bao, Xue Yao, Dong Fang, Shaochong Zhang, <a href="https://sklco.pkusz.edu.cn/info/1030/1046.htm">Lan Ma</a>
