@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Coarse-to-Fine Sparse Transformer for Hyperspectral Image Reconstruction"
-date:   2022-01-10 08:00:00 +00:00
+date:   2022-05-16 08:00:00 +00:00
 image: /images/CST.png
 categories: research
 author: "Yuanhao Cai"
-venue: "preprint"
+venue: "European Conference on Computer Vision (ECCV)"
 paper: https://arxiv.org/pdf/2203.04845.pdf
 project: https://github.com/caiyuanhao1998/MST
 bibtex: /bibtex/cst.txt
