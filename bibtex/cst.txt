@@ -1,6 +1,6 @@
 @inproceedings{cst,
   title={Coarse-to-Fine Sparse Transformer for Hyperspectral Image Reconstruction},
-  author={Lin, Jing and Cai, Yuanhao and Hu, Xiaowan and Wang, Haoqian and Yuan, Xin and Zhang, Yulun and Timofte, Radu and Van Gool, Luc},
+  author={Jing Lin and Yuanhao Cai and Xiaowan Hu and Haoqian Wang and Xin Yuan and Yulun Zhang and Radu Timofte and Luc Van Gool},
   booktitle={ECCV},
   year={2022}
 }
