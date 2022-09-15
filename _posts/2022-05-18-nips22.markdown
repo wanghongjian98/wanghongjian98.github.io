@@ -5,7 +5,7 @@ date:   2022-05-18 08:00:00 +00:00
 image: /images/DAUHST.png
 categories: research
 author: "Yuanhao Cai"
-venue: "preprint"
+venue: "Advances in Neural Information Processing Systems (NeurIPS)"
 paper: https://arxiv.org/pdf/2205.10102.pdf
 project: https://github.com/caiyuanhao1998/MST
 bibtex: /bibtex/dauhst.txt
