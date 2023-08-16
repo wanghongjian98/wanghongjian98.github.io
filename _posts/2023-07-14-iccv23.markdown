@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement"
-date:   2023-03-14 08:00:00 +00:00
-image: /images/DAUHST.png
+date:   2023-07-14 08:00:00 +00:00
+image: /images/retinexformer.png
 categories: research
 author: "Yuanhao Cai"
 venue: "International Conference on Computer Vision (ICCV)"
