@@ -1,0 +1,6 @@
+@inproceedings{motionx,
+  title={Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset},
+  author={Jing Lin, Ailing Zeng, Shunlin Lu, Yuanhao Cai, Ruimao Zhang, Haoqian Wang, Lei Zhang},
+  booktitle={NeurIPS},
+  year={2023}
+}
