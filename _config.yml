@@ -18,10 +18,10 @@ avatar: images/circle_bw_crop.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: 3359145729@qq.com
+  email: wanghon@ethz.ch
   facebook:
   flickr:
-  github: caiyuanhao1998
+  github: wanghongjian98
   instagram: 
   linkedin:
   pinterest:
@@ -93,5 +93,5 @@ exclude:
 
 deploy:
   type: git
-  repo: https://github.com/caiyuanhao1998/caiyuanhao1998.github.io
+  repo: https://github.com/wanghongjian98/wanghongjian98.github.io
   branch: master
