@@ -1,6 +1,0 @@
-@inproceedings{mst_pp,
-  title={MST++: Multi-stage Spectral-wise Transformer for Efficient Spectral Reconstruction},
-  author={Yuanhao Cai and Jing Lin and Zudi Lin and Haoqian Wang and Yulun Zhang and Hanspeter Pfister and Radu Timofte and Luc Van Gool},
-  booktitle={CVPRW},
-  year={2022}
-}

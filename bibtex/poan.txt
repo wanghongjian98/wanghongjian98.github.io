@@ -1,6 +1,0 @@
-@INPROCEEDINGS{poan,
-  author={Hu, Xiaowan and Wang, Haoqian and Cai, Yuanhao and Zhao, Xiaole and Zhang, Yulun},
-  booktitle={ICME}, 
-  title={Pyramid Orthogonal Attention Network based on Dual Self-Similarity for Accurate Mr Image Super-Resolution}, 
-  year={2021}
-}

@@ -1,6 +1,0 @@
-@inproceedings{retinexformer,
-  title={Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement},
-  author={Yuanhao Cai and Hao Bian and Jing Lin and Haoqian Wang and Radu Timofte and Yulun Zhang},
-  booktitle={ICCV},
-  year={2023}
-}
