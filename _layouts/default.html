@@ -3,130 +3,34 @@
 
 <head>
   <title>{{ site.name }}</title>
-
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
   <meta name="author" content="{{ site.name }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
 </head>
 
-
-
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:80%;vertical-align:middle">
-              <h1>
-                Hongjian Wang
-              </h1>
-              <p>I am currently a 1st year PhD student in the department of <a href="https://ee.ethz.ch/">Electrical Enigneering and Information Technology</a>, <a href="https://ethz.ch/en.html">ETH zurich</a>.
-                Also, I am a member of <a href="https://www.psi.ch/en/x-ray-tomography-group/">TOMCAT</a>,  <a href="https://www.psi.ch/en/science/"> Paul Scherrer Institute</a>, advised by Prof. Dr. <a href="https://ee.ethz.ch/the-department/people-a-z/person-detail.NTg3ODU=.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html">Marco Stampanoni</a> and Dr. <a href="https://www.psi.ch/en/x-ray-tomography-group/people/goran-lovric">Goran Lovric</a>.
-                Previously, I received my MSE degrees from <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> in July,2023.
-              </p>
-              <p style="text-align:center">
-                <a href="https://github.com/wanghongjian98">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?hl=en&user=CHLNyz0AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-              </p>
-            </td>
-            <td style="padding:2.5%;width:20%;max-width:20%">
-              <img style="width:100%;max-width:100%" alt="self photo" src="images/Wang_Hongjian.jpg"/>
-            </td>
-          </tr>
-        </table>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ "/" | relative_url }}">Home</a></li>
+        <li><a href="{{ "/about" | relative_url }}">About</a></li>
+        <li><a href="{{ "/blog" | relative_url }}">Blog</a></li>
+        <li><a href="{{ "/contact" | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <h2>Honor and Award</h2>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;vertical-align:left">
-              <p>
-                Excellent Graduate of Beijing, 2023
-              </p>
-              <p>
-                Excellent Master Thesis Award, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, 2023
-              </p>
-              <p>
-                National Scholarship, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, 2022
-              </p>
-            </td>
-          </tr>
-        </table>
+  <main>
+    {{ content }}
+  </main>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <h2>Publication</h2>
-          In progress
-<!--          see as <a href="https://www.tsinghua.edu.cn/">Research Gate</a>-->
-<!--          {% for post in site.posts %}-->
-<!--          {% for cat in post.categories %}-->
-<!--          {% if cat == 'research' %}-->
-<!--          <tr>-->
-<!--            <td style="padding:0.1%;width:30%;vertical-align:middle;min-width:120px">-->
-<!--              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />-->
-<!--            </td>-->
-<!--            <td style="padding:2.5%;width:70%;vertical-align:middle">-->
-<!--              <h3>{{post.title}}</h3>-->
-<!--              <br>-->
-<!--              <br>-->
-<!--              {{post.authors}}-->
-
-<!--              <br>-->
-<!--              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}-->
-<!--              <br>-->
-<!--              {% if post.paper %}-->
-<!--              <a href="{{post.paper}}">paper</a>-->
-<!--              {% endif %}-->
-<!--              {% if post.project %}-->
-<!--              / <a href="{{post.project}}">project</a>-->
-<!--              {% endif %}-->
-<!--              {% if post.zhihu %}-->
-<!--              / <a href="{{post.zhihu}}">zhihu</a>-->
-<!--              {% endif %}-->
-<!--              {% if post.code %}-->
-<!--              <a href="{{post.code}}">code</a> /-->
-<!--              {% endif %}-->
-<!--              {% if post.leaderboard %}-->
-<!--              / <a href="{{post.leaderboard}}">leaderboard</a>-->
-<!--              {% endif %}-->
-<!--              {% if post.bibtex %}-->
-<!--              / <a href="{{post.bibtex}}">bibtex</a>-->
-<!--              {% endif %}-->
-<!--              <p></p>-->
-<!--              {{ post.excerpt }}-->
-<!--            </td>-->
-<!--          </tr>-->
-<!--          {% endif %}-->
-<!--          {% endfor %}-->
-<!--          {% endfor %}-->
-        </table>
-        
-        <br>
-        <br>
-
-<!--         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">-->
-<!--          <h2>Peer Reviewer</h2>-->
-<!--          <tr style="padding:0px">-->
-<!--            <td style="padding:2.5%;vertical-align:left">-->
-<!--              <p>-->
-<!--                 Conference: CVPR, ICML, ECCV, ICCV, NeurIPS, AAAI, ACM MM, IJCAI, ICME-->
-<!--              </p>-->
-<!--              <p>-->
-<!--                Journal: TIP, IJCV, TNNLS, Pattern Recognition-->
-<!--              </p>-->
-<!--            </td>-->
-<!--          </tr>-->
-<!--        </table>-->
-        
-        <br>
-      </td>
-    </tr>
-  </table>
+  <footer>
+    <p>&copy; 2023 Hongjian Wang</p>
+  </footer>
 </body>
 
 </html>
