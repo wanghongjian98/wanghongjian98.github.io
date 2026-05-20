@@ -6,7 +6,7 @@ This repository publishes the root GitHub Pages site:
 https://wanghongjian98.github.io/
 ```
 
-The homepage is a static `index.html` page for Hongjian Wang, PhD student at ETH Zurich and member of TOMCAT at the Paul Scherrer Institute.
+The homepage is a static `index.html` page for Hongjian Wang, PhD student at ETH Zürich and member of TOMCAT at the Paul Scherrer Institute.
 
 ## Click Recorder
 
