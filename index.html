@@ -22,6 +22,8 @@
         --olive: #6c5a20;
         --soft: #e7e6dc;
         --shadow: 0 18px 45px rgba(30, 39, 37, 0.08);
+        --serif: Georgia, "Times New Roman", "Noto Serif", serif;
+        --sans: "Aptos", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
       }
 
       * {
@@ -36,9 +38,7 @@
         margin: 0;
         background: var(--bg);
         color: var(--ink);
-        font-family:
-          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
+        font-family: var(--sans);
         line-height: 1.6;
       }
 
@@ -75,7 +75,8 @@
         border-radius: 8px;
         background: var(--accent-dark);
         color: #fff;
-        font-weight: 900;
+        font-family: var(--serif);
+        font-weight: 700;
       }
 
       .brand strong,
@@ -86,6 +87,12 @@
       .brand span {
         color: var(--muted);
         font-size: 12px;
+      }
+
+      .brand strong {
+        font-family: var(--serif);
+        font-size: 18px;
+        font-weight: 700;
       }
 
       nav {
@@ -101,7 +108,8 @@
         border-radius: 8px;
         padding: 8px 12px;
         background: var(--panel);
-        font-weight: 700;
+        font-size: 15px;
+        font-weight: 650;
       }
 
       .button.primary {
@@ -128,7 +136,7 @@
         margin: 0 0 10px;
         color: var(--accent);
         font-size: 12px;
-        font-weight: 900;
+        font-weight: 700;
         letter-spacing: 0.08em;
         text-transform: uppercase;
       }
@@ -136,8 +144,10 @@
       h1 {
         max-width: 720px;
         margin: 0 0 18px;
-        font-size: clamp(42px, 7vw, 84px);
-        line-height: 1;
+        font-family: var(--serif);
+        font-size: clamp(46px, 7vw, 88px);
+        font-weight: 700;
+        line-height: 1.04;
         letter-spacing: 0;
       }
 
@@ -188,8 +198,9 @@
         border-radius: 50%;
         background: var(--accent-dark);
         color: #fff;
+        font-family: var(--serif);
         font-size: 48px;
-        font-weight: 900;
+        font-weight: 700;
       }
 
       .profile-info {
@@ -197,6 +208,7 @@
       }
 
       .profile-info h2 {
+        font-family: var(--serif);
         margin: 0 0 8px;
       }
 
@@ -219,8 +231,10 @@
       }
 
       .section-head h2 {
+        font-family: var(--serif);
         margin: 0;
-        font-size: 28px;
+        font-size: 30px;
+        font-weight: 700;
       }
 
       .card,
@@ -239,7 +253,9 @@
         display: block;
         margin-bottom: 8px;
         color: var(--accent-dark);
+        font-family: var(--serif);
         font-size: 18px;
+        font-weight: 700;
       }
 
       .card p,
@@ -262,7 +278,7 @@
 
       .timeline-item span {
         color: var(--rust);
-        font-weight: 900;
+        font-weight: 700;
       }
 
       .project {
@@ -278,7 +294,9 @@
       }
 
       .project h3 {
+        font-family: var(--serif);
         margin: 0 0 8px;
+        font-size: 24px;
       }
 
       .project p {
@@ -305,7 +323,7 @@
         margin-bottom: 8px;
         color: var(--muted);
         font-size: 12px;
-        font-weight: 900;
+        font-weight: 700;
         letter-spacing: 0.08em;
         text-transform: uppercase;
       }
@@ -314,6 +332,7 @@
         display: block;
         overflow-wrap: anywhere;
         color: var(--accent-dark);
+        font-family: var(--serif);
         font-size: 20px;
         line-height: 1.35;
       }
@@ -398,7 +417,7 @@
 
       .location-list span {
         color: var(--muted);
-        font-weight: 800;
+        font-weight: 700;
       }
 
       footer {
@@ -408,7 +427,7 @@
 
       footer a {
         color: var(--accent);
-        font-weight: 800;
+        font-weight: 650;
       }
 
       @media (max-width: 860px) {
