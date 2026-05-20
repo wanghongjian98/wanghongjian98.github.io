@@ -503,6 +503,10 @@
         color: var(--muted);
       }
 
+      .privacy-note {
+        font-size: 13px;
+      }
+
       .location-list {
         display: grid;
         gap: 10px;
@@ -815,6 +819,7 @@
           </div>
           <div class="location-panel">
             <p id="globeStatus">Waiting for analytics endpoint.</p>
+            <p class="privacy-note">Shows aggregated city and country counts only; raw IP addresses are not stored.</p>
             <ul id="locationList" class="location-list"></ul>
           </div>
         </div>

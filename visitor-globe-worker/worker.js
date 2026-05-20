@@ -1,8 +1,12 @@
-const ALLOWED_ORIGIN = "https://wanghongjian98.github.io";
 const STATS_KEY = "visitor-globe:v1:stats";
+const DEFAULT_ALLOWED_ORIGIN = "https://wanghongjian98.github.io";
 
-function corsHeaders(origin) {
-  const allowOrigin = origin === ALLOWED_ORIGIN ? origin : ALLOWED_ORIGIN;
+function allowedOrigin(env) {
+  return env.ALLOWED_ORIGIN || DEFAULT_ALLOWED_ORIGIN;
+}
+
+function corsHeaders(origin, env) {
+  const allowOrigin = origin === allowedOrigin(env) ? origin : allowedOrigin(env);
   return {
     "Access-Control-Allow-Origin": allowOrigin,
     "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
@@ -16,6 +20,7 @@ function json(data, init = {}) {
     ...init,
     headers: {
       "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "no-store",
       ...(init.headers || {}),
     },
   });
@@ -61,11 +66,15 @@ function locationFromRequest(request) {
   };
 }
 
+function clientIp(request) {
+  return request.headers.get("CF-Connecting-IP") || "";
+}
+
 async function handleCollect(request, env) {
   const now = new Date();
   const today = now.toISOString().slice(0, 10);
-  const ip = request.headers.get("CF-Connecting-IP") || request.headers.get("X-Forwarded-For") || "";
-  const salt = env.HASH_SALT || "change-me";
+  const ip = clientIp(request);
+  const salt = env.HASH_SALT || "development-salt-change-before-deploy";
   const visitorHash = ip ? await sha256(`${salt}:${today}:${ip}`) : "";
   const seenKey = visitorHash ? `visitor-globe:v1:seen:${today}:${visitorHash}` : "";
   const alreadySeen = seenKey ? await env.VISITOR_GLOBE.get(seenKey) : null;
@@ -85,6 +94,8 @@ async function handleCollect(request, env) {
       uniqueDailyVisitors: 0,
     };
 
+  point.firstSeenAt ||= now.toISOString();
+  point.lastSeenAt = now.toISOString();
   point.visits += 1;
   if (!alreadySeen) point.uniqueDailyVisitors += 1;
 
@@ -112,9 +123,10 @@ async function handleStats(env, origin) {
         lon: point.lon,
         visits: point.visits,
         uniqueDailyVisitors: point.uniqueDailyVisitors,
+        lastSeenAt: point.lastSeenAt,
       })),
     },
-    { headers: corsHeaders(origin) },
+    { headers: corsHeaders(origin, env) },
   );
 }
 
@@ -124,18 +136,18 @@ export default {
     const url = new URL(request.url);
 
     if (request.method === "OPTIONS") {
-      return new Response(null, { headers: corsHeaders(origin) });
+      return new Response(null, { headers: corsHeaders(origin, env) });
     }
 
     if (url.pathname === "/collect" && request.method === "POST") {
       const response = await handleCollect(request, env);
-      return new Response(response.body, { status: response.status, headers: corsHeaders(origin) });
+      return new Response(response.body, { status: response.status, headers: corsHeaders(origin, env) });
     }
 
     if (url.pathname === "/stats" && request.method === "GET") {
       return handleStats(env, origin);
     }
 
-    return json({ error: "Not found" }, { status: 404, headers: corsHeaders(origin) });
+    return json({ error: "Not found" }, { status: 404, headers: corsHeaders(origin, env) });
   },
 };

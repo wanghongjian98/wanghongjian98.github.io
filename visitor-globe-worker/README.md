@@ -6,52 +6,61 @@ This Cloudflare Worker records aggregated visit locations for:
 https://wanghongjian98.github.io/
 ```
 
-It intentionally does not return raw IP addresses to the website. The Worker uses Cloudflare request metadata to read approximate location fields and stores aggregate counts in Workers KV.
+It intentionally does not store or return raw IP addresses. The Worker uses Cloudflare request metadata to read approximate location fields, hashes the IP with a daily salt only for short-lived unique-visitor counting, and stores aggregate city/country counts in Workers KV.
 
 ## Deploy
 
-1. Install Wrangler:
+1. Install or run Wrangler:
 
 ```powershell
-npm install -g wrangler
+npx wrangler --version
 ```
 
-2. Log in:
+2. Log in to Cloudflare:
 
 ```powershell
-wrangler login
+npx wrangler login
 ```
 
 3. Create a KV namespace:
 
 ```powershell
-wrangler kv namespace create VISITOR_GLOBE
+npx wrangler kv namespace create VISITOR_GLOBE
 ```
 
-4. Create `wrangler.toml`:
+4. Create `wrangler.toml` from the example:
 
 ```powershell
 copy wrangler.toml.example wrangler.toml
 ```
 
-5. Replace:
+5. Replace the placeholder KV namespace id in `wrangler.toml` with the id printed by Wrangler.
 
-```text
-replace-with-your-kv-namespace-id
-replace-with-a-long-random-secret
-```
-
-6. Deploy:
+6. Store a private hash salt as a Worker secret. Do not commit this value:
 
 ```powershell
-wrangler deploy
+npx wrangler secret put HASH_SALT
 ```
 
-7. In the homepage `index.html`, set:
+Use a long random string. In PowerShell you can generate one with:
+
+```powershell
+[guid]::NewGuid().ToString("N") + [guid]::NewGuid().ToString("N")
+```
+
+7. Deploy:
+
+```powershell
+npx wrangler deploy
+```
+
+8. Copy the deployed Worker URL. In the homepage `index.html`, set:
 
 ```js
 const visitorGlobeEndpoint = "https://your-worker-name.your-subdomain.workers.dev";
 ```
+
+Then commit and push the homepage.
 
 ## Endpoints
 
@@ -60,4 +69,4 @@ const visitorGlobeEndpoint = "https://your-worker-name.your-subdomain.workers.de
 
 ## Privacy Note
 
-IP addresses can be personal data. Prefer aggregated city/country counts and hashed short-lived visitor IDs over storing raw IP addresses. Add a short privacy notice on the website before enabling persistent analytics.
+IP addresses can be personal data. This Worker avoids storing raw IP addresses and keeps only aggregated location counts plus short-lived daily visitor hashes. If you change it to store raw IPs, add a clear privacy notice and comply with the privacy rules that apply to your visitors.
