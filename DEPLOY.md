@@ -1,51 +1,42 @@
 # Deployment Notes
 
-There are two different GitHub surfaces:
-
-## 1. GitHub profile README
-
-Repository:
-
-```text
-wanghongjian98/wanghongjian98
-```
-
-This repository controls the README shown on:
-
-```text
-https://github.com/wanghongjian98
-```
-
-It does not normally control:
+This repository is the root GitHub Pages repository for:
 
 ```text
 https://wanghongjian98.github.io/
 ```
 
-## 2. GitHub Pages user homepage
+## Recommended Pages Setting
 
-The root Pages homepage should be hosted by a repository named:
+Use the included GitHub Actions workflow:
 
 ```text
-wanghongjian98.github.io
+Settings > Pages > Build and deployment > Source: GitHub Actions
 ```
 
-The repository URL should be:
+Then push to `main`. The workflow in `.github/workflows/pages.yml` uploads the repository root as the Pages artifact.
+
+## Alternative Branch Setting
+
+If you do not use Actions, set:
 
 ```text
-https://github.com/wanghongjian98/wanghongjian98.github.io
+Settings > Pages > Build and deployment
+Source: Deploy from a branch
+Branch: main
+Folder: /root
 ```
 
-To publish the root homepage:
+## Profile README Repository
 
-1. Create a public repository named `wanghongjian98.github.io`.
-2. Copy `index.html` and `.nojekyll` into that repository.
-3. Add `images/Wang_Hongjian.jpg` if you want the portrait to render.
-4. Enable GitHub Pages from `Settings > Pages`.
-5. Visit `https://wanghongjian98.github.io/`.
-
-If you enable Pages on this `wanghongjian98/wanghongjian98` repository instead, the URL will normally be:
+The GitHub profile README is a different repository:
 
 ```text
-https://wanghongjian98.github.io/wanghongjian98/
+wanghongjian98/wanghongjian98
+```
+
+That repository controls the README on:
+
+```text
+https://github.com/wanghongjian98
 ```
