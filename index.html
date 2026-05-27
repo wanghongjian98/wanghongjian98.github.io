@@ -380,26 +380,31 @@
       }
 
       .project {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        gap: 16px;
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
+        justify-content: space-between;
+        gap: 10px;
         border: 1px solid var(--line);
         border-radius: 8px;
-        padding: 18px;
+        padding: 12px 14px;
         background: var(--panel);
-        box-shadow: var(--shadow);
       }
 
       .project h3 {
-        font-family: var(--serif);
-        margin: 0 0 8px;
-        font-size: 24px;
+        margin: 0;
+        font-size: 17px;
       }
 
       .project p {
         margin: 0;
         color: var(--muted);
+        font-size: 14px;
+      }
+
+      .project .button {
+        padding: 6px 10px;
+        font-size: 14px;
       }
 
       .tracker {
@@ -750,10 +755,7 @@
         <article class="project">
           <div>
             <h3>Computational Imaging Frontier</h3>
-            <p>
-              A curated paper radar for tracking computational imaging papers by topic, modality,
-              method, reproducibility, and follow-up priority.
-            </p>
+            <p>Paper radar for computational imaging papers and reading status.</p>
           </div>
           <a class="button primary" data-track="project-paper-radar" href="https://wanghongjian98.github.io/computational-imaging-frontier/">Open Site</a>
         </article>
