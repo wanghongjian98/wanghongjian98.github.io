@@ -407,126 +407,6 @@
         font-size: 14px;
       }
 
-      .tracker {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 14px;
-      }
-
-      .tracker-card {
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        padding: 16px;
-        background: var(--panel);
-        box-shadow: var(--shadow);
-      }
-
-      .tracker-card span {
-        display: block;
-        margin-bottom: 8px;
-        color: var(--muted);
-        font-size: 12px;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      .tracker-card strong {
-        display: block;
-        overflow-wrap: anywhere;
-        color: var(--accent-dark);
-        font-family: var(--serif);
-        font-size: 20px;
-        line-height: 1.35;
-      }
-
-      .globe-grid {
-        display: grid;
-        grid-template-columns: minmax(320px, 0.95fr) minmax(0, 1.05fr);
-        gap: 16px;
-        align-items: stretch;
-      }
-
-      .globe-panel,
-      .location-panel {
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        background: var(--panel);
-        box-shadow: var(--shadow);
-      }
-
-      .globe-panel {
-        display: grid;
-        min-height: 360px;
-        place-items: center;
-        padding: 18px;
-      }
-
-      .globe-svg {
-        width: min(100%, 420px);
-        height: auto;
-        overflow: visible;
-      }
-
-      .globe-ocean {
-        fill: #e7ebe4;
-        stroke: var(--accent-dark);
-        stroke-width: 1.5;
-      }
-
-      .globe-gridline {
-        fill: none;
-        stroke: rgba(22, 74, 79, 0.16);
-        stroke-width: 1;
-      }
-
-      .globe-point {
-        fill: var(--rust);
-        stroke: #fff;
-        stroke-width: 2;
-      }
-
-      .location-panel {
-        display: grid;
-        align-content: start;
-        gap: 12px;
-        padding: 18px;
-      }
-
-      .location-panel p {
-        margin: 0;
-        color: var(--muted);
-      }
-
-      .privacy-note {
-        font-size: 13px;
-      }
-
-      .location-list {
-        display: grid;
-        gap: 10px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-      }
-
-      .location-list li {
-        display: flex;
-        justify-content: space-between;
-        gap: 16px;
-        border-top: 1px solid var(--line);
-        padding-top: 10px;
-      }
-
-      .location-list strong {
-        color: var(--accent-dark);
-      }
-
-      .location-list span {
-        color: var(--muted);
-        font-weight: 700;
-      }
-
       footer {
         padding: 32px 0 48px;
         color: var(--muted);
@@ -541,8 +421,7 @@
         .topbar,
         .hero,
         .interest-grid,
-        .project,
-        .globe-grid {
+        .project {
           grid-template-columns: 1fr;
         }
 
@@ -555,10 +434,6 @@
         nav {
           width: 100%;
           justify-content: flex-start;
-        }
-
-        .tracker {
-          grid-template-columns: 1fr 1fr;
         }
 
         .profile-panel {
@@ -590,7 +465,6 @@
           text-align: center;
         }
 
-        .tracker,
         .timeline-item {
           grid-template-columns: 1fr;
         }
@@ -614,8 +488,6 @@
         <a href="#research">Research</a>
         <a href="#background">Education</a>
         <a href="#projects">Projects</a>
-        <a href="#tracker">Tracker</a>
-        <a id="globeNav" href="#globe" hidden>Globe</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -761,58 +633,6 @@
         </article>
       </section>
 
-      <section id="tracker" class="band">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Visit Source</p>
-            <h2>Click and Source Recorder</h2>
-          </div>
-        </div>
-        <div class="tracker" aria-live="polite">
-          <article class="tracker-card">
-            <span>Source URL</span>
-            <strong id="visitSource">Loading</strong>
-          </article>
-          <article class="tracker-card">
-            <span>Visits from this browser</span>
-            <strong id="visitCount">0</strong>
-          </article>
-          <article class="tracker-card">
-            <span>Tracked link clicks</span>
-            <strong id="clickCount">0</strong>
-          </article>
-        </div>
-      </section>
-
-      <section id="globe" class="band" hidden>
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Visitor Globe</p>
-            <h2>Aggregated Visit Map</h2>
-          </div>
-        </div>
-        <div class="globe-grid">
-          <div class="globe-panel">
-            <svg class="globe-svg" viewBox="0 0 420 420" role="img" aria-labelledby="globeTitle globeDesc">
-              <title id="globeTitle">Visitor location globe</title>
-              <desc id="globeDesc">Aggregated visitor locations displayed on a schematic globe.</desc>
-              <circle class="globe-ocean" cx="210" cy="210" r="178"></circle>
-              <ellipse class="globe-gridline" cx="210" cy="210" rx="178" ry="56"></ellipse>
-              <ellipse class="globe-gridline" cx="210" cy="210" rx="178" ry="116"></ellipse>
-              <path class="globe-gridline" d="M32 210 H388"></path>
-              <path class="globe-gridline" d="M210 32 C150 90 150 330 210 388"></path>
-              <path class="globe-gridline" d="M210 32 C270 90 270 330 210 388"></path>
-              <path class="globe-gridline" d="M210 32 V388"></path>
-              <g id="globePoints"></g>
-            </svg>
-          </div>
-          <div class="location-panel">
-            <p id="globeStatus">Waiting for analytics endpoint.</p>
-            <p class="privacy-note">Shows aggregated city and country counts only; raw IP addresses are not stored.</p>
-            <ul id="locationList" class="location-list"></ul>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer id="contact">
@@ -827,136 +647,5 @@
         <a data-track="eth-eeit" href="https://ee.ethz.ch/">ETH EEIT</a>
       </p>
     </footer>
-    <script>
-      (() => {
-        const key = "hongjian-site-click-recorder";
-        const endpoint = "";
-        const visitorGlobeEndpoint = "";
-        const fallbackSource = "Direct / no referrer";
-        const source = document.referrer || fallbackSource;
-        const now = new Date().toISOString();
-        const data = JSON.parse(localStorage.getItem(key) || '{"visits":0,"clicks":0,"sources":{},"links":{}}');
-
-        data.visits += 1;
-        data.lastVisit = now;
-        data.lastSource = source;
-        data.sources[source] = (data.sources[source] || 0) + 1;
-        localStorage.setItem(key, JSON.stringify(data));
-
-        const update = () => {
-          document.querySelector("#visitSource").textContent = source;
-          document.querySelector("#visitCount").textContent = String(data.visits);
-          document.querySelector("#clickCount").textContent = String(data.clicks);
-        };
-
-        const send = (payload) => {
-          if (!endpoint || !navigator.sendBeacon) return;
-          const body = new Blob([JSON.stringify(payload)], { type: "application/json" });
-          navigator.sendBeacon(endpoint, body);
-        };
-
-        document.querySelectorAll("a[data-track]").forEach((link) => {
-          link.addEventListener("click", () => {
-            const id = link.dataset.track || link.href;
-            data.clicks += 1;
-            data.links[id] = (data.links[id] || 0) + 1;
-            data.lastClick = {
-              id,
-              href: link.href,
-              source,
-              at: new Date().toISOString(),
-            };
-            localStorage.setItem(key, JSON.stringify(data));
-            update();
-            send({ type: "click", ...data.lastClick });
-          });
-        });
-
-        send({ type: "visit", source, at: now, path: location.pathname });
-        update();
-
-        const globeStatus = document.querySelector("#globeStatus");
-        const globePoints = document.querySelector("#globePoints");
-        const locationList = document.querySelector("#locationList");
-        const globeSection = document.querySelector("#globe");
-        const globeNav = document.querySelector("#globeNav");
-        const centerLon = 10;
-        const centerLat = 18;
-        const radius = 178;
-        const centerX = 210;
-        const centerY = 210;
-
-        const project = (lat, lon) => {
-          const phi = (Number(lat) * Math.PI) / 180;
-          const lambda = ((Number(lon) - centerLon) * Math.PI) / 180;
-          const phi0 = (centerLat * Math.PI) / 180;
-          const visible = Math.sin(phi0) * Math.sin(phi) + Math.cos(phi0) * Math.cos(phi) * Math.cos(lambda);
-          return {
-            visible: visible > -0.05,
-            x: centerX + radius * Math.cos(phi) * Math.sin(lambda),
-            y: centerY - radius * (Math.cos(phi0) * Math.sin(phi) - Math.sin(phi0) * Math.cos(phi) * Math.cos(lambda)),
-          };
-        };
-
-        const renderGlobe = (points) => {
-          globePoints.replaceChildren();
-          locationList.replaceChildren();
-
-          const valid = points
-            .filter((point) => Number.isFinite(Number(point.lat)) && Number.isFinite(Number(point.lon)))
-            .sort((a, b) => (b.visits || 0) - (a.visits || 0))
-            .slice(0, 30);
-
-          valid.forEach((point) => {
-            const projected = project(point.lat, point.lon);
-            if (projected.visible) {
-              const marker = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-              marker.setAttribute("class", "globe-point");
-              marker.setAttribute("cx", projected.x.toFixed(1));
-              marker.setAttribute("cy", projected.y.toFixed(1));
-              marker.setAttribute("r", String(Math.min(18, 4 + Math.sqrt(point.visits || 1) * 2)));
-              const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
-              title.textContent = `${point.label}: ${point.visits || 0}`;
-              marker.append(title);
-              globePoints.append(marker);
-            }
-
-            const row = document.createElement("li");
-            row.innerHTML = `<strong>${point.label}</strong><span>${point.visits || 0}</span>`;
-            locationList.append(row);
-          });
-        };
-
-        const initVisitorGlobe = async () => {
-          if (!visitorGlobeEndpoint) {
-            globeSection.hidden = true;
-            globeNav.hidden = true;
-            return;
-          }
-
-          globeSection.hidden = false;
-          globeNav.hidden = false;
-          const base = visitorGlobeEndpoint.replace(/\/$/, "");
-          const payload = JSON.stringify({ path: location.pathname, referrer: document.referrer || "" });
-          if (navigator.sendBeacon) {
-            navigator.sendBeacon(`${base}/collect`, new Blob([payload], { type: "application/json" }));
-          } else {
-            fetch(`${base}/collect`, { method: "POST", body: payload, headers: { "Content-Type": "application/json" }, keepalive: true });
-          }
-
-          try {
-            const response = await fetch(`${base}/stats`, { cache: "no-store" });
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            const stats = await response.json();
-            renderGlobe(stats.points || []);
-            globeStatus.textContent = `Aggregated visits: ${stats.totalVisits || 0}. Last updated: ${stats.updatedAt || "unknown"}.`;
-          } catch (error) {
-            globeStatus.textContent = `Visitor globe failed to load: ${error.message}`;
-          }
-        };
-
-        initVisitorGlobe();
-      })();
-    </script>
   </body>
 </html>
