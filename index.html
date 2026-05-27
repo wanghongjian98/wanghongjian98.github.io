@@ -103,7 +103,8 @@
       }
 
       nav a,
-      .button {
+      .button,
+      .email-link {
         border: 1px solid var(--line);
         border-radius: 8px;
         padding: 8px 12px;
@@ -116,6 +117,20 @@
         border-color: var(--accent);
         background: var(--accent);
         color: #fff;
+      }
+
+      .email-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--accent-dark);
+        font-weight: 700;
+      }
+
+      .email-link svg {
+        width: 18px;
+        height: 18px;
+        stroke: currentColor;
       }
 
       main,
@@ -501,11 +516,16 @@
             I am a PhD student in Electrical Engineering and Information Technology at ETH Zürich,
             and a member of TOMCAT at the Paul Scherrer Institute. I started my PhD in August 2023,
             advised by Prof. Dr. Marco Stampanoni, Dr. Goran Lovric at Swiss Light Source, and Dr.
-            Benjamín Béjar Haro at the Swiss Data Science Center (SDSC). Email: wanghon@ethz.ch
+            Benjamín Béjar Haro at the Swiss Data Science Center (SDSC).
           </p>
           <div class="actions">
-            <a class="button primary" data-track="paper-radar" href="https://wanghongjian98.github.io/computational-imaging-frontier/">Paper Radar</a>
-            <a class="button" data-track="github" href="https://github.com/wanghongjian98">GitHub</a>
+            <a class="email-link" href="mailto:wanghon@ethz.ch" aria-label="Email Hongjian Wang">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <path d="M3 7l9 6 9-6"></path>
+              </svg>
+              wanghon@ethz.ch
+            </a>
           </div>
         </div>
 
@@ -638,10 +658,6 @@
     <footer id="contact">
       <p>
         Links:
-        <a data-track="github-footer" href="https://github.com/wanghongjian98">GitHub</a>
-        ·
-        <a data-track="paper-radar-footer" href="https://wanghongjian98.github.io/computational-imaging-frontier/">Computational Imaging Frontier</a>
-        ·
         <a data-track="tomcat" href="https://www.psi.ch/en/sls/tomcat">TOMCAT</a>
         ·
         <a data-track="eth-eeit" href="https://ee.ethz.ch/">ETH EEIT</a>
