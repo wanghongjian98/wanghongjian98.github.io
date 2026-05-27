@@ -194,12 +194,6 @@
           var(--soft);
       }
 
-      .portrait img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-
       .portrait-fallback {
         display: grid;
         place-items: center;
@@ -211,10 +205,6 @@
         font-family: var(--serif);
         font-size: 48px;
         font-weight: 700;
-      }
-
-      .portrait-fallback[hidden] {
-        display: none;
       }
 
       .profile-info {
@@ -642,12 +632,7 @@
 
         <aside class="profile-panel" aria-label="Profile summary">
           <div class="portrait">
-            <img
-              src="images/Wang_Hongjian_seaside.png"
-              alt="Hongjian Wang"
-              onerror="this.remove(); document.querySelector('.portrait-fallback').hidden = false;"
-            />
-            <div class="portrait-fallback" hidden>HW</div>
+            <div class="portrait-fallback">HW</div>
           </div>
         </aside>
       </section>
