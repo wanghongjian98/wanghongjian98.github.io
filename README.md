@@ -40,6 +40,7 @@ After deploying the Worker, set `visitorGlobeEndpoint` in `index.html` to the Wo
 ## Related Site
 
 - Computational Imaging Frontier: <https://wanghongjian98.github.io/computational-imaging-frontier/>
+- Local Notes: <https://wanghongjian98.github.io/obsidian-notes/>
 
 ## Deployment
 

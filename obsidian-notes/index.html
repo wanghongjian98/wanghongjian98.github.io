@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Local Notes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">N</div>
+          <div>
+            <h1>Local Notes</h1>
+            <p>Markdown 知识库</p>
+          </div>
+        </div>
+
+        <div class="sidebar-actions">
+          <button id="newNoteBtn" class="primary-button" type="button" title="新建笔记">
+            <span aria-hidden="true">+</span>
+            新建
+          </button>
+          <button id="exportBtn" class="icon-button" type="button" title="导出备份">⇩</button>
+          <label class="icon-button file-button" title="导入备份">
+            ⇧
+            <input id="importInput" type="file" accept="application/json" />
+          </label>
+        </div>
+
+        <label class="search">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="搜索标题、正文、标签" />
+        </label>
+
+        <div class="meta-row">
+          <span id="noteCount">0 条笔记</span>
+          <button id="sortBtn" type="button">最近更新</button>
+        </div>
+
+        <nav id="noteList" class="note-list" aria-label="笔记列表"></nav>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <input id="titleInput" class="title-input" type="text" placeholder="未命名笔记" />
+          <div class="topbar-actions">
+            <div class="view-toggle" role="group" aria-label="视图切换">
+              <button id="editModeBtn" type="button" class="active">编辑</button>
+              <button id="previewModeBtn" type="button">预览</button>
+              <button id="splitModeBtn" type="button">分屏</button>
+            </div>
+            <button id="deleteBtn" class="danger-button" type="button" title="删除当前笔记">删除</button>
+          </div>
+        </header>
+
+        <section class="editor-grid split" id="editorGrid">
+          <textarea id="editor" spellcheck="false" placeholder="用 Markdown 写点什么。可以输入 [[笔记名]] 创建双链，用 #标签 组织内容。"></textarea>
+          <article id="preview" class="preview markdown-body"></article>
+        </section>
+      </main>
+
+      <aside class="inspector">
+        <section class="panel">
+          <div class="panel-title">
+            <h2>关系图</h2>
+            <span id="linkCount">0 个链接</span>
+          </div>
+          <canvas id="graphCanvas" width="320" height="220"></canvas>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <h2>标签</h2>
+          </div>
+          <div id="tagCloud" class="tag-cloud"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <h2>反向链接</h2>
+          </div>
+          <div id="backlinks" class="backlinks"></div>
+        </section>
+
+        <section class="panel compact">
+          <dl>
+            <div>
+              <dt>创建</dt>
+              <dd id="createdAt">-</dd>
+            </div>
+            <div>
+              <dt>更新</dt>
+              <dd id="updatedAt">-</dd>
+            </div>
+            <div>
+              <dt>字数</dt>
+              <dd id="wordCount">0</dd>
+            </div>
+          </dl>
+        </section>
+      </aside>
+    </div>
+
+    <template id="emptyStateTemplate">
+      <div class="empty-state">
+        <strong>还没有匹配的笔记</strong>
+        <span>新建一条，或者换个关键词。</span>
+      </div>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
