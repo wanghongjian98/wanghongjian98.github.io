@@ -40,7 +40,7 @@ After deploying the Worker, set `visitorGlobeEndpoint` in `index.html` to the Wo
 ## Related Site
 
 - Computational Imaging Frontier: <https://wanghongjian98.github.io/computational-imaging-frontier/>
-- Local Notes: <https://wanghongjian98.github.io/obsidian-notes/>
+- Local Notes: <https://wanghongjian98.github.io/obsidian-notes/>，可把笔记同步为仓库 `notes/` 目录下的 `.md` 文件。
 
 ## Deployment
 

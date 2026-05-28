@@ -22,6 +22,7 @@
             <span aria-hidden="true">+</span>
             新建
           </button>
+          <button id="syncBtn" class="icon-button" type="button" title="同步到 GitHub">⟳</button>
           <button id="exportBtn" class="icon-button" type="button" title="导出备份">⇩</button>
           <label class="icon-button file-button" title="导入备份">
             ⇧
@@ -62,6 +63,41 @@
       </main>
 
       <aside class="inspector">
+        <section class="panel github-panel">
+          <div class="panel-title">
+            <h2>GitHub 同步</h2>
+            <span id="syncStatus">未连接</span>
+          </div>
+          <div class="github-form">
+            <label>
+              Owner
+              <input id="githubOwnerInput" type="text" autocomplete="off" />
+            </label>
+            <label>
+              Repo
+              <input id="githubRepoInput" type="text" autocomplete="off" />
+            </label>
+            <label>
+              Branch
+              <input id="githubBranchInput" type="text" autocomplete="off" />
+            </label>
+            <label>
+              Notes path
+              <input id="githubPathInput" type="text" autocomplete="off" />
+            </label>
+            <label>
+              Token
+              <input id="githubTokenInput" type="password" autocomplete="off" placeholder="github_pat_..." />
+            </label>
+          </div>
+          <div class="github-actions">
+            <button id="saveGithubSettingsBtn" type="button">保存设置</button>
+            <button id="pullGithubBtn" type="button">拉取</button>
+            <button id="pushGithubBtn" type="button">推送全部</button>
+          </div>
+          <p class="sync-help">Token 需要当前仓库 Contents 读写权限，只保存在当前浏览器。</p>
+        </section>
+
         <section class="panel">
           <div class="panel-title">
             <h2>关系图</h2>

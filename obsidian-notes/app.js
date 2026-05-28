@@ -1,10 +1,12 @@
 const STORAGE_KEY = "local-notes.v1";
+const SYNC_SETTINGS_KEY = "local-notes.github.v1";
 
 const els = {
   noteList: document.querySelector("#noteList"),
   noteCount: document.querySelector("#noteCount"),
   searchInput: document.querySelector("#searchInput"),
   newNoteBtn: document.querySelector("#newNoteBtn"),
+  syncBtn: document.querySelector("#syncBtn"),
   exportBtn: document.querySelector("#exportBtn"),
   importInput: document.querySelector("#importInput"),
   sortBtn: document.querySelector("#sortBtn"),
@@ -23,11 +25,21 @@ const els = {
   createdAt: document.querySelector("#createdAt"),
   updatedAt: document.querySelector("#updatedAt"),
   wordCount: document.querySelector("#wordCount"),
+  syncStatus: document.querySelector("#syncStatus"),
+  githubOwnerInput: document.querySelector("#githubOwnerInput"),
+  githubRepoInput: document.querySelector("#githubRepoInput"),
+  githubBranchInput: document.querySelector("#githubBranchInput"),
+  githubPathInput: document.querySelector("#githubPathInput"),
+  githubTokenInput: document.querySelector("#githubTokenInput"),
+  saveGithubSettingsBtn: document.querySelector("#saveGithubSettingsBtn"),
+  pullGithubBtn: document.querySelector("#pullGithubBtn"),
+  pushGithubBtn: document.querySelector("#pushGithubBtn"),
   emptyStateTemplate: document.querySelector("#emptyStateTemplate"),
 };
 
 let notes = loadNotes();
 let activeId = notes[0]?.id ?? null;
+let syncSettings = loadSyncSettings();
 let searchTerm = "";
 let activeTag = "";
 let sortNewestFirst = true;
@@ -80,6 +92,25 @@ function loadNotes() {
   const seeded = seedNotes();
   localStorage.setItem(STORAGE_KEY, JSON.stringify(seeded));
   return seeded;
+}
+
+function loadSyncSettings() {
+  const defaults = {
+    owner: "wanghongjian98",
+    repo: "wanghongjian98.github.io",
+    branch: "main",
+    path: "notes",
+    token: "",
+  };
+  try {
+    return { ...defaults, ...JSON.parse(localStorage.getItem(SYNC_SETTINGS_KEY) || "{}") };
+  } catch {
+    return defaults;
+  }
+}
+
+function persistSyncSettings() {
+  localStorage.setItem(SYNC_SETTINGS_KEY, JSON.stringify(syncSettings));
 }
 
 function persist() {
@@ -149,7 +180,7 @@ function renderNoteList() {
     item.className = `note-item${note.id === activeId ? " active" : ""}`;
     item.innerHTML = `
       <strong>${escapeHtml(noteTitle(note))}</strong>
-      <span>${formatDate(note.updatedAt)} · ${makeExcerpt(note.body)}</span>
+      <span>${formatDate(note.updatedAt)} · ${note.path ? "GitHub" : "Local"} · ${makeExcerpt(note.body)}</span>
     `;
     item.addEventListener("click", () => {
       activeId = note.id;
@@ -196,6 +227,28 @@ function renderEditor() {
   els.createdAt.textContent = formatDate(note.createdAt);
   els.updatedAt.textContent = formatDate(note.updatedAt);
   els.wordCount.textContent = String(countWords(note.body));
+}
+
+function renderSyncSettings() {
+  els.githubOwnerInput.value = syncSettings.owner;
+  els.githubRepoInput.value = syncSettings.repo;
+  els.githubBranchInput.value = syncSettings.branch;
+  els.githubPathInput.value = syncSettings.path;
+  els.githubTokenInput.value = syncSettings.token;
+  renderSyncStatus();
+}
+
+function renderSyncStatus(message = "") {
+  const note = activeNote();
+  if (message) {
+    els.syncStatus.textContent = message;
+    return;
+  }
+  if (!syncSettings.token) {
+    els.syncStatus.textContent = "未连接";
+    return;
+  }
+  els.syncStatus.textContent = note?.path ? "已关联 md" : "本地草稿";
 }
 
 function countWords(text) {
@@ -411,7 +464,7 @@ function setViewMode(mode) {
 
 function createNote(title = "未命名笔记", body = "") {
   const now = new Date().toISOString();
-  const note = { id: makeId(), title, body, createdAt: now, updatedAt: now };
+  const note = { id: makeId(), title, body, createdAt: now, updatedAt: now, path: "", sha: "" };
   notes.unshift(note);
   activeId = note.id;
   persist();
@@ -431,10 +484,14 @@ function updateActiveNote(patch) {
   renderGraph();
 }
 
-function deleteActiveNote() {
+async function deleteActiveNote() {
   const note = activeNote();
   if (!note) return;
   if (!confirm(`删除「${noteTitle(note)}」？`)) return;
+  if (note.path && note.sha && syncSettings.token && confirm("同时删除 GitHub 上的 .md 文件？")) {
+    renderSyncStatus("删除远端...");
+    await deleteRemoteNote(note);
+  }
   notes = notes.filter((item) => item.id !== note.id);
   activeId = notes[0]?.id ?? null;
   persist();
@@ -480,8 +537,187 @@ function importNotes(file) {
   reader.readAsText(file);
 }
 
+function saveGithubSettings() {
+  syncSettings = {
+    owner: els.githubOwnerInput.value.trim(),
+    repo: els.githubRepoInput.value.trim(),
+    branch: els.githubBranchInput.value.trim() || "main",
+    path: normalizePath(els.githubPathInput.value.trim() || "notes"),
+    token: els.githubTokenInput.value.trim(),
+  };
+  persistSyncSettings();
+  renderSyncStatus("设置已保存");
+}
+
+function normalizePath(path) {
+  return path.replace(/^\/+|\/+$/g, "");
+}
+
+function requireGithubSettings() {
+  saveGithubSettings();
+  if (!syncSettings.owner || !syncSettings.repo || !syncSettings.branch || !syncSettings.path || !syncSettings.token) {
+    throw new Error("请先填写 GitHub 设置和 token。");
+  }
+}
+
+function slugifyTitle(title) {
+  const cleaned = title
+    .trim()
+    .replace(/[\\/:*?"<>|#%{}^~[\]`]+/g, "-")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+  return cleaned || `note-${new Date().toISOString().slice(0, 10)}`;
+}
+
+function notePath(note) {
+  return note.path || `${syncSettings.path}/${slugifyTitle(noteTitle(note))}.md`;
+}
+
+function markdownTitle(markdown, fallback) {
+  const heading = markdown.match(/^#\s+(.+)$/m);
+  return heading ? heading[1].trim() : fallback;
+}
+
+function utf8ToBase64(text) {
+  const bytes = new TextEncoder().encode(text);
+  let binary = "";
+  bytes.forEach((byte) => {
+    binary += String.fromCharCode(byte);
+  });
+  return btoa(binary);
+}
+
+function base64ToUtf8(base64) {
+  const binary = atob(base64.replace(/\s/g, ""));
+  const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+async function githubFetch(path, options = {}) {
+  const response = await fetch(`https://api.github.com/repos/${syncSettings.owner}/${syncSettings.repo}${path}`, {
+    ...options,
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${syncSettings.token}`,
+      "X-GitHub-Api-Version": "2022-11-28",
+      ...(options.headers || {}),
+    },
+  });
+  const text = await response.text();
+  const data = text ? JSON.parse(text) : null;
+  if (!response.ok) {
+    throw new Error(data?.message || `GitHub API ${response.status}`);
+  }
+  return data;
+}
+
+async function getRemoteFile(path) {
+  try {
+    return await githubFetch(`/contents/${encodeURIComponentPath(path)}?ref=${encodeURIComponent(syncSettings.branch)}`);
+  } catch (error) {
+    if (String(error.message).includes("Not Found")) return null;
+    throw error;
+  }
+}
+
+function encodeURIComponentPath(path) {
+  return path.split("/").map(encodeURIComponent).join("/");
+}
+
+async function saveNoteToGithub(note) {
+  if (!note) throw new Error("当前没有可同步的笔记。");
+  requireGithubSettings();
+  renderSyncStatus("保存中...");
+  const path = notePath(note);
+  const remote = note.sha ? { sha: note.sha } : await getRemoteFile(path);
+  const result = await githubFetch(`/contents/${encodeURIComponentPath(path)}`, {
+    method: "PUT",
+    body: JSON.stringify({
+      message: `Update note: ${noteTitle(note)}`,
+      content: utf8ToBase64(note.body),
+      branch: syncSettings.branch,
+      sha: remote?.sha,
+    }),
+  });
+  note.path = result.content.path;
+  note.sha = result.content.sha;
+  note.updatedAt = new Date().toISOString();
+  persist();
+  render();
+  renderSyncStatus("已保存");
+}
+
+async function pushAllNotesToGithub() {
+  requireGithubSettings();
+  for (let index = 0; index < notes.length; index += 1) {
+    renderSyncStatus(`推送 ${index + 1}/${notes.length}`);
+    await saveNoteToGithub(notes[index]);
+  }
+  renderSyncStatus("全部已推送");
+}
+
+async function pullNotesFromGithub() {
+  requireGithubSettings();
+  renderSyncStatus("拉取中...");
+  let listing = [];
+  try {
+    listing = await githubFetch(`/contents/${encodeURIComponentPath(syncSettings.path)}?ref=${encodeURIComponent(syncSettings.branch)}`);
+  } catch (error) {
+    if (!String(error.message).includes("Not Found")) throw error;
+  }
+  const files = Array.isArray(listing) ? listing.filter((item) => item.type === "file" && item.name.endsWith(".md")) : [];
+  const pulled = [];
+
+  for (const file of files) {
+    const detail = await githubFetch(`/contents/${encodeURIComponentPath(file.path)}?ref=${encodeURIComponent(syncSettings.branch)}`);
+    const body = base64ToUtf8(detail.content || "");
+    const title = markdownTitle(body, file.name.replace(/\.md$/i, ""));
+    const existing = notes.find((note) => note.path === file.path || noteTitle(note) === title);
+    const now = new Date().toISOString();
+    pulled.push({
+      id: existing?.id || makeId(),
+      title,
+      body,
+      path: file.path,
+      sha: detail.sha,
+      createdAt: existing?.createdAt || now,
+      updatedAt: now,
+    });
+  }
+
+  const localOnly = notes.filter((note) => !note.path || !pulled.some((remote) => remote.path === note.path));
+  notes = [...pulled, ...localOnly];
+  activeId = notes[0]?.id ?? null;
+  persist();
+  render();
+  renderSyncStatus(`拉取 ${pulled.length} 条`);
+}
+
+async function deleteRemoteNote(note) {
+  if (!syncSettings.token || !note.path || !note.sha) return;
+  await githubFetch(`/contents/${encodeURIComponentPath(note.path)}`, {
+    method: "DELETE",
+    body: JSON.stringify({
+      message: `Delete note: ${noteTitle(note)}`,
+      branch: syncSettings.branch,
+      sha: note.sha,
+    }),
+  });
+}
+
+async function runGithubAction(action) {
+  try {
+    await action();
+  } catch (error) {
+    renderSyncStatus("同步失败");
+    alert(error.message);
+  }
+}
+
 function bindEvents() {
   els.newNoteBtn.addEventListener("click", () => createNote());
+  els.syncBtn.addEventListener("click", () => runGithubAction(() => saveNoteToGithub(activeNote())));
   els.exportBtn.addEventListener("click", exportNotes);
   els.importInput.addEventListener("change", (event) => {
     const file = event.target.files?.[0];
@@ -504,7 +740,10 @@ function bindEvents() {
     els.preview.innerHTML = markdownToHtml(event.target.value);
     els.wordCount.textContent = String(countWords(event.target.value));
   });
-  els.deleteBtn.addEventListener("click", deleteActiveNote);
+  els.deleteBtn.addEventListener("click", () => runGithubAction(deleteActiveNote));
+  els.saveGithubSettingsBtn.addEventListener("click", saveGithubSettings);
+  els.pullGithubBtn.addEventListener("click", () => runGithubAction(pullNotesFromGithub));
+  els.pushGithubBtn.addEventListener("click", () => runGithubAction(pushAllNotesToGithub));
   els.editModeBtn.addEventListener("click", () => setViewMode("edit"));
   els.previewModeBtn.addEventListener("click", () => setViewMode("preview-only"));
   els.splitModeBtn.addEventListener("click", () => setViewMode("split"));
@@ -530,7 +769,9 @@ function render() {
   renderTags();
   renderBacklinks();
   renderGraph();
+  renderSyncStatus();
 }
 
 bindEvents();
+renderSyncSettings();
 render();
