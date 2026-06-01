@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>如何做科研 | Research Methodology</title>
+    <meta
+      name="description"
+      content="A research methodology tool for organizing bilingual reading and practical research workflows."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #fbfaf7;
+        --ink: #24231f;
+        --muted: #686862;
+        --line: #d8d3c8;
+        --panel: #ffffff;
+        --soft: #f1f4ef;
+        --accent: #8c2f39;
+        --green: #2f5d50;
+        --blue: #315f7d;
+        --shadow: 0 18px 42px rgba(31, 38, 35, 0.08);
+        --serif: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif;
+        --sans: "Aptos", "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: var(--sans);
+        line-height: 1.65;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 16px clamp(18px, 4vw, 58px);
+        border-bottom: 1px solid var(--line);
+        background: rgba(251, 250, 247, 0.94);
+        backdrop-filter: blur(14px);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 750;
+      }
+
+      .brand-mark {
+        display: grid;
+        place-items: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 8px;
+        background: var(--green);
+        color: #fff;
+        font-family: var(--serif);
+      }
+
+      .nav-link,
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 38px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 7px 12px;
+        background: var(--panel);
+        font-weight: 700;
+      }
+
+      .button.primary {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: #fff;
+      }
+
+      main {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr);
+        gap: 32px;
+        align-items: end;
+        padding: 56px 0 34px;
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: var(--serif);
+        line-height: 1.15;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(38px, 6vw, 70px);
+      }
+
+      .hero p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 18px;
+      }
+
+      .hero-panel {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+        padding: 20px;
+      }
+
+      .hero-panel ol {
+        display: grid;
+        gap: 12px;
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      .hero-panel li::marker {
+        color: var(--green);
+        font-weight: 800;
+      }
+
+      .band {
+        padding: 34px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      .section-head h2 {
+        margin: 0;
+        font-size: 30px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+        padding: 18px;
+      }
+
+      .card h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .doc-list {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .doc-card {
+        display: grid;
+        gap: 10px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 16px;
+        box-shadow: var(--shadow);
+      }
+
+      .doc-card strong {
+        color: var(--green);
+        font-family: var(--serif);
+        font-size: 18px;
+      }
+
+      .doc-card span {
+        color: var(--muted);
+      }
+
+      .doc-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 4px;
+      }
+
+      .doc-actions .button {
+        min-height: 34px;
+        padding: 5px 10px;
+        font-size: 14px;
+      }
+
+      footer {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 24px 0 42px;
+        color: var(--muted);
+      }
+
+      footer a {
+        color: var(--accent);
+        font-weight: 750;
+      }
+
+      @media (max-width: 900px) {
+        .hero,
+        .doc-list {
+          grid-template-columns: 1fr;
+        }
+
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 620px) {
+        .topbar {
+          position: static;
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        main,
+        footer {
+          width: min(100% - 24px, 1120px);
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <span class="brand-mark">R</span>
+        <span>如何做科研</span>
+      </a>
+      <a class="nav-link" href="../">Back Home</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Research Methodology</p>
+          <h1>如何做科研</h1>
+          <p>
+            一个面向日常科研训练的工作台：把读文献、做实验、写作和复盘拆成可以反复执行的方法。
+          </p>
+        </div>
+        <aside class="hero-panel" aria-label="Research workflow">
+          <ol>
+            <li>提出能被证伪、能被推进的问题。</li>
+            <li>通过双语阅读建立概念、术语和论证结构。</li>
+            <li>用可复现实验或推导验证关键判断。</li>
+            <li>把结果写成清楚的图、段落和下一步问题。</li>
+          </ol>
+        </aside>
+      </section>
+
+      <section class="band">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Method Stack</p>
+            <h2>科研方法论</h2>
+          </div>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>问题意识</h3>
+            <p>从现象、限制条件和未解决矛盾出发，把兴趣收敛成可检查的问题。</p>
+          </article>
+          <article class="card">
+            <h3>文献阅读</h3>
+            <p>先抓贡献、假设和证据，再追踪术语、实验设置和可复用的表达方式。</p>
+          </article>
+          <article class="card">
+            <h3>实验闭环</h3>
+            <p>每次实验保留目的、变量、结果和解释，让失败也能转化为下一次设计。</p>
+          </article>
+          <article class="card">
+            <h3>科研写作</h3>
+            <p>用图表组织论点，用段落承担单一功能，持续沉淀可复用的英文表达。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="band" id="bilingual-reading">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Bilingual Reading</p>
+            <h2>双语阅读</h2>
+          </div>
+        </div>
+        <div class="doc-list">
+          <article class="doc-card">
+            <strong>How-to-do-research from Bill Freeman MIT</strong>
+            <span>Research habits and practical advice from Bill Freeman.</span>
+            <div class="doc-actions">
+              <a class="button primary" href="pdfs/How-to-do-research%20from%20Bill%20Freeman%20MIT.pdf">Open PDF</a>
+              <a class="button" href="pdfs/How-to-do-research%20from%20Bill%20Freeman%20MIT.pdf" download>Download</a>
+            </div>
+          </article>
+          <article class="doc-card">
+            <strong>Vincent Lepetit Paper Writing</strong>
+            <span>Notes on writing clear research papers and shaping the story.</span>
+            <div class="doc-actions">
+              <a class="button primary" href="pdfs/Vincent%20Lepetit_paper_writing.pdf">Open PDF</a>
+              <a class="button" href="pdfs/Vincent%20Lepetit_paper_writing.pdf" download>Download</a>
+            </div>
+          </article>
+          <article class="doc-card">
+            <strong>MIT EECE Suggestions Collections</strong>
+            <span>A collection of suggestions for research, study, and academic work.</span>
+            <div class="doc-actions">
+              <a class="button primary" href="pdfs/MIT-EECE-Suggestions%20Collections.pdf">Open PDF</a>
+              <a class="button" href="pdfs/MIT-EECE-Suggestions%20Collections.pdf" download>Download</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="../">Hongjian Wang</a> · Research methodology tool
+    </footer>
+  </body>
+</html>
