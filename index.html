@@ -12,18 +12,17 @@
       :root {
         color-scheme: light;
         --bg: #ffffff;
-        --ink: #24231f;
-        --muted: #666760;
-        --line: #d6d3ca;
-        --panel: #ffffff;
-        --accent: #8c2f39;
-        --accent-dark: #33382f;
-        --rust: #2f5d50;
-        --olive: #6c5a20;
-        --soft: #f4f5f1;
-        --shadow: 0 18px 45px rgba(30, 39, 37, 0.08);
-        --serif: Georgia, "Times New Roman", "Noto Serif", serif;
-        --sans: "Aptos", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+        --ink: #222222;
+        --muted: #666666;
+        --faint: #8a8a8a;
+        --line: #e5e5e5;
+        --soft: #f8f9fa;
+        --accent: #2698ba;
+        --accent-dark: #126782;
+        --heading: #111111;
+        --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+          "Noto Sans", "Liberation Sans", sans-serif;
+        --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
       }
 
       * {
@@ -39,59 +38,48 @@
         background: var(--bg);
         color: var(--ink);
         font-family: var(--sans);
-        line-height: 1.6;
+        font-size: 16px;
+        line-height: 1.65;
       }
 
       a {
-        color: inherit;
+        color: var(--accent);
         text-decoration: none;
       }
 
-      .topbar {
-        position: sticky;
-        top: 0;
-        z-index: 3;
+      a:hover {
+        color: var(--accent-dark);
+        text-decoration: underline;
+      }
+
+      .site-header {
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.97);
+      }
+
+      .header-inner,
+      main,
+      footer {
+        width: min(930px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .header-inner {
         display: flex;
+        min-height: 58px;
         align-items: center;
         justify-content: space-between;
         gap: 24px;
-        padding: 16px clamp(18px, 4vw, 58px);
-        border-bottom: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.94);
-        backdrop-filter: blur(14px);
       }
 
       .brand {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-      }
-
-      .brand-mark {
-        display: grid;
-        place-items: center;
-        width: 42px;
-        height: 42px;
-        border-radius: 8px;
-        background: var(--accent-dark);
-        color: #fff;
-        font-family: var(--serif);
-        font-weight: 700;
-      }
-
-      .brand strong,
-      .brand span {
-        display: block;
-      }
-
-      .brand span {
-        color: var(--muted);
-        font-size: 12px;
+        color: var(--heading);
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0;
       }
 
       .brand strong {
-        font-family: var(--serif);
-        font-size: 18px;
         font-weight: 700;
       }
 
@@ -99,584 +87,394 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
-        gap: 8px;
-      }
-
-      nav a,
-      .button,
-      .email-link {
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        padding: 8px 12px;
-        background: var(--panel);
+        gap: 19px;
         font-size: 15px;
-        font-weight: 650;
       }
 
-      .button.primary {
-        border-color: var(--accent);
-        background: var(--accent);
-        color: #fff;
+      nav a {
+        color: #333333;
       }
 
-      .email-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        color: var(--accent-dark);
-        font-weight: 700;
-      }
-
-      .email-link svg {
-        width: 18px;
-        height: 18px;
-        stroke: currentColor;
-      }
-
-      main,
-      footer {
-        width: min(1120px, calc(100% - 32px));
-        margin: 0 auto;
-      }
-
-      .hero {
-        display: grid;
-        grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
-        gap: 34px;
-        align-items: center;
-        padding: 58px 0 42px;
-      }
-
-      .eyebrow {
-        margin: 0 0 10px;
+      nav a:hover,
+      nav a[aria-current="page"] {
         color: var(--accent);
-        font-size: 12px;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      main {
+        padding: 52px 0 34px;
+      }
+
+      .intro {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 230px;
+        gap: 44px;
+        align-items: start;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
       }
 
       h1 {
-        max-width: 720px;
-        margin: 0 0 18px;
-        font-family: var(--serif);
-        font-size: clamp(36px, 5.2vw, 64px);
-        font-weight: 700;
-        line-height: 1.04;
-        letter-spacing: 0;
+        margin-bottom: 18px;
+        color: var(--heading);
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 1.18;
       }
 
-      .hero .chinese-name {
-        margin: -6px 0 18px;
-        color: var(--accent-dark);
-        font-family: var(--serif);
-        font-size: 22px;
+      h1 strong {
         font-weight: 700;
       }
 
-      .hero p {
-        max-width: 760px;
-        margin: 0;
+      .name-cn {
         color: var(--muted);
-        font-size: 18px;
+        font-weight: 400;
       }
 
-      .actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 24px;
+      .lead {
+        margin-bottom: 16px;
+        color: #333333;
       }
 
-      .profile-panel {
-        width: min(100%, 260px);
+      .portrait-wrap {
         justify-self: end;
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        background: var(--panel);
-        box-shadow: var(--shadow);
-        overflow: hidden;
       }
 
       .portrait {
-        position: relative;
-        display: grid;
-        aspect-ratio: 1;
-        min-height: 0;
-        place-items: center;
-        background:
-          linear-gradient(135deg, rgba(140, 47, 57, 0.12), rgba(47, 93, 80, 0.12)),
-          var(--soft);
-      }
-
-      .portrait-fallback {
-        display: grid;
-        place-items: center;
-        width: 160px;
-        height: 160px;
-        border-radius: 50%;
-        background: var(--accent-dark);
-        color: #fff;
-        font-family: var(--serif);
-        font-size: 48px;
-        font-weight: 700;
-      }
-
-      .profile-info {
-        padding: 18px;
-      }
-
-      .profile-info h2 {
-        font-family: var(--serif);
-        margin: 0 0 8px;
-      }
-
-      .profile-info p {
-        margin: 0;
-        color: var(--muted);
-      }
-
-      .interest-grid {
-        display: grid;
-        grid-template-columns: minmax(0, 0.62fr) minmax(520px, 1.38fr);
-        gap: 24px;
-        align-items: center;
-      }
-
-      .hero > *,
-      .interest-grid > * {
-        min-width: 0;
-      }
-
-      .interest-copy p {
-        max-width: 520px;
-        margin: 0;
-        color: var(--muted);
-        font-size: 17px;
-      }
-
-      .interest-figure {
-        margin: 0;
-        min-width: 0;
-        overflow: hidden;
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        padding: 12px;
-        background: var(--panel);
-        box-shadow: var(--shadow);
-      }
-
-      .ci-map {
         display: block;
-        width: 100%;
-        max-width: 100%;
-        height: auto;
+        width: 210px;
+        height: 210px;
+        border: 1px solid var(--line);
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
       }
 
-      .ci-node rect,
-      .ci-center {
-        fill: #fbfaf3;
-        stroke: var(--accent-dark);
-        stroke-width: 1.5;
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+        margin: 18px 0 0;
+        padding: 0;
+        list-style: none;
       }
 
-      .ci-center {
-        fill: #f1ece0;
-        stroke-width: 2;
+      .links a {
+        font-size: 15px;
+        font-weight: 500;
       }
 
-      .ci-link {
-        fill: none;
-        stroke: var(--line);
-        stroke-width: 2;
-      }
-
-      .ci-loop {
-        fill: none;
-        stroke: rgba(47, 93, 80, 0.34);
-        stroke-width: 2;
-        stroke-dasharray: 7 8;
-      }
-
-      .ci-title {
-        fill: var(--ink);
-        font-family: var(--serif);
-        font-size: 24px;
-        font-weight: 700;
-      }
-
-      .ci-label {
-        fill: var(--accent-dark);
-        font-family: var(--sans);
-        font-size: 19px;
-        font-weight: 700;
-      }
-
-      .ci-small {
-        fill: var(--muted);
-        font-family: var(--sans);
-        font-size: 12px;
-      }
-
-      .ci-node text {
-        text-anchor: middle;
-      }
-
-      .ci-icon {
-        fill: none;
-        stroke: var(--accent);
-        stroke-width: 2.2;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-      }
-
-      .band {
-        padding: 42px 0;
+      section {
+        padding: 30px 0;
         border-top: 1px solid var(--line);
       }
 
-      .section-head {
-        display: flex;
-        align-items: end;
-        justify-content: space-between;
-        gap: 16px;
-        margin-bottom: 18px;
+      .intro + section {
+        margin-top: 38px;
       }
 
-      .section-head h2 {
-        font-family: var(--serif);
+      h2 {
+        margin-bottom: 16px;
+        color: var(--heading);
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.25;
+      }
+
+      h3 {
+        margin-bottom: 4px;
+        color: var(--heading);
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.35;
+      }
+
+      .news-list,
+      .timeline,
+      .project-list {
+        display: grid;
+        gap: 11px;
         margin: 0;
-        font-size: 30px;
-        font-weight: 700;
+        padding: 0;
+        list-style: none;
       }
 
-      .card,
-      .timeline-item {
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        background: var(--panel);
-        box-shadow: var(--shadow);
+      .news-list li,
+      .timeline li {
+        display: grid;
+        grid-template-columns: 118px minmax(0, 1fr);
+        gap: 18px;
       }
 
-      .card {
-        padding: 18px;
+      .date,
+      .tagline {
+        color: var(--faint);
+        font-family: var(--mono);
+        font-size: 13px;
+        line-height: 1.7;
       }
 
-      .card strong {
-        display: block;
-        margin-bottom: 8px;
-        color: var(--accent-dark);
-        font-family: var(--serif);
-        font-size: 18px;
-        font-weight: 700;
+      .research-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 22px;
       }
 
-      .card p,
-      .timeline-item p {
-        margin: 0;
+      .research-item {
+        min-width: 0;
+      }
+
+      .research-item p,
+      .project p,
+      .timeline p {
+        margin-bottom: 0;
         color: var(--muted);
-      }
-
-      .timeline {
-        display: grid;
-        gap: 12px;
-      }
-
-      .timeline-item {
-        display: grid;
-        grid-template-columns: 130px 1fr;
-        gap: 16px;
-        padding: 16px;
-      }
-
-      .timeline-item span {
-        color: var(--rust);
-        font-weight: 700;
       }
 
       .project {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-        border: 1px solid var(--line);
-        border-radius: 8px;
-        padding: 12px 14px;
-        background: var(--panel);
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 22px;
+        align-items: start;
+        padding: 0 0 18px;
+        border-bottom: 1px solid var(--line);
       }
 
-      .project h3 {
-        margin: 0;
-        font-size: 17px;
+      .project:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
       }
 
-      .project p {
-        margin: 0;
+      .project-link {
+        white-space: nowrap;
+        font-size: 15px;
+      }
+
+      .muted {
         color: var(--muted);
-        font-size: 14px;
-      }
-
-      .project .button {
-        padding: 6px 10px;
-        font-size: 14px;
       }
 
       footer {
-        padding: 32px 0 48px;
-        color: var(--muted);
+        padding: 26px 0 42px;
+        border-top: 1px solid var(--line);
+        color: var(--faint);
+        font-size: 14px;
       }
 
-      footer a {
-        color: var(--accent);
-        font-weight: 650;
-      }
+      @media (max-width: 760px) {
+        .header-inner {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 8px;
+          padding: 13px 0;
+        }
 
-      @media (max-width: 860px) {
-        .topbar,
-        .hero,
-        .interest-grid,
+        nav {
+          justify-content: flex-start;
+          gap: 12px 16px;
+        }
+
+        main {
+          padding-top: 34px;
+        }
+
+        .intro {
+          grid-template-columns: 1fr;
+          gap: 24px;
+        }
+
+        .portrait-wrap {
+          justify-self: start;
+          order: -1;
+        }
+
+        .portrait {
+          width: 164px;
+          height: 164px;
+        }
+
+        h1 {
+          font-size: 32px;
+        }
+
+        .research-grid {
+          grid-template-columns: 1fr;
+          gap: 16px;
+        }
+
+        .news-list li,
+        .timeline li,
         .project {
           grid-template-columns: 1fr;
+          gap: 4px;
         }
 
-        .topbar {
-          position: static;
-          flex-direction: column;
-          align-items: flex-start;
-        }
-
-        nav {
-          width: 100%;
-          justify-content: flex-start;
-        }
-
-        .profile-panel {
-          width: min(100%, 220px);
-          justify-self: start;
-        }
-
-        .interest-figure {
-          padding: 8px;
-        }
-      }
-
-      @media (max-width: 620px) {
-        main,
-        footer {
-          width: min(100% - 24px, 1120px);
-        }
-
-        .topbar {
-          padding: 14px 12px;
-        }
-
-        nav {
-          display: grid;
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
-        nav a {
-          text-align: center;
-        }
-
-        .timeline-item {
-          grid-template-columns: 1fr;
-        }
-
-        .ci-small {
-          display: none;
+        .project-link {
+          white-space: normal;
         }
       }
     </style>
   </head>
   <body>
-    <header class="topbar">
-      <a class="brand" href="#">
-        <span class="brand-mark">HW</span>
-        <div>
-          <strong>Hongjian Wang</strong>
-          <span>Academic homepage</span>
-        </div>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="#research">Research</a>
-        <a href="#background">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="research-methods/">Methods</a>
-        <a href="obsidian-notes/">Notes</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#" aria-current="page"><strong>Hongjian Wang</strong></a>
+        <nav aria-label="Primary navigation">
+          <a href="#about">about</a>
+          <a href="#news">news</a>
+          <a href="#research">research</a>
+          <a href="#projects">projects</a>
+          <a href="#education">education</a>
+          <a href="research-methods/">methods</a>
+          <a href="obsidian-notes/">notes</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section id="about" class="intro" aria-label="About Hongjian Wang">
         <div>
-          <h1>Hongjian Wang</h1>
-          <p class="chinese-name">王宏剑</p>
-          <p>
-            I am a PhD student in Electrical Engineering and Information Technology at ETH Zürich,
-            and a member of TOMCAT at the Paul Scherrer Institute. I started my PhD in August 2023,
-            advised by Prof. Dr. Marco Stampanoni, Dr. Goran Lovric at Swiss Light Source, and Dr.
-            Benjamín Béjar Haro at the Swiss Data Science Center (SDSC).
+          <h1><strong>Hongjian Wang</strong> <span class="name-cn">王宏剑</span></h1>
+          <p class="lead">
+            I am a PhD student in Electrical Engineering and Information Technology at
+            <a href="https://ethz.ch/">ETH Zürich</a>, and a member of
+            <a href="https://www.psi.ch/en/sls/tomcat">TOMCAT</a> at the
+            <a href="https://www.psi.ch/en">Paul Scherrer Institute</a>.
           </p>
-          <div class="actions">
-            <a class="email-link" href="mailto:wanghon@ethz.ch" aria-label="Email Hongjian Wang">
-              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
-                <path d="M3 7l9 6 9-6"></path>
-              </svg>
-              wanghon@ethz.ch
-            </a>
-          </div>
+          <p class="lead">
+            My research focuses on computational imaging: combining measurement systems, physical
+            models, reconstruction algorithms, and data-driven priors to turn indirect signals into
+            interpretable images. I started my PhD in August 2023, advised by Prof. Dr. Marco
+            Stampanoni, Dr. Goran Lovric at Swiss Light Source, and Dr. Benjamín Béjar Haro at the
+            Swiss Data Science Center.
+          </p>
+          <ul class="links" aria-label="Contact and profile links">
+            <li><a data-track="email" href="mailto:wanghon@ethz.ch">Email</a></li>
+            <li><a data-track="tomcat" href="https://www.psi.ch/en/sls/tomcat">TOMCAT</a></li>
+            <li><a data-track="eth-eeit" href="https://ee.ethz.ch/">ETH EEIT</a></li>
+            <li>
+              <a
+                data-track="project-paper-radar-inline"
+                href="https://wanghongjian98.github.io/computational-imaging-frontier/"
+                >Computational Imaging Frontier</a
+              >
+            </li>
+          </ul>
         </div>
-
-        <aside class="profile-panel" aria-label="Profile summary">
-          <div class="portrait">
-            <div class="portrait-fallback">HW</div>
-          </div>
-        </aside>
-      </section>
-
-      <section id="research" class="band">
-        <div class="interest-grid">
-          <div class="interest-copy">
-            <p class="eyebrow">Research Interest</p>
-            <h2>Computational Imaging</h2>
-            <p>
-              I am interested in computational imaging: combining measurement, physical models,
-              reconstruction algorithms, and data-driven priors to turn indirect signals into
-              interpretable images.
-            </p>
-          </div>
-          <figure class="interest-figure" aria-label="Computational imaging overview">
-            <svg class="ci-map" viewBox="0 0 920 520" role="img" aria-labelledby="ciTitle ciDesc">
-              <title id="ciTitle">Computational imaging overview</title>
-              <desc id="ciDesc">
-                A schematic loop connecting measurement, physical model, reconstruction, data
-                priors, quantification, and insight around computational imaging.
-              </desc>
-              <defs>
-                <marker id="ciArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-                  <path d="M0 0 L10 5 L0 10 Z" fill="#8c2f39"></path>
-                </marker>
-              </defs>
-              <rect x="20" y="20" width="880" height="480" rx="8" fill="#f7f4ea" stroke="#d6d3ca"></rect>
-              <path class="ci-loop" d="M224 102 C360 28 560 28 696 102 C846 184 846 336 696 418 C560 492 360 492 224 418 C74 336 74 184 224 102Z"></path>
-              <path class="ci-link" marker-end="url(#ciArrow)" d="M278 150 C330 174 372 205 407 235"></path>
-              <path class="ci-link" marker-end="url(#ciArrow)" d="M460 146 C460 176 460 200 460 226"></path>
-              <path class="ci-link" marker-end="url(#ciArrow)" d="M642 150 C590 174 548 205 513 235"></path>
-              <path class="ci-link" marker-end="url(#ciArrow)" d="M278 370 C330 346 372 315 407 285"></path>
-              <path class="ci-link" marker-end="url(#ciArrow)" d="M460 374 C460 344 460 320 460 294"></path>
-              <path class="ci-link" marker-end="url(#ciArrow)" d="M642 370 C590 346 548 315 513 285"></path>
-
-              <circle class="ci-center" cx="460" cy="260" r="98"></circle>
-              <text class="ci-title" x="460" y="248" text-anchor="middle">Computational</text>
-              <text class="ci-title" x="460" y="280" text-anchor="middle">Imaging</text>
-              <path class="ci-icon" d="M410 313 H510 M424 324 H496 M438 335 H482"></path>
-
-              <g class="ci-node" transform="translate(60 74)">
-                <rect width="216" height="96" rx="8"></rect>
-                <circle cx="108" cy="26" r="4" fill="#8c2f39"></circle>
-                <text class="ci-label" x="108" y="52">Measurement</text>
-                <text class="ci-small" x="108" y="74">scene to signal</text>
-              </g>
-              <g class="ci-node" transform="translate(352 44)">
-                <rect width="216" height="96" rx="8"></rect>
-                <circle cx="108" cy="26" r="4" fill="#8c2f39"></circle>
-                <text class="ci-label" x="108" y="52">Physical Model</text>
-                <text class="ci-small" x="108" y="74">how images form</text>
-              </g>
-              <g class="ci-node" transform="translate(644 74)">
-                <rect width="216" height="96" rx="8"></rect>
-                <circle cx="108" cy="26" r="4" fill="#8c2f39"></circle>
-                <text class="ci-label" x="108" y="52">Reconstruction</text>
-                <text class="ci-small" x="108" y="74">signals to image</text>
-              </g>
-              <g class="ci-node" transform="translate(60 350)">
-                <rect width="216" height="96" rx="8"></rect>
-                <circle cx="108" cy="26" r="4" fill="#8c2f39"></circle>
-                <text class="ci-label" x="108" y="52">Data Priors</text>
-                <text class="ci-small" x="108" y="74">learn structure</text>
-              </g>
-              <g class="ci-node" transform="translate(352 380)">
-                <rect width="216" height="96" rx="8"></rect>
-                <circle cx="108" cy="26" r="4" fill="#8c2f39"></circle>
-                <text class="ci-label" x="108" y="52">Quantification</text>
-                <text class="ci-small" x="108" y="74">measure what matters</text>
-              </g>
-              <g class="ci-node" transform="translate(644 350)">
-                <rect width="216" height="96" rx="8"></rect>
-                <circle cx="108" cy="26" r="4" fill="#8c2f39"></circle>
-                <text class="ci-label" x="108" y="52">Insight</text>
-                <text class="ci-small" x="108" y="74">images to decisions</text>
-              </g>
-            </svg>
-          </figure>
+        <div class="portrait-wrap">
+          <img
+            class="portrait"
+            src="images/Wang_Hongjian_seaside.png"
+            alt="Portrait of Hongjian Wang"
+          />
         </div>
       </section>
 
-      <section id="background" class="band">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Education</p>
-            <h2>Education</h2>
-          </div>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span>Since Aug 2023</span>
+      <section id="news" aria-labelledby="news-heading">
+        <h2 id="news-heading">News</h2>
+        <ul class="news-list">
+          <li>
+            <span class="date">2026</span>
             <p>
-              PhD student at ETH Zürich and Paul Scherrer Institute. Advised by Prof. Dr. Marco
-              Stampanoni, Dr. Goran Lovric at Swiss Light Source, and Dr. Benjamín Béjar Haro at
-              the Swiss Data Science Center (SDSC).
+              Maintained a reading and paper-radar site for computational imaging literature and
+              research notes.
             </p>
+          </li>
+          <li>
+            <span class="date">Aug 2023</span>
+            <p>
+              Started my PhD at ETH Zürich and Paul Scherrer Institute, working with TOMCAT and the
+              Swiss Data Science Center.
+            </p>
+          </li>
+          <li>
+            <span class="date">2023</span>
+            <p>Received my MSE degree from Tsinghua University.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="research" aria-labelledby="research-heading">
+        <h2 id="research-heading">Research</h2>
+        <div class="research-grid">
+          <article class="research-item">
+            <h3>Measurement</h3>
+            <p>Designing and understanding acquisition pipelines that convert scenes into signals.</p>
           </article>
-          <article class="timeline-item">
-            <span>2023</span>
-            <p>MSE degree from Tsinghua University.</p>
+          <article class="research-item">
+            <h3>Reconstruction</h3>
+            <p>Building algorithms that recover useful images from incomplete or indirect data.</p>
+          </article>
+          <article class="research-item">
+            <h3>Data Priors</h3>
+            <p>Using learned structure and physical constraints to improve robustness and insight.</p>
           </article>
         </div>
       </section>
 
-      <section id="projects" class="band">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Projects</p>
-            <h2>Research Tools</h2>
-          </div>
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <div class="project-list">
+          <article class="project">
+            <div>
+              <h3>Computational Imaging Frontier</h3>
+              <p>Paper radar for computational imaging papers, reading status, and research trends.</p>
+            </div>
+            <a
+              class="project-link"
+              data-track="project-paper-radar"
+              href="https://wanghongjian98.github.io/computational-imaging-frontier/"
+              >Open site</a
+            >
+          </article>
+          <article class="project">
+            <div>
+              <h3>Local Notes</h3>
+              <p>Markdown notes with tags, wiki links, backlinks, JSON backup, and GitHub sync.</p>
+            </div>
+            <a class="project-link" data-track="project-local-notes" href="obsidian-notes/"
+              >Open notes</a
+            >
+          </article>
+          <article class="project">
+            <div>
+              <h3>如何做科研</h3>
+              <p>Research methodology notes, starting with three bilingual reading documents.</p>
+            </div>
+            <a class="project-link" data-track="project-research-methods" href="research-methods/"
+              >Open tool</a
+            >
+          </article>
         </div>
-        <article class="project">
-          <div>
-            <h3>Computational Imaging Frontier</h3>
-            <p>Paper radar for computational imaging papers and reading status.</p>
-          </div>
-          <a class="button primary" data-track="project-paper-radar" href="https://wanghongjian98.github.io/computational-imaging-frontier/">Open Site</a>
-        </article>
-        <article class="project">
-          <div>
-            <h3>Local Notes</h3>
-            <p>Markdown notes with tags, wiki links, backlinks, JSON backup, and optional GitHub .md sync.</p>
-          </div>
-          <a class="button primary" data-track="project-local-notes" href="obsidian-notes/">Open Notes</a>
-        </article>
-        <article class="project">
-          <div>
-            <h3>如何做科研</h3>
-            <p>Research methodology notes, starting with three bilingual reading documents.</p>
-          </div>
-          <a class="button primary" data-track="project-research-methods" href="research-methods/">Open Tool</a>
-        </article>
       </section>
 
+      <section id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <ul class="timeline">
+          <li>
+            <span class="date">Since Aug 2023</span>
+            <p>
+              PhD student at ETH Zürich and Paul Scherrer Institute, advised by Prof. Dr. Marco
+              Stampanoni, Dr. Goran Lovric, and Dr. Benjamín Béjar Haro.
+            </p>
+          </li>
+          <li>
+            <span class="date">2023</span>
+            <p>MSE, Tsinghua University.</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer id="contact">
+    <footer>
       <p>
-        Links:
-        <a data-track="tomcat" href="https://www.psi.ch/en/sls/tomcat">TOMCAT</a>
-        ·
-        <a data-track="eth-eeit" href="https://ee.ethz.ch/">ETH EEIT</a>
+        © 2026 Hongjian Wang. Last updated for a clean academic homepage inspired by the al-folio
+        style.
       </p>
     </footer>
   </body>
