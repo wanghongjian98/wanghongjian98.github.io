@@ -195,8 +195,7 @@
       }
 
       .news-list,
-      .timeline,
-      .project-list {
+      .timeline {
         display: grid;
         gap: 11px;
         margin: 0;
@@ -230,29 +229,9 @@
       }
 
       .research-item p,
-      .project p,
       .timeline p {
         margin-bottom: 0;
         color: var(--muted);
-      }
-
-      .project {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        gap: 22px;
-        align-items: start;
-        padding: 0 0 18px;
-        border-bottom: 1px solid var(--line);
-      }
-
-      .project:last-child {
-        padding-bottom: 0;
-        border-bottom: 0;
-      }
-
-      .project-link {
-        white-space: nowrap;
-        font-size: 15px;
       }
 
       .muted {
@@ -308,14 +287,9 @@
         }
 
         .news-list li,
-        .timeline li,
-        .project {
+        .timeline li {
           grid-template-columns: 1fr;
           gap: 4px;
-        }
-
-        .project-link {
-          white-space: normal;
         }
       }
     </style>
@@ -328,9 +302,7 @@
           <a href="#about">about</a>
           <a href="#news">news</a>
           <a href="#research">research</a>
-          <a href="#projects">projects</a>
           <a href="#education">education</a>
-          <a href="research-methods/">methods</a>
           <a href="obsidian-notes/">notes</a>
         </nav>
       </div>
@@ -357,13 +329,6 @@
             <li><a data-track="email" href="mailto:wanghon@ethz.ch">Email</a></li>
             <li><a data-track="tomcat" href="https://www.psi.ch/en/sls/tomcat">TOMCAT</a></li>
             <li><a data-track="eth-eeit" href="https://ee.ethz.ch/">ETH EEIT</a></li>
-            <li>
-              <a
-                data-track="project-paper-radar-inline"
-                href="https://wanghongjian98.github.io/computational-imaging-frontier/"
-                >Computational Imaging Frontier</a
-              >
-            </li>
           </ul>
         </div>
         <div class="portrait-wrap">
@@ -381,8 +346,8 @@
           <li>
             <span class="date">2026</span>
             <p>
-              Maintained a reading and paper-radar site for computational imaging literature and
-              research notes.
+              Updated this homepage toward a cleaner academic profile and moved research tools into
+              the notes workspace.
             </p>
           </li>
           <li>
@@ -413,42 +378,6 @@
           <article class="research-item">
             <h3>Data Priors</h3>
             <p>Using learned structure and physical constraints to improve robustness and insight.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="projects" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Projects</h2>
-        <div class="project-list">
-          <article class="project">
-            <div>
-              <h3>Computational Imaging Frontier</h3>
-              <p>Paper radar for computational imaging papers, reading status, and research trends.</p>
-            </div>
-            <a
-              class="project-link"
-              data-track="project-paper-radar"
-              href="https://wanghongjian98.github.io/computational-imaging-frontier/"
-              >Open site</a
-            >
-          </article>
-          <article class="project">
-            <div>
-              <h3>Local Notes</h3>
-              <p>Markdown notes with tags, wiki links, backlinks, JSON backup, and GitHub sync.</p>
-            </div>
-            <a class="project-link" data-track="project-local-notes" href="obsidian-notes/"
-              >Open notes</a
-            >
-          </article>
-          <article class="project">
-            <div>
-              <h3>如何做科研</h3>
-              <p>Research methodology notes, starting with three bilingual reading documents.</p>
-            </div>
-            <a class="project-link" data-track="project-research-methods" href="research-methods/"
-              >Open tool</a
-            >
           </article>
         </div>
       </section>

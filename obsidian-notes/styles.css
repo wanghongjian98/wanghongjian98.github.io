@@ -94,6 +94,60 @@ button {
   font-size: 13px;
 }
 
+.resource-hub {
+  display: grid;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-soft);
+  padding: 12px;
+}
+
+.resource-hub-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.resource-hub-title a {
+  color: var(--accent-strong);
+  text-transform: none;
+}
+
+.resource-link {
+  display: grid;
+  gap: 3px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: var(--text);
+  padding: 9px;
+  text-decoration: none;
+}
+
+.resource-link:hover {
+  border-color: var(--line);
+  background: var(--panel-strong);
+  text-decoration: none;
+}
+
+.resource-link strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.resource-link span {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
 .sidebar-actions,
 .topbar-actions,
 .view-toggle,
