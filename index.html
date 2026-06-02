@@ -106,10 +106,7 @@
       }
 
       .intro {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) 230px;
-        gap: 44px;
-        align-items: start;
+        max-width: 760px;
       }
 
       h1,
@@ -134,20 +131,6 @@
       .lead {
         margin-bottom: 16px;
         color: #333333;
-      }
-
-      .portrait-wrap {
-        justify-self: end;
-      }
-
-      .portrait {
-        display: block;
-        width: 210px;
-        height: 210px;
-        border: 1px solid var(--line);
-        border-radius: 50%;
-        object-fit: cover;
-        object-position: center;
       }
 
       .links {
@@ -329,21 +312,6 @@
           padding-top: 34px;
         }
 
-        .intro {
-          grid-template-columns: 1fr;
-          gap: 24px;
-        }
-
-        .portrait-wrap {
-          justify-self: start;
-          order: -1;
-        }
-
-        .portrait {
-          width: 164px;
-          height: 164px;
-        }
-
         h1 {
           font-size: 32px;
         }
@@ -399,13 +367,6 @@
             <li><a data-track="tomcat" href="https://www.psi.ch/en/sls/tomcat">TOMCAT</a></li>
             <li><a data-track="eth-eeit" href="https://ee.ethz.ch/">ETH EEIT</a></li>
           </ul>
-        </div>
-        <div class="portrait-wrap">
-          <img
-            class="portrait"
-            src="images/Wang_Hongjian_seaside.png"
-            alt="Portrait of Hongjian Wang"
-          />
         </div>
       </section>
 
