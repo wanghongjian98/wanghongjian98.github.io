@@ -224,6 +224,80 @@
         gap: 22px;
       }
 
+      .interest-figure {
+        margin: 24px 0 0;
+        min-width: 0;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+        background: var(--soft);
+      }
+
+      .ci-map {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .ci-node rect,
+      .ci-center {
+        fill: #ffffff;
+        stroke: var(--accent-dark);
+        stroke-width: 1.5;
+      }
+
+      .ci-center {
+        fill: #eef8fb;
+        stroke-width: 2;
+      }
+
+      .ci-link {
+        fill: none;
+        stroke: #cfdfe5;
+        stroke-width: 2;
+      }
+
+      .ci-loop {
+        fill: none;
+        stroke: rgba(38, 152, 186, 0.32);
+        stroke-width: 2;
+        stroke-dasharray: 7 8;
+      }
+
+      .ci-title {
+        fill: var(--heading);
+        font-family: var(--sans);
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .ci-label {
+        fill: var(--accent-dark);
+        font-family: var(--sans);
+        font-size: 19px;
+        font-weight: 700;
+      }
+
+      .ci-small {
+        fill: var(--muted);
+        font-family: var(--sans);
+        font-size: 12px;
+      }
+
+      .ci-node text {
+        text-anchor: middle;
+      }
+
+      .ci-icon {
+        fill: none;
+        stroke: var(--accent);
+        stroke-width: 2.2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
       .research-item {
         min-width: 0;
       }
@@ -284,6 +358,10 @@
         .research-grid {
           grid-template-columns: 1fr;
           gap: 16px;
+        }
+
+        .interest-figure {
+          padding: 8px;
         }
 
         .news-list li,
@@ -380,6 +458,81 @@
             <p>Using learned structure and physical constraints to improve robustness and insight.</p>
           </article>
         </div>
+        <figure class="interest-figure" aria-label="Computational imaging overview">
+          <svg class="ci-map" viewBox="0 0 920 520" role="img" aria-labelledby="ciTitle ciDesc">
+            <title id="ciTitle">Computational imaging overview</title>
+            <desc id="ciDesc">
+              A schematic loop connecting measurement, physical model, reconstruction, data
+              priors, quantification, and insight around computational imaging.
+            </desc>
+            <defs>
+              <marker
+                id="ciArrow"
+                viewBox="0 0 10 10"
+                refX="8"
+                refY="5"
+                markerWidth="6"
+                markerHeight="6"
+                orient="auto"
+              >
+                <path d="M0 0 L10 5 L0 10 Z" fill="#2698ba"></path>
+              </marker>
+            </defs>
+            <rect x="20" y="20" width="880" height="480" rx="8" fill="#f8f9fa" stroke="#e5e5e5"></rect>
+            <path
+              class="ci-loop"
+              d="M224 102 C360 28 560 28 696 102 C846 184 846 336 696 418 C560 492 360 492 224 418 C74 336 74 184 224 102Z"
+            ></path>
+            <path class="ci-link" marker-end="url(#ciArrow)" d="M278 150 C330 174 372 205 407 235"></path>
+            <path class="ci-link" marker-end="url(#ciArrow)" d="M460 146 C460 176 460 200 460 226"></path>
+            <path class="ci-link" marker-end="url(#ciArrow)" d="M642 150 C590 174 548 205 513 235"></path>
+            <path class="ci-link" marker-end="url(#ciArrow)" d="M278 370 C330 346 372 315 407 285"></path>
+            <path class="ci-link" marker-end="url(#ciArrow)" d="M460 374 C460 344 460 320 460 294"></path>
+            <path class="ci-link" marker-end="url(#ciArrow)" d="M642 370 C590 346 548 315 513 285"></path>
+
+            <circle class="ci-center" cx="460" cy="260" r="98"></circle>
+            <text class="ci-title" x="460" y="248" text-anchor="middle">Computational</text>
+            <text class="ci-title" x="460" y="280" text-anchor="middle">Imaging</text>
+            <path class="ci-icon" d="M410 313 H510 M424 324 H496 M438 335 H482"></path>
+
+            <g class="ci-node" transform="translate(60 74)">
+              <rect width="216" height="96" rx="8"></rect>
+              <circle cx="108" cy="26" r="4" fill="#2698ba"></circle>
+              <text class="ci-label" x="108" y="52">Measurement</text>
+              <text class="ci-small" x="108" y="74">scene to signal</text>
+            </g>
+            <g class="ci-node" transform="translate(352 44)">
+              <rect width="216" height="96" rx="8"></rect>
+              <circle cx="108" cy="26" r="4" fill="#2698ba"></circle>
+              <text class="ci-label" x="108" y="52">Physical Model</text>
+              <text class="ci-small" x="108" y="74">how images form</text>
+            </g>
+            <g class="ci-node" transform="translate(644 74)">
+              <rect width="216" height="96" rx="8"></rect>
+              <circle cx="108" cy="26" r="4" fill="#2698ba"></circle>
+              <text class="ci-label" x="108" y="52">Reconstruction</text>
+              <text class="ci-small" x="108" y="74">signals to image</text>
+            </g>
+            <g class="ci-node" transform="translate(60 350)">
+              <rect width="216" height="96" rx="8"></rect>
+              <circle cx="108" cy="26" r="4" fill="#2698ba"></circle>
+              <text class="ci-label" x="108" y="52">Data Priors</text>
+              <text class="ci-small" x="108" y="74">learn structure</text>
+            </g>
+            <g class="ci-node" transform="translate(352 380)">
+              <rect width="216" height="96" rx="8"></rect>
+              <circle cx="108" cy="26" r="4" fill="#2698ba"></circle>
+              <text class="ci-label" x="108" y="52">Quantification</text>
+              <text class="ci-small" x="108" y="74">measure what matters</text>
+            </g>
+            <g class="ci-node" transform="translate(644 350)">
+              <rect width="216" height="96" rx="8"></rect>
+              <circle cx="108" cy="26" r="4" fill="#2698ba"></circle>
+              <text class="ci-label" x="108" y="52">Insight</text>
+              <text class="ci-small" x="108" y="74">images to decisions</text>
+            </g>
+          </svg>
+        </figure>
       </section>
 
       <section id="education" aria-labelledby="education-heading">
