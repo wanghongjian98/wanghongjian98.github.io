@@ -17,6 +17,60 @@ DATASET_DIR = WIKI / "datasets"
 OPEN_PROBLEM_DIR = WIKI / "open_problems"
 TEMPLATES = ROOT / "templates"
 
+METHOD_CONCEPTS = {
+    "Gaussian Splatting",
+    "Diffusion Model",
+    "Neural Field",
+    "Implicit Neural Representation",
+    "Sparse-view Reconstruction",
+    "Limited-angle Reconstruction",
+    "Deblurring",
+    "Image Restoration",
+    "Tomography",
+}
+
+DATASET_STOPWORDS = {
+    "Early",
+    "Events",
+    "First",
+    "Number",
+    "Table",
+    "The",
+    "This",
+}
+
+KNOWN_DATASETS = [
+    "AAPM",
+    "Mayo",
+    "LIDC",
+    "DeepLesion",
+    "DSEC",
+    "MVSEC",
+    "DVS Gesture",
+    "CIFAR10-DVS",
+    "N-ImageNet",
+    "DAVIS",
+    "E2PD",
+    "BS-ERGB",
+    "GoPro",
+    "REDS",
+    "Vimeo90K",
+    "Middlebury",
+    "ImageNet",
+    "COCO",
+    "DTU",
+    "LLFF",
+    "Blender",
+    "Mip-NeRF 360",
+    "NeRF Synthetic",
+    "D-NeRF",
+    "HyperNeRF",
+    "DyNeRF",
+    "Technicolor",
+    "Plenoptic Video",
+    "JIGSAWS",
+]
+
 
 def slugify(text: str) -> str:
     text = text.lower()
@@ -45,6 +99,29 @@ def bullet_items(text: str) -> list[str]:
             if item and not item.startswith("TODO:"):
                 items.append(item)
     return items
+
+
+def clean_enough(item: str) -> bool:
+    if item.startswith("TODO:"):
+        return False
+    if any(marker in item for marker in ["cid:", "â", "�", "~", "\\"]):
+        return False
+    if not (40 <= len(item) <= 260):
+        return False
+    if item.count(" ") < 6:
+        return False
+    if sum(char.isdigit() for char in item) > len(item) * 0.18:
+        return False
+    words = re.findall(r"[A-Za-z]{2,}", item)
+    if words and sum(len(word) for word in words) / len(words) > 14:
+        return False
+    return True
+
+
+def open_problem_candidate(item: str) -> bool:
+    low = item.lower()
+    markers = ["future work", "future research", "limitation", "limitations", "remain challenging", "remains challenging"]
+    return clean_enough(item) and any(marker in low for marker in markers)
 
 
 def wikilinks(text: str) -> list[str]:
@@ -93,28 +170,22 @@ def append_once(path: Path, heading: str, lines: list[str]) -> bool:
 
 
 def method_candidates(text: str) -> list[str]:
-    candidates = []
-    for item in bullet_items(section(text, "Method"))[:4]:
-        phrase = re.sub(r"^\W+|\W+$", "", item)
-        phrase = re.split(r"[,.;:]", phrase)[0]
-        if 6 <= len(phrase) <= 80:
-            candidates.append(phrase)
-    return candidates
+    concepts = wikilinks(section(text, "Related Concepts"))
+    return [concept for concept in concepts if concept in METHOD_CONCEPTS]
 
 
 def dataset_candidates(text: str) -> list[str]:
-    candidates = []
-    for item in bullet_items(section(text, "Dataset")):
-        for match in re.findall(r"\b[A-Z][A-Za-z0-9_-]{2,}\b", item):
-            if match.lower() not in {"TODO".lower()}:
-                candidates.append(match)
+    body = section(text, "Dataset")
+    body_lower = body.lower()
+    candidates = [name for name in KNOWN_DATASETS if name.lower() in body_lower]
     return sorted(set(candidates))[:8]
 
 
 def create_open_problem(source_title: str, source_path: Path, text: str, kind: str) -> Path:
     clean = re.sub(r"\[\[|\]\]", "", text)
-    title = clean[:90].rstrip(". ")
-    path = ensure_page(OPEN_PROBLEM_DIR, title, "open_problem.md", "open_problem")
+    if not clean_enough(clean):
+        return OPEN_PROBLEM_DIR / f"{slugify(clean[:90])}.md"
+    path = ensure_page(OPEN_PROBLEM_DIR, "Extracted Open Problems", "open_problem.md", "open_problem")
     rel = source_path.relative_to(WIKI).as_posix()
     line = f"- From [[{source_title}]] (`{rel}`): {kind} - {clean}"
     append_once(path, "Evidence", [line])
@@ -128,6 +199,8 @@ def update_from_paper(path: Path) -> dict[str, int]:
     stats = defaultdict(int)
 
     for concept in wikilinks(section(text, "Related Concepts")):
+        if concept.lower().startswith("todo:") or concept.lower() == "todo":
+            continue
         concept_path = ensure_page(CONCEPT_DIR, concept, "concept.md", "concept")
         if append_once(concept_path, "Paper Mentions", [f"- {paper_link}"]):
             stats["concepts"] += 1
@@ -142,11 +215,15 @@ def update_from_paper(path: Path) -> dict[str, int]:
         if append_once(dataset_path, "Paper Mentions", [f"- {paper_link}"]):
             stats["datasets"] += 1
 
-    for item in bullet_items(section(text, "Limitations")):
+    for item in bullet_items(section(text, "Limitations"))[:2]:
+        if not open_problem_candidate(item):
+            continue
         create_open_problem(paper_title, path, item, "limitation")
         stats["open_problems"] += 1
 
-    for item in bullet_items(section(text, "Future Work")):
+    for item in bullet_items(section(text, "Future Work"))[:2]:
+        if not open_problem_candidate(item):
+            continue
         create_open_problem(paper_title, path, item, "future work")
         stats["open_problems"] += 1
 
@@ -158,10 +235,77 @@ def update_all() -> dict[str, int]:
         directory.mkdir(parents=True, exist_ok=True)
     total = defaultdict(int)
     for path in sorted(PAPER_DIR.glob("*.md")):
+        if path.name == "index.md":
+            continue
         stats = update_from_paper(path)
         for key, value in stats.items():
             total[key] += value
+    write_indexes()
     return total
+
+
+def page_links(directory: Path) -> list[str]:
+    links = []
+    for path in sorted(directory.glob("*.md")):
+        if path.name == "index.md":
+            continue
+        title = title_from_filename(path)
+        rel = path.relative_to(WIKI).as_posix()
+        links.append(f"- [{title}]({rel})")
+    return links
+
+
+def write_indexes() -> None:
+    paper_links = page_links(PAPER_DIR)
+    concept_links = page_links(CONCEPT_DIR)
+    method_links = page_links(METHOD_DIR)
+    dataset_links = page_links(DATASET_DIR)
+    open_problem_links = page_links(OPEN_PROBLEM_DIR)
+
+    root_lines = [
+        "# Research Wiki",
+        "",
+        "Generated entry point for the local Zotero-derived research knowledge base.",
+        "",
+        f"- Papers: {len(paper_links)}",
+        f"- Concepts: {len(concept_links)}",
+        f"- Methods: {len(method_links)}",
+        f"- Datasets: {len(dataset_links)}",
+        f"- Open problem pages: {len(open_problem_links)}",
+        "",
+        "## Sections",
+        "",
+        "- [Paper index](papers/index.md)",
+        "- [Concepts](#concepts)",
+        "- [Methods](#methods)",
+        "- [Datasets](#datasets)",
+        "- [Open Problems](#open-problems)",
+        "",
+        "## Concepts",
+        "",
+        *(concept_links or ["- None yet."]),
+        "",
+        "## Methods",
+        "",
+        *(method_links or ["- None yet."]),
+        "",
+        "## Datasets",
+        "",
+        *(dataset_links or ["- None yet."]),
+        "",
+        "## Open Problems",
+        "",
+        *(open_problem_links or ["- None yet."]),
+        "",
+    ]
+    index_path = WIKI / "index.md"
+    backup(index_path)
+    index_path.write_text("\n".join(root_lines), encoding="utf-8")
+
+    paper_index = ["# Paper Index", "", *paper_links, ""]
+    paper_index_path = PAPER_DIR / "index.md"
+    backup(paper_index_path)
+    paper_index_path.write_text("\n".join(paper_index), encoding="utf-8")
 
 
 def main() -> int:

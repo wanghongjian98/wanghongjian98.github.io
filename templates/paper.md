@@ -8,6 +8,10 @@ text_chars: {{text_chars}}
 
 # {{title}}
 
-Source PDF: `{{source_pdf}}`
+Source: `{{source_pdf}}`
+
+## Metadata
+
+{{metadata}}
 
 {{sections}}

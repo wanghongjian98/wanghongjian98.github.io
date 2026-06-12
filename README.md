@@ -85,6 +85,13 @@ Ingest one PDF:
 python scripts/ingest_pdf.py "papers/example.pdf"
 ```
 
+Or ingest local Zotero PDFs in batch:
+
+```powershell
+python scripts/ingest_zotero.py --dry-run
+python scripts/ingest_zotero.py
+```
+
 Update wiki pages from all generated paper summaries:
 
 ```powershell
