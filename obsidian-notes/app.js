@@ -99,11 +99,13 @@ function loadSyncSettings() {
     owner: "wanghongjian98",
     repo: "wanghongjian98.github.io",
     branch: "main",
-    path: "notes",
+    path: "obsidian-notes",
     token: "",
   };
   try {
-    return { ...defaults, ...JSON.parse(localStorage.getItem(SYNC_SETTINGS_KEY) || "{}") };
+    const settings = { ...defaults, ...JSON.parse(localStorage.getItem(SYNC_SETTINGS_KEY) || "{}") };
+    if (settings.path === "notes") settings.path = "obsidian-notes";
+    return settings;
   } catch {
     return defaults;
   }
@@ -542,7 +544,7 @@ function saveGithubSettings() {
     owner: els.githubOwnerInput.value.trim(),
     repo: els.githubRepoInput.value.trim(),
     branch: els.githubBranchInput.value.trim() || "main",
-    path: normalizePath(els.githubPathInput.value.trim() || "notes"),
+    path: normalizePath(els.githubPathInput.value.trim() || "obsidian-notes"),
     token: els.githubTokenInput.value.trim(),
   };
   persistSyncSettings();
