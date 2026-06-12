@@ -104,7 +104,10 @@ function loadSyncSettings() {
   };
   try {
     const settings = { ...defaults, ...JSON.parse(localStorage.getItem(SYNC_SETTINGS_KEY) || "{}") };
-    if (settings.path === "notes") settings.path = "obsidian-notes";
+    if (settings.path === "notes") {
+      settings.path = "obsidian-notes";
+      localStorage.setItem(SYNC_SETTINGS_KEY, JSON.stringify(settings));
+    }
     return settings;
   } catch {
     return defaults;
