@@ -57,6 +57,42 @@ Use the local wrapper to rebuild and maintain the Zotero paper wiki:
 
 See `PAPER_WIKI_TOOL.md` for the full workflow.
 
+## Research Knowledge Base
+
+This repo also includes a simple local Python pipeline for turning PDFs into an evolving Obsidian-style wiki:
+
+```text
+papers/                 raw PDFs you add manually
+wiki/papers/            generated structured paper summaries
+wiki/concepts/          concept pages
+wiki/methods/           method pages
+wiki/datasets/          dataset pages
+wiki/open_problems/     extracted limitations and future-work questions
+wiki/research_ideas/    manually developed paper ideas
+scripts/                automation scripts
+templates/              Markdown page templates
+```
+
+Install dependencies if needed:
+
+```powershell
+python -m pip install pdfplumber pypdf
+```
+
+Ingest one PDF:
+
+```powershell
+python scripts/ingest_pdf.py "papers/example.pdf"
+```
+
+Update wiki pages from all generated paper summaries:
+
+```powershell
+python scripts/update_wiki.py
+```
+
+The scripts are intentionally conservative. Existing wiki pages are backed up into a local `.backups/` folder before changes, and `update_wiki.py` appends new links/evidence instead of replacing hand-written sections.
+
 ## Deployment
 
 This repository includes a GitHub Actions workflow at:
