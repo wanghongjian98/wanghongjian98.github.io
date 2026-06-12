@@ -20,3 +20,14 @@
 - 简单关系图
 - JSON 导出和导入
 - GitHub `.md` 文件拉取和推送
+
+## Paper Library / Research Wiki
+
+`papers/` contains public-safe Zotero PDF reading notes. `wiki/` compiles those paper notes into evolving concept, method, and comparison pages inspired by the LLM Wiki pattern.
+
+Regenerate locally:
+
+```powershell
+python tools\zotero_papers_to_markdown.py --prune-stale
+python tools\compile_paper_wiki.py --check
+```

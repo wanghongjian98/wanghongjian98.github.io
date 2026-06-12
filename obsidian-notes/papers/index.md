@@ -1,0 +1,1612 @@
+# Zotero Paper Library
+
+Public, copyright-safe reading notes generated from local Zotero PDFs.
+
+- Generated: 2026-06-12T15:06:07.856028+00:00
+- Papers: 587
+
+## By Year
+
+### 2026
+- [Thymic health and immunotherapy outcomes in patients with cancer](2026-thymic-health-and-immunotherapy-outcomes-in-patients-with-cancer-aks89aw4.md) — Simon Bernatz et al. (Nature)
+- [Target Prior-enriched Implicit 3D CT Reconstruction with Adaptive Ray Sampling](2026-target-prior-enriched-implicit-3d-ct-reconstruction-with-adaptive-ray-sampling-6kqafipu.md) — Qinglei Cao et al. (journalArticle)
+- [Super Time-Resolved Tomography](2026-super-time-resolved-tomography-elarn86c.md) — Zhe Hu et al. (Advanced Science)
+- [Clinical-grade autonomous cytopathology through whole-slide edge tomography](2026-clinical-grade-autonomous-cytopathology-through-whole-slide-edge-tomography-jtv6f6fd.md) — Nao Nitta et al. (Nature)
+- [A large-scale coherent 4D imaging sensor](2026-a-large-scale-coherent-4d-imaging-sensor-76upuxmh.md) — Francesca Fabiana Settembrini et al. (Nature)
+
+### 2025
+- [X-ray computed laminography: A brief review of mechanisms, reconstruction, applications and perspectives](2025-x-ray-computed-laminography-a-brief-review-of-mechanisms-reconstruction-applications-and-p-be6b3ut7.md) — Wenjia Du et al. (Materials Today)
+- [X-LRM: X-ray Large Reconstruction Model for Extremely Sparse-View Computed Tomography Recovery in One Second](2025-x-lrm-x-ray-large-reconstruction-model-for-extremely-sparse-view-computed-tomography-recov-8d4etl4b.md) — Guofeng Zhang et al. (preprint)
+- [X-Field: A Physically Grounded Representation for 3D X-ray Reconstruction](2025-x-field-a-physically-grounded-representation-for-3d-x-ray-reconstruction-gb3g868c.md) — Feiran Wang et al. (preprint)
+- [X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time Tomographic Reconstruction](2025-x2-gaussian-4d-radiative-gaussian-splatting-for-continuous-time-tomographic-reconstruction-kab73x8b.md) — Weihao Yu et al. (preprint)
+- [VGGT: Visual Geometry Grounded Transformer](2025-vggt-visual-geometry-grounded-transformer-meixjab3.md) — Jianyuan Wang et al. (2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [TPG-INR: Target Prior-Guided Implicit 3D CT Reconstruction for Enhanced Sparse-view Imaging](2025-tpg-inr-target-prior-guided-implicit-3d-ct-reconstruction-for-enhanced-sparse-view-imaging-s9nlpxih.md) — Qinglei Cao et al. (journalArticle)
+- [Synchrotron radiation sparse-view CT artifact correction through deep learning neural networks](2025-synchrotron-radiation-sparse-view-ct-artifact-correction-through-deep-learning-neural-netw-rwwiqgp5.md) — Mei Huang et al. (Nondestructive Testing and Evaluation)
+- [SplineSplat: 3D Ray Tracing for Higher-Quality Tomography](2025-splinesplat-3d-ray-tracing-for-higher-quality-tomography-xk9w3nv7.md) — Youssef Haouchat et al. (preprint)
+- [Spatiotemporal-Aware Neural Fields for Dynamic CT Reconstruction](2025-spatiotemporal-aware-neural-fields-for-dynamic-ct-reconstruction-p3jcmabr.md) — Qingyang Zhou et al. (Proceedings of the AAAI Conference on Artificial Intelligence)
+- [Simulation framework for X-ray grating interferometry optimization](2025-simulation-framework-for-x-ray-grating-interferometry-optimization-hmscixdm.md) — Simon Spindler et al. (Optics Express)
+- [Ring Artifacts Removal Based on Implicit Neural Representation of Sinogram Data](2025-ring-artifacts-removal-based-on-implicit-neural-representation-of-sinogram-data-5rj3997d.md) — Ligen Shi et al. (IEEE Transactions on Image Processing)
+- [Pixel Latency Measurements of Event Cameras](2025-pixel-latency-measurements-of-event-cameras-xdexfekj.md) — Rémi V. Chassagnol et al. (IEEE Transactions on Instrumentation and Measurement)
+- [Physics-informed 4D X-ray image reconstruction from ultra-sparse spatiotemporal data](2025-physics-informed-4d-x-ray-image-reconstruction-from-ultra-sparse-spatiotemporal-data-2w2lbfc7.md) — Zisheng Yao et al. (preprint)
+- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos-wlxq9ieb.md) — Hanxiao Jiang et al. (preprint)
+- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos-vxtez538.md) — Hanxiao Jiang et al. (preprint)
+- [Neuromorphic computing at scale](2025-neuromorphic-computing-at-scale-h9h4j9mn.md) — Dhireesha Kudithipudi et al. (Nature)
+- [Neuromorphic Unlimited Sampling for High-Dynamic-Range Video Acquisition](2025-neuromorphic-unlimited-sampling-for-high-dynamic-range-video-acquisition-f4yqndf3.md) — Abijith Jagannath Kamath et al. (ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP))
+- [Neural Inverse Rendering from Propagating Light](2025-neural-inverse-rendering-from-propagating-light-5y9xkn9q.md) — Anagh Malik et al. (2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Minimalist Vision with Freeform Pixels](2025-minimalist-vision-with-freeform-pixels-22p27q56.md) — Jeremy Klotz et al. (Computer Vision – ECCV 2024: 18th European Conference, Milan, Italy, September 29–October 4, 2024, Proceedings, Part LXIV)
+- [Method for Target Detection in a High Noise Environment Through Frequency Analysis Using an Event-Based Vision Sensor](2025-method-for-target-detection-in-a-high-noise-environment-through-frequency-analysis-using-a-nris6z8z.md) — Will Johnston et al. (Signals)
+- [Integer-Valued Training and Spike-Driven Inference Spiking Neural Network for High-Performance and Energy-Efficient Object Detection](2025-integer-valued-training-and-spike-driven-inference-spiking-neural-network-for-high-perform-syfafnv7.md) — Aleš Leonardis et al. (Springer Nature Switzerland)
+- [Implicit neural representation for fast 4D computed tomography of multiphase flow in porous media](2025-implicit-neural-representation-for-fast-4d-computed-tomography-of-multiphase-flow-in-porou-g2x8naxu.md) — Henrik Friis et al. (Communications Physics)
+- [Generalizable Structure-Aware INF: Biplanar-View CT Reconstruction via Disentangled Implicit Neural Field](2025-generalizable-structure-aware-inf-biplanar-view-ct-reconstruction-via-disentangled-implici-89cfe8eu.md) — Bei Huang et al. (journalArticle)
+- [GLIMPSE: Generalized Locality for Scalable and Robust CT](2025-glimpse-generalized-locality-for-scalable-and-robust-ct-w6cae4i9.md) — AmirEhsan Khorashadizadeh et al. (IEEE Transactions on Medical Imaging)
+- [Event-guided temporally super-resolved synchrotron X-ray imaging](2025-event-guided-temporally-super-resolved-synchrotron-x-ray-imaging-i586mn8f.md) — Hongjian Wang et al. (Communications Physics)
+- [Event Cameras Meet SPADs for High-Speed, Low-Bandwidth Imaging](2025-event-cameras-meet-spads-for-high-speed-low-bandwidth-imaging-8tde6vcd.md) — Manasi Muglikar et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [EvSTVSR: Event Guided Space-Time Video Super-Resolution](2025-evstvsr-event-guided-space-time-video-super-resolution-l6w2flrw.md) — Haojie Yan et al. (Proceedings of the AAAI Conference on Artificial Intelligence)
+- [Enhancing Dynamic CT Image Reconstruction with Neural Fields and Optical Flow](2025-enhancing-dynamic-ct-image-reconstruction-with-neural-fields-and-optical-flow-9pejfv5v.md) — Pablo Arratia et al. (Journal of Mathematical Imaging and Vision)
+- [End-to-End Deep Learning for Interior Tomography with Low-Dose X-ray CT](2025-end-to-end-deep-learning-for-interior-tomography-with-low-dose-x-ray-ct-67ce426h.md) — Yoseob Han et al. (preprint)
+- [E-3DGS: Event-Based Novel View Rendering of Large-Scale Scenes Using 3D Gaussian Splatting](2025-e-3dgs-event-based-novel-view-rendering-of-large-scale-scenes-using-3d-gaussian-splatting-buz2xbr4.md) — Sohaib Zahid et al. (arXiv)
+- [Dual-Domain deep prior guided sparse-view CT reconstruction with multi-scale fusion attention](2025-dual-domain-deep-prior-guided-sparse-view-ct-reconstruction-with-multi-scale-fusion-attent-894qgxtg.md) — Jia Wu et al. (Scientific Reports)
+- [Distributed Stochastic Optimization of a Neural Representation Network for Time-Space Tomography Reconstruction](2025-distributed-stochastic-optimization-of-a-neural-representation-network-for-time-space-tomo-ts9a8adt.md) — K Aditya Mohan et al. (journalArticle)
+- [Discretized Gaussian Representation for Tomographic Reconstruction](2025-discretized-gaussian-representation-for-tomographic-reconstruction-96l4jfhp.md) — Shaokai Wu et al. (preprint)
+- [DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning](2025-deepseek-r1-incentivizes-reasoning-in-llms-through-reinforcement-learning-tnfkts8x.md) — Daya Guo et al. (Nature)
+- [Deep learning-based spatio-temporal fusion for high-fidelity ultra-high-speed X-ray radiography](2025-deep-learning-based-spatio-temporal-fusion-for-high-fidelity-ultra-high-speed-x-ray-radiog-7bt8wvw9.md) — S. Tang et al. (Journal of Synchrotron Radiation)
+- [DeblurSplat: SfM-free 3D Gaussian Splatting with Event Camera for Robust Deblurring](2025-deblursplat-sfm-free-3d-gaussian-splatting-with-event-camera-for-robust-deblurring-rgbdsinj.md) — Pengteng Li et al. (arXiv)
+- [Dark-field X-ray microscopy with structured illumination for three-dimensional imaging](2025-dark-field-x-ray-microscopy-with-structured-illumination-for-three-dimensional-imaging-9hryg8pj.md) — Doğa Gürsoy et al. (Communications Physics)
+- [DE-NAF: decoupled neural attenuation fields for sparse-view CBCT reconstruction](2025-de-naf-decoupled-neural-attenuation-fields-for-sparse-view-cbct-reconstruction-8ytl5ezk.md) — Tianning Zhao et al. (Pattern Analysis and Applications)
+- [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](2025-benerf-neural-radiance-fields-from-a-single-blurry-image-and-event-stream-iscij2sf.md) — Aleš Leonardis et al. (Springer Nature Switzerland)
+- [AE-NeRF: Augmenting Event-Based Neural Radiance Fields for Non-ideal Conditions and Larger Scene](2025-ae-nerf-augmenting-event-based-neural-radiance-fields-for-non-ideal-conditions-and-larger-lpbyve5k.md) — Chaoran Feng et al. (preprint)
+- [A Survey on Event-driven 3D Reconstruction: Development under Different Categories](2025-a-survey-on-event-driven-3d-reconstruction-development-under-different-categories-9ftz4969.md) — Chuanzhi Xu et al. (preprint)
+- [4D-ONIX for reconstructing 3D movies from sparse X-ray projections via deep learning](2025-4d-onix-for-reconstructing-3d-movies-from-sparse-x-ray-projections-via-deep-learning-eg28di9p.md) — Yuhe Zhang et al. (Communications Engineering)
+- [3DGR-CT: Sparse-view CT reconstruction with a 3D Gaussian representation](2025-3dgr-ct-sparse-view-ct-reconstruction-with-a-3d-gaussian-representation-latvnn6c.md) — Yingtai Li et al. (Medical Image Analysis)
+- [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](2025-3d-gaussian-splatting-survey-technologies-challenges-and-opportunities-d8pmd58g.md) — Yanqi Bao et al. (IEEE Transactions on Circuits and Systems for Video Technology)
+
+### 2024
+- [gsplat: An Open-Source Library for Gaussian Splatting](2024-gsplat-an-open-source-library-for-gaussian-splatting-7x2yvj25.md) — Vickie Ye et al. (preprint)
+- [Unleashing the Potential of Multi-modal Foundation Models and Video Diffusion for 4D Dynamic Physical Scene Simulation](2024-unleashing-the-potential-of-multi-modal-foundation-models-and-video-diffusion-for-4d-dynam-buv5njax.md) — Zhuoman Liu et al. (arXiv)
+- [Towards full-stack deep learning-empowered data processing pipeline for synchrotron tomography experiments](2024-towards-full-stack-deep-learning-empowered-data-processing-pipeline-for-synchrotron-tomogr-cmu6b3g7.md) — Zhen Zhang et al. (The Innovation)
+- [Towards Robust Event-guided Low-Light Image Enhancement: A Large-Scale Real-World Event-Image Dataset and Novel Approach](2024-towards-robust-event-guided-low-light-image-enhancement-a-large-scale-real-world-event-ima-88dwvltv.md) — Guoqiang Liang et al. (arXiv)
+- [Time-resolved ultra-small-angle X-ray scattering beamline (BL10U1) at SSRF](2024-time-resolved-ultra-small-angle-x-ray-scattering-beamline-bl10u1-at-ssrf-w7nnrqwe.md) — Wen-Qiang Hua (journalArticle)
+- [The human middle ear in motion: 3D visualization and quantification using dynamic synchrotron-based X-ray imaging](2024-the-human-middle-ear-in-motion-3d-visualization-and-quantification-using-dynamic-synchrotr-jvymqy2s.md) — Margaux Schmeltz et al. (Communications Biology)
+- [Structure-Aware Sparse-View X-Ray 3D Reconstruction](2024-structure-aware-sparse-view-x-ray-3d-reconstruction-699xuz9m.md) — Yuanhao Cai et al. (IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams](2024-spikereveal-unlocking-temporal-sequences-from-real-blurry-inputs-with-spike-streams-k4gwhzsy.md) — Kang Chen et al. (arXiv)
+- [SpikeNVS: Enhancing Novel View Synthesis from Blurry Images via Spike Camera](2024-spikenvs-enhancing-novel-view-synthesis-from-blurry-images-via-spike-camera-tjrn3k6i.md) — Gaole Dai et al. (arXiv)
+- [Spike-based dynamic computing with asynchronous sensing-computing neuromorphic chip](2024-spike-based-dynamic-computing-with-asynchronous-sensing-computing-neuromorphic-chip-tylgzewd.md) — Man Yao et al. (Nature Communications)
+- [Spatial coherence of synchrotron radiation degraded by grating monochromators](2024-spatial-coherence-of-synchrotron-radiation-degraded-by-grating-monochromators-c44xbcsk.md) — R. Khubbutdinov et al. (conferencePaper)
+- [Spatial coherence of synchrotron radiation degraded by grating monochromators](2024-spatial-coherence-of-synchrotron-radiation-degraded-by-grating-monochromators-3jcrkqxb.md) — Ruslan Khubbutdinov et al. (arXiv)
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](2024-sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes-ixpvrr2z.md) — Yi-Hua Huang et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](2024-sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes-ih8xq5vk.md) — Yi-Hua Huang et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Revisit Event Generation Model: Self-Supervised Learning of Event-to-Video Reconstruction with Implicit Neural Representations](2024-revisit-event-generation-model-self-supervised-learning-of-event-to-video-reconstruction-w-fa9sqw4c.md) — Zipeng Wang et al. (arXiv)
+- [Review on mechanical properties of metal lattice structures](2024-review-on-mechanical-properties-of-metal-lattice-structures-7nzjlnuw.md) — Xun Miao et al. (Composite Structures)
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-zvxk3ulq.md) — Licheng Zhong et al. (arXiv)
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-iwsxqaia.md) — Licheng Zhong et al. (arXiv)
+- [Reconstructing Satellites in 3D from Amateur Telescope Images](2024-reconstructing-satellites-in-3d-from-amateur-telescope-images-eglfnk4f.md) — Zhiming Chang et al. (arXiv)
+- [Reconstructing Knee CT Volumes from Biplanar X-Rays Via Self-Supervised Neural Field](2024-reconstructing-knee-ct-volumes-from-biplanar-x-rays-via-self-supervised-neural-field-lb5w5nzr.md) — Shuyang Lai et al. (2024 IEEE International Symposium on Biomedical Imaging (ISBI))
+- [Recent developments in MHz radioscopy: Towards the ultimate temporal resolution using storage ring-based light sources](2024-recent-developments-in-mhz-radioscopy-towards-the-ultimate-temporal-resolution-using-stora-qbxxnzy9.md) — A. Rack et al. (Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment)
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-t85us2m7.md) — Yuanhao Cai et al. (arXiv)
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-63tp2hlt.md) — Yuanhao Cai et al. (arXiv)
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-fz9cdb5u.md) — Yuanhao Cai et al. (arXiv)
+- [R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction](2024-r2-gaussian-rectifying-radiative-gaussian-splatting-for-tomographic-reconstruction-iffvts6t.md) — Ruyi Zha et al. (Advances in Neural Information Processing Systems)
+- [Quantitative localisation of titanium in the framework of titanium silicalite-1 using anomalous X-ray powder diffraction](2024-quantitative-localisation-of-titanium-in-the-framework-of-titanium-silicalite-1-using-anom-3ayevs7p.md) — Przemyslaw Rzepka et al. (Nature Communications)
+- [Pore evolution mechanisms during directed energy deposition additive manufacturing](2024-pore-evolution-mechanisms-during-directed-energy-deposition-additive-manufacturing-qc7lheuj.md) — Kai Zhang et al. (Nature Communications)
+- [PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics](2024-physgaussian-physics-integrated-3d-gaussians-for-generative-dynamics-ng8l6jsc.md) — Tianyi Xie et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation](2024-physdreamer-physics-based-interaction-with-3d-objects-via-video-generation-8nst9m7x.md) — Tianyuan Zhang et al. (preprint)
+- [Photonic signal processor based on a Kerr microcomb for real-time video image processing](2024-photonic-signal-processor-based-on-a-kerr-microcomb-for-real-time-video-image-processing-sasiwynl.md) — Mengxi Tan (journalArticle)
+- [Perovskite computed tomography imager and three-dimensional reconstruction](2024-perovskite-computed-tomography-imager-and-three-dimensional-reconstruction-cvu3kwih.md) — Yuhong He et al. (Nature Photonics)
+- [Optimising 4D imaging of fast-oscillating structures using X-ray microtomography with retrospective gating](2024-optimising-4d-imaging-of-fast-oscillating-structures-using-x-ray-microtomography-with-retr-63xpzyr4.md) — Antoine Klos et al. (Scientific Reports)
+- [On non-von Neumann flexible neuromorphic vision sensors](2024-on-non-von-neumann-flexible-neuromorphic-vision-sensors-cf434h5k.md) — Hao Wang et al. (npj Flexible Electronics)
+- [Nonlinear optical encoding enabled by recurrent linear scattering](2024-nonlinear-optical-encoding-enabled-by-recurrent-linear-scattering-x2ydyd5f.md) — Fei Xia et al. (Nature Photonics)
+- [Neuromorphic Sensing Meets Unlimited Sampling](2024-neuromorphic-sensing-meets-unlimited-sampling-84t29hjb.md) — Abijith Jagannath Kamath et al. (ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP))
+- [Neural rendering enables dynamic tomography](2024-neural-rendering-enables-dynamic-tomography-ncwwekc3.md) — Ivan Grega et al. (preprint)
+- [Neural Radiance Fields in Medical Imaging: Challenges and Next Steps](2024-neural-radiance-fields-in-medical-imaging-challenges-and-next-steps-2t6yzmjf.md) — Xin Wang et al. (arXiv)
+- [NeRF-XL: Scaling NeRFs with Multiple GPUs](2024-nerf-xl-scaling-nerfs-with-multiple-gpus-a6zadz9s.md) — Ruilong Li et al. (arXiv)
+- [Motion and Structure from Event-based Normal Flow](2024-motion-and-structure-from-event-based-normal-flow-djz5m3f6.md) — Zhongyang Ren et al. (arXiv)
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos](2024-modgs-dynamic-gaussian-splatting-from-casually-captured-monocular-videos-rq259clb.md) — Qingming Liu et al. (conferencePaper)
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos](2024-modgs-dynamic-gaussian-splatting-from-casually-captured-monocular-videos-2myvwen5.md) — Qingming Liu et al. (conferencePaper)
+- [Mitigating Motion Blur in Neural Radiance Fields with Events and Frames](2024-mitigating-motion-blur-in-neural-radiance-fields-with-events-and-frames-6rmywv37.md) — Marco Cannici et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Millimetre-deep micrometre-resolution vibrational imaging by shortwave infrared photothermal microscopy](2024-millimetre-deep-micrometre-resolution-vibrational-imaging-by-shortwave-infrared-phototherm-ipk7imbl.md) — Hongli Ni et al. (Nature Photonics)
+- [Low-latency automotive vision with event cameras](2024-low-latency-automotive-vision-with-event-cameras-lbzx6dpj.md) — Daniel Gehrig et al. (Nature)
+- [Liquid-shaped microlens for scalable production of ultrahigh-resolution optical coherence tomography microendoscope](2024-liquid-shaped-microlens-for-scalable-production-of-ultrahigh-resolution-optical-coherence-x66pkk2c.md) — Chao Xu (journalArticle)
+- [Learning High-Quality Navigation and Zooming on Omnidirectional Images in Virtual Reality](2024-learning-high-quality-navigation-and-zooming-on-omnidirectional-images-in-virtual-reality-gc6cwz65.md) — Zidong Cao et al. (arXiv)
+- [Learning 3D Gaussians for Extremely Sparse-View Cone-Beam CT Reconstruction](2024-learning-3d-gaussians-for-extremely-sparse-view-cone-beam-ct-reconstruction-fv3la2i7.md) — Yiqun Lin et al. (arXiv)
+- [Latency Correction for Event-Guided Deblurring and Frame Interpolation](2024-latency-correction-for-event-guided-deblurring-and-frame-interpolation-rvfv5zgm.md) — Yixin Yang et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [LSE-NeRF: Learning Sensor Modeling Errors for Deblured Neural Radiance Fields with RGB-Event Stereo](2024-lse-nerf-learning-sensor-modeling-errors-for-deblured-neural-radiance-fields-with-rgb-even-fdevv5q7.md) — Wei Zhi Tang et al. (arXiv)
+- [IncEventGS: Pose-Free Gaussian Splatting from a Single Event Camera](2024-inceventgs-pose-free-gaussian-splatting-from-a-single-event-camera-prbvcky9.md) — Jian Huang et al. (arXiv)
+- [In Situ Loading and Time-Resolved Synchrotron-Based Phase Contrast Tomography for the Mechanical Investigation of Connective Knee Tissues: A Proof-of-Concept Study](2024-in-situ-loading-and-time-resolved-synchrotron-based-phase-contrast-tomography-for-the-mech-9sisc9ld.md) — Hector Dejea et al. (Advanced Science)
+- [Implementation of a dual-phase grating interferometer for multi-scale characterization of building materials by tunable dark-field imaging](2024-implementation-of-a-dual-phase-grating-interferometer-for-multi-scale-characterization-of-8dtp5f29.md) — Caori Organista et al. (Scientific Reports)
+- [Imaging Interiors: An Implicit Solution to Electromagnetic Inverse Scattering Problems](2024-imaging-interiors-an-implicit-solution-to-electromagnetic-inverse-scattering-problems-qssqvgn7.md) — Ziyuan Luo et al. (arXiv)
+- [High-performance 4-nm-resolution X-ray tomography using burst ptychography](2024-high-performance-4-nm-resolution-x-ray-tomography-using-burst-ptychography-ifjy2kpc.md) — Tomas Aidukas et al. (Nature)
+- [Hi-Map: Hierarchical Factorized Radiance Field for High-Fidelity Monocular Dense Mapping](2024-hi-map-hierarchical-factorized-radiance-field-for-high-fidelity-monocular-dense-mapping-d6y6mc9u.md) — Tongyan Hua et al. (arXiv)
+- [HR-INR: Continuous Space-Time Video Super-Resolution via Event Camera](2024-hr-inr-continuous-space-time-video-super-resolution-via-event-camera-ddp6fy2s.md) — Yunfan Lu et al. (arXiv)
+- [HDPNERF: Hybrid Depth Priors for Neural Radiance Fields from Sparse Input Views](2024-hdpnerf-hybrid-depth-priors-for-neural-radiance-fields-from-sparse-input-views-abmjw53m.md) — Wangze Xu et al. (ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP))
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](2024-gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-7859iuzi.md) — Youtian Lin et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](2024-gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-ygpqywgj.md) — Youtian Lin et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Gaussian Splatting: 3D Reconstruction and Novel View Synthesis: A Review](2024-gaussian-splatting-3d-reconstruction-and-novel-view-synthesis-a-review-wtfukajz.md) — Anurag Dalal et al. (IEEE Access)
+- [Freeze casting](2024-freeze-casting-rx5yfseh.md) — Ulrike G. K. Wegst et al. (Nature Reviews Methods Primers)
+- [Finding the gap: neuromorphic motion-vision in dense environments](2024-finding-the-gap-neuromorphic-motion-vision-in-dense-environments-wj68bj56.md) — Thorben Schoepe et al. (Nature Communications)
+- [Extraction of In-Phase and Quadrature Components by Time-Encoding Sampling](2024-extraction-of-in-phase-and-quadrature-components-by-time-encoding-sampling-rqi6q4zq.md) — Y H Shao et al. (journalArticle)
+- [EventLFM: event camera integrated Fourier light field microscopy for ultrafast 3D imaging](2024-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-r5xgpjws.md) — Ruipeng Guo et al. (Light: Science and Applications)
+- [EventLFM: Event Camera integrated Fourier Light Field Microscopy for Ultrafast 3D imaging](2024-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-lew7sj2e.md) — Ruipeng Guo et al. (arXiv)
+- [Event-based x-ray imager with ghosting-free scintillator film](2024-event-based-x-ray-imager-with-ghosting-free-scintillator-film-p2bnd4ff.md) — Ao Zhang et al. (Optica)
+- [Event-based asynchronous HDR imaging by temporal incident light modulation](2024-event-based-asynchronous-hdr-imaging-by-temporal-incident-light-modulation-jd7flxwf.md) — Yuliang Wu et al. (Optics Express)
+- [Event-3DGS: Event-based 3D Reconstruction Using 3D Gaussian Splatting](2024-event-3dgs-event-based-3d-reconstruction-using-3d-gaussian-splatting-2bwlx4ud.md) — Haiqian Han et al. (The Thirty-eighth Annual Conference on Neural Information Processing Systems)
+- [Event Camera Demosaicing via Swin Transformer and Pixel-focus Loss](2024-event-camera-demosaicing-via-swin-transformer-and-pixel-focus-loss-d4tepyb2.md) — Yunfan Lu et al. (arXiv)
+- [EvDNeRF: Reconstructing Event Data With Dynamic Neural Radiance Fields](2024-evdnerf-reconstructing-event-data-with-dynamic-neural-radiance-fields-7ixap7ww.md) — Anish Bhattacharya et al. (journalArticle)
+- [Energy-conserving equivariant GNN for elasticity of lattice architected metamaterials](2024-energy-conserving-equivariant-gnn-for-elasticity-of-lattice-architected-metamaterials-kjv6dukj.md) — Ivan Grega et al. (preprint)
+- [Elite-EvGS: Learning Event-based 3D Gaussian Splatting by Distilling Event-to-Video Priors](2024-elite-evgs-learning-event-based-3d-gaussian-splatting-by-distilling-event-to-video-priors-hbmbkseh.md) — Zixin Zhang et al. (arXiv)
+- [EaDeblur-GS: Event assisted 3D Deblur Reconstruction with Gaussian Splatting](2024-eadeblur-gs-event-assisted-3d-deblur-reconstruction-with-gaussian-splatting-juldtb7x.md) — Yuchen Weng et al. (arXiv)
+- [EVS-Assisted Joint Deblurring, Rolling-Shutter Correction and Video Frame Interpolation Through Sensor Inverse Modeling](2024-evs-assisted-joint-deblurring-rolling-shutter-correction-and-video-frame-interpolation-thr-pmlcb5zu.md) — Rui Jiang et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [EF-3DGS: Event-Aided Free-Trajectory 3D Gaussian Splatting](2024-ef-3dgs-event-aided-free-trajectory-3d-gaussian-splatting-lzmqnlvb.md) — Bohao Liao et al. (arXiv)
+- [E2GS: Event Enhanced Gaussian Splatting](2024-e2gs-event-enhanced-gaussian-splatting-72x2tgt2.md) — Hiroyuki Deguchi et al. (arXiv)
+- [E-Calib: A Fast, Robust, and Accurate Calibration Toolbox for Event Cameras](2024-e-calib-a-fast-robust-and-accurate-calibration-toolbox-for-event-cameras-b89jndyt.md) — Mohammed Salah et al. (IEEE Transactions on Image Processing)
+- [E-3DGS: Gaussian Splatting with Exposure and Motion Events](2024-e-3dgs-gaussian-splatting-with-exposure-and-motion-events-44ec9g44.md) — Xiaoting Yin et al. (arXiv)
+- [E$^3$NeRF: Efficient Event-Enhanced Neural Radiance Fields from Blurry Images](2024-e3nerf-efficient-event-enhanced-neural-radiance-fields-from-blurry-images-spqr8c2r.md) — Yunshan Qi et al. (arXiv)
+- [Dynamic X-ray speckle-tracking imaging with high-accuracy phase retrieval based on deep learning](2024-dynamic-x-ray-speckle-tracking-imaging-with-high-accuracy-phase-retrieval-based-on-deep-le-lw8589ps.md) — Fucheng Yu et al. (journalArticle)
+- [Dynamic X-ray imaging with screen-printed perovskite CMOS array](2024-dynamic-x-ray-imaging-with-screen-printed-perovskite-cmos-array-qa3hr5tj.md) — Yanliang Liu et al. (Nature Communications)
+- [Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos](2024-dynamic-gaussian-marbles-for-novel-view-synthesis-of-casual-monocular-videos-ii4qa7dq.md) — Colton Stearns et al. (SIGGRAPH Asia 2024 Conference Papers)
+- [Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos](2024-dynamic-gaussian-marbles-for-novel-view-synthesis-of-casual-monocular-videos-jcmz5pj9.md) — Colton Stearns et al. (SIGGRAPH Asia 2024 Conference Papers)
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](2024-dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-dyk6mbr5.md) — Jonathon Luiten et al. (2024 International Conference on 3D Vision (3DV))
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](2024-dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-w986l2dm.md) — Jonathon Luiten et al. (2024 International Conference on 3D Vision (3DV))
+- [Dynamic 3D Gaussian Fields for Urban Areas](2024-dynamic-3d-gaussian-fields-for-urban-areas-6cx6bl64.md) — Tobias Fischer et al. (Advances in Neural Information Processing Systems)
+- [Dynamic 3D Gaussian Fields for Urban Areas](2024-dynamic-3d-gaussian-fields-for-urban-areas-bafziknv.md) — Tobias Fischer et al. (Advances in Neural Information Processing Systems)
+- [Disentangled Cross-modal Fusion for Event-Guided Image Super-resolution](2024-disentangled-cross-modal-fusion-for-event-guided-image-super-resolution-rjpzjk3i.md) — Minjie Liu et al. (IEEE Transactions on Artificial Intelligence)
+- [Direct observation of atmospheric turbulence with a video-rate wide-field wavefront sensor](2024-direct-observation-of-atmospheric-turbulence-with-a-video-rate-wide-field-wavefront-sensor-eu73m33u.md) — Yuduo Guo et al. (Nature Photonics)
+- [Development towards high-resolution kHz-speed rotation-free volumetric imaging](2024-development-towards-high-resolution-khz-speed-rotation-free-volumetric-imaging-uxft5ibu.md) — Eleni Myrto Asimakopoulou et al. (Optics Express)
+- [Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images](2024-depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-t9liww63.md) — Jaeyoung Chung et al. (preprint)
+- [Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images](2024-depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-bgi2j92k.md) — Jaeyoung Chung et al. (preprint)
+- [Demystifying event-based camera latency: sensor speed dependence on pixel biasing, light, and spatial activity](2024-demystifying-event-based-camera-latency-sensor-speed-dependence-on-pixel-biasing-light-and-8u5in86b.md) — Jonah P. Sengupta et al. (Infrared Imaging Systems: Design, Analysis, Modeling, and Testing XXXV)
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2024-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-gx3d2x2n.md) — Ziyi Yang et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2024-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-vjzqrhei.md) — Ziyi Yang et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Deep Learning for Event-based Vision: A Comprehensive Survey and Benchmarks](2024-deep-learning-for-event-based-vision-a-comprehensive-survey-and-benchmarks-x8x9uc8h.md) — Xu Zheng et al. (arXiv)
+- [Deblurring Neural Radiance Fields with Event-driven Bundle Adjustment](2024-deblurring-neural-radiance-fields-with-event-driven-bundle-adjustment-wiwfl3tx.md) — Yunshan Qi et al. (Proceedings of the 32nd ACM International Conference on Multimedia)
+- [Deblur e-NeRF: NeRF from Motion-Blurred Events under High-speed or Low-light Conditions](2024-deblur-e-nerf-nerf-from-motion-blurred-events-under-high-speed-or-low-light-conditions-4wdza33j.md) — Aleš Leonardis et al. (ECCV)
+- [DDGS-CT: Direction-Disentangled Gaussian Splatting for Realistic Volume Rendering](2024-ddgs-ct-direction-disentangled-gaussian-splatting-for-realistic-volume-rendering-cxdbv5v9.md) — Zhongpai Gao et al. (The Thirty-eighth Annual Conference on Neural Information Processing Systems)
+- [Current and Future Perspectives on Computed Tomography Screening for Lung Cancer: A Roadmap From 2023 to 2027 From the International Association for the Study of Lung Cancer](2024-current-and-future-perspectives-on-computed-tomography-screening-for-lung-cancer-a-roadmap-4jlcl833.md) — Stephen Lam Frcpc (Journal of Thoracic Oncology: Official Publication of the International Association for the Study of Lung Cancer)
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](2024-compact-3d-gaussian-splatting-for-static-and-dynamic-radiance-fields-j688r9et.md) — Joo Chan Lee et al. (arXiv)
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](2024-compact-3d-gaussian-splatting-for-static-and-dynamic-radiance-fields-k9i9itkh.md) — Joo Chan Lee et al. (arXiv)
+- [Colorizing Monochromatic Radiance Fields](2024-colorizing-monochromatic-radiance-fields-7r6csfxi.md) — Yean Cheng et al. (Proceedings of the AAAI Conference on Artificial Intelligence)
+- [CoGS: Controllable Gaussian Splatting](2024-cogs-controllable-gaussian-splatting-ukb4ig2f.md) — Heng Yu et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [CoGS: Controllable Gaussian Splatting](2024-cogs-controllable-gaussian-splatting-8l2q7zjh.md) — Heng Yu et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [C^2RV: Cross-Regional and Cross-View Learning for Sparse-View CBCT Reconstruction](2024-c2rv-cross-regional-and-cross-view-learning-for-sparse-view-cbct-reconstruction-8mrnclg8.md) — Yiqun Lin et al. (journalArticle)
+- [CT image reconstruction via industrial CT fast scanning](2024-ct-image-reconstruction-via-industrial-ct-fast-scanning-ps43d2dw.md) — Lijuan Bai et al. (Journal of Instrumentation)
+- [Benchmarking Implicit Neural Representation and Geometric Rendering in Real-Time RGB-D SLAM](2024-benchmarking-implicit-neural-representation-and-geometric-rendering-in-real-time-rgb-d-sla-wxyy8j5f.md) — Tonayan Hua et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](2024-benerf-neural-radiance-fields-from-a-single-blurry-image-and-event-stream-d5cdjcvg.md) — Wenpu Li et al. (preprint)
+- [An Asynchronous Linear Filter Architecture for Hybrid Event-Frame Cameras](2024-an-asynchronous-linear-filter-architecture-for-hybrid-event-frame-cameras-h8fnh4fk.md) — Ziwei Wang et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [AgriNeRF: Neural Radiance Fields for Agriculture in Challenging Lighting Conditions](2024-agrinerf-neural-radiance-fields-for-agriculture-in-challenging-lighting-conditions-udns4hca.md) — Samarth Chopra et al. (arXiv)
+- [Adaptive Integrate-and-Fire Time Encoding Machine with Quantization](2024-adaptive-integrate-and-fire-time-encoding-machine-with-quantization-23npxndk.md) — Aseel Omar et al. (arXiv)
+- [A motion denoising algorithm with Gaussian self-adjusting threshold for event camera](2024-a-motion-denoising-algorithm-with-gaussian-self-adjusting-threshold-for-event-camera-43nwm98l.md) — Wanmin Lin et al. (The Visual Computer)
+- [A Survey on 3D Gaussian Splatting](2024-a-survey-on-3d-gaussian-splatting-5fl5hi4i.md) — Guikun Chen et al. (arXiv)
+- [A Review of Optical Sensors in CMOS](2024-a-review-of-optical-sensors-in-cmos-mbpjzm8y.md) — Rodrigo Gounella et al. (Electronics)
+- [A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets](2024-a-hierarchical-3d-gaussian-representation-for-real-time-rendering-of-very-large-datasets-5wk8b8j4.md) — Bernhard Kerbl et al. (ACM Trans. Graph.)
+- [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](2024-4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-iv8fvufy.md) — Guanjun Wu et al. (Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+- [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](2024-4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-v8yiiuv4.md) — Guanjun Wu et al. (2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis](2024-3d-geometry-aware-deformable-gaussian-splatting-for-dynamic-view-synthesis-3kbtadn7.md) — Zhicheng Lu et al. (Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+- [3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis](2024-3d-geometry-aware-deformable-gaussian-splatting-for-dynamic-view-synthesis-22t5ufam.md) — Zhicheng Lu et al. (Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+- [3D Gaussian Splatting as New Era: A Survey](2024-3d-gaussian-splatting-as-new-era-a-survey-8uq38jpr.md) — Ben Fei et al. (IEEE Transactions on Visualization and Computer Graphics)
+- [2D Gaussian Splatting for Geometrically Accurate Radiance Fields](2024-2d-gaussian-splatting-for-geometrically-accurate-radiance-fields-22zgud83.md) — Binbin Huang et al. (Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers '24)
+
+### 2023
+- [X-ray tracking using a perovskite scintillator with an event-based sensor](2023-x-ray-tracking-using-a-perovskite-scintillator-with-an-event-based-sensor-kymndzwy.md) — Clio Sleator et al. (Hard X-Ray, Gamma-Ray, and Neutron Detector Physics XXV)
+- [Video Frame Interpolation with Stereo Event and Intensity Camera](2023-video-frame-interpolation-with-stereo-event-and-intensity-camera-pma3jakj.md) — Chao Ding et al. (arXiv)
+- [Versatile tabletop setup for picosecond time-resolved resonant soft-x-ray scattering and spectroscopy](2023-versatile-tabletop-setup-for-picosecond-time-resolved-resonant-soft-x-ray-scattering-and-s-zyqhqbhn.md) — Martin Borchert et al. (Review of Scientific Instruments)
+- [V2CE: Video to Continuous Events Simulator](2023-v2ce-video-to-continuous-events-simulator-yaipwks7.md) — Zhongyang Zhang et al. (arXiv)
+- [Ultrasparse View X-ray Computed Tomography for 4D Imaging](2023-ultrasparse-view-x-ray-computed-tomography-for-4d-imaging-asus4tsp.md) — Yanjie Zheng et al. (ACS Applied Materials & Interfaces)
+- [Ultrafast Radiographic Imaging and Tracking: An overview of instruments, methods, data, and applications](2023-ultrafast-radiographic-imaging-and-tracking-an-overview-of-instruments-methods-data-and-ap-ir88rj6h.md) — Zhehui Wang et al. (report)
+- [Time-Ordered Recent Event (TORE) Volumes for Event Cameras](2023-time-ordered-recent-event-tore-volumes-for-event-cameras-fqfy49s8.md) — R. Wes Baldwin et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [The new X-ray imaging and biomedical application beamline BL13HB at SSRF](2023-the-new-x-ray-imaging-and-biomedical-application-beamline-bl13hb-at-ssrf-2w7aa9hf.md) — Jian-Feng Ji et al. (Nuclear Science and Techniques)
+- [SuperFast: 200× Video Frame Interpolation via Event Camera](2023-superfast-200-video-frame-interpolation-via-event-camera-kwm7jqvd.md) — Yue Gao et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [Sub-millisecond 4D X-ray tomography achieved with a multibeam X-ray imaging system](2023-sub-millisecond-4d-x-ray-tomography-achieved-with-a-multibeam-x-ray-imaging-system-84ucihwx.md) — Xiaoyu Liang et al. (Applied Physics Express)
+- [SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering](2023-sugar-surface-aligned-gaussian-splatting-for-efficient-3d-mesh-reconstruction-and-high-qua-fdf4fvs9.md) — Antoine Guédon et al. (preprint)
+- [Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models](2023-solving-3d-inverse-problems-using-pre-trained-2d-diffusion-models-3qsbrmm2.md) — Hyungjin Chung et al. (2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Smart lattice light-sheet microscopy for imaging rare and complex cellular events](2023-smart-lattice-light-sheet-microscopy-for-imaging-rare-and-complex-cellular-events-ewihefn2.md) — Yu Shi (Nature Methods)
+- [Self-supervised Learning of Event-guided Video Frame Interpolation for Rolling Shutter Frames](2023-self-supervised-learning-of-event-guided-video-frame-interpolation-for-rolling-shutter-fra-x43ii8t3.md) — Yunfan Lu et al. (arXiv)
+- [Self-Supervised Blind Motion Deblurring With Deep Expectation Maximization](2023-self-supervised-blind-motion-deblurring-with-deep-expectation-maximization-5srzditd.md) — Ji Li et al. (journalArticle)
+- [Robust e-NeRF: NeRF from Sparse & Noisy Events under Non-Uniform Motion](2023-robust-e-nerf-nerf-from-sparse-noisy-events-under-non-uniform-motion-i3rhg54x.md) — Weng Fei Low et al. (2023 IEEE/CVF International Conference on Computer Vision (ICCV))
+- [Revisiting Event-based Video Frame Interpolation](2023-revisiting-event-based-video-frame-interpolation-77plz6dz.md) — Jiaben Chen et al. (arXiv)
+- [Revisiting Event-Based Video Frame Interpolation](2023-revisiting-event-based-video-frame-interpolation-xlcqxl6j.md) — Jiaben Chen et al. (2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS))
+- [Retina : Low-Power Eye Tracking with Event Camera and Spiking Hardware](2023-retina-low-power-eye-tracking-with-event-camera-and-spiking-hardware-cdmbvxif.md) — Pietro Bonazzi et al. (book)
+- [Real-time observation of compressive fracture of porous material by 10-millisecond 4D X-ray microtomography](2023-real-time-observation-of-compressive-fracture-of-porous-material-by-10-millisecond-4d-x-ra-brw3597u.md) — Takafumi Kawanishi et al. (Japanese Journal of Applied Physics)
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](2023-real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splat-yypviyfp.md) — Zeyu Yang et al. (arXiv)
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](2023-real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splat-u69pssck.md) — Zeyu Yang et al. (arXiv)
+- [Real-Time Multi-Task Facial Analytics With Event Cameras](2023-real-time-multi-task-facial-analytics-with-event-cameras-7s8urf9v.md) — Cian Ryan et al. (IEEE Access)
+- [Proof of principle study: synchrotron X-ray fluorescence microscopy for identification of previously radioactive microparticles and elemental mapping of FFPE tissues](2023-proof-of-principle-study-synchrotron-x-ray-fluorescence-microscopy-for-identification-of-p-c2bm3tsl.md) — Letonia Copeland-Hardin et al. (Scientific Reports)
+- [Physics-informed neural networks for modeling physiological time series for cuffless blood pressure estimation](2023-physics-informed-neural-networks-for-modeling-physiological-time-series-for-cuffless-blood-fjzdn5wz.md) — Kaan Sel et al. (npj Digital Medicine)
+- [PDAVIS: Bio-inspired Polarization Event Camera](2023-pdavis-bio-inspired-polarization-event-camera-qc48nuwb.md) — Germain Haessig et al. (2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW))
+- [PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification](2023-pac-nerf-physics-augmented-continuum-neural-radiance-fields-for-geometry-agnostic-system-i-6bfxgj4p.md) — Xuan Li et al. (arXiv)
+- [PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification](2023-pac-nerf-physics-augmented-continuum-neural-radiance-fields-for-geometry-agnostic-system-i-5etvr8fv.md) — Xuan Li et al. (arXiv)
+- [Oral-3Dv2: 3D Oral Reconstruction from Panoramic X-Ray Imaging with Implicit Neural Representation](2023-oral-3dv2-3d-oral-reconstruction-from-panoramic-x-ray-imaging-with-implicit-neural-represe-6kjru8as.md) — Weinan Song et al. (conferencePaper)
+- [On the Generation of a Synthetic Event-Based Vision Dataset for Navigation and Landing](2023-on-the-generation-of-a-synthetic-event-based-vision-dataset-for-navigation-and-landing-ip3psmxw.md) — Loïc J. Azzalini et al. (arXiv)
+- [ONIX: An X-ray deep-learning tool for 3D reconstructions from sparse views](2023-onix-an-x-ray-deep-learning-tool-for-3d-reconstructions-from-sparse-views-l4inulql.md) — Yuhe Zhang et al. (Applied Research)
+- [Noninvasive quantitative assessment of collagen degradation in parchments by polarization-resolved SHG microscopy](2023-noninvasive-quantitative-assessment-of-collagen-degradation-in-parchments-by-polarization-mymkq7xu.md) — Unknown authors (webpage)
+- [Non-Coaxial Event-guided Motion Deblurring with Spatial Alignment](2023-non-coaxial-event-guided-motion-deblurring-with-spatial-alignment-nmls9d39.md) — Hoonhee Cho et al. (IEEE/CVF International Conference on Computer Vision)
+- [Neuromorphic Sampling of Sparse Signals](2023-neuromorphic-sampling-of-sparse-signals-gzjqsyam.md) — Abijith Jagannath Kamath et al. (conferencePaper)
+- [Neuromorphic Sampling of Signals in Shift-Invariant Spaces](2023-neuromorphic-sampling-of-signals-in-shift-invariant-spaces-fkgylult.md) — Abijith Jagannath Kamath et al. (conferencePaper)
+- [NeuroZoom: Denoising and Super Resolving Neuromorphic Events and Spikes](2023-neurozoom-denoising-and-super-resolving-neuromorphic-events-and-spikes-kg2lbdti.md) — Peiqi Duan et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [Needs, Trends, and Advances in Scintillators for Radiographic Imaging and Tomography](2023-needs-trends-and-advances-in-scintillators-for-radiographic-imaging-and-tomography-tl56iuca.md) — Zhehui Wang et al. (IEEE Transactions on Nuclear Science)
+- [NeRFE: Free View Synthesis for Event Data](2023-nerfe-free-view-synthesis-for-event-data-rcppuzkk.md) — Bo Zhang et al. (Advances in Guidance, Navigation and Control)
+- [NeRF for 3D Reconstruction from X-ray Angiography](2023-nerf-for-3d-reconstruction-from-x-ray-angiography-bd7fpbvy.md) — K W H Maas et al. (journalArticle)
+- [Modeling and decoding event-based sensor lightning response](2023-modeling-and-decoding-event-based-sensor-lightning-response-ea232vtg.md) — Brian J. McReynolds et al. (Unconventional Imaging, Sensing, and Adaptive Optics 2023)
+- [Metasurface-Enabled Holographic Lithography for Impact-Absorbing Nanoarchitected Sheets](2023-metasurface-enabled-holographic-lithography-for-impact-absorbing-nanoarchitected-sheets-qv98bamh.md) — Matias Kagias et al. (Advanced Materials)
+- [Megahertz X-ray Multi-projection imaging](2023-megahertz-x-ray-multi-projection-imaging-9vr4emug.md) — Pablo Villanueva-Perez et al. (arXiv)
+- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](2023-mamba-linear-time-sequence-modeling-with-selective-state-spaces-ht2t9e6z.md) — Albert Gu et al. (webpage)
+- [MAEVI: Motion Aware Event-Based Video Frame Interpolation](2023-maevi-motion-aware-event-based-video-frame-interpolation-i88zvpr9.md) — Ahmet Akman et al. (arXiv)
+- [Learning to Super-Resolve Blurry Images with Events](2023-learning-to-super-resolve-blurry-images-with-events-yul7chdy.md) — Lei Yu et al. (arXiv)
+- [Learning to Distill Global Representation for Sparse-View CT](2023-learning-to-distill-global-representation-for-sparse-view-ct-8l24wy94.md) — Zilong Li et al. (2023 IEEE/CVF International Conference on Computer Vision (ICCV))
+- [Learning Spatial-Temporal Implicit Neural Representations for Event-Guided Video Super-Resolution](2023-learning-spatial-temporal-implicit-neural-representations-for-event-guided-video-super-res-h8bt6szf.md) — Yunfan Lu et al. (2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Learning INR for Event-guided Rolling Shutter Frame Correction, Deblur, and Interpolation](2023-learning-inr-for-event-guided-rolling-shutter-frame-correction-deblur-and-interpolation-u2cf3dxd.md) — Yunfan Lu et al. (arXiv)
+- [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](2023-k-planes-explicit-radiance-fields-in-space-time-and-appearance-52riyz4b.md) — Sara Fridovich-Keil et al. (2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](2023-k-planes-explicit-radiance-fields-in-space-time-and-appearance-jx2e8ign.md) — Sara Fridovich-Keil et al. (2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Jungfraujoch: hardware-accelerated data-acquisition system for kilohertz pixel-array X-ray detectors](2023-jungfraujoch-hardware-accelerated-data-acquisition-system-for-kilohertz-pixel-array-x-ray-9cvcj36u.md) — Filip Leonarski et al. (Journal of Synchrotron Radiation)
+- [Integral Neural Networks](2023-integral-neural-networks-tlqf7k8v.md) — Kirill Solodskikh et al. (journalArticle)
+- [Increased dose efficiency of breast CT with grating interferometry](2023-increased-dose-efficiency-of-breast-ct-with-grating-interferometry-4wtmlzqm.md) — Michał Rawlik et al. (Optica)
+- [In situ chamber for studying battery failure using high-speed synchrotron radiography](2023-in-situ-chamber-for-studying-battery-failure-using-high-speed-synchrotron-radiography-mpqgvrci.md) — J. Pfaff et al. (Journal of Synchrotron Radiation)
+- [In situ X-ray area detector flat-field correction at an operating photon energy without flat illumination](2023-in-situ-x-ray-area-detector-flat-field-correction-at-an-operating-photon-energy-without-fl-svllw96w.md) — J. Weng et al. (Journal of Synchrotron Radiation)
+- [Improving 3D Imaging with Pre-Trained Perpendicular 2D Diffusion Models](2023-improving-3d-imaging-with-pre-trained-perpendicular-2d-diffusion-models-84vm4dck.md) — Suhyeon Lee et al. (2023 IEEE/CVF International Conference on Computer Vision (ICCV))
+- [INeAT: Iterative Neural Adaptive Tomography](2023-ineat-iterative-neural-adaptive-tomography-e5c8g5d3.md) — Bo Xiong et al. (arXiv)
+- [IDO-VFI: Identifying Dynamics via Optical Flow Guidance for Video Frame Interpolation with Events](2023-ido-vfi-identifying-dynamics-via-optical-flow-guidance-for-video-frame-interpolation-with-jxmlcisd.md) — Chenyang Shi et al. (arXiv)
+- [Hybrid CMOS detectors for high-speed X-ray imaging](2023-hybrid-cmos-detectors-for-high-speed-x-ray-imaging-6ncar6j4.md) — J. L. Porter et al. (Review of Scientific Instruments)
+- [High-resolution single-photon imaging with physics-informed deep learning](2023-high-resolution-single-photon-imaging-with-physics-informed-deep-learning-e84j2br4.md) — Liheng Bian et al. (Nature Communications)
+- [High-Throughput Screening of 3D-Printed Architected Materials Inspired by Crystal Lattices: Procedure, Challenges, and Mechanical Properties](2023-high-throughput-screening-of-3d-printed-architected-materials-inspired-by-crystal-lattices-g4a2tc48.md) — Maxim Yu. Arsentev et al. (ACS Omega)
+- [Grating-based coded aperture compressive spectral imaging to reconstruct over 190 spectral bands from a snapshot measurement](2023-grating-based-coded-aperture-compressive-spectral-imaging-to-reconstruct-over-190-spectral-qafgr9pg.md) — Ting Luo et al. (Appl. Phys.)
+- [Geometry-Aware Attenuation Learning for Sparse-View CBCT Reconstruction](2023-geometry-aware-attenuation-learning-for-sparse-view-cbct-reconstruction-fyethquf.md) — Zhentao Liu et al. (arXiv)
+- [Generalizing Event-Based Motion Deblurring in Real-World Scenarios](2023-generalizing-event-based-motion-deblurring-in-real-world-scenarios-5illldqz.md) — Xiang Zhang et al. (arXiv)
+- [GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis](2023-gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis-wyfstel4.md) — Yiqing Liang et al. (arXiv)
+- [GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis](2023-gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis-v3i9u6iw.md) — Yiqing Liang et al. (arXiv)
+- [From micro- to nano- and time-resolved x-ray computed tomography: Bio-based applications, synchrotron capabilities, and data-driven processing](2023-from-micro-to-nano-and-time-resolved-x-ray-computed-tomography-bio-based-applications-sync-zmkxu3l3.md) — Pedro I. C. Claro et al. (Applied Physics Reviews)
+- [Fourth-generation light sources](2023-fourth-generation-light-sources-ifef8vwq.md) — Henry N. Chapman (IUCrJ)
+- [Feature-enhanced X-ray imaging using fused neural network strategy with designable metasurface](2023-feature-enhanced-x-ray-imaging-using-fused-neural-network-strategy-with-designable-metasur-jetrnp54.md) — Hao Shi et al. (Nanophotonics)
+- [EventNeRF: neural radiance fields from a single colour event camera](2023-eventnerf-neural-radiance-fields-from-a-single-colour-event-camera-p9xrcf8b.md) — Viktor Rudnev et al. (IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [EventNeRF: Neural Radiance Fields from a Single Colour Event Camera](2023-eventnerf-neural-radiance-fields-from-a-single-colour-event-camera-yy7xd8mm.md) — Viktor Rudnev et al. (preprint)
+- [EventLFM: Event Camera integrated Fourier Light Field Microscopy for Ultrafast 3D imaging](2023-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-j6y3ft57.md) — Ruipeng Guo et al. (arXiv)
+- [Event-based vision sensor for fast and dense single-molecule localization microscopy](2023-event-based-vision-sensor-for-fast-and-dense-single-molecule-localization-microscopy-x2tcfuwd.md) — Clément Cabriel et al. (Nature Photonics)
+- [Event-based super-resolution microscopy](2023-event-based-super-resolution-microscopy-2fvwrilq.md) — Ian M Dobbie (nature photonics)
+- [Event-based camera refractory period characterization and initial clock drift evaluation](2023-event-based-camera-refractory-period-characterization-and-initial-clock-drift-evaluation-t5nj2nlw.md) — Peter N. McMahon-Crabtree et al. (Unconventional Imaging, Sensing, and Adaptive Optics 2023)
+- [Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields](2023-event-based-video-frame-interpolation-with-cross-modal-asymmetric-bidirectional-motion-fie-u5lijc9y.md) — Taewoo Kim et al. (2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Event-Based Image Deblurring with Dynamic Motion Awareness](2023-event-based-image-deblurring-with-dynamic-motion-awareness-7n8fa9zi.md) — Patricia Vitoria et al. (Computer Vision – ECCV 2022 Workshops)
+- [Event Camera Data Pre-training](2023-event-camera-data-pre-training-9gfm53kl.md) — Yan Yang et al. (arXiv)
+- [Ev-NeRF: Event Based Neural Radiance Field](2023-ev-nerf-event-based-neural-radiance-field-fqsbynsm.md) — Inwoo Hwang et al. (2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV))
+- [E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images](2023-e2nerf-event-enhanced-neural-radiance-fields-from-blurry-images-bziygkci.md) — Yunshan Qi et al. (journalArticle)
+- [E-VFIA : Event-Based Video Frame Interpolation with Attention](2023-e-vfia-event-based-video-frame-interpolation-with-attention-927fn3mi.md) — Onur Selim Kılıç et al. (arXiv)
+- [E-NeRF: Neural Radiance Fields From a Moving Event Camera](2023-e-nerf-neural-radiance-fields-from-a-moving-event-camera-49aajbjk.md) — Simon Klenk et al. (IEEE Robotics and Automation Letters)
+- [Dynamic Tomography Reconstruction via Low-Rank Modeling with a RED Spatial Prior](2023-dynamic-tomography-reconstruction-via-low-rank-modeling-with-a-red-spatial-prior-w26mnegg.md) — Berk Iskender et al. (2023 IEEE 9th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP))
+- [Dynamic PlenOctree for Adaptive Sampling Refinement in Explicit NeRF](2023-dynamic-plenoctree-for-adaptive-sampling-refinement-in-explicit-nerf-kiura8y6.md) — Haotian Bai et al. (2023 IEEE/CVF International Conference on Computer Vision (ICCV))
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](2023-dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-sp-zu7b8imv.md) — Agelos Kratimenos et al. (arXiv)
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](2023-dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-sp-mg2zlxk9.md) — Agelos Kratimenos et al. (arXiv)
+- [Detecting lithium plating dynamics in a solid-state battery with operando X-ray computed tomography using machine learning](2023-detecting-lithium-plating-dynamics-in-a-solid-state-battery-with-operando-x-ray-computed-t-lclbe65i.md) — Ying Huang et al. (npj Computational Materials)
+- [Detailed analysis of the interference patterns measured in lab-based X-ray dual-phase grating interferometry through wave propagation simulation](2023-detailed-analysis-of-the-interference-patterns-measured-in-lab-based-x-ray-dual-phase-grat-q3mbv5zl.md) — Ruizhi Tang et al. (journalArticle)
+- [Deformable Neural Radiance Fields using RGB and Event Cameras](2023-deformable-neural-radiance-fields-using-rgb-and-event-cameras-wapf6ctq.md) — Qi Ma et al. (2023 IEEE/CVF International Conference on Computer Vision (ICCV))
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2023-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-a8cqwmmn.md) — Ziyi Yang et al. (preprint)
+- [Deep learning enables nanoscale X-ray 3D imaging with limited data](2023-deep-learning-enables-nanoscale-x-ray-3d-imaging-with-limited-data-vgfv596y.md) — Chonghang Zhao et al. (Light: Science & Applications)
+- [Deep Polarization Reconstruction With PDAVIS Events](2023-deep-polarization-reconstruction-with-pdavis-events-7utnmlyl.md) — Haiyang Mei et al. (journalArticle)
+- [Deep 3D reconstruction of synchrotron X-ray computed tomography for intact lungs](2023-deep-3d-reconstruction-of-synchrotron-x-ray-computed-tomography-for-intact-lungs-ppj8rzvb.md) — Seungjoo Shin et al. (Scientific Reports)
+- [Deblurring Low-Light Images with Events](2023-deblurring-low-light-images-with-events-4kuvw2s3.md) — Chu Zhou et al. (International Journal of Computer Vision)
+- [Computational event-driven vision sensors for in-sensor spiking neural networks](2023-computational-event-driven-vision-sensors-for-in-sensor-spiking-neural-networks-cf5z2mu7.md) — Yue Zhou et al. (Nature Electronics)
+- [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout](2023-componerf-text-guided-multi-object-compositional-nerf-with-editable-3d-scene-layout-vupg97m5.md) — Haotian Bai et al. (arXiv)
+- [Coherent Event Guided Low-Light Video Enhancement](2023-coherent-event-guided-low-light-video-enhancement-bi6b4bsx.md) — Jinxiu Liang et al. (IEEE/CVF International Conference on Computer Vision (ICCV))
+- [Characterisation of a single photon event camera for quantum imaging](2023-characterisation-of-a-single-photon-event-camera-for-quantum-imaging-fzcg99hh.md) — Victor Vidyapin (Scientific Reports)
+- [Champion-level drone racing using deep reinforcement learning](2023-champion-level-drone-racing-using-deep-reinforcement-learning-tumeinlm.md) — Elia Kaufmann (journalArticle)
+- [Achieving nanoscale precision using neuromorphic localization microscopy](2023-achieving-nanoscale-precision-using-neuromorphic-localization-microscopy-eijjmrn5.md) — Rohit Mangalwedhekar et al. (Nature Nanotechnology)
+- [A superconducting nanowire single-photon camera with 400,000 pixels](2023-a-superconducting-nanowire-single-photon-camera-with-400000-pixels-p58gaemd.md) — B G Oripov (journalArticle)
+- [A machine learning model for textured X-ray scattering and diffraction image denoising](2023-a-machine-learning-model-for-textured-x-ray-scattering-and-diffraction-image-denoising-feypq2mv.md) — Zhongzheng Zhou et al. (npj Computational Materials)
+- [A Review of Image Reconstruction Based on Event Cameras](2023-a-review-of-image-reconstruction-based-on-event-cameras-u7b7t92k.md) — X. U. Qi et al. (电子与信息学报)
+- [3D Gaussian Splatting for Real-Time Radiance Field Rendering](2023-3d-gaussian-splatting-for-real-time-radiance-field-rendering-t6e3t6kp.md) — Bernhard Kerbl et al. (ACM Transactions on Graphics)
+
+### 2022
+- [光场调控专题导读](2022-光场调控专题导读-chnbxadw.md) — Unknown authors (光电工程)
+- [XIDER: a novel X-ray detector for the next generation of high-energy synchrotron radiation sources](2022-xider-a-novel-x-ray-detector-for-the-next-generation-of-high-energy-synchrotron-radiation-d4cgsgib.md) — Paolo Busca (journalArticle)
+- [Video super-resolution based on deep learning: a comprehensive survey](2022-video-super-resolution-based-on-deep-learning-a-comprehensive-survey-89ha953j.md) — Hongying Liu (journalArticle)
+- [Unifying Motion Deblurring and Frame Interpolation with Events](2022-unifying-motion-deblurring-and-frame-interpolation-with-events-35echzws.md) — Xiang Zhang et al. (journalArticle)
+- [Towards Interpretable Video Super-Resolution via Alternating Optimization](2022-towards-interpretable-video-super-resolution-via-alternating-optimization-dh3nh5ae.md) — Jiezhang Cao (journalArticle)
+- [TimeReplayer: Unlocking the Potential of Event Cameras for Video Interpolation](2022-timereplayer-unlocking-the-potential-of-event-cameras-for-video-interpolation-9m8un2pd.md) — Weihua He et al. (arXiv)
+- [Time Lens++: Event-based Frame Interpolation with Parametric Nonlinear Flow and Multi-scale Fusion](2022-time-lens-event-based-frame-interpolation-with-parametric-nonlinear-flow-and-multi-scale-f-qyrm58tx.md) — Stepan Tulyakov et al. (2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion](2022-time-lens-event-based-frame-interpolation-with-parametric-non-linear-flow-and-multi-scale-6bz42lhk.md) — Stepan Tulyakov et al. (journalArticle)
+- [Split Hopkinson Tension Bar and Universal Testing Machine for High-Speed X-ray Imaging of Materials under Tension](2022-split-hopkinson-tension-bar-and-universal-testing-machine-for-high-speed-x-ray-imaging-of-5jfg9tul.md) — Puneeth Jakkula et al. (Instruments)
+- [Spatial-Temporal Transformer for Video Snapshot Compressive Imaging](2022-spatial-temporal-transformer-for-video-snapshot-compressive-imaging-sm4wlrxp.md) — Lishun Wang et al. (arXiv)
+- [Spatial-Temporal Transformer for Video Snapshot Compressive Imaging](2022-spatial-temporal-transformer-for-video-snapshot-compressive-imaging-5xmhi3rt.md) — Lishun Wang et al. (arXiv)
+- [Sparse Synthesis for Hyperdimensional Ptychographic Tomography](2022-sparse-synthesis-for-hyperdimensional-ptychographic-tomography-zpc3sxw5.md) — Zirui Gao (thesis)
+- [Self-Supervised Intensity-Event Stereo Matching](2022-self-supervised-intensity-event-stereo-matching-hkrm42ig.md) — Jinjin Gu et al. (arXiv)
+- [Scanning high-sensitive x-ray polarization microscopy](2022-scanning-high-sensitive-x-ray-polarization-microscopy-mefbm8jb.md) — B Marx-Glowna et al. (New J. Phys.)
+- [SNAF: Sparse-view CBCT Reconstruction with Neural Attenuation Fields](2022-snaf-sparse-view-cbct-reconstruction-with-neural-attenuation-fields-gbemt752.md) — Yu Fang et al. (arXiv)
+- [Real-time streaming tomographic reconstruction with on-demand data capturing and 3D zooming to regions of interest](2022-real-time-streaming-tomographic-reconstruction-with-on-demand-data-capturing-and-3d-zoomin-zt5b2rba.md) — V. Nikitin et al. (Journal of Synchrotron Radiation)
+- [Plug-and-Play Algorithms for Video Snapshot Compressive Imaging](2022-plug-and-play-algorithms-for-video-snapshot-compressive-imaging-a44xl7y9.md) — Xin Yuan et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [Neuromorphic Computing and Sensing in Space](2022-neuromorphic-computing-and-sensing-in-space-bmm73qbb.md) — Dario Izzo et al. (arXiv)
+- [Neural Fields in Visual Computing and Beyond](2022-neural-fields-in-visual-computing-and-beyond-5qgxw7wp.md) — Yiheng Xie et al. (Computer Graphics Forum)
+- [NeRF: representing scenes as neural radiance fields for view synthesis](2022-nerf-representing-scenes-as-neural-radiance-fields-for-view-synthesis-k9p9htgg.md) — Ben Mildenhall et al. (Communications of the ACM)
+- [NeAT: Neural Adaptive Tomography](2022-neat-neural-adaptive-tomography-fu336n8l.md) — Darius Rückert et al. (arXiv)
+- [NeAT: Neural Adaptive Tomography](2022-neat-neural-adaptive-tomography-debmybvg.md) — Darius Rückert et al. (arXiv)
+- [NAF: Neural Attenuation Fields for Sparse-View CBCT Reconstruction](2022-naf-neural-attenuation-fields-for-sparse-view-cbct-reconstruction-n5ieecna.md) — Ruyi Zha et al. (Medical Image Computing and Computer Assisted Intervention (MICCAI))
+- [Multi-Bracket High Dynamic Range Imaging with Event Cameras](2022-multi-bracket-high-dynamic-range-imaging-with-event-cameras-4b45tfub.md) — Nico Messikommer et al. (2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW))
+- [Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields](2022-mip-nerf-360-unbounded-anti-aliased-neural-radiance-fields-kbdxtugr.md) — Jonathan T. Barron et al. (2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [MedNeRF: Medical Neural Radiance Fields for Reconstructing 3D-aware CT-Projections from a Single X-ray](2022-mednerf-medical-neural-radiance-fields-for-reconstructing-3d-aware-ct-projections-from-a-s-bqbeet8q.md) — Abril Corona-Figueroa et al. (arXiv)
+- [Iterative phase contrast CT reconstruction with novel tomographic operator and data-driven prior](2022-iterative-phase-contrast-ct-reconstruction-with-novel-tomographic-operator-and-data-driven-spl2bsqb.md) — Stefano van Gogh et al. (PLOS ONE)
+- [Instant neural graphics primitives with a multiresolution hash encoding](2022-instant-neural-graphics-primitives-with-a-multiresolution-hash-encoding-zibtbsnu.md) — Thomas Müller et al. (ACM Transactions on Graphics)
+- [ICARUS: A Specialized Architecture for Neural Radiance Fields Rendering](2022-icarus-a-specialized-architecture-for-neural-radiance-fields-rendering-6mmts7xg.md) — Chaolin Rao et al. (ACM Transactions on Graphics)
+- [HashEncoding: Autoencoding with Multiscale Coordinate Hashing](2022-hashencoding-autoencoding-with-multiscale-coordinate-hashing-4cv8e348.md) — Lukas Zhornyak et al. (arXiv)
+- [Falcon Neuro: an event-based sensor on the International Space Station](2022-falcon-neuro-an-event-based-sensor-on-the-international-space-station-2b3th8vt.md) — Matthew G. McHarg et al. (Optical Engineering)
+- [FRI-TEM: Time Encoding Sampling of Finite-Rate-of-Innovation Signals](2022-fri-tem-time-encoding-sampling-of-finite-rate-of-innovation-signals-i5csaesz.md) — Hila Naaman et al. (IEEE Transactions on Signal Processing)
+- [Event-guided Deblurring of Unknown Exposure Time Videos](2022-event-guided-deblurring-of-unknown-exposure-time-videos-ktmg89f6.md) — Taewoo Kim et al. (Computer Vision – ECCV 2022)
+- [Event-based vision: a survey](2022-event-based-vision-a-survey-wt9mxnvp.md) — Guillermo Gallego et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [Event-based vision in magneto-optic Kerr effect microscopy](2022-event-based-vision-in-magneto-optic-kerr-effect-microscopy-79vsiefy.md) — Kai Zhang et al. (AIP Advances)
+- [Event-Based Fusion for Motion Deblurring with Cross-modal Attention](2022-event-based-fusion-for-motion-deblurring-with-cross-modal-attention-vnhwghd3.md) — Shai Avidan et al. (Springer Nature Switzerland)
+- [EVA2: Event-Assisted Video Frame Interpolation via Cross-Modal Alignment and Aggregation](2022-eva2-event-assisted-video-frame-interpolation-via-cross-modal-alignment-and-aggregation-x6jcf2aw.md) — Zeyu Xiao et al. (IEEE TRANSACTIONS ON COMPUTATIONAL IMAGING)
+- [Dynamic Tomography Reconstruction by Projection-Domain Separable Modeling](2022-dynamic-tomography-reconstruction-by-projection-domain-separable-modeling-sf6ujjep.md) — Berk Iskender et al. (2022 IEEE 14th Image, Video, and Multidimensional Signal Processing Workshop (IVMSP))
+- [Direct Voxel Grid Optimization: Super-fast Convergence for Radiance Fields Reconstruction](2022-direct-voxel-grid-optimization-super-fast-convergence-for-radiance-fields-reconstruction-ykkuwt7z.md) — Cheng Sun et al. (preprint)
+- [Digital Copy of First Edition - Accepted for Printing by MIT Press](2022-digital-copy-of-first-edition-accepted-for-printing-by-mit-press-km9xwh2d.md) — Ayush Bhandari et al. (Computational Imaging)
+- [Depth-Supervised NeRF: Fewer Views and Faster Training for Free](2022-depth-supervised-nerf-fewer-views-and-faster-training-for-free-cjjwl4zz.md) — Kangle Deng et al. (journalArticle)
+- [Deep Image Deblurring: A Survey](2022-deep-image-deblurring-a-survey-bwstuh5e.md) — Kaihao Zhang et al. (International Journal of Computer Vision)
+- [Deblur-NeRF: Neural Radiance Fields from Blurry Images](2022-deblur-nerf-neural-radiance-fields-from-blurry-images-qhnc9d3b.md) — Li Ma et al. (2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [DEVO: Depth-Event Camera Visual Odometry in Challenging Conditions](2022-devo-depth-event-camera-visual-odometry-in-challenging-conditions-lmip89r5.md) — Yi-Fan Zuo et al. (2022 International Conference on Robotics and Automation (ICRA))
+- [Computer Vision: Algorithms and Applications](2022-computer-vision-algorithms-and-applications-gimhdrb4.md) — Richard Szeliski (Springer International Publishing)
+- [Autofocus for Event Cameras](2022-autofocus-for-event-cameras-hicp4p2t.md) — Shijie Lin et al. (IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Are High-Resolution Event Cameras Really Needed?](2022-are-high-resolution-event-cameras-really-needed-98d6xyg7.md) — Daniel Gehrig et al. (arXiv)
+- [Analytical Review of Event-Based Camera Depth Estimation Methods and Systems](2022-analytical-review-of-event-based-camera-depth-estimation-methods-and-systems-t7rb475z.md) — Justas Furmonas et al. (Sensors)
+- [Accurate event simulation using high-speed video](2022-accurate-event-simulation-using-high-speed-video-ae5jdhme.md) — Xiaozheng Mou et al. (Electronic Imaging)
+- [Accurate and Efficient Frame-based Event Representation for AER Object Recognition](2022-accurate-and-efficient-frame-based-event-representation-for-aer-object-recognition-jyrqenn2.md) — WeiJie Bai et al. (2022 International Joint Conference on Neural Networks (IJCNN))
+- [A fully automatic AI system for tooth and alveolar bone segmentation from cone-beam CT images](2022-a-fully-automatic-ai-system-for-tooth-and-alveolar-bone-segmentation-from-cone-beam-ct-ima-zkrjud2k.md) — Zhiming Cui et al. (Nature Communications)
+- [A Review of Artificial Spiking Neuron Devices for Neural Processing and Sensing](2022-a-review-of-artificial-spiking-neuron-devices-for-neural-processing-and-sensing-eqwvdefi.md) — Joon‐Kyu Han et al. (Advanced Functional Materials)
+- [(PDF) MedNeRF: Medical Neural Radiance Fields for Reconstructing 3D-aware CT-Projections from a Single X-ray](2022-pdf-mednerf-medical-neural-radiance-fields-for-reconstructing-3d-aware-ct-projections-from-l8d9aims.md) — Abril Corona-Figueroa et al. (ResearchGate)
+
+### 2021
+- [上海光源硬X射线相干衍射成像实验方法初探](2021-上海光源硬x射线相干衍射成像实验方法初探-7z63z84d.md) — Unknown authors (webpage)
+- [v2e: From Video Frames to Realistic DVS Events](2021-v2e-from-video-frames-to-realistic-dvs-events-b58zlu2i.md) — Yuhuang Hu et al. (2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW))
+- [pixelNeRF: Neural Radiance Fields from One or Few Images](2021-pixelnerf-neural-radiance-fields-from-one-or-few-images-2isn9lxs.md) — Alex Yu et al. (2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Zhentang Zhao: past and future of the Shanghai Synchrotron Radiation Facility](2021-zhentang-zhao-past-and-future-of-the-shanghai-synchrotron-radiation-facility-fc2kcn3y.md) — Weijie Zhao (National Science Review)
+- [X-ray computed tomography](2021-x-ray-computed-tomography-7fh5r4t7.md) — Philip J. Withers et al. (Nature Reviews Methods Primers)
+- [Towards real-time photorealistic 3D holography with deep neural networks](2021-towards-real-time-photorealistic-3d-holography-with-deep-neural-networks-ygtewwek.md) — Liang Shi et al. (Nature)
+- [Tomoscopy: Time-resolved tomography for dynamic processes in materials](2021-tomoscopy-time-resolved-tomography-for-dynamic-processes-in-materials-musnhlki.md) — Francisco García-Moreno et al. (Advanced Materials)
+- [Time Lens: Event-based Video Frame Interpolation](2021-time-lens-event-based-video-frame-interpolation-vl2ldant.md) — Stepan Tulyakov et al. (2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [The fastest L1,oo prox in the west](2021-the-fastest-l1oo-prox-in-the-west-5f82ek2h.md) — Benjamin Bejar et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [The Spatio-Temporal Poisson Point Process: A Simple Model for the Alignment of Event Camera Data](2021-the-spatio-temporal-poisson-point-process-a-simple-model-for-the-alignment-of-event-camera-pmchsk36.md) — Cheng Gu et al. (journalArticle)
+- [TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS](2021-towards-faster-and-stabilized-gan-training-for-high-fidelity-few-shot-image-synthesis-vnqgphbp.md) — Bingchen Liu et al. (journalArticle)
+- [Supersonic impact resilience of nanoarchitected carbon](2021-supersonic-impact-resilience-of-nanoarchitected-carbon-454kfewh.md) — Carlos M. Portela et al. (Nature Materials)
+- [Simultaneous Reciprocal and Real Space X-Ray Imaging of Time-EvolvingSystems](2021-simultaneous-reciprocal-and-real-space-x-ray-imaging-of-time-evolvingsystems-2mfgybx5.md) — Kagias Matias (journalArticle)
+- [Review of high-speed imaging with lab-based x-ray computed tomography](2021-review-of-high-speed-imaging-with-lab-based-x-ray-computed-tomography-8qqrq88t.md) — E A Zwanenburg et al. (Measurement Science and Technology)
+- [Point-Based Neural Rendering with Per-View Optimization](2021-point-based-neural-rendering-with-per-view-optimization-t3avam28.md) — Georgios Kopanas et al. (Computer Graphics Forum)
+- [Plenoxels: Radiance Fields without Neural Networks](2021-plenoxels-radiance-fields-without-neural-networks-pju7itiz.md) — Alex Yu et al. (preprint)
+- [Physics-informed machine learning](2021-physics-informed-machine-learning-3ffwuhsd.md) — George Em Karniadakis et al. (Nature Reviews Physics)
+- [Neuromorphic vision sensors: Principle, progress and perspectives](2021-neuromorphic-vision-sensors-principle-progress-and-perspectives-69rgrr88.md) — Fuyou Liao et al. (Journal of Semiconductors)
+- [Nerfies: Deformable Neural Radiance Fields](2021-nerfies-deformable-neural-radiance-fields-uullrap4.md) — Keunhong Park et al. (2021 IEEE/CVF International Conference on Computer Vision (ICCV))
+- [Multiscale and Dynamic Synchrotron-based Tomographic Microscopy for Cardiovascular Applications](2021-multiscale-and-dynamic-synchrotron-based-tomographic-microscopy-for-cardiovascular-applica-ik4myuqy.md) — Hèctor Dejea i Velardo (thesis)
+- [Motion Deblurring With Real Events](2021-motion-deblurring-with-real-events-xvtyzwib.md) — Fang Xu et al. (journalArticle)
+- [Micrometer-resolution X-ray tomographic full-volume reconstruction of an intact post-mortem juvenile rat lung](2021-micrometer-resolution-x-ray-tomographic-full-volume-reconstruction-of-an-intact-post-morte-tyfttmlr.md) — Elena Borisova et al. (Histochemistry and Cell Biology)
+- [Limited View Tomographic Reconstruction Using a Cascaded Residual Dense Spatial-Channel Attention Network With Projection Data Fidelity Layer](2021-limited-view-tomographic-reconstruction-using-a-cascaded-residual-dense-spatial-channel-at-c2jnp2ua.md) — Bo Zhou et al. (IEEE transactions on medical imaging)
+- [Learned Initializations for Optimizing Coordinate-Based Neural Representations](2021-learned-initializations-for-optimizing-coordinate-based-neural-representations-z28u55pk.md) — Matthew Tancik et al. (2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Knowledge Distillation: A Survey](2021-knowledge-distillation-a-survey-euvmtzib.md) — Jianping Gou et al. (International Journal of Computer Vision)
+- [IntraTomo: Self-supervised Learning-based Tomography via Sinogram Synthesis and Prediction](2021-intratomo-self-supervised-learning-based-tomography-via-sinogram-synthesis-and-prediction-bu2wjetg.md) — Guangming Zang et al. (2021 IEEE/CVF International Conference on Computer Vision (ICCV))
+- [Imaging atelectrauma in Ventilator-Induced Lung Injury using 4D X-ray microscopy](2021-imaging-atelectrauma-in-ventilator-induced-lung-injury-using-4d-x-ray-microscopy-2r796e27.md) — Luca Fardin et al. (Scientific Reports)
+- [High-resolution fast-tomography brain-imaging beamline at the Taiwan Photon Source](2021-high-resolution-fast-tomography-brain-imaging-beamline-at-the-taiwan-photon-source-bp7llnux.md) — H. H. Chen et al. (Journal of Synchrotron Radiation)
+- [High speed and high dynamic range video with an event camera](2021-high-speed-and-high-dynamic-range-video-with-an-event-camera-vr95ae24.md) — Henri Rebecq et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [Fine-Grained Video Deblurring with Event Camera](2021-fine-grained-video-deblurring-with-event-camera-azihbk9m.md) — Limeng Zhang (journalArticle)
+- [Feedback control of event cameras](2021-feedback-control-of-event-cameras-lw39zdxa.md) — Tobi Delbruck et al. (2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW))
+- [Exploring frontiers of 4D X-ray tomography](2021-exploring-frontiers-of-4d-x-ray-tomography-38bj6bxx.md) — Wataru Yashiro et al. (Applied Sciences)
+- [EventZoom: Learning to Denoise and Super Resolve Neuromorphic Events](2021-eventzoom-learning-to-denoise-and-super-resolve-neuromorphic-events-uzi7cqm3.md) — Peiqi Duan et al. (2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Event-Based Stereo Visual Odometry](2021-event-based-stereo-visual-odometry-bepgblwx.md) — Yi Zhou et al. (IEEE Transactions on Robotics)
+- [EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-Resolution](2021-evintsr-net-event-guided-multiple-latent-frames-reconstruction-and-super-resolution-75abjg6t.md) — Jin Han et al. (journalArticle)
+- [Enhanced Frame and Event-Based Simulator and Event-Based Video Interpolation Network](2021-enhanced-frame-and-event-based-simulator-and-event-based-video-interpolation-network-7uhkgnfu.md) — Adam Radomski et al. (journalArticle)
+- [E-RAFT: Dense Optical Flow from Event Cameras](2021-e-raft-dense-optical-flow-from-event-cameras-wa2b5yri.md) — Mathias Gehrig et al. (journalArticle)
+- [Dynamic impact testing of cellular solids and lattice structures: Application of two-sided direct impact Hopkinson bar](2021-dynamic-impact-testing-of-cellular-solids-and-lattice-structures-application-of-two-sided-7v8l4rq4.md) — Tomáš Fíla et al. (International Journal of Impact Engineering)
+- [Dynamic CT Reconstruction from Limited Views with Implicit Neural Representations and Parametric Motion Fields](2021-dynamic-ct-reconstruction-from-limited-views-with-implicit-neural-representations-and-para-rczdpfd3.md) — Albert W. Reed et al. (2021 IEEE/CVF International Conference on Computer Vision (ICCV))
+- [Deep learning based classification of dynamic processes in time-resolved X-ray tomographic microscopy](2021-deep-learning-based-classification-of-dynamic-processes-in-time-resolved-x-ray-tomographic-szkbabt2.md) — Minna Bührer et al. (Scientific Reports)
+- [Deep denoising for multi-dimensional synchrotron X-ray tomography without high-quality reference data](2021-deep-denoising-for-multi-dimensional-synchrotron-x-ray-tomography-without-high-quality-ref-mxbwpi6y.md) — Allard A. Hendriksen et al. (Scientific Reports)
+- [DSEC: A Stereo Event Camera Dataset for Driving Scenarios](2021-dsec-a-stereo-event-camera-dataset-for-driving-scenarios-p24fd73q.md) — Mathias Gehrig et al. (journalArticle)
+- [D-NeRF: Neural Radiance Fields for Dynamic Scenes](2021-d-nerf-neural-radiance-fields-for-dynamic-scenes-r8t487bm.md) — Albert Pumarola et al. (2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Current Trends in Automotive Lightweighting Strategies and Materials](2021-current-trends-in-automotive-lightweighting-strategies-and-materials-j4zlhceb.md) — Frank Czerwinski (Materials)
+- [Continuous Learning and Adaptation with Membrane Potential and Activation Threshold Homeostasis](2021-continuous-learning-and-adaptation-with-membrane-potential-and-activation-threshold-homeos-nchlnw9w.md) — Alexander Hadjiivanov (arXiv)
+- [CoIL: Coordinate-based Internal Learning for Imaging Inverse Problems](2021-coil-coordinate-based-internal-learning-for-imaging-inverse-problems-w2pd2k38.md) — Yu Sun et al. (conferencePaper)
+- [Changing the game of time resolved X-ray diffraction on the mechanochemistry playground by downsizing](2021-changing-the-game-of-time-resolved-x-ray-diffraction-on-the-mechanochemistry-playground-by-vcnkvkfc.md) — Giulio I. Lampronti et al. (Nature Communications)
+- [Bringing Events Into Video Deblurring With Non-Consecutively Blurry Frames](2021-bringing-events-into-video-deblurring-with-non-consecutively-blurry-frames-ktejvx9j.md) — Wei Shang et al. (journalArticle)
+- [Beamline K11 DIAD: a new instrument for dual imaging and diffraction at Diamond Light Source](2021-beamline-k11-diad-a-new-instrument-for-dual-imaging-and-diffraction-at-diamond-light-sourc-pyw5vgt8.md) — C. Reinhard et al. (Journal of Synchrotron Radiation)
+- [Baking Neural Radiance Fields for Real-Time View Synthesis](2021-baking-neural-radiance-fields-for-real-time-view-synthesis-ryaytnf6.md) — Peter Hedman et al. (journalArticle)
+- [Advances in neural rendering](2021-advances-in-neural-rendering-jitecylq.md) — A. Tewari et al. (ACM SIGGRAPH 2021 Courses)
+
+### 2020
+- [Time-resolved 3D imaging of two-phase fluid flow inside a steel fuel injector using synchrotron X-ray tomography](2020-time-resolved-3d-imaging-of-two-phase-fluid-flow-inside-a-steel-fuel-injector-using-synchr-nsk4njva.md) — Aniket Tekawade et al. (Scientific Reports)
+- [Time-of-arrival detection for time-resolved scanning transmission X-ray microscopy imaging](2020-time-of-arrival-detection-for-time-resolved-scanning-transmission-x-ray-microscopy-imaging-4dkxdci6.md) — S. Finizio et al. (Journal of Synchrotron Radiation)
+- [Time of flight dual photon emission computed tomography](2020-time-of-flight-dual-photon-emission-computed-tomography-qqtrtbrl.md) — Chih-Chieh Chiang et al. (Scientific Reports)
+- [Time Resolved in situ X-Ray Tomographic Microscopy Unraveling Dynamic Processes in Geologic Systems](2020-time-resolved-in-situ-x-ray-tomographic-microscopy-unraveling-dynamic-processes-in-geologi-6njdcygc.md) — Federica Marone et al. (Frontiers in Earth Science)
+- [Stereo Event-Based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction](2020-stereo-event-based-particle-tracking-velocimetry-for-3d-fluid-flow-reconstruction-hc46leba.md) — Yuanhao Wang et al. (Computer Vision – ECCV 2020)
+- [Space-Time Tomographic Reconstruction of Deforming Objects](2020-space-time-tomographic-reconstruction-of-deforming-objects-pafx44ix.md) — Guangming Zang (journalArticle)
+- [Representation Learning on Visual-Symbolic Graphs for Video Understanding](2020-representation-learning-on-visual-symbolic-graphs-for-video-understanding-ceej2jlp.md) — Effrosyni Mavroudi et al. (arXiv)
+- [Representation Learning on Visual-Symbolic Graphs for Video Understanding](2020-representation-learning-on-visual-symbolic-graphs-for-video-understanding-pxx4rezd.md) — Effrosyni Mavroudi et al. (arXiv)
+- [Over 100 Million Frames per Second 368 Frames Global Shutter Burst CMOS Image Sensor with Pixel-wise Trench Capacitor Memory Array](2020-over-100-million-frames-per-second-368-frames-global-shutter-burst-cmos-image-sensor-with-hdmgfr8v.md) — Manabu Suzuki et al. (Sensors)
+- [Noise-tolerant single photon sensitive three-dimensional imager](2020-noise-tolerant-single-photon-sensitive-three-dimensional-imager-383yy8me.md) — Patrick Rehain et al. (Nature Communications)
+- [Multiscale pink-beam microCT imaging at the ESRF-ID17 biomedical beamline](2020-multiscale-pink-beam-microct-imaging-at-the-esrf-id17-biomedical-beamline-5tubuseh.md) — A. Mittone et al. (Journal of Synchrotron Radiation)
+- [Multibeam x-ray optical system for high-speed tomography](2020-multibeam-x-ray-optical-system-for-high-speed-tomography-868e9dhy.md) — Wolfgang Voegeli et al. (Optica)
+- [Metal assisted chemical etching of silicon in the gas phase: a nanofabrication platform for X-ray optics](2020-metal-assisted-chemical-etching-of-silicon-in-the-gas-phase-a-nanofabrication-platform-for-viutmzj9.md) — Lucia Romano et al. (Nanoscale Horizons)
+- [Local Implicit Grid Representations for 3D Scenes](2020-local-implicit-grid-representations-for-3d-scenes-mvhm2wbp.md) — Chiyu Max Jiang et al. (arXiv)
+- [Local Implicit Grid Representations for 3D Scenes](2020-local-implicit-grid-representations-for-3d-scenes-keygsfru.md) — Avneesh Sud et al. (journalArticle)
+- [Local Deep Implicit Functions for 3D Shape](2020-local-deep-implicit-functions-for-3d-shape-cindiecr.md) — Kyle Genova et al. (journalArticle)
+- [Learning Event-Driven Video Deblurring and Interpolation](2020-learning-event-driven-video-deblurring-and-interpolation-vhrxi6ug.md) — Songnan Lin (journalArticle)
+- [Innovations in laboratory-based dynamic micro-CT to accelerate in situ research](2020-innovations-in-laboratory-based-dynamic-micro-ct-to-accelerate-in-situ-research-4ashvi3x.md) — J. Dewanckele et al. (Journal of Microscopy)
+- [How to See with an Event Camera](2020-how-to-see-with-an-event-camera-exlpt4id.md) — Cedric Scheerlinck (journalArticle)
+- [Globally-Optimal Event Camera Motion Estimation](2020-globally-optimal-event-camera-motion-estimation-9jjfxkri.md) — Andrea Vedaldi et al. (Computer Vision – ECCV 2020)
+- [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis](2020-graf-generative-radiance-fields-for-3d-aware-image-synthesis-4eh94rur.md) — Katja Schwarz et al. (Advances in Neural Information Processing Systems)
+- [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains](2020-fourier-features-let-networks-learn-high-frequency-functions-in-low-dimensional-domains-wiymy2hs.md) — Matthew Tancik et al. (ArXiv)
+- [Fast Image Reconstruction with an Event Camera](2020-fast-image-reconstruction-with-an-event-camera-jhtd34gd.md) — Cedric Scheerlinck et al. (2020 IEEE Winter Conference on Applications of Computer Vision (WACV))
+- [Event-Based Feature Extraction Using Adaptive Selection Thresholds](2020-event-based-feature-extraction-using-adaptive-selection-thresholds-etagq7lj.md) — Saeed Afshar et al. (Sensors)
+- [Event Enhanced High-Quality Image Recovery](2020-event-enhanced-high-quality-image-recovery-dnbfk9gf.md) — Bishan Wang et al. (arXiv)
+- [Differentiable Rendering: A Survey](2020-differentiable-rendering-a-survey-nnnk7hkc.md) — Hiroharu Kato et al. (preprint)
+- [Deep learning for tomographic image reconstruction](2020-deep-learning-for-tomographic-image-reconstruction-zfakz7z7.md) — Ge Wang et al. (Nature Machine Intelligence)
+- [A Time-Based Sampling Framework for Finite-Rate-of-Innovation Signals](2020-a-time-based-sampling-framework-for-finite-rate-of-innovation-signals-89ixsxsb.md) — Sunil Rudresh et al. (IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP))
+- [5.10 A 1280×720 Back-Illuminated Stacked Temporal Contrast Event-Based Vision Sensor with 4.86µm Pixels, 1.066GEPS Readout, Programmable Event-Rate Controller and Compressive Data-Formatting Pipeline](2020-510-a-1280720-back-illuminated-stacked-temporal-contrast-event-based-vision-sensor-with-48-cmmbdmtz.md) — Thomas Finateu et al. (2020 IEEE International Solid- State Circuits Conference - (ISSCC))
+
+### 2019
+- [Warp-and-project tomography for rapidly deforming objects](2019-warp-and-project-tomography-for-rapidly-deforming-objects-e3iz9swn.md) — Guangming Zang et al. (ACM Trans. Graph.)
+- [Using X-ray tomoscopy to explore the dynamics of foaming metal](2019-using-x-ray-tomoscopy-to-explore-the-dynamics-of-foaming-metal-tafpmbsi.md) — Francisco García-Moreno et al. (Nature Communications)
+- [Unsupervised Event-based Optical Flow using Motion Compensation](2019-unsupervised-event-based-optical-flow-using-motion-compensation-chy8g3ab.md) — Alex Zihao Zhu et al. (journalArticle)
+- [Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion](2019-unsupervised-event-based-learning-of-optical-flow-depth-and-egomotion-bu8874tk.md) — Alex Zihao Zhu et al. (2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Time-Resolved X-Ray Microscopy for Materials Science](2019-time-resolved-x-ray-microscopy-for-materials-science-94q2pgy4.md) — Haidan Wen et al. (Annual Review of Materials Research)
+- [On the use of deep learning for computational imaging](2019-on-the-use-of-deep-learning-for-computational-imaging-xciwbdn5.md) — George Barbastathis et al. (Optica)
+- [Megahertz x-ray microscopy at x-ray free-electron laser and synchrotron sources](2019-megahertz-x-ray-microscopy-at-x-ray-free-electron-laser-and-synchrotron-sources-k9yfjbu5.md) — Patrik Vagovič et al. (Optica)
+- [Local Light Field Fusion: Practical View Synthesis with Prescriptive Sampling Guidelines](2019-local-light-field-fusion-practical-view-synthesis-with-prescriptive-sampling-guidelines-ztgptudl.md) — B. Mildenhall (conferencePaper)
+- [Live Demonstration: Unsupervised Event-Based Learning of Optical Flow, Depth and Egomotion](2019-live-demonstration-unsupervised-event-based-learning-of-optical-flow-depth-and-egomotion-5cjpvytu.md) — Alex Zihao Zhu et al. (2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW))
+- [High-numerical-aperture macroscope optics for time-resolved experiments](2019-high-numerical-aperture-macroscope-optics-for-time-resolved-experiments-uvea4fj4.md) — M. Bührer et al. (Journal of Synchrotron Radiation)
+- [Event-based Sensing for Space Situational Awareness](2019-event-based-sensing-for-space-situational-awareness-ms6bqgi3.md) — Gregory Cohen et al. (The Journal of the Astronautical Sciences)
+- [End-to-End Learning of Representations for Asynchronous Event-Based Data](2019-end-to-end-learning-of-representations-for-asynchronous-event-based-data-jpcymfqz.md) — Daniel Gehrig et al. (IEEE/CVF International Conference on Computer Vision (ICCV))
+- [Dynamic compression of 3D printed metallic mesostructures with in-situ X-ray imaging](2019-dynamic-compression-of-3d-printed-metallic-mesostructures-with-in-situ-x-ray-imaging-ywckxgu4.md) — M. Jacklein et al. (Trauner Verlag)
+- [Differentiable surface splatting for point-based geometry processing](2019-differentiable-surface-splatting-for-point-based-geometry-processing-beldvtji.md) — Wang Yifan et al. (ACM Transactions on Graphics)
+- [Convolutional Sparse Coding for Compressed Sensing CT Reconstruction](2019-convolutional-sparse-coding-for-compressed-sensing-ct-reconstruction-ih4dm9ke.md) — Peng Bao et al. (IEEE Transactions on Medical Imaging)
+- [Continuous-Time Intensity Estimation Using Event Cameras](2019-continuous-time-intensity-estimation-using-event-cameras-uusq8imq.md) — C.V. Jawahar et al. (Springer International Publishing)
+- [Comparison of three undersampling approaches in computed tomography reconstruction](2019-comparison-of-three-undersampling-approaches-in-computed-tomography-reconstruction-72384675.md) — Chenyang Shen et al. (Quantitative Imaging in Medicine and Surgery)
+- [Bringing a Blurry Frame Alive at High Frame-Rate With an Event Camera](2019-bringing-a-blurry-frame-alive-at-high-frame-rate-with-an-event-camera-m863ilx2.md) — Liyuan Pan et al. (2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Bringing Alive Blurred Moments](2019-bringing-alive-blurred-moments-7iw4t9xj.md) — Kuldeep Purohit et al. (2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR))
+
+### 2018
+- [Ultra-high-speed indirect x-ray imaging system with versatile spatiotemporal sampling capabilities](2018-ultra-high-speed-indirect-x-ray-imaging-system-with-versatile-spatiotemporal-sampling-capa-hid6ulr6.md) — Emilio M. Escauriza et al. (Applied Optics)
+- [TomoPhantom, a software package to generate 2D–4D analytical phantoms for CT image reconstruction algorithm benchmarks](2018-tomophantom-a-software-package-to-generate-2d4d-analytical-phantoms-for-ct-image-reconstru-s827xyxa.md) — Daniil Kazantsev et al. (SoftwareX)
+- [TomoBank: a tomographic data repository for computational x-ray science](2018-tomobank-a-tomographic-data-repository-for-computational-x-ray-science-fghplbr6.md) — Francesco De Carlo et al. (Meas. Sci. Technol.)
+- [Synchrotron big data science](2018-synchrotron-big-data-science-fqettvl2.md) — Chunpeng Wang et al. (Small)
+- [Super-Resolution and Sparse View CT Reconstruction](2018-super-resolution-and-sparse-view-ct-reconstruction-wqi9ylwh.md) — Guangming Zang et al. (Computer Vision – ECCV 2018)
+- [Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation](2018-super-slomo-high-quality-estimation-of-multiple-intermediate-frames-for-video-interpolatio-wnu74g2q.md) — Huaizu Jiang et al. (Proceedings of the IEEE conference on computer vision and pattern recognition)
+- [Space-time tomography for continuously deforming objects](2018-space-time-tomography-for-continuously-deforming-objects-79qkvbij.md) — Guangming Zang et al. (ACM Trans. Graph.)
+- [Soft X-ray Spectro-Ptychography for Air Pollution Particulates](2018-soft-x-ray-spectro-ptychography-for-air-pollution-particulates-mb9i5vzx.md) — Haigang Liu et al. (Microscopy and Microanalysis)
+- [Sampling Continuous-Time Sparse Signals: A Frequency-Domain Perspective](2018-sampling-continuous-time-sparse-signals-a-frequency-domain-perspective-yue82wkl.md) — Benjamín Béjar Haro et al. (IEEE Transactions on Signal Processing)
+- [SLAYER: Spike Layer Error Reassignment in Time](2018-slayer-spike-layer-error-reassignment-in-time-jm7zcaml.md) — Sumit Bam Shrestha et al. (arXiv)
+- [Real-Time Intensity-Image Reconstruction for Event Cameras Using Manifold Regularisation](2018-real-time-intensity-image-reconstruction-for-event-cameras-using-manifold-regularisation-xzbz6arz.md) — Gottfried Munda et al. (International Journal of Computer Vision)
+- [Medical imaging systems: an introductory guide](2018-medical-imaging-systems-an-introductory-guide-dl34i8pn.md) — Andreas Maier et al. (Springer Open)
+- [Learning to Extract a Video Sequence from a Single Motion-Blurred Image](2018-learning-to-extract-a-video-sequence-from-a-single-motion-blurred-image-zvgifppt.md) — Meiguang Jin et al. (2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+- [Learned Primal-Dual Reconstruction](2018-learned-primal-dual-reconstruction-iuwuba9m.md) — Jonas Adler et al. (IEEE Transactions on Medical Imaging)
+- [Image reconstruction by domain-transform manifold learning](2018-image-reconstruction-by-domain-transform-manifold-learning-b6xx4rve.md) — Bo Zhu et al. (Nature)
+- [Hard x-ray multi-projection imaging for single-shot approaches](2018-hard-x-ray-multi-projection-imaging-for-single-shot-approaches-23zs8zim.md) — P. Villanueva-Perez et al. (Optica)
+- [Eliminating Decoherence Effects and Improving Reconstructed Image Quality in Soft X-ray Ptychography.](2018-eliminating-decoherence-effects-and-improving-reconstructed-image-quality-in-soft-x-ray-pt-8fm7zjsk.md) — Chunpeng Wang et al. (Microscopy and Microanalysis)
+- [EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time](2018-emvs-event-based-multi-view-stereo3d-reconstruction-with-an-event-camera-in-real-time-sxpb8hf5.md) — Henri Rebecq et al. (International Journal of Computer Vision)
+- [Cameras with On-chip Memory CMOS Image Sensors](2018-cameras-with-on-chip-memory-cmos-image-sensors-tpiuzbkb.md) — Rihito Kuroda et al. (Springer International Publishing)
+
+### 2017
+- [Towards on-the-fly data post-processing for real-time tomographic imaging at TOMCAT](2017-towards-on-the-fly-data-post-processing-for-real-time-tomographic-imaging-at-tomcat-ycpfy4et.md) — Federica Marone et al. (Advanced Structural and Chemical Imaging)
+- [Tomographic in vivo microscopy for the study of lung physiology at the alveolar level](2017-tomographic-in-vivo-microscopy-for-the-study-of-lung-physiology-at-the-alveolar-level-wfsdk96b.md) — Goran Lovric et al. (Scientific Reports)
+- [Three-dimensional mechanical metamaterials with a twist](2017-three-dimensional-mechanical-metamaterials-with-a-twist-c4d82nem.md) — Tobias Frenzel et al. (Science)
+- [Soft X-ray ptychography method at SSRF](2017-soft-x-ray-ptychography-method-at-ssrf-yrxpgzy7.md) — Chun-Peng Wang et al. (Nuclear Science and Techniques)
+- [Online Real-Time Multiple Spatiotemporal Action Localisation and Prediction](2017-online-real-time-multiple-spatiotemporal-action-localisation-and-prediction-xxj5b8a4.md) — Gurkirt Singh et al. (journalArticle)
+- [MHz frame rate hard X-ray phase-contrast imaging using synchrotron radiation](2017-mhz-frame-rate-hard-x-ray-phase-contrast-imaging-using-synchrotron-radiation-573iz7ve.md) — Margie P. Olbinado et al. (Optics Express)
+- [Low-dose CT via convolutional neural network](2017-low-dose-ct-via-convolutional-neural-network-vxb88rgp.md) — Hu Chen et al. (Biomedical Optics Express)
+- [Learning a Multi-View Stereo Machine](2017-learning-a-multi-view-stereo-machine-9wft7mam.md) — Abhishek Kar et al. (arXiv)
+- [Learning a Multi-View Stereo Machine](2017-learning-a-multi-view-stereo-machine-5jfxs3be.md) — Abhishek Kar et al. (journalArticle)
+- [Laboratory based study of dynamical processes by 4D X-ray CT with sub-second temporal resolution](2017-laboratory-based-study-of-dynamical-processes-by-4d-x-ray-ct-with-sub-second-temporal-reso-z54xeunh.md) — D. Vavřík et al. (Journal of Instrumentation)
+- [High-resolution non-destructive three- dimensional imaging of integrated circuits](2017-high-resolution-non-destructive-three-dimensional-imaging-of-integrated-circuits-bpww8j7u.md) — Manuel Guizar-Sicairos et al. (journalArticle)
+- [GigaFRoST: the gigabit fast readout system for tomography](2017-gigafrost-the-gigabit-fast-readout-system-for-tomography-pybdrfx4.md) — R. Mokso et al. (Journal of Synchrotron Radiation)
+- [EVO: A Geometric Approach to Event-Based 6-DOF Parallel Tracking and Mapping in Real Time](2017-evo-a-geometric-approach-to-event-based-6-dof-parallel-tracking-and-mapping-in-real-time-fu5x4fzp.md) — Henri Rebecq et al. (IEEE Robotics and Automation Letters)
+- [Deformable Convolutional Networks](2017-deformable-convolutional-networks-tvgdskrd.md) — Jifeng Dai et al. (2017 IEEE International Conference on Computer Vision (ICCV))
+- [Cone beam computed tomography: basics and applications in dentistry](2017-cone-beam-computed-tomography-basics-and-applications-in-dentistry-4k997pxp.md) — Elluru Venkatesh et al. (Journal of Istanbul University Faculty of Dentistry)
+- [Automated computer-assisted quantitative analysis of intact murine lungs at the alveolar scale](2017-automated-computer-assisted-quantitative-analysis-of-intact-murine-lungs-at-the-alveolar-s-sg73pq8f.md) — Goran Lovric et al. (journalArticle)
+- [A Short Course on Frame Theory](2017-a-short-course-on-frame-theory-xemtvrhq.md) — Erchin Serpedin et al. (CRC Press)
+
+### 2016
+- [X-ray imaging with ePix100a: a high-speed, high-resolution, low-noise camera](2016-x-ray-imaging-with-epix100a-a-high-speed-high-resolution-low-noise-camera-ehyse8fk.md) — G. Blaj et al. (Hard X-Ray, Gamma-Ray, and Neutron Detector Physics XVIII)
+- [The material point method for simulating continuum materials](2016-the-material-point-method-for-simulating-continuum-materials-8hq663kt.md) — Chenfanfu Jiang et al. (ACM SIGGRAPH 2016 Courses)
+- [TIGRE: a MATLAB-GPU toolbox for CBCT image reconstruction](2016-tigre-a-matlab-gpu-toolbox-for-cbct-image-reconstruction-l92hskv8.md) — Ander Biguri et al. (Biomedical Physics and Engineering Express)
+- [Structure-from-Motion Revisited](2016-structure-from-motion-revisited-7z6afkkc.md) — Johannes L. Schonberger et al. (2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Simultaneous Optical Flow and Intensity Estimation from an Event Camera](2016-simultaneous-optical-flow-and-intensity-estimation-from-an-event-camera-udg4mqb6.md) — Patrick Bardow et al. (2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](2016-real-time-single-image-and-video-super-resolution-using-an-efficient-sub-pixel-convolution-ky78sse7.md) — Wenzhe Shi et al. (2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Photon-efficient imaging with a single-photon camera](2016-photon-efficient-imaging-with-a-single-photon-camera-ywb4ybhh.md) — Dongeek Shin et al. (Nature Communications)
+- [Observation of polar vortices in oxide superlattices](2016-observation-of-polar-vortices-in-oxide-superlattices-c623hnqa.md) — A K Yadav et al. (journalArticle)
+- [Microlattice Metamaterials for Tailoring Ultrasonic Transmission with Elastoacoustic Hybridization](2016-microlattice-metamaterials-for-tailoring-ultrasonic-transmission-with-elastoacoustic-hybri-c5sund4g.md) — Sebastian Krödel et al. (Physical Review Applied)
+- [Deep Residual Learning for Image Recognition](2016-deep-residual-learning-for-image-recognition-6l2yyebh.md) — Kaiming He et al. (2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR))
+- [Deep Learning for Detecting Multiple Space-Time Action Tubes in Videos](2016-deep-learning-for-detecting-multiple-space-time-action-tubes-in-videos-kxnnm884.md) — Suman Saha et al. (arXiv)
+- [Characterization results of the JUNGFRAU full scale readout ASIC](2016-characterization-results-of-the-jungfrau-full-scale-readout-asic-uwkzn7hr.md) — A. Mozzanica et al. (Journal of Instrumentation)
+- [A multi-purpose imaging endstation for high-resolution micrometer-scaled sub-second tomography](2016-a-multi-purpose-imaging-endstation-for-high-resolution-micrometer-scaled-sub-second-tomogr-btf7bvvk.md) — Goran Lovric et al. (Physica Medica)
+- [20 Hz X-ray tomography during an in situ tensile test](2016-20-hz-x-ray-tomography-during-an-in-situ-tensile-test-922rxunw.md) — Eric Maire et al. (International Journal of Fracture)
+
+### 2015
+- [X-ray computed tomography using curvelet sparse regularization](2015-x-ray-computed-tomography-using-curvelet-sparse-regularization-qgsxmz45.md) — Matthias Wieczorek et al. (Medical Physics)
+- [Software Infrastructure](2015-software-infrastructure-auma35yr.md) — Unknown authors (John Wiley & Sons, Ltd)
+- [Single-photon sensitive light-in-fight imaging](2015-single-photon-sensitive-light-in-fight-imaging-i7pz6k33.md) — Genevieve Gariepy et al. (Nature Communications)
+- [Index](2015-index-zf9gsy2r.md) — Unknown authors (John Wiley & Sons, Ltd)
+- [In vivo study of lung physiology with dynamic synchrotron-based tomographic microscopy](2015-in-vivo-study-of-lung-physiology-with-dynamic-synchrotron-based-tomographic-microscopy-pxmvblyh.md) — Goran Lovrić (thesis)
+- [Four-dimensional in vivo X-ray microscopy with projection-guided gating](2015-four-dimensional-in-vivo-x-ray-microscopy-with-projection-guided-gating-2z62g6ee.md) — Rajmund Mokso et al. (Scientific Reports)
+- [Event-Based Neuromorphic Systems](2015-event-based-neuromorphic-systems-npnq6ki3.md) — Shih-Chii Liu et al. (John Wiley & Sons)
+- [Event-Based Machine Vision](2015-event-based-machine-vision-ptdhbj65.md) — Christian Brändli (journalArticle)
+- [Deep learning](2015-deep-learning-68uqm9gh.md) — Yann LeCun et al. (Nature)
+
+### 2014
+- [TomoPy: a framework for the analysis of synchrotron tomographic data](2014-tomopy-a-framework-for-the-analysis-of-synchrotron-tomographic-data-ix96qyrv.md) — Doǧa Gürsoy et al. (Journal of Synchrotron Radiation)
+- [Sampling based on timing: Time encoding machines on shift-invariant subspaces](2014-sampling-based-on-timing-time-encoding-machines-on-shift-invariant-subspaces-2g3zml8s.md) — David Gontier et al. (Applied and Computational Harmonic Analysis)
+- [Retinomorphic Event-Based Vision Sensors: Bioinspired Cameras With Spiking Output](2014-retinomorphic-event-based-vision-sensors-bioinspired-cameras-with-spiking-output-6y4e3dyi.md) — Christoph Posch et al. (Proceedings of the IEEE)
+- [In Vivo Time-Resolved Microtomography Reveals the Mechanics of the Blowfly Flight Motor](2014-in-vivo-time-resolved-microtomography-reveals-the-mechanics-of-the-blowfly-flight-motor-b2ccpd7v.md) — Simon M. Walker et al. (PLOS Biology)
+- [Diffraction-limited storage rings – a window to the science of tomorrow](2014-diffraction-limited-storage-rings-a-window-to-the-science-of-tomorrow-qwpbxkpe.md) — M. Eriksson et al. (Journal of Synchrotron Radiation)
+- [A robust tool for photon source geometry measurements using the fractional Talbot effect](2014-a-robust-tool-for-photon-source-geometry-measurements-using-the-fractional-talbot-effect-dcycvy7g.md) — Goran Lovric et al. (Optics Express)
+- [A 240 × 180 130 dB 3 µs Latency Global Shutter Spatiotemporal Vision Sensor](2014-a-240-180-130-db-3-µs-latency-global-shutter-spatiotemporal-vision-sensor-tmzyart9.md) — Christian Brandli et al. (IEEE Journal of Solid-State Circuits)
+
+### 2013
+- [Optimization-based Image Reconstruction from Sparse-view Data in Offset-Detector CBCT](2013-optimization-based-image-reconstruction-from-sparse-view-data-in-offset-detector-cbct-ktm7e8hb.md) — Junguo Bian et al. (Physics in medicine and biology)
+- [Event-based 3D reconstruction from neuromorphic retinas](2013-event-based-3d-reconstruction-from-neuromorphic-retinas-6dfz8il9.md) — João Carneiro et al. (Neural Networks)
+- [Dose optimization approach to fast X-ray microtomography of the lung alveoli](2013-dose-optimization-approach-to-fast-x-ray-microtomography-of-the-lung-alveoli-hb9cwp7y.md) — Goran Lovric et al. (journalArticle)
+- [Constrained regularized reconstruction of X-ray-DPCI tomograms with weighted-norm](2013-constrained-regularized-reconstruction-of-x-ray-dpci-tomograms-with-weighted-norm-bgkbltv3.md) — Masih Nilchian et al. (Optics Express)
+- [Autonomous indoor exploration with an event-based visual SLAM system](2013-autonomous-indoor-exploration-with-an-event-based-visual-slam-system-ryz65d5g.md) — Raoul Hoffmann et al. (2013 European Conference on Mobile Robots)
+- [Auto-Encoding Variational Bayes](2013-auto-encoding-variational-bayes-un4kcmcq.md) — Diederik P. Kingma et al. (CoRR)
+- [Asynchronous Stereo Vision for Event-Driven Dynamic Stereo Sensor Using an Adaptive Cooperative Approach](2013-asynchronous-stereo-vision-for-event-driven-dynamic-stereo-sensor-using-an-adaptive-cooper-dp4a33uq.md) — Ewa Piatkowska et al. (2013 IEEE International Conference on Computer Vision Workshops)
+- [Advantages of phase retrieval for fast x-ray tomographic microscopy](2013-advantages-of-phase-retrieval-for-fast-x-ray-tomographic-microscopy-ru6xqsvi.md) — R. Mokso et al. (Journal of Physics D: Applied Physics)
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-wgpxq6i4.md) — Alexey Stomakhin et al. (ACM Trans. Graph.)
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-5zgyx79y.md) — Alexey Stomakhin et al. (ACM Trans. Graph.)
+
+### 2012
+- [Surgical Gesture Classification from Video Data](2012-surgical-gesture-classification-from-video-data-7ajtjf9c.md) — Benjamín Béjar Haro et al. (Medical Image Computing and Computer-Assisted Intervention – MICCAI 2012)
+- [Regridding reconstruction algorithm for real-time tomographic imaging](2012-regridding-reconstruction-algorithm-for-real-time-tomographic-imaging-5ewhk8mw.md) — F. Marone et al. (Journal of Synchrotron Radiation)
+- [FMT-XCT: in vivo animal studies with hybrid fluorescence molecular tomography–X-ray computed tomography](2012-fmt-xct-in-vivo-animal-studies-with-hybrid-fluorescence-molecular-tomographyx-ray-computed-6xmrtx9j.md) — Angelique Ale et al. (Nature Methods)
+- [Differential phase-contrast X-ray computed tomography: From model discretization to image reconstruction](2012-differential-phase-contrast-x-ray-computed-tomography-from-model-discretization-to-image-r-kqxmsnyz.md) — Masih Nilchian et al. (2012 9th IEEE International Symposium on Biomedical Imaging (ISBI))
+
+### 2011
+- [Ultrafast three-dimensional x-ray computed tomography](2011-ultrafast-three-dimensional-x-ray-computed-tomography-sla47wzv.md) — Martina Bieberle et al. (Applied Physics Letters)
+- [Adaptive deconvolutional networks for mid and high level feature learning](2011-adaptive-deconvolutional-networks-for-mid-and-high-level-feature-learning-l8l5vhgc.md) — Matthew D. Zeiler et al. (2011 International Conference on Computer Vision)
+
+### 2010
+- [The cell biology of vision](2010-the-cell-biology-of-vision-m4gmtwsr.md) — Ching-Hwa Sung et al. (The Journal of Cell Biology)
+- [On the possibilities of hard X-ray imaging with high spatio-temporal resolution using polychromatic synchrotron radiation](2010-on-the-possibilities-of-hard-x-ray-imaging-with-high-spatio-temporal-resolution-using-poly-xigrnfc3.md) — er Rack et al Alex (journalArticle)
+- [Learning Fast Approximations of Sparse Coding](2010-learning-fast-approximations-of-sparse-coding-d3vydz8u.md) — Karol Gregor et al. (International Conference on Machine Learning)
+- [Coherent methods in the X-ray sciences](2010-coherent-methods-in-the-x-ray-sciences-aidcx9lz.md) — Keith A. Nugent (Advances in Physics)
+- [A Toolbox for Easily Calibrating Omnidirectional Cameras](2010-a-toolbox-for-easily-calibrating-omnidirectional-cameras-2l9k5hqw.md) — Davide Scaramuzza (journalArticle)
+
+### 2009
+- [Synchrotron-based radioscopy employing spatio-temporal micro-resolution for studying fast phenomena in liquid metal foams](2009-synchrotron-based-radioscopy-employing-spatio-temporal-micro-resolution-for-studying-fast-a3csnbvi.md) — A. Rack et al. (Journal of Synchrotron Radiation)
+- [Science research writing for non-native speakers of English](2009-science-research-writing-for-non-native-speakers-of-english-slp2khxm.md) — Hilary Glasman-Deal (Imperial college press Distributed by World scientific publishing Co. Pte. Ltd)
+- [Digital simulation of scalar optical diffraction: revisiting chirp function sampling criteria and consequences](2009-digital-simulation-of-scalar-optical-diffraction-revisiting-chirp-function-sampling-criter-di9y3qab.md) — David G. Voelz et al. (Applied Optics)
+
+### 2008
+- [The fractional Talbot effect in differential x-ray phase-contrast imaging for extended and polychromatic x-ray sources](2008-the-fractional-talbot-effect-in-differential-x-ray-phase-contrast-imaging-for-extended-and-kr6qcu2b.md) — M. Engelhardt et al. (Journal of Microscopy)
+- [Region-of-Interest Tomography for Grating-Based X-Ray Differential Phase-Contrast Imaging](2008-region-of-interest-tomography-for-grating-based-x-ray-differential-phase-contrast-imaging-f9n5ehnc.md) — F. Pfeiffer et al. (Physical Review Letters)
+- [Projective image alignment by using ECC maximization](2008-projective-image-alignment-by-using-ecc-maximization-vwd9mazx.md) — Georgios D. Evangelidis et al. (International Conference on Computer Vision Theory and Applications)
+- [Parametric Image Alignment Using Enhanced Correlation Coefficient Maximization](2008-parametric-image-alignment-using-enhanced-correlation-coefficient-maximization-lry4dckt.md) — Georgios D. Evangelidis et al. (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+- [Image reconstruction in circular cone-beam computed tomography by constrained, total-variation minimization](2008-image-reconstruction-in-circular-cone-beam-computed-tomography-by-constrained-total-variat-48h2cb3c.md) — Emil Y Sidky et al. (Physics in Medicine and Biology)
+- [Exact Matrix Completion via Convex Optimization](2008-exact-matrix-completion-via-convex-optimization-2kiy32du.md) — Emmanuel J. Candes et al. (arXiv)
+- [Compressive Coded Aperture Superresolution Image Reconstruction](2008-compressive-coded-aperture-superresolution-image-reconstruction-9c3hkjgi.md) — Roummel F Marcia et al. (journalArticle)
+- [A 128 × 128 Asynchronous Temporal Contrast Vision Sensor with 120 dB Dynamic Range and 15 μs Latency](2008-a-128-128-asynchronous-temporal-contrast-vision-sensor-with-120-db-dynamic-range-and-15-μs-7zfbidup.md) — Patrick Lichtsteiner et al. (IEEE Journal of Solid-State Circuits)
+
+### 2007
+- [Image Alignment and Stitching: A Tutorial](2007-image-alignment-and-stitching-a-tutorial-3hpb88qn.md) — Richard Szeliski (journalArticle)
+- [Framing Theory](2007-framing-theory-jcnlqzvq.md) — Dennis Chong et al. (Annual Review of Political Science)
+
+### 2006
+- [Trends in synchrotron-based tomographic imaging: the SLS experience](2006-trends-in-synchrotron-based-tomographic-imaging-the-sls-experience-tjatsgia.md) — M. Stampanoni et al. (Developments in X-Ray Tomography V)
+- [Tomography with grating interferometers at low-brilliance sources](2006-tomography-with-grating-interferometers-at-low-brilliance-sources-uypsttzw.md) — Timm Weitkamp et al. (SPIE Optics + Photonics)
+- [Tomographic Approach for Sampling Multidimensional Signals with Finite Rate of Innovation](2006-tomographic-approach-for-sampling-multidimensional-signals-with-finite-rate-of-innovation-k2esuywg.md) — Pancham Shukla et al. (International Conference on Image Processing (ICIP))
+- [Stable signal recovery from incomplete and inaccurate measurements](2006-stable-signal-recovery-from-incomplete-and-inaccurate-measurements-ulpguxtd.md) — Emmanuel J. Candès et al. (Communications on Pure and Applied Mathematics)
+- [Phase retrieval and differential phase-contrast imaging with low-brilliance X-ray sources](2006-phase-retrieval-and-differential-phase-contrast-imaging-with-low-brilliance-x-ray-sources-ddwkpkpf.md) — Franz Pfeiffer et al. (Nature Physics)
+
+### 2005
+- [Time Encoding of Bandlimited Signals, an Overview](2005-time-encoding-of-bandlimited-signals-an-overview-gay8gh7z.md) — Aurel A Lazar (journalArticle)
+- [Fast recovery algorithms for time encoded bandlimited signals](2005-fast-recovery-algorithms-for-time-encoded-bandlimited-signals-azzip9g2.md) — A.A. Lazar et al. (IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP))
+
+### 2004
+- [Time encoding with an integrate-and-fire neuron with a refractory period](2004-time-encoding-with-an-integrate-and-fire-neuron-with-a-refractory-period-nhvuj2lw.md) — Aurel A. Lazar (Neurocomputing)
+- [Lucas-Kanade 20 Years On: A Unifying Framework](2004-lucas-kanade-20-years-on-a-unifying-framework-48wtrtc3.md) — Simon Baker et al. (International Journal of Computer Vision)
+- [Least Angle Regression](2004-least-angle-regression-7li9pbxc.md) — Bradley Efron et al. (report)
+- [Interpolation with nonuniform B-splines](2004-interpolation-with-nonuniform-b-splines-7qwdedj3.md) — E. Margolis et al. (2004 IEEE International Conference on Acoustics, Speech, and Signal Processing)
+
+### 2003
+- [Time encoding and perfect recovery of bandlimited signals](2003-time-encoding-and-perfect-recovery-of-bandlimited-signals-86394c4a.md) — A.A. Lazar et al. (2003 IEEE International Conference on Acoustics, Speech, and Signal Processing, 2003. Proceedings. (ICASSP '03).)
+- [Dynamic X-ray computed tomography](2003-dynamic-x-ray-computed-tomography-6x7s2q7c.md) — S. Bonnet et al. (Proceedings of the IEEE)
+
+### 2002
+- [Sampling Signals of Finite Rate of Innovation](2002-sampling-signals-of-finite-rate-of-innovation-7nzhis8s.md) — Martin Vetterli (journalArticle)
+
+### 2001
+- [Principles of computerized tomographic imaging](2001-principles-of-computerized-tomographic-imaging-g9f3b82l.md) — Avinash C. Kak et al. (Society for Industrial and Applied Mathematics (SIAM, 3600 Market Street, Floor 6, Philadelphia, PA 19104))
+- [Nonuniform Sampling and Reconstruction in Shift-Invariant Spaces](2001-nonuniform-sampling-and-reconstruction-in-shift-invariant-spaces-byxlpsls.md) — Akram Aldroubi et al. (SIAM Review)
+
+### 1996
+- [Phase objects in synchrotron radiation hard x-ray imaging](1996-phase-objects-in-synchrotron-radiation-hard-x-ray-imaging-i6bfv7zv.md) — Peter Cloetens et al. (Journal of Physics D: Applied Physics)
+- [Local computed tomography via iterative deblurring](1996-local-computed-tomography-via-iterative-deblurring-nfrwt7xq.md) — Ge Wang Donald et al. (Scanning)
+
+### 1992
+- [VLSI analogs of neuronal visual processing: a synthesis of form and function](1992-vlsi-analogs-of-neuronal-visual-processing-a-synthesis-of-form-and-function-htlt59pn.md) — Michelle A. Mahowald (thesis)
+
+### 1991
+- [A silicon neuron](1991-a-silicon-neuron-sjzy6mlt.md) — Misha Mahowald et al. (Nature)
+
+### 1984
+- [Simultaneous Algebraic Reconstruction Technique (SART): A Superior Implementation of the Art Algorithm](1984-simultaneous-algebraic-reconstruction-technique-sart-a-superior-implementation-of-the-art-4t3adqqc.md) — A. H. Andersen et al. (Ultrasonic Imaging)
+- [Ray tracing volume densities](1984-ray-tracing-volume-densities-ywu4fyi7.md) — James T. Kajiya et al. (ACM SIGGRAPH Computer Graphics)
+- [Practical cone-beam algorithm](1984-practical-cone-beam-algorithm-aj2f9ef7.md) — L. A. Feldkamp et al. (Journal of the Optical Society of America A)
+
+### undated
+- [部分相干衍射成像综述](undated-部分相干衍射成像综述-xmzflzd8.md) — Unknown authors (webpage)
+- [深度学习下的计算成像:现状、挑战与未来 下载： 11817次特邀综述 | 光学学报 -- 中国光学期刊网](undated-深度学习下的计算成像现状挑战与未来-下载-11817次特邀综述-光学学报-中国光学期刊网-hliuicin.md) — Unknown authors (webpage)
+- [[PDF] Deep Polarization Reconstruction with PDAVIS Events | Semantic Scholar](undated-pdf-deep-polarization-reconstruction-with-pdavis-events-semantic-scholar-ixu6fa93.md) — Unknown authors (webpage)
+- [Tomographic Image Reconstruction. - An Introduction.](undated-tomographic-image-reconstruction-an-introduction-rg6fbi6n.md) — Milan Zvolský (journalArticle)
+- [The interplay between events and frames: A comprehensive explanation](undated-the-interplay-between-events-and-frames-a-comprehensive-explanation-28ftrplk.md) — R B Benosman (New York)
+- [The high speed microstrip detector Gotthard-II: Architecture, features and applications](undated-the-high-speed-microstrip-detector-gotthard-ii-architecture-features-and-applications-w42xtmhr.md) — Jiaguo Zhang (journalArticle)
+- [Technical Note : EVS characteristics definition](undated-technical-note-evs-characteristics-definition-qu7wg4ah.md) — Unknown authors (journalArticle)
+- [Supplementary Material: Multi-Bracket High Dynamic Range Imaging with Event Cameras](undated-supplementary-material-multi-bracket-high-dynamic-range-imaging-with-event-cameras-vkledrr4.md) — Nico Messikommer et al. (journalArticle)
+- [Supplementary Material — Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion](undated-supplementary-material-time-lens-event-based-frame-interpolation-with-parametric-non-linea-xbr33qeu.md) — Stepan Tulyakov et al. (journalArticle)
+- [Sub-second X-ray tomographic microscopy of liquid water dynamics in polymer electrolyte fuel cells](undated-sub-second-x-ray-tomographic-microscopy-of-liquid-water-dynamics-in-polymer-electrolyte-fu-vhec5pqg.md) — Minna Bührer et al. (journalArticle)
+- [RE-THINKING COMPUTING WITH NEURO-INSPIRED LEARNING: ALGORITHMS TO HARDWARE](undated-re-thinking-computing-with-neuro-inspired-learning-algorithms-to-hardware-vi9a56aj.md) — Kaushik Roy (journalArticle)
+- [Navigating the Latent Spaces  of Deep Neural Networks](undated-navigating-the-latent-spaces-of-deep-neural-networks-hcdms43f.md) — Yannic Kilcher et al. (journalArticle)
+- [Microscopie de second harmonique résolue en polarisations linéaire et circulaire pour caractériser l'organisation 3D du collagène](undated-microscopie-de-second-harmonique-résolue-en-polarisations-linéaire-et-circulaire-pour-cara-yfdqm9zg.md) — Margaux Schmeltz (journalArticle)
+- [Low Temperature Kerr Eﬀect Study of Magnetic Topological Insulators and Other Magnetic Structures](undated-low-temperature-kerr-eﬀect-study-of-magnetic-topological-insulators-and-other-magnetic-str-fs9vbu2z.md) — Jieyi Liu (journalArticle)
+- [Limited-angle computed tomography with deep image and physics priors | Scientific Reports](undated-limited-angle-computed-tomography-with-deep-image-and-physics-priors-scientific-reports-hdcij5be.md) — Unknown authors (webpage)
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-9kmbu2ix.md) — Yixin Gao et al. (journalArticle)
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-zinl9usm.md) — Yixin Gao et al. (journalArticle)
+- [Industrial DVS Design; Key Features and Applications](undated-industrial-dvs-design-key-features-and-applications-72k9xc9c.md) — Hyunsurk Eric Ryu (journalArticle)
+- [Hardware optical flow from event cameras](undated-hardware-optical-flow-from-event-cameras-5md6yrqb.md) — Min Liu (journalArticle)
+- [Genetic and Evolutionary Computation](undated-genetic-and-evolutionary-computation-tzjjih8b.md) — Wolfgang Banzhaf et al. (journalArticle)
+- [Fourth Generation Light Sources](undated-fourth-generation-light-sources-n5lvah94.md) — Herman Winick (journalArticle)
+- [EVA-: Event-Assisted Video Frame Interpolation via Cross-Modal Alignment and Aggregation | IEEE Journals & Magazine | IEEE Xplore](undated-eva-event-assisted-video-frame-interpolation-via-cross-modal-alignment-and-aggregation-iee-zjvkfc3w.md) — Unknown authors (webpage)
+- [Dynamic EventNeRF: Reconstructing General Dynamic Scenes from Multi-view Event Cameras](undated-dynamic-eventnerf-reconstructing-general-dynamic-scenes-from-multi-view-event-cameras-4xsq298c.md) — Viktor Rudnev et al. (journalArticle)
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-u2dqhc4z.md) — Goran Lovric et al. (journalArticle)
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-xzt6e9fa.md) — Goran Lovric et al. (journalArticle)
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-hmpw48h9.md) — Goran Lovric et al. (journalArticle)
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-3i9y2zlv.md) — Baiwei Guo (journalArticle)
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-eupj4yq8.md) — Baiwei Guo (journalArticle)
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-z8w8bgwe.md) — Baiwei Guo (journalArticle)
+- [Computer Vision: Algorithms and Applications, 2nd Edition](undated-computer-vision-algorithms-and-applications-2nd-edition-zyndge2v.md) — Richard Szeliski (journalArticle)
+- [Coding and sampling for compressive tomography](undated-coding-and-sampling-for-compressive-tomography-gqgybrqq.md) — David Brady (journalArticle)
+- [CS5242 : Neural Networks and Deep Learning](undated-cs5242-neural-networks-and-deep-learning-q3hfu6gs.md) — Xavier Bresson (journalArticle)
+- [CMOS Sensors For Electron and X-Rays Detectors](undated-cmos-sensors-for-electron-and-x-rays-detectors-vplu9z9k.md) — Nicola Guerrini (journalArticle)
+- [Biologically inspired evolution and adaptation in artificial neural networks](undated-biologically-inspired-evolution-and-adaptation-in-artificial-neural-networks-4suj3atp.md) — Alexander Hadjiivanov (journalArticle)
+- [Advancing X-ray imaging with deep learning](undated-advancing-x-ray-imaging-with-deep-learning-lv2tiqqa.md) — Yuhe Zhang (journalArticle)
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-4v8s2qkf.md) — Misha A Mahowald et al. (journalArticle)
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-2b5ymr2e.md) — Misha A Mahowald et al. (journalArticle)
+
+## By Collection
+
+### 整理_待处理 / 无 PDF 附件
+- [5.10 A 1280×720 Back-Illuminated Stacked Temporal Contrast Event-Based Vision Sensor with 4.86µm Pixels, 1.066GEPS Readout, Programmable Event-Rate Controller and Compressive Data-Formatting Pipeline](2020-510-a-1280720-back-illuminated-stacked-temporal-contrast-event-based-vision-sensor-with-48-cmmbdmtz.md) — 2020
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-wgpxq6i4.md) — 2013
+- [Current and Future Perspectives on Computed Tomography Screening for Lung Cancer: A Roadmap From 2023 to 2027 From the International Association for the Study of Lung Cancer](2024-current-and-future-perspectives-on-computed-tomography-screening-for-lung-cancer-a-roadmap-4jlcl833.md) — 2024
+- [Deformable Neural Radiance Fields using RGB and Event Cameras](2023-deformable-neural-radiance-fields-using-rgb-and-event-cameras-wapf6ctq.md) — 2023
+- [Disentangled Cross-modal Fusion for Event-Guided Image Super-resolution](2024-disentangled-cross-modal-fusion-for-event-guided-image-super-resolution-rjpzjk3i.md) — 2024
+- [Dynamic Tomography Reconstruction via Low-Rank Modeling with a RED Spatial Prior](2023-dynamic-tomography-reconstruction-via-low-rank-modeling-with-a-red-spatial-prior-w26mnegg.md) — 2023
+- [EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time](2018-emvs-event-based-multi-view-stereo3d-reconstruction-with-an-event-camera-in-real-time-sxpb8hf5.md) — 2018
+- [EVA2: Event-Assisted Video Frame Interpolation via Cross-Modal Alignment and Aggregation](2022-eva2-event-assisted-video-frame-interpolation-via-cross-modal-alignment-and-aggregation-x6jcf2aw.md) — 2022
+- [Event-based 3D reconstruction from neuromorphic retinas](2013-event-based-3d-reconstruction-from-neuromorphic-retinas-6dfz8il9.md) — 2013
+- [Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields](2023-event-based-video-frame-interpolation-with-cross-modal-asymmetric-bidirectional-motion-fie-u5lijc9y.md) — 2023
+- [Event-guided temporally super-resolved synchrotron X-ray imaging](2025-event-guided-temporally-super-resolved-synchrotron-x-ray-imaging-i586mn8f.md) — 2025
+- [Modeling and decoding event-based sensor lightning response](2023-modeling-and-decoding-event-based-sensor-lightning-response-ea232vtg.md) — 2023
+- [NeRF-XL: Scaling NeRFs with Multiple GPUs](2024-nerf-xl-scaling-nerfs-with-multiple-gpus-a6zadz9s.md) — 2024
+- [Neuromorphic vision sensors: Principle, progress and perspectives](2021-neuromorphic-vision-sensors-principle-progress-and-perspectives-69rgrr88.md) — 2021
+- [PDAVIS: Bio-inspired Polarization Event Camera](2023-pdavis-bio-inspired-polarization-event-camera-qc48nuwb.md) — 2023
+- [Recent developments in MHz radioscopy: Towards the ultimate temporal resolution using storage ring-based light sources](2024-recent-developments-in-mhz-radioscopy-towards-the-ultimate-temporal-resolution-using-stora-qbxxnzy9.md) — 2024
+- [Reconstructing Knee CT Volumes from Biplanar X-Rays Via Self-Supervised Neural Field](2024-reconstructing-knee-ct-volumes-from-biplanar-x-rays-via-self-supervised-neural-field-lb5w5nzr.md) — 2024
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-iwsxqaia.md) — 2024
+- [Simultaneous Optical Flow and Intensity Estimation from an Event Camera](2016-simultaneous-optical-flow-and-intensity-estimation-from-an-event-camera-udg4mqb6.md) — 2016
+- [Structure-from-Motion Revisited](2016-structure-from-motion-revisited-7z6afkkc.md) — 2016
+- [The fractional Talbot effect in differential x-ray phase-contrast imaging for extended and polychromatic x-ray sources](2008-the-fractional-talbot-effect-in-differential-x-ray-phase-contrast-imaging-for-extended-and-kr6qcu2b.md) — 2008
+- [Time encoding with an integrate-and-fire neuron with a refractory period](2004-time-encoding-with-an-integrate-and-fire-neuron-with-a-refractory-period-nhvuj2lw.md) — 2004
+- [TomoPhantom, a software package to generate 2D–4D analytical phantoms for CT image reconstruction algorithm benchmarks](2018-tomophantom-a-software-package-to-generate-2d4d-analytical-phantoms-for-ct-image-reconstru-s827xyxa.md) — 2018
+
+### 整理_待处理 / 缺年份
+- [[PDF] Deep Polarization Reconstruction with PDAVIS Events | Semantic Scholar](undated-pdf-deep-polarization-reconstruction-with-pdavis-events-semantic-scholar-ixu6fa93.md) — undated
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-4v8s2qkf.md) — undated
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-2b5ymr2e.md) — undated
+- [Advancing X-ray imaging with deep learning](undated-advancing-x-ray-imaging-with-deep-learning-lv2tiqqa.md) — undated
+- [Biologically inspired evolution and adaptation in artificial neural networks](undated-biologically-inspired-evolution-and-adaptation-in-artificial-neural-networks-4suj3atp.md) — undated
+- [CMOS Sensors For Electron and X-Rays Detectors](undated-cmos-sensors-for-electron-and-x-rays-detectors-vplu9z9k.md) — undated
+- [Coding and sampling for compressive tomography](undated-coding-and-sampling-for-compressive-tomography-gqgybrqq.md) — undated
+- [Computer Vision: Algorithms and Applications, 2nd Edition](undated-computer-vision-algorithms-and-applications-2nd-edition-zyndge2v.md) — undated
+- [CS5242 : Neural Networks and Deep Learning](undated-cs5242-neural-networks-and-deep-learning-q3hfu6gs.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-3i9y2zlv.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-eupj4yq8.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-z8w8bgwe.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-u2dqhc4z.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-xzt6e9fa.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-hmpw48h9.md) — undated
+- [Dynamic EventNeRF: Reconstructing General Dynamic Scenes from Multi-view Event Cameras](undated-dynamic-eventnerf-reconstructing-general-dynamic-scenes-from-multi-view-event-cameras-4xsq298c.md) — undated
+- [EVA-: Event-Assisted Video Frame Interpolation via Cross-Modal Alignment and Aggregation | IEEE Journals & Magazine | IEEE Xplore](undated-eva-event-assisted-video-frame-interpolation-via-cross-modal-alignment-and-aggregation-iee-zjvkfc3w.md) — undated
+- [Hardware optical flow from event cameras](undated-hardware-optical-flow-from-event-cameras-5md6yrqb.md) — undated
+- [Industrial DVS Design; Key Features and Applications](undated-industrial-dvs-design-key-features-and-applications-72k9xc9c.md) — undated
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-9kmbu2ix.md) — undated
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-zinl9usm.md) — undated
+- [Limited-angle computed tomography with deep image and physics priors | Scientific Reports](undated-limited-angle-computed-tomography-with-deep-image-and-physics-priors-scientific-reports-hdcij5be.md) — undated
+- [Low Temperature Kerr Eﬀect Study of Magnetic Topological Insulators and Other Magnetic Structures](undated-low-temperature-kerr-eﬀect-study-of-magnetic-topological-insulators-and-other-magnetic-str-fs9vbu2z.md) — undated
+- [Navigating the Latent Spaces  of Deep Neural Networks](undated-navigating-the-latent-spaces-of-deep-neural-networks-hcdms43f.md) — undated
+- [RE-THINKING COMPUTING WITH NEURO-INSPIRED LEARNING: ALGORITHMS TO HARDWARE](undated-re-thinking-computing-with-neuro-inspired-learning-algorithms-to-hardware-vi9a56aj.md) — undated
+- [Sub-second X-ray tomographic microscopy of liquid water dynamics in polymer electrolyte fuel cells](undated-sub-second-x-ray-tomographic-microscopy-of-liquid-water-dynamics-in-polymer-electrolyte-fu-vhec5pqg.md) — undated
+- [Supplementary Material — Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion](undated-supplementary-material-time-lens-event-based-frame-interpolation-with-parametric-non-linea-xbr33qeu.md) — undated
+- [Supplementary Material: Multi-Bracket High Dynamic Range Imaging with Event Cameras](undated-supplementary-material-multi-bracket-high-dynamic-range-imaging-with-event-cameras-vkledrr4.md) — undated
+- [Technical Note : EVS characteristics definition](undated-technical-note-evs-characteristics-definition-qu7wg4ah.md) — undated
+- [The high speed microstrip detector Gotthard-II: Architecture, features and applications](undated-the-high-speed-microstrip-detector-gotthard-ii-architecture-features-and-applications-w42xtmhr.md) — undated
+- [The interplay between events and frames: A comprehensive explanation](undated-the-interplay-between-events-and-frames-a-comprehensive-explanation-28ftrplk.md) — undated
+- [Tomographic Image Reconstruction. - An Introduction.](undated-tomographic-image-reconstruction-an-introduction-rg6fbi6n.md) — undated
+- [深度学习下的计算成像:现状、挑战与未来 下载： 11817次特邀综述 | 光学学报 -- 中国光学期刊网](undated-深度学习下的计算成像现状挑战与未来-下载-11817次特邀综述-光学学报-中国光学期刊网-hliuicin.md) — undated
+- [部分相干衍射成像综述](undated-部分相干衍射成像综述-xmzflzd8.md) — undated
+
+### 整理_待处理 / 论文类缺 DOI
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-4v8s2qkf.md) — undated
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-2b5ymr2e.md) — undated
+- [Advancing X-ray imaging with deep learning](undated-advancing-x-ray-imaging-with-deep-learning-lv2tiqqa.md) — undated
+- [Biologically inspired evolution and adaptation in artificial neural networks](undated-biologically-inspired-evolution-and-adaptation-in-artificial-neural-networks-4suj3atp.md) — undated
+- [CMOS Sensors For Electron and X-Rays Detectors](undated-cmos-sensors-for-electron-and-x-rays-detectors-vplu9z9k.md) — undated
+- [Coding and sampling for compressive tomography](undated-coding-and-sampling-for-compressive-tomography-gqgybrqq.md) — undated
+- [Computer Vision: Algorithms and Applications, 2nd Edition](undated-computer-vision-algorithms-and-applications-2nd-edition-zyndge2v.md) — undated
+- [CS5242 : Neural Networks and Deep Learning](undated-cs5242-neural-networks-and-deep-learning-q3hfu6gs.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-3i9y2zlv.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-eupj4yq8.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-z8w8bgwe.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-u2dqhc4z.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-xzt6e9fa.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-hmpw48h9.md) — undated
+- [Digital Copy of First Edition - Accepted for Printing by MIT Press](2022-digital-copy-of-first-edition-accepted-for-printing-by-mit-press-km9xwh2d.md) — 2022
+- [Dynamic EventNeRF: Reconstructing General Dynamic Scenes from Multi-view Event Cameras](undated-dynamic-eventnerf-reconstructing-general-dynamic-scenes-from-multi-view-event-cameras-4xsq298c.md) — undated
+- [Hardware optical flow from event cameras](undated-hardware-optical-flow-from-event-cameras-5md6yrqb.md) — undated
+- [Industrial DVS Design; Key Features and Applications](undated-industrial-dvs-design-key-features-and-applications-72k9xc9c.md) — undated
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-9kmbu2ix.md) — undated
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-zinl9usm.md) — undated
+- [Learning a Multi-View Stereo Machine](2017-learning-a-multi-view-stereo-machine-5jfxs3be.md) — 2017
+- [Learning Fast Approximations of Sparse Coding](2010-learning-fast-approximations-of-sparse-coding-d3vydz8u.md) — 2010
+- [Low Temperature Kerr Eﬀect Study of Magnetic Topological Insulators and Other Magnetic Structures](undated-low-temperature-kerr-eﬀect-study-of-magnetic-topological-insulators-and-other-magnetic-str-fs9vbu2z.md) — undated
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos](2024-modgs-dynamic-gaussian-splatting-from-casually-captured-monocular-videos-rq259clb.md) — 2024
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos](2024-modgs-dynamic-gaussian-splatting-from-casually-captured-monocular-videos-2myvwen5.md) — 2024
+- [Navigating the Latent Spaces  of Deep Neural Networks](undated-navigating-the-latent-spaces-of-deep-neural-networks-hcdms43f.md) — undated
+- [NeRF for 3D Reconstruction from X-ray Angiography](2023-nerf-for-3d-reconstruction-from-x-ray-angiography-bd7fpbvy.md) — 2023
+- [RE-THINKING COMPUTING WITH NEURO-INSPIRED LEARNING: ALGORITHMS TO HARDWARE](undated-re-thinking-computing-with-neuro-inspired-learning-algorithms-to-hardware-vi9a56aj.md) — undated
+- [Sub-second X-ray tomographic microscopy of liquid water dynamics in polymer electrolyte fuel cells](undated-sub-second-x-ray-tomographic-microscopy-of-liquid-water-dynamics-in-polymer-electrolyte-fu-vhec5pqg.md) — undated
+- [Supplementary Material — Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion](undated-supplementary-material-time-lens-event-based-frame-interpolation-with-parametric-non-linea-xbr33qeu.md) — undated
+- [Supplementary Material: Multi-Bracket High Dynamic Range Imaging with Event Cameras](undated-supplementary-material-multi-bracket-high-dynamic-range-imaging-with-event-cameras-vkledrr4.md) — undated
+- [Technical Note : EVS characteristics definition](undated-technical-note-evs-characteristics-definition-qu7wg4ah.md) — undated
+- [The high speed microstrip detector Gotthard-II: Architecture, features and applications](undated-the-high-speed-microstrip-detector-gotthard-ii-architecture-features-and-applications-w42xtmhr.md) — undated
+- [The interplay between events and frames: A comprehensive explanation](undated-the-interplay-between-events-and-frames-a-comprehensive-explanation-28ftrplk.md) — undated
+- [Time Encoding of Bandlimited Signals, an Overview](2005-time-encoding-of-bandlimited-signals-an-overview-gay8gh7z.md) — 2005
+- [Tomographic Image Reconstruction. - An Introduction.](undated-tomographic-image-reconstruction-an-introduction-rg6fbi6n.md) — undated
+- [光场调控专题导读](2022-光场调控专题导读-chnbxadw.md) — 2022
+
+### 整理_待处理 / 重复候选_DOI
+- [(PDF) MedNeRF: Medical Neural Radiance Fields for Reconstructing 3D-aware CT-Projections from a Single X-ray](2022-pdf-mednerf-medical-neural-radiance-fields-for-reconstructing-3d-aware-ct-projections-from-l8d9aims.md) — 2022
+- [5.10 A 1280×720 Back-Illuminated Stacked Temporal Contrast Event-Based Vision Sensor with 4.86µm Pixels, 1.066GEPS Readout, Programmable Event-Rate Controller and Compressive Data-Formatting Pipeline](2020-510-a-1280720-back-illuminated-stacked-temporal-contrast-event-based-vision-sensor-with-48-cmmbdmtz.md) — 2020
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-wgpxq6i4.md) — 2013
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-5zgyx79y.md) — 2013
+- [A Short Course on Frame Theory](2017-a-short-course-on-frame-theory-xemtvrhq.md) — 2017
+- [A Survey on Event-driven 3D Reconstruction: Development under Different Categories](2025-a-survey-on-event-driven-3d-reconstruction-development-under-different-categories-9ftz4969.md) — 2025
+- [Benchmarking Implicit Neural Representation and Geometric Rendering in Real-Time RGB-D SLAM](2024-benchmarking-implicit-neural-representation-and-geometric-rendering-in-real-time-rgb-d-sla-wxyy8j5f.md) — 2024
+- [CoGS: Controllable Gaussian Splatting](2024-cogs-controllable-gaussian-splatting-ukb4ig2f.md) — 2024
+- [CoGS: Controllable Gaussian Splatting](2024-cogs-controllable-gaussian-splatting-8l2q7zjh.md) — 2024
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](2024-compact-3d-gaussian-splatting-for-static-and-dynamic-radiance-fields-j688r9et.md) — 2024
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](2024-compact-3d-gaussian-splatting-for-static-and-dynamic-radiance-fields-k9i9itkh.md) — 2024
+- [Computer Vision: Algorithms and Applications](2022-computer-vision-algorithms-and-applications-gimhdrb4.md) — 2022
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2024-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-gx3d2x2n.md) — 2024
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2024-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-vjzqrhei.md) — 2024
+- [Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images](2024-depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-t9liww63.md) — 2024
+- [Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images](2024-depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-bgi2j92k.md) — 2024
+- [Differentiable surface splatting for point-based geometry processing](2019-differentiable-surface-splatting-for-point-based-geometry-processing-beldvtji.md) — 2019
+- [Disentangled Cross-modal Fusion for Event-Guided Image Super-resolution](2024-disentangled-cross-modal-fusion-for-event-guided-image-super-resolution-rjpzjk3i.md) — 2024
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](2024-dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-dyk6mbr5.md) — 2024
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](2024-dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-w986l2dm.md) — 2024
+- [Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos](2024-dynamic-gaussian-marbles-for-novel-view-synthesis-of-casual-monocular-videos-ii4qa7dq.md) — 2024
+- [Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos](2024-dynamic-gaussian-marbles-for-novel-view-synthesis-of-casual-monocular-videos-jcmz5pj9.md) — 2024
+- [Dynamic Tomography Reconstruction via Low-Rank Modeling with a RED Spatial Prior](2023-dynamic-tomography-reconstruction-via-low-rank-modeling-with-a-red-spatial-prior-w26mnegg.md) — 2023
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](2023-dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-sp-zu7b8imv.md) — 2023
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](2023-dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-sp-mg2zlxk9.md) — 2023
+- [E-3DGS: Gaussian Splatting with Exposure and Motion Events](2024-e-3dgs-gaussian-splatting-with-exposure-and-motion-events-44ec9g44.md) — 2024
+- [EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time](2018-emvs-event-based-multi-view-stereo3d-reconstruction-with-an-event-camera-in-real-time-sxpb8hf5.md) — 2018
+- [End-to-End Learning of Representations for Asynchronous Event-Based Data](2019-end-to-end-learning-of-representations-for-asynchronous-event-based-data-jpcymfqz.md) — 2019
+- [Event-based 3D reconstruction from neuromorphic retinas](2013-event-based-3d-reconstruction-from-neuromorphic-retinas-6dfz8il9.md) — 2013
+- [Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields](2023-event-based-video-frame-interpolation-with-cross-modal-asymmetric-bidirectional-motion-fie-u5lijc9y.md) — 2023
+- [Event-based vision sensor for fast and dense single-molecule localization microscopy](2023-event-based-vision-sensor-for-fast-and-dense-single-molecule-localization-microscopy-x2tcfuwd.md) — 2023
+- [GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis](2023-gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis-wyfstel4.md) — 2023
+- [GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis](2023-gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis-v3i9u6iw.md) — 2023
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](2024-gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-7859iuzi.md) — 2024
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](2024-gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-ygpqywgj.md) — 2024
+- [Globally-Optimal Event Camera Motion Estimation](2020-globally-optimal-event-camera-motion-estimation-9jjfxkri.md) — 2020
+- [Hard x-ray multi-projection imaging for single-shot approaches](2018-hard-x-ray-multi-projection-imaging-for-single-shot-approaches-23zs8zim.md) — 2018
+- [Image reconstruction in circular cone-beam computed tomography by constrained, total-variation minimization](2008-image-reconstruction-in-circular-cone-beam-computed-tomography-by-constrained-total-variat-48h2cb3c.md) — 2008
+- [Implementation of a dual-phase grating interferometer for multi-scale characterization of building materials by tunable dark-field imaging](2024-implementation-of-a-dual-phase-grating-interferometer-for-multi-scale-characterization-of-8dtp5f29.md) — 2024
+- [Improving 3D Imaging with Pre-Trained Perpendicular 2D Diffusion Models](2023-improving-3d-imaging-with-pre-trained-perpendicular-2d-diffusion-models-84vm4dck.md) — 2023
+- [Instant neural graphics primitives with a multiresolution hash encoding](2022-instant-neural-graphics-primitives-with-a-multiresolution-hash-encoding-zibtbsnu.md) — 2022
+- [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](2023-k-planes-explicit-radiance-fields-in-space-time-and-appearance-52riyz4b.md) — 2023
+- [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](2023-k-planes-explicit-radiance-fields-in-space-time-and-appearance-jx2e8ign.md) — 2023
+- [Latency Correction for Event-Guided Deblurring and Frame Interpolation](2024-latency-correction-for-event-guided-deblurring-and-frame-interpolation-rvfv5zgm.md) — 2024
+- [Learning to Extract a Video Sequence from a Single Motion-Blurred Image](2018-learning-to-extract-a-video-sequence-from-a-single-motion-blurred-image-zvgifppt.md) — 2018
+- [Low-latency automotive vision with event cameras](2024-low-latency-automotive-vision-with-event-cameras-lbzx6dpj.md) — 2024
+- [Minimalist Vision with Freeform Pixels](2025-minimalist-vision-with-freeform-pixels-22p27q56.md) — 2025
+- [Modeling and decoding event-based sensor lightning response](2023-modeling-and-decoding-event-based-sensor-lightning-response-ea232vtg.md) — 2023
+- [Motion and Structure from Event-based Normal Flow](2024-motion-and-structure-from-event-based-normal-flow-djz5m3f6.md) — 2024
+- [Multi-Bracket High Dynamic Range Imaging with Event Cameras](2022-multi-bracket-high-dynamic-range-imaging-with-event-cameras-4b45tfub.md) — 2022
+- [Multibeam x-ray optical system for high-speed tomography](2020-multibeam-x-ray-optical-system-for-high-speed-tomography-868e9dhy.md) — 2020
+- [NeRF-XL: Scaling NeRFs with Multiple GPUs](2024-nerf-xl-scaling-nerfs-with-multiple-gpus-a6zadz9s.md) — 2024
+- [Nerfies: Deformable Neural Radiance Fields](2021-nerfies-deformable-neural-radiance-fields-uullrap4.md) — 2021
+- [Neural rendering enables dynamic tomography](2024-neural-rendering-enables-dynamic-tomography-ncwwekc3.md) — 2024
+- [Neuromorphic vision sensors: Principle, progress and perspectives](2021-neuromorphic-vision-sensors-principle-progress-and-perspectives-69rgrr88.md) — 2021
+- [Over 100 Million Frames per Second 368 Frames Global Shutter Burst CMOS Image Sensor with Pixel-wise Trench Capacitor Memory Array](2020-over-100-million-frames-per-second-368-frames-global-shutter-burst-cmos-image-sensor-with-hdmgfr8v.md) — 2020
+- [PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification](2023-pac-nerf-physics-augmented-continuum-neural-radiance-fields-for-geometry-agnostic-system-i-6bfxgj4p.md) — 2023
+- [PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification](2023-pac-nerf-physics-augmented-continuum-neural-radiance-fields-for-geometry-agnostic-system-i-5etvr8fv.md) — 2023
+- [PDAVIS: Bio-inspired Polarization Event Camera](2023-pdavis-bio-inspired-polarization-event-camera-qc48nuwb.md) — 2023
+- [Photon-efficient imaging with a single-photon camera](2016-photon-efficient-imaging-with-a-single-photon-camera-ywb4ybhh.md) — 2016
+- [PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics](2024-physgaussian-physics-integrated-3d-gaussians-for-generative-dynamics-ng8l6jsc.md) — 2024
+- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos-wlxq9ieb.md) — 2025
+- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos-vxtez538.md) — 2025
+- [Plenoxels: Radiance Fields without Neural Networks](2021-plenoxels-radiance-fields-without-neural-networks-pju7itiz.md) — 2021
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](2023-real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splat-yypviyfp.md) — 2023
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](2023-real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splat-u69pssck.md) — 2023
+- [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](2016-real-time-single-image-and-video-super-resolution-using-an-efficient-sub-pixel-convolution-ky78sse7.md) — 2016
+- [Recent developments in MHz radioscopy: Towards the ultimate temporal resolution using storage ring-based light sources](2024-recent-developments-in-mhz-radioscopy-towards-the-ultimate-temporal-resolution-using-stora-qbxxnzy9.md) — 2024
+- [Reconstructing Knee CT Volumes from Biplanar X-Rays Via Self-Supervised Neural Field](2024-reconstructing-knee-ct-volumes-from-biplanar-x-rays-via-self-supervised-neural-field-lb5w5nzr.md) — 2024
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-zvxk3ulq.md) — 2024
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-iwsxqaia.md) — 2024
+- [Regridding reconstruction algorithm for real-time tomographic imaging](2012-regridding-reconstruction-algorithm-for-real-time-tomographic-imaging-5ewhk8mw.md) — 2012
+- [Review of high-speed imaging with lab-based x-ray computed tomography](2021-review-of-high-speed-imaging-with-lab-based-x-ray-computed-tomography-8qqrq88t.md) — 2021
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](2024-sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes-ixpvrr2z.md) — 2024
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](2024-sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes-ih8xq5vk.md) — 2024
+- [Simultaneous Optical Flow and Intensity Estimation from an Event Camera](2016-simultaneous-optical-flow-and-intensity-estimation-from-an-event-camera-udg4mqb6.md) — 2016
+- [Single-photon sensitive light-in-fight imaging](2015-single-photon-sensitive-light-in-fight-imaging-i7pz6k33.md) — 2015
+- [SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams](2024-spikereveal-unlocking-temporal-sequences-from-real-blurry-inputs-with-spike-streams-k4gwhzsy.md) — 2024
+- [Structure-from-Motion Revisited](2016-structure-from-motion-revisited-7z6afkkc.md) — 2016
+- [The fractional Talbot effect in differential x-ray phase-contrast imaging for extended and polychromatic x-ray sources](2008-the-fractional-talbot-effect-in-differential-x-ray-phase-contrast-imaging-for-extended-and-kr6qcu2b.md) — 2008
+- [The material point method for simulating continuum materials](2016-the-material-point-method-for-simulating-continuum-materials-8hq663kt.md) — 2016
+- [Time encoding with an integrate-and-fire neuron with a refractory period](2004-time-encoding-with-an-integrate-and-fire-neuron-with-a-refractory-period-nhvuj2lw.md) — 2004
+- [TomoPhantom, a software package to generate 2D–4D analytical phantoms for CT image reconstruction algorithm benchmarks](2018-tomophantom-a-software-package-to-generate-2d4d-analytical-phantoms-for-ct-image-reconstru-s827xyxa.md) — 2018
+- [X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time Tomographic Reconstruction](2025-x2-gaussian-4d-radiative-gaussian-splatting-for-continuous-time-tomographic-reconstruction-kab73x8b.md) — 2025
+- [X-ray computed laminography: A brief review of mechanisms, reconstruction, applications and perspectives](2025-x-ray-computed-laminography-a-brief-review-of-mechanisms-reconstruction-applications-and-p-be6b3ut7.md) — 2025
+
+### 整理_待处理 / 重复候选_标题
+- [(PDF) MedNeRF: Medical Neural Radiance Fields for Reconstructing 3D-aware CT-Projections from a Single X-ray](2022-pdf-mednerf-medical-neural-radiance-fields-for-reconstructing-3d-aware-ct-projections-from-l8d9aims.md) — 2022
+- [3D Gaussian Splatting for Real-Time Radiance Field Rendering](2023-3d-gaussian-splatting-for-real-time-radiance-field-rendering-t6e3t6kp.md) — 2023
+- [3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis](2024-3d-geometry-aware-deformable-gaussian-splatting-for-dynamic-view-synthesis-3kbtadn7.md) — 2024
+- [3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis](2024-3d-geometry-aware-deformable-gaussian-splatting-for-dynamic-view-synthesis-22t5ufam.md) — 2024
+- [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](2024-4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-iv8fvufy.md) — 2024
+- [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](2024-4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-v8yiiuv4.md) — 2024
+- [5.10 A 1280×720 Back-Illuminated Stacked Temporal Contrast Event-Based Vision Sensor with 4.86µm Pixels, 1.066GEPS Readout, Programmable Event-Rate Controller and Compressive Data-Formatting Pipeline](2020-510-a-1280720-back-illuminated-stacked-temporal-contrast-event-based-vision-sensor-with-48-cmmbdmtz.md) — 2020
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-4v8s2qkf.md) — undated
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-2b5ymr2e.md) — undated
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-wgpxq6i4.md) — 2013
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-5zgyx79y.md) — 2013
+- [A Short Course on Frame Theory](2017-a-short-course-on-frame-theory-xemtvrhq.md) — 2017
+- [A Survey on Event-driven 3D Reconstruction: Development under Different Categories](2025-a-survey-on-event-driven-3d-reconstruction-development-under-different-categories-9ftz4969.md) — 2025
+- [Benchmarking Implicit Neural Representation and Geometric Rendering in Real-Time RGB-D SLAM](2024-benchmarking-implicit-neural-representation-and-geometric-rendering-in-real-time-rgb-d-sla-wxyy8j5f.md) — 2024
+- [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](2025-benerf-neural-radiance-fields-from-a-single-blurry-image-and-event-stream-iscij2sf.md) — 2025
+- [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](2024-benerf-neural-radiance-fields-from-a-single-blurry-image-and-event-stream-d5cdjcvg.md) — 2024
+- [CoGS: Controllable Gaussian Splatting](2024-cogs-controllable-gaussian-splatting-ukb4ig2f.md) — 2024
+- [CoGS: Controllable Gaussian Splatting](2024-cogs-controllable-gaussian-splatting-8l2q7zjh.md) — 2024
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](2024-compact-3d-gaussian-splatting-for-static-and-dynamic-radiance-fields-j688r9et.md) — 2024
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](2024-compact-3d-gaussian-splatting-for-static-and-dynamic-radiance-fields-k9i9itkh.md) — 2024
+- [Computer Vision: Algorithms and Applications](2022-computer-vision-algorithms-and-applications-gimhdrb4.md) — 2022
+- [Current and Future Perspectives on Computed Tomography Screening for Lung Cancer: A Roadmap From 2023 to 2027 From the International Association for the Study of Lung Cancer](2024-current-and-future-perspectives-on-computed-tomography-screening-for-lung-cancer-a-roadmap-4jlcl833.md) — 2024
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-3i9y2zlv.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-eupj4yq8.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-z8w8bgwe.md) — undated
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2024-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-gx3d2x2n.md) — 2024
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2024-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-vjzqrhei.md) — 2024
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2023-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-a8cqwmmn.md) — 2023
+- [Deformable Neural Radiance Fields using RGB and Event Cameras](2023-deformable-neural-radiance-fields-using-rgb-and-event-cameras-wapf6ctq.md) — 2023
+- [Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images](2024-depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-t9liww63.md) — 2024
+- [Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images](2024-depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-bgi2j92k.md) — 2024
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-u2dqhc4z.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-xzt6e9fa.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-hmpw48h9.md) — undated
+- [Differentiable surface splatting for point-based geometry processing](2019-differentiable-surface-splatting-for-point-based-geometry-processing-beldvtji.md) — 2019
+- [Disentangled Cross-modal Fusion for Event-Guided Image Super-resolution](2024-disentangled-cross-modal-fusion-for-event-guided-image-super-resolution-rjpzjk3i.md) — 2024
+- [Dynamic 3D Gaussian Fields for Urban Areas](2024-dynamic-3d-gaussian-fields-for-urban-areas-6cx6bl64.md) — 2024
+- [Dynamic 3D Gaussian Fields for Urban Areas](2024-dynamic-3d-gaussian-fields-for-urban-areas-bafziknv.md) — 2024
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](2024-dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-dyk6mbr5.md) — 2024
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](2024-dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-w986l2dm.md) — 2024
+- [Dynamic CT Reconstruction from Limited Views with Implicit Neural Representations and Parametric Motion Fields](2021-dynamic-ct-reconstruction-from-limited-views-with-implicit-neural-representations-and-para-rczdpfd3.md) — 2021
+- [Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos](2024-dynamic-gaussian-marbles-for-novel-view-synthesis-of-casual-monocular-videos-ii4qa7dq.md) — 2024
+- [Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos](2024-dynamic-gaussian-marbles-for-novel-view-synthesis-of-casual-monocular-videos-jcmz5pj9.md) — 2024
+- [Dynamic Tomography Reconstruction via Low-Rank Modeling with a RED Spatial Prior](2023-dynamic-tomography-reconstruction-via-low-rank-modeling-with-a-red-spatial-prior-w26mnegg.md) — 2023
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](2023-dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-sp-zu7b8imv.md) — 2023
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](2023-dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-sp-mg2zlxk9.md) — 2023
+- [E-3DGS: Gaussian Splatting with Exposure and Motion Events](2024-e-3dgs-gaussian-splatting-with-exposure-and-motion-events-44ec9g44.md) — 2024
+- [E-NeRF: Neural Radiance Fields From a Moving Event Camera](2023-e-nerf-neural-radiance-fields-from-a-moving-event-camera-49aajbjk.md) — 2023
+- [EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time](2018-emvs-event-based-multi-view-stereo3d-reconstruction-with-an-event-camera-in-real-time-sxpb8hf5.md) — 2018
+- [End-to-End Learning of Representations for Asynchronous Event-Based Data](2019-end-to-end-learning-of-representations-for-asynchronous-event-based-data-jpcymfqz.md) — 2019
+- [EVA2: Event-Assisted Video Frame Interpolation via Cross-Modal Alignment and Aggregation](2022-eva2-event-assisted-video-frame-interpolation-via-cross-modal-alignment-and-aggregation-x6jcf2aw.md) — 2022
+- [Event-based 3D reconstruction from neuromorphic retinas](2013-event-based-3d-reconstruction-from-neuromorphic-retinas-6dfz8il9.md) — 2013
+- [Event-based super-resolution microscopy](2023-event-based-super-resolution-microscopy-2fvwrilq.md) — 2023
+- [Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields](2023-event-based-video-frame-interpolation-with-cross-modal-asymmetric-bidirectional-motion-fie-u5lijc9y.md) — 2023
+- [Event-based vision sensor for fast and dense single-molecule localization microscopy](2023-event-based-vision-sensor-for-fast-and-dense-single-molecule-localization-microscopy-x2tcfuwd.md) — 2023
+- [Event-guided temporally super-resolved synchrotron X-ray imaging](2025-event-guided-temporally-super-resolved-synchrotron-x-ray-imaging-i586mn8f.md) — 2025
+- [EventLFM: event camera integrated Fourier light field microscopy for ultrafast 3D imaging](2024-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-r5xgpjws.md) — 2024
+- [EventLFM: Event Camera integrated Fourier Light Field Microscopy for Ultrafast 3D imaging](2024-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-lew7sj2e.md) — 2024
+- [EventLFM: Event Camera integrated Fourier Light Field Microscopy for Ultrafast 3D imaging](2023-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-j6y3ft57.md) — 2023
+- [EventNeRF: neural radiance fields from a single colour event camera](2023-eventnerf-neural-radiance-fields-from-a-single-colour-event-camera-p9xrcf8b.md) — 2023
+- [EventNeRF: Neural Radiance Fields from a Single Colour Event Camera](2023-eventnerf-neural-radiance-fields-from-a-single-colour-event-camera-yy7xd8mm.md) — 2023
+- [Extraction of In-Phase and Quadrature Components by Time-Encoding Sampling](2024-extraction-of-in-phase-and-quadrature-components-by-time-encoding-sampling-rqi6q4zq.md) — 2024
+- [Fourth Generation Light Sources](undated-fourth-generation-light-sources-n5lvah94.md) — undated
+- [Fourth-generation light sources](2023-fourth-generation-light-sources-ifef8vwq.md) — 2023
+- [GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis](2023-gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis-wyfstel4.md) — 2023
+- [GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis](2023-gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis-v3i9u6iw.md) — 2023
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](2024-gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-7859iuzi.md) — 2024
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](2024-gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-ygpqywgj.md) — 2024
+- [Generalizable Structure-Aware INF: Biplanar-View CT Reconstruction via Disentangled Implicit Neural Field](2025-generalizable-structure-aware-inf-biplanar-view-ct-reconstruction-via-disentangled-implici-89cfe8eu.md) — 2025
+- [Globally-Optimal Event Camera Motion Estimation](2020-globally-optimal-event-camera-motion-estimation-9jjfxkri.md) — 2020
+- [gsplat: An Open-Source Library for Gaussian Splatting](2024-gsplat-an-open-source-library-for-gaussian-splatting-7x2yvj25.md) — 2024
+- [Hard x-ray multi-projection imaging for single-shot approaches](2018-hard-x-ray-multi-projection-imaging-for-single-shot-approaches-23zs8zim.md) — 2018
+- [High-resolution non-destructive three- dimensional imaging of integrated circuits](2017-high-resolution-non-destructive-three-dimensional-imaging-of-integrated-circuits-bpww8j7u.md) — 2017
+- [Image reconstruction in circular cone-beam computed tomography by constrained, total-variation minimization](2008-image-reconstruction-in-circular-cone-beam-computed-tomography-by-constrained-total-variat-48h2cb3c.md) — 2008
+- [Implementation of a dual-phase grating interferometer for multi-scale characterization of building materials by tunable dark-field imaging](2024-implementation-of-a-dual-phase-grating-interferometer-for-multi-scale-characterization-of-8dtp5f29.md) — 2024
+- [Improving 3D Imaging with Pre-Trained Perpendicular 2D Diffusion Models](2023-improving-3d-imaging-with-pre-trained-perpendicular-2d-diffusion-models-84vm4dck.md) — 2023
+- [In vivo study of lung physiology with dynamic synchrotron-based tomographic microscopy](2015-in-vivo-study-of-lung-physiology-with-dynamic-synchrotron-based-tomographic-microscopy-pxmvblyh.md) — 2015
+- [Instant neural graphics primitives with a multiresolution hash encoding](2022-instant-neural-graphics-primitives-with-a-multiresolution-hash-encoding-zibtbsnu.md) — 2022
+- [IntraTomo: Self-supervised Learning-based Tomography via Sinogram Synthesis and Prediction](2021-intratomo-self-supervised-learning-based-tomography-via-sinogram-synthesis-and-prediction-bu2wjetg.md) — 2021
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-9kmbu2ix.md) — undated
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-zinl9usm.md) — undated
+- [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](2023-k-planes-explicit-radiance-fields-in-space-time-and-appearance-52riyz4b.md) — 2023
+- [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](2023-k-planes-explicit-radiance-fields-in-space-time-and-appearance-jx2e8ign.md) — 2023
+- [Latency Correction for Event-Guided Deblurring and Frame Interpolation](2024-latency-correction-for-event-guided-deblurring-and-frame-interpolation-rvfv5zgm.md) — 2024
+- [Learning a Multi-View Stereo Machine](2017-learning-a-multi-view-stereo-machine-9wft7mam.md) — 2017
+- [Learning a Multi-View Stereo Machine](2017-learning-a-multi-view-stereo-machine-5jfxs3be.md) — 2017
+- [Learning to Extract a Video Sequence from a Single Motion-Blurred Image](2018-learning-to-extract-a-video-sequence-from-a-single-motion-blurred-image-zvgifppt.md) — 2018
+- [Local Implicit Grid Representations for 3D Scenes](2020-local-implicit-grid-representations-for-3d-scenes-mvhm2wbp.md) — 2020
+- [Local Implicit Grid Representations for 3D Scenes](2020-local-implicit-grid-representations-for-3d-scenes-keygsfru.md) — 2020
+- [Low-latency automotive vision with event cameras](2024-low-latency-automotive-vision-with-event-cameras-lbzx6dpj.md) — 2024
+- [MedNeRF: Medical Neural Radiance Fields for Reconstructing 3D-aware CT-Projections from a Single X-ray](2022-mednerf-medical-neural-radiance-fields-for-reconstructing-3d-aware-ct-projections-from-a-s-bqbeet8q.md) — 2022
+- [Microscopie de second harmonique résolue en polarisations linéaire et circulaire pour caractériser l'organisation 3D du collagène](undated-microscopie-de-second-harmonique-résolue-en-polarisations-linéaire-et-circulaire-pour-cara-yfdqm9zg.md) — undated
+- [Minimalist Vision with Freeform Pixels](2025-minimalist-vision-with-freeform-pixels-22p27q56.md) — 2025
+- [Modeling and decoding event-based sensor lightning response](2023-modeling-and-decoding-event-based-sensor-lightning-response-ea232vtg.md) — 2023
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos](2024-modgs-dynamic-gaussian-splatting-from-casually-captured-monocular-videos-rq259clb.md) — 2024
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos](2024-modgs-dynamic-gaussian-splatting-from-casually-captured-monocular-videos-2myvwen5.md) — 2024
+- [Multi-Bracket High Dynamic Range Imaging with Event Cameras](2022-multi-bracket-high-dynamic-range-imaging-with-event-cameras-4b45tfub.md) — 2022
+- [Multibeam x-ray optical system for high-speed tomography](2020-multibeam-x-ray-optical-system-for-high-speed-tomography-868e9dhy.md) — 2020
+- [NeAT: Neural Adaptive Tomography](2022-neat-neural-adaptive-tomography-fu336n8l.md) — 2022
+- [NeAT: Neural Adaptive Tomography](2022-neat-neural-adaptive-tomography-debmybvg.md) — 2022
+- [NeRF-XL: Scaling NeRFs with Multiple GPUs](2024-nerf-xl-scaling-nerfs-with-multiple-gpus-a6zadz9s.md) — 2024
+- [Nerfies: Deformable Neural Radiance Fields](2021-nerfies-deformable-neural-radiance-fields-uullrap4.md) — 2021
+- [Neural rendering enables dynamic tomography](2024-neural-rendering-enables-dynamic-tomography-ncwwekc3.md) — 2024
+- [Neuromorphic Sensing Meets Unlimited Sampling](2024-neuromorphic-sensing-meets-unlimited-sampling-84t29hjb.md) — 2024
+- [Neuromorphic vision sensors: Principle, progress and perspectives](2021-neuromorphic-vision-sensors-principle-progress-and-perspectives-69rgrr88.md) — 2021
+- [Online Real-Time Multiple Spatiotemporal Action Localisation and Prediction](2017-online-real-time-multiple-spatiotemporal-action-localisation-and-prediction-xxj5b8a4.md) — 2017
+- [Over 100 Million Frames per Second 368 Frames Global Shutter Burst CMOS Image Sensor with Pixel-wise Trench Capacitor Memory Array](2020-over-100-million-frames-per-second-368-frames-global-shutter-burst-cmos-image-sensor-with-hdmgfr8v.md) — 2020
+- [PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification](2023-pac-nerf-physics-augmented-continuum-neural-radiance-fields-for-geometry-agnostic-system-i-6bfxgj4p.md) — 2023
+- [PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification](2023-pac-nerf-physics-augmented-continuum-neural-radiance-fields-for-geometry-agnostic-system-i-5etvr8fv.md) — 2023
+- [PDAVIS: Bio-inspired Polarization Event Camera](2023-pdavis-bio-inspired-polarization-event-camera-qc48nuwb.md) — 2023
+- [Photon-efficient imaging with a single-photon camera](2016-photon-efficient-imaging-with-a-single-photon-camera-ywb4ybhh.md) — 2016
+- [PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation](2024-physdreamer-physics-based-interaction-with-3d-objects-via-video-generation-8nst9m7x.md) — 2024
+- [PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics](2024-physgaussian-physics-integrated-3d-gaussians-for-generative-dynamics-ng8l6jsc.md) — 2024
+- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos-wlxq9ieb.md) — 2025
+- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos-vxtez538.md) — 2025
+- [Plenoxels: Radiance Fields without Neural Networks](2021-plenoxels-radiance-fields-without-neural-networks-pju7itiz.md) — 2021
+- [Principles of computerized tomographic imaging](2001-principles-of-computerized-tomographic-imaging-g9f3b82l.md) — 2001
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-t85us2m7.md) — 2024
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-63tp2hlt.md) — 2024
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-fz9cdb5u.md) — 2024
+- [Ray tracing volume densities](1984-ray-tracing-volume-densities-ywu4fyi7.md) — 1984
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](2023-real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splat-yypviyfp.md) — 2023
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](2023-real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splat-u69pssck.md) — 2023
+- [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](2016-real-time-single-image-and-video-super-resolution-using-an-efficient-sub-pixel-convolution-ky78sse7.md) — 2016
+- [Recent developments in MHz radioscopy: Towards the ultimate temporal resolution using storage ring-based light sources](2024-recent-developments-in-mhz-radioscopy-towards-the-ultimate-temporal-resolution-using-stora-qbxxnzy9.md) — 2024
+- [Reconstructing Knee CT Volumes from Biplanar X-Rays Via Self-Supervised Neural Field](2024-reconstructing-knee-ct-volumes-from-biplanar-x-rays-via-self-supervised-neural-field-lb5w5nzr.md) — 2024
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-zvxk3ulq.md) — 2024
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-iwsxqaia.md) — 2024
+- [Regridding reconstruction algorithm for real-time tomographic imaging](2012-regridding-reconstruction-algorithm-for-real-time-tomographic-imaging-5ewhk8mw.md) — 2012
+- [Representation Learning on Visual-Symbolic Graphs for Video Understanding](2020-representation-learning-on-visual-symbolic-graphs-for-video-understanding-ceej2jlp.md) — 2020
+- [Representation Learning on Visual-Symbolic Graphs for Video Understanding](2020-representation-learning-on-visual-symbolic-graphs-for-video-understanding-pxx4rezd.md) — 2020
+- [Review of high-speed imaging with lab-based x-ray computed tomography](2021-review-of-high-speed-imaging-with-lab-based-x-ray-computed-tomography-8qqrq88t.md) — 2021
+- [Revisiting Event-based Video Frame Interpolation](2023-revisiting-event-based-video-frame-interpolation-77plz6dz.md) — 2023
+- [Revisiting Event-Based Video Frame Interpolation](2023-revisiting-event-based-video-frame-interpolation-xlcqxl6j.md) — 2023
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](2024-sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes-ixpvrr2z.md) — 2024
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](2024-sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes-ih8xq5vk.md) — 2024
+- [Simultaneous Optical Flow and Intensity Estimation from an Event Camera](2016-simultaneous-optical-flow-and-intensity-estimation-from-an-event-camera-udg4mqb6.md) — 2016
+- [Single-photon sensitive light-in-fight imaging](2015-single-photon-sensitive-light-in-fight-imaging-i7pz6k33.md) — 2015
+- [Spatial coherence of synchrotron radiation degraded by grating monochromators](2024-spatial-coherence-of-synchrotron-radiation-degraded-by-grating-monochromators-c44xbcsk.md) — 2024
+- [Spatial coherence of synchrotron radiation degraded by grating monochromators](2024-spatial-coherence-of-synchrotron-radiation-degraded-by-grating-monochromators-3jcrkqxb.md) — 2024
+- [Spatial-Temporal Transformer for Video Snapshot Compressive Imaging](2022-spatial-temporal-transformer-for-video-snapshot-compressive-imaging-sm4wlrxp.md) — 2022
+- [Spatial-Temporal Transformer for Video Snapshot Compressive Imaging](2022-spatial-temporal-transformer-for-video-snapshot-compressive-imaging-5xmhi3rt.md) — 2022
+- [SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams](2024-spikereveal-unlocking-temporal-sequences-from-real-blurry-inputs-with-spike-streams-k4gwhzsy.md) — 2024
+- [Structure-from-Motion Revisited](2016-structure-from-motion-revisited-7z6afkkc.md) — 2016
+- [Sub-millisecond 4D X-ray tomography achieved with a multibeam X-ray imaging system](2023-sub-millisecond-4d-x-ray-tomography-achieved-with-a-multibeam-x-ray-imaging-system-84ucihwx.md) — 2023
+- [Synchrotron-based radioscopy employing spatio-temporal micro-resolution for studying fast phenomena in liquid metal foams](2009-synchrotron-based-radioscopy-employing-spatio-temporal-micro-resolution-for-studying-fast-a3csnbvi.md) — 2009
+- [Target Prior-enriched Implicit 3D CT Reconstruction with Adaptive Ray Sampling](2026-target-prior-enriched-implicit-3d-ct-reconstruction-with-adaptive-ray-sampling-6kqafipu.md) — 2026
+- [The fractional Talbot effect in differential x-ray phase-contrast imaging for extended and polychromatic x-ray sources](2008-the-fractional-talbot-effect-in-differential-x-ray-phase-contrast-imaging-for-extended-and-kr6qcu2b.md) — 2008
+- [The material point method for simulating continuum materials](2016-the-material-point-method-for-simulating-continuum-materials-8hq663kt.md) — 2016
+- [The Spatio-Temporal Poisson Point Process: A Simple Model for the Alignment of Event Camera Data](2021-the-spatio-temporal-poisson-point-process-a-simple-model-for-the-alignment-of-event-camera-pmchsk36.md) — 2021
+- [Time encoding with an integrate-and-fire neuron with a refractory period](2004-time-encoding-with-an-integrate-and-fire-neuron-with-a-refractory-period-nhvuj2lw.md) — 2004
+- [Time-Resolved X-Ray Microscopy for Materials Science](2019-time-resolved-x-ray-microscopy-for-materials-science-94q2pgy4.md) — 2019
+- [TomoPhantom, a software package to generate 2D–4D analytical phantoms for CT image reconstruction algorithm benchmarks](2018-tomophantom-a-software-package-to-generate-2d4d-analytical-phantoms-for-ct-image-reconstru-s827xyxa.md) — 2018
+- [TPG-INR: Target Prior-Guided Implicit 3D CT Reconstruction for Enhanced Sparse-view Imaging](2025-tpg-inr-target-prior-guided-implicit-3d-ct-reconstruction-for-enhanced-sparse-view-imaging-s9nlpxih.md) — 2025
+- [VGGT: Visual Geometry Grounded Transformer](2025-vggt-visual-geometry-grounded-transformer-meixjab3.md) — 2025
+- [Video super-resolution based on deep learning: a comprehensive survey](2022-video-super-resolution-based-on-deep-learning-a-comprehensive-survey-89ha953j.md) — 2022
+- [X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time Tomographic Reconstruction](2025-x2-gaussian-4d-radiative-gaussian-splatting-for-continuous-time-tomographic-reconstruction-kab73x8b.md) — 2025
+- [X-ray computed laminography: A brief review of mechanisms, reconstruction, applications and perspectives](2025-x-ray-computed-laminography-a-brief-review-of-mechanisms-reconstruction-applications-and-p-be6b3ut7.md) — 2025
+
+### 整理_按主题 / 01 Neuromorphic / Event Camera
+- [5.10 A 1280×720 Back-Illuminated Stacked Temporal Contrast Event-Based Vision Sensor with 4.86µm Pixels, 1.066GEPS Readout, Programmable Event-Rate Controller and Compressive Data-Formatting Pipeline](2020-510-a-1280720-back-illuminated-stacked-temporal-contrast-event-based-vision-sensor-with-48-cmmbdmtz.md) — 2020
+- [A 240 × 180 130 dB 3 µs Latency Global Shutter Spatiotemporal Vision Sensor](2014-a-240-180-130-db-3-µs-latency-global-shutter-spatiotemporal-vision-sensor-tmzyart9.md) — 2014
+- [A motion denoising algorithm with Gaussian self-adjusting threshold for event camera](2024-a-motion-denoising-algorithm-with-gaussian-self-adjusting-threshold-for-event-camera-43nwm98l.md) — 2024
+- [A Review of Image Reconstruction Based on Event Cameras](2023-a-review-of-image-reconstruction-based-on-event-cameras-u7b7t92k.md) — 2023
+- [Accurate and Efficient Frame-based Event Representation for AER Object Recognition](2022-accurate-and-efficient-frame-based-event-representation-for-aer-object-recognition-jyrqenn2.md) — 2022
+- [Achieving nanoscale precision using neuromorphic localization microscopy](2023-achieving-nanoscale-precision-using-neuromorphic-localization-microscopy-eijjmrn5.md) — 2023
+- [AE-NeRF: Augmenting Event-Based Neural Radiance Fields for Non-ideal Conditions and Larger Scene](2025-ae-nerf-augmenting-event-based-neural-radiance-fields-for-non-ideal-conditions-and-larger-lpbyve5k.md) — 2025
+- [An Asynchronous Linear Filter Architecture for Hybrid Event-Frame Cameras](2024-an-asynchronous-linear-filter-architecture-for-hybrid-event-frame-cameras-h8fnh4fk.md) — 2024
+- [Analytical Review of Event-Based Camera Depth Estimation Methods and Systems](2022-analytical-review-of-event-based-camera-depth-estimation-methods-and-systems-t7rb475z.md) — 2022
+- [Are High-Resolution Event Cameras Really Needed?](2022-are-high-resolution-event-cameras-really-needed-98d6xyg7.md) — 2022
+- [Autofocus for Event Cameras](2022-autofocus-for-event-cameras-hicp4p2t.md) — 2022
+- [Autonomous indoor exploration with an event-based visual SLAM system](2013-autonomous-indoor-exploration-with-an-event-based-visual-slam-system-ryz65d5g.md) — 2013
+- [Bringing a Blurry Frame Alive at High Frame-Rate With an Event Camera](2019-bringing-a-blurry-frame-alive-at-high-frame-rate-with-an-event-camera-m863ilx2.md) — 2019
+- [Characterisation of a single photon event camera for quantum imaging](2023-characterisation-of-a-single-photon-event-camera-for-quantum-imaging-fzcg99hh.md) — 2023
+- [Computational event-driven vision sensors for in-sensor spiking neural networks](2023-computational-event-driven-vision-sensors-for-in-sensor-spiking-neural-networks-cf5z2mu7.md) — 2023
+- [Continuous-Time Intensity Estimation Using Event Cameras](2019-continuous-time-intensity-estimation-using-event-cameras-uusq8imq.md) — 2019
+- [Deblurring Low-Light Images with Events](2023-deblurring-low-light-images-with-events-4kuvw2s3.md) — 2023
+- [Deep Learning for Event-based Vision: A Comprehensive Survey and Benchmarks](2024-deep-learning-for-event-based-vision-a-comprehensive-survey-and-benchmarks-x8x9uc8h.md) — 2024
+- [Demystifying event-based camera latency: sensor speed dependence on pixel biasing, light, and spatial activity](2024-demystifying-event-based-camera-latency-sensor-speed-dependence-on-pixel-biasing-light-and-8u5in86b.md) — 2024
+- [DEVO: Depth-Event Camera Visual Odometry in Challenging Conditions](2022-devo-depth-event-camera-visual-odometry-in-challenging-conditions-lmip89r5.md) — 2022
+- [Disentangled Cross-modal Fusion for Event-Guided Image Super-resolution](2024-disentangled-cross-modal-fusion-for-event-guided-image-super-resolution-rjpzjk3i.md) — 2024
+- [DSEC: A Stereo Event Camera Dataset for Driving Scenarios](2021-dsec-a-stereo-event-camera-dataset-for-driving-scenarios-p24fd73q.md) — 2021
+- [Dynamic EventNeRF: Reconstructing General Dynamic Scenes from Multi-view Event Cameras](undated-dynamic-eventnerf-reconstructing-general-dynamic-scenes-from-multi-view-event-cameras-4xsq298c.md) — undated
+- [E-Calib: A Fast, Robust, and Accurate Calibration Toolbox for Event Cameras](2024-e-calib-a-fast-robust-and-accurate-calibration-toolbox-for-event-cameras-b89jndyt.md) — 2024
+- [E-RAFT: Dense Optical Flow from Event Cameras](2021-e-raft-dense-optical-flow-from-event-cameras-wa2b5yri.md) — 2021
+- [E-VFIA : Event-Based Video Frame Interpolation with Attention](2023-e-vfia-event-based-video-frame-interpolation-with-attention-927fn3mi.md) — 2023
+- [EF-3DGS: Event-Aided Free-Trajectory 3D Gaussian Splatting](2024-ef-3dgs-event-aided-free-trajectory-3d-gaussian-splatting-lzmqnlvb.md) — 2024
+- [EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time](2018-emvs-event-based-multi-view-stereo3d-reconstruction-with-an-event-camera-in-real-time-sxpb8hf5.md) — 2018
+- [Enhanced Frame and Event-Based Simulator and Event-Based Video Interpolation Network](2021-enhanced-frame-and-event-based-simulator-and-event-based-video-interpolation-network-7uhkgnfu.md) — 2021
+- [EvDNeRF: Reconstructing Event Data With Dynamic Neural Radiance Fields](2024-evdnerf-reconstructing-event-data-with-dynamic-neural-radiance-fields-7ixap7ww.md) — 2024
+- [Event Camera Data Pre-training](2023-event-camera-data-pre-training-9gfm53kl.md) — 2023
+- [Event Camera Demosaicing via Swin Transformer and Pixel-focus Loss](2024-event-camera-demosaicing-via-swin-transformer-and-pixel-focus-loss-d4tepyb2.md) — 2024
+- [Event Cameras Meet SPADs for High-Speed, Low-Bandwidth Imaging](2025-event-cameras-meet-spads-for-high-speed-low-bandwidth-imaging-8tde6vcd.md) — 2025
+- [Event Enhanced High-Quality Image Recovery](2020-event-enhanced-high-quality-image-recovery-dnbfk9gf.md) — 2020
+- [Event-based asynchronous HDR imaging by temporal incident light modulation](2024-event-based-asynchronous-hdr-imaging-by-temporal-incident-light-modulation-jd7flxwf.md) — 2024
+- [Event-based camera refractory period characterization and initial clock drift evaluation](2023-event-based-camera-refractory-period-characterization-and-initial-clock-drift-evaluation-t5nj2nlw.md) — 2023
+- [Event-Based Feature Extraction Using Adaptive Selection Thresholds](2020-event-based-feature-extraction-using-adaptive-selection-thresholds-etagq7lj.md) — 2020
+- [Event-Based Fusion for Motion Deblurring with Cross-modal Attention](2022-event-based-fusion-for-motion-deblurring-with-cross-modal-attention-vnhwghd3.md) — 2022
+- [Event-Based Image Deblurring with Dynamic Motion Awareness](2023-event-based-image-deblurring-with-dynamic-motion-awareness-7n8fa9zi.md) — 2023
+- [Event-Based Machine Vision](2015-event-based-machine-vision-ptdhbj65.md) — 2015
+- [Event-Based Neuromorphic Systems](2015-event-based-neuromorphic-systems-npnq6ki3.md) — 2015
+- [Event-based Sensing for Space Situational Awareness](2019-event-based-sensing-for-space-situational-awareness-ms6bqgi3.md) — 2019
+- [Event-Based Stereo Visual Odometry](2021-event-based-stereo-visual-odometry-bepgblwx.md) — 2021
+- [Event-based super-resolution microscopy](2023-event-based-super-resolution-microscopy-2fvwrilq.md) — 2023
+- [Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields](2023-event-based-video-frame-interpolation-with-cross-modal-asymmetric-bidirectional-motion-fie-u5lijc9y.md) — 2023
+- [Event-based vision in magneto-optic Kerr effect microscopy](2022-event-based-vision-in-magneto-optic-kerr-effect-microscopy-79vsiefy.md) — 2022
+- [Event-based vision sensor for fast and dense single-molecule localization microscopy](2023-event-based-vision-sensor-for-fast-and-dense-single-molecule-localization-microscopy-x2tcfuwd.md) — 2023
+- [Event-based vision: a survey](2022-event-based-vision-a-survey-wt9mxnvp.md) — 2022
+- [Event-guided Deblurring of Unknown Exposure Time Videos](2022-event-guided-deblurring-of-unknown-exposure-time-videos-ktmg89f6.md) — 2022
+- [EventLFM: event camera integrated Fourier light field microscopy for ultrafast 3D imaging](2024-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-r5xgpjws.md) — 2024
+- [EventLFM: Event Camera integrated Fourier Light Field Microscopy for Ultrafast 3D imaging](2024-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-lew7sj2e.md) — 2024
+- [EventLFM: Event Camera integrated Fourier Light Field Microscopy for Ultrafast 3D imaging](2023-eventlfm-event-camera-integrated-fourier-light-field-microscopy-for-ultrafast-3d-imaging-j6y3ft57.md) — 2023
+- [EventZoom: Learning to Denoise and Super Resolve Neuromorphic Events](2021-eventzoom-learning-to-denoise-and-super-resolve-neuromorphic-events-uzi7cqm3.md) — 2021
+- [EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-Resolution](2021-evintsr-net-event-guided-multiple-latent-frames-reconstruction-and-super-resolution-75abjg6t.md) — 2021
+- [EVO: A Geometric Approach to Event-Based 6-DOF Parallel Tracking and Mapping in Real Time](2017-evo-a-geometric-approach-to-event-based-6-dof-parallel-tracking-and-mapping-in-real-time-fu5x4fzp.md) — 2017
+- [Falcon Neuro: an event-based sensor on the International Space Station](2022-falcon-neuro-an-event-based-sensor-on-the-international-space-station-2b3th8vt.md) — 2022
+- [Finding the gap: neuromorphic motion-vision in dense environments](2024-finding-the-gap-neuromorphic-motion-vision-in-dense-environments-wj68bj56.md) — 2024
+- [Fine-Grained Video Deblurring with Event Camera](2021-fine-grained-video-deblurring-with-event-camera-azihbk9m.md) — 2021
+- [Generalizing Event-Based Motion Deblurring in Real-World Scenarios](2023-generalizing-event-based-motion-deblurring-in-real-world-scenarios-5illldqz.md) — 2023
+- [Globally-Optimal Event Camera Motion Estimation](2020-globally-optimal-event-camera-motion-estimation-9jjfxkri.md) — 2020
+- [Hardware optical flow from event cameras](undated-hardware-optical-flow-from-event-cameras-5md6yrqb.md) — undated
+- [High speed and high dynamic range video with an event camera](2021-high-speed-and-high-dynamic-range-video-with-an-event-camera-vr95ae24.md) — 2021
+- [How to See with an Event Camera](2020-how-to-see-with-an-event-camera-exlpt4id.md) — 2020
+- [Industrial DVS Design; Key Features and Applications](undated-industrial-dvs-design-key-features-and-applications-72k9xc9c.md) — undated
+- [Latency Correction for Event-Guided Deblurring and Frame Interpolation](2024-latency-correction-for-event-guided-deblurring-and-frame-interpolation-rvfv5zgm.md) — 2024
+- [Learning Event-Driven Video Deblurring and Interpolation](2020-learning-event-driven-video-deblurring-and-interpolation-vhrxi6ug.md) — 2020
+- [Low-latency automotive vision with event cameras](2024-low-latency-automotive-vision-with-event-cameras-lbzx6dpj.md) — 2024
+- [LSE-NeRF: Learning Sensor Modeling Errors for Deblured Neural Radiance Fields with RGB-Event Stereo](2024-lse-nerf-learning-sensor-modeling-errors-for-deblured-neural-radiance-fields-with-rgb-even-fdevv5q7.md) — 2024
+- [MAEVI: Motion Aware Event-Based Video Frame Interpolation](2023-maevi-motion-aware-event-based-video-frame-interpolation-i88zvpr9.md) — 2023
+- [Method for Target Detection in a High Noise Environment Through Frequency Analysis Using an Event-Based Vision Sensor](2025-method-for-target-detection-in-a-high-noise-environment-through-frequency-analysis-using-a-nris6z8z.md) — 2025
+- [Modeling and decoding event-based sensor lightning response](2023-modeling-and-decoding-event-based-sensor-lightning-response-ea232vtg.md) — 2023
+- [Motion and Structure from Event-based Normal Flow](2024-motion-and-structure-from-event-based-normal-flow-djz5m3f6.md) — 2024
+- [Motion Deblurring With Real Events](2021-motion-deblurring-with-real-events-xvtyzwib.md) — 2021
+- [Multi-Bracket High Dynamic Range Imaging with Event Cameras](2022-multi-bracket-high-dynamic-range-imaging-with-event-cameras-4b45tfub.md) — 2022
+- [Neuromorphic Computing and Sensing in Space](2022-neuromorphic-computing-and-sensing-in-space-bmm73qbb.md) — 2022
+- [Neuromorphic computing at scale](2025-neuromorphic-computing-at-scale-h9h4j9mn.md) — 2025
+- [Neuromorphic Sampling of Sparse Signals](2023-neuromorphic-sampling-of-sparse-signals-gzjqsyam.md) — 2023
+- [Neuromorphic vision sensors: Principle, progress and perspectives](2021-neuromorphic-vision-sensors-principle-progress-and-perspectives-69rgrr88.md) — 2021
+- [NeuroZoom: Denoising and Super Resolving Neuromorphic Events and Spikes](2023-neurozoom-denoising-and-super-resolving-neuromorphic-events-and-spikes-kg2lbdti.md) — 2023
+- [Non-Coaxial Event-guided Motion Deblurring with Spatial Alignment](2023-non-coaxial-event-guided-motion-deblurring-with-spatial-alignment-nmls9d39.md) — 2023
+- [On non-von Neumann flexible neuromorphic vision sensors](2024-on-non-von-neumann-flexible-neuromorphic-vision-sensors-cf434h5k.md) — 2024
+- [On the Generation of a Synthetic Event-Based Vision Dataset for Navigation and Landing](2023-on-the-generation-of-a-synthetic-event-based-vision-dataset-for-navigation-and-landing-ip3psmxw.md) — 2023
+- [Pixel Latency Measurements of Event Cameras](2025-pixel-latency-measurements-of-event-cameras-xdexfekj.md) — 2025
+- [Real-Time Intensity-Image Reconstruction for Event Cameras Using Manifold Regularisation](2018-real-time-intensity-image-reconstruction-for-event-cameras-using-manifold-regularisation-xzbz6arz.md) — 2018
+- [Real-Time Multi-Task Facial Analytics With Event Cameras](2023-real-time-multi-task-facial-analytics-with-event-cameras-7s8urf9v.md) — 2023
+- [Retina : Low-Power Eye Tracking with Event Camera and Spiking Hardware](2023-retina-low-power-eye-tracking-with-event-camera-and-spiking-hardware-cdmbvxif.md) — 2023
+- [Retinomorphic Event-Based Vision Sensors: Bioinspired Cameras With Spiking Output](2014-retinomorphic-event-based-vision-sensors-bioinspired-cameras-with-spiking-output-6y4e3dyi.md) — 2014
+- [Revisiting Event-based Video Frame Interpolation](2023-revisiting-event-based-video-frame-interpolation-77plz6dz.md) — 2023
+- [Revisiting Event-Based Video Frame Interpolation](2023-revisiting-event-based-video-frame-interpolation-xlcqxl6j.md) — 2023
+- [Robust e-NeRF: NeRF from Sparse & Noisy Events under Non-Uniform Motion](2023-robust-e-nerf-nerf-from-sparse-noisy-events-under-non-uniform-motion-i3rhg54x.md) — 2023
+- [Self-Supervised Intensity-Event Stereo Matching](2022-self-supervised-intensity-event-stereo-matching-hkrm42ig.md) — 2022
+- [Spike-based dynamic computing with asynchronous sensing-computing neuromorphic chip](2024-spike-based-dynamic-computing-with-asynchronous-sensing-computing-neuromorphic-chip-tylgzewd.md) — 2024
+- [Stereo Event-Based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction](2020-stereo-event-based-particle-tracking-velocimetry-for-3d-fluid-flow-reconstruction-hc46leba.md) — 2020
+- [Supplementary Material — Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion](undated-supplementary-material-time-lens-event-based-frame-interpolation-with-parametric-non-linea-xbr33qeu.md) — undated
+- [Supplementary Material: Multi-Bracket High Dynamic Range Imaging with Event Cameras](undated-supplementary-material-multi-bracket-high-dynamic-range-imaging-with-event-cameras-vkledrr4.md) — undated
+- [The Spatio-Temporal Poisson Point Process: A Simple Model for the Alignment of Event Camera Data](2021-the-spatio-temporal-poisson-point-process-a-simple-model-for-the-alignment-of-event-camera-pmchsk36.md) — 2021
+- [Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion](2022-time-lens-event-based-frame-interpolation-with-parametric-non-linear-flow-and-multi-scale-6bz42lhk.md) — 2022
+- [Time Lens: Event-based Video Frame Interpolation](2021-time-lens-event-based-video-frame-interpolation-vl2ldant.md) — 2021
+- [Time-Ordered Recent Event (TORE) Volumes for Event Cameras](2023-time-ordered-recent-event-tore-volumes-for-event-cameras-fqfy49s8.md) — 2023
+- [TimeReplayer: Unlocking the Potential of Event Cameras for Video Interpolation](2022-timereplayer-unlocking-the-potential-of-event-cameras-for-video-interpolation-9m8un2pd.md) — 2022
+- [Unifying Motion Deblurring and Frame Interpolation with Events](2022-unifying-motion-deblurring-and-frame-interpolation-with-events-35echzws.md) — 2022
+- [Unsupervised Event-based Optical Flow using Motion Compensation](2019-unsupervised-event-based-optical-flow-using-motion-compensation-chy8g3ab.md) — 2019
+- [V2CE: Video to Continuous Events Simulator](2023-v2ce-video-to-continuous-events-simulator-yaipwks7.md) — 2023
+- [v2e: From Video Frames to Realistic DVS Events](2021-v2e-from-video-frames-to-realistic-dvs-events-b58zlu2i.md) — 2021
+- [Video Frame Interpolation with Stereo Event and Intensity Camera](2023-video-frame-interpolation-with-stereo-event-and-intensity-camera-pma3jakj.md) — 2023
+
+### 整理_按主题 / 02 X-ray CT / Tomography
+- [(PDF) MedNeRF: Medical Neural Radiance Fields for Reconstructing 3D-aware CT-Projections from a Single X-ray](2022-pdf-mednerf-medical-neural-radiance-fields-for-reconstructing-3d-aware-ct-projections-from-l8d9aims.md) — 2022
+- [20 Hz X-ray tomography during an in situ tensile test](2016-20-hz-x-ray-tomography-during-an-in-situ-tensile-test-922rxunw.md) — 2016
+- [3DGR-CT: Sparse-view CT reconstruction with a 3D Gaussian representation](2025-3dgr-ct-sparse-view-ct-reconstruction-with-a-3d-gaussian-representation-latvnn6c.md) — 2025
+- [4D-ONIX for reconstructing 3D movies from sparse X-ray projections via deep learning](2025-4d-onix-for-reconstructing-3d-movies-from-sparse-x-ray-projections-via-deep-learning-eg28di9p.md) — 2025
+- [A fully automatic AI system for tooth and alveolar bone segmentation from cone-beam CT images](2022-a-fully-automatic-ai-system-for-tooth-and-alveolar-bone-segmentation-from-cone-beam-ct-ima-zkrjud2k.md) — 2022
+- [A machine learning model for textured X-ray scattering and diffraction image denoising](2023-a-machine-learning-model-for-textured-x-ray-scattering-and-diffraction-image-denoising-feypq2mv.md) — 2023
+- [A multi-purpose imaging endstation for high-resolution micrometer-scaled sub-second tomography](2016-a-multi-purpose-imaging-endstation-for-high-resolution-micrometer-scaled-sub-second-tomogr-btf7bvvk.md) — 2016
+- [A robust tool for photon source geometry measurements using the fractional Talbot effect](2014-a-robust-tool-for-photon-source-geometry-measurements-using-the-fractional-talbot-effect-dcycvy7g.md) — 2014
+- [Advantages of phase retrieval for fast x-ray tomographic microscopy](2013-advantages-of-phase-retrieval-for-fast-x-ray-tomographic-microscopy-ru6xqsvi.md) — 2013
+- [Beamline K11 DIAD: a new instrument for dual imaging and diffraction at Diamond Light Source](2021-beamline-k11-diad-a-new-instrument-for-dual-imaging-and-diffraction-at-diamond-light-sourc-pyw5vgt8.md) — 2021
+- [C^2RV: Cross-Regional and Cross-View Learning for Sparse-View CBCT Reconstruction](2024-c2rv-cross-regional-and-cross-view-learning-for-sparse-view-cbct-reconstruction-8mrnclg8.md) — 2024
+- [Changing the game of time resolved X-ray diffraction on the mechanochemistry playground by downsizing](2021-changing-the-game-of-time-resolved-x-ray-diffraction-on-the-mechanochemistry-playground-by-vcnkvkfc.md) — 2021
+- [Characterization results of the JUNGFRAU full scale readout ASIC](2016-characterization-results-of-the-jungfrau-full-scale-readout-asic-uwkzn7hr.md) — 2016
+- [Clinical-grade autonomous cytopathology through whole-slide edge tomography](2026-clinical-grade-autonomous-cytopathology-through-whole-slide-edge-tomography-jtv6f6fd.md) — 2026
+- [CMOS Sensors For Electron and X-Rays Detectors](undated-cmos-sensors-for-electron-and-x-rays-detectors-vplu9z9k.md) — undated
+- [Coding and sampling for compressive tomography](undated-coding-and-sampling-for-compressive-tomography-gqgybrqq.md) — undated
+- [Coherent methods in the X-ray sciences](2010-coherent-methods-in-the-x-ray-sciences-aidcx9lz.md) — 2010
+- [CoIL: Coordinate-based Internal Learning for Imaging Inverse Problems](2021-coil-coordinate-based-internal-learning-for-imaging-inverse-problems-w2pd2k38.md) — 2021
+- [Comparison of three undersampling approaches in computed tomography reconstruction](2019-comparison-of-three-undersampling-approaches-in-computed-tomography-reconstruction-72384675.md) — 2019
+- [Cone beam computed tomography: basics and applications in dentistry](2017-cone-beam-computed-tomography-basics-and-applications-in-dentistry-4k997pxp.md) — 2017
+- [Constrained regularized reconstruction of X-ray-DPCI tomograms with weighted-norm](2013-constrained-regularized-reconstruction-of-x-ray-dpci-tomograms-with-weighted-norm-bgkbltv3.md) — 2013
+- [Convolutional Sparse Coding for Compressed Sensing CT Reconstruction](2019-convolutional-sparse-coding-for-compressed-sensing-ct-reconstruction-ih4dm9ke.md) — 2019
+- [CT image reconstruction via industrial CT fast scanning](2024-ct-image-reconstruction-via-industrial-ct-fast-scanning-ps43d2dw.md) — 2024
+- [Current and Future Perspectives on Computed Tomography Screening for Lung Cancer: A Roadmap From 2023 to 2027 From the International Association for the Study of Lung Cancer](2024-current-and-future-perspectives-on-computed-tomography-screening-for-lung-cancer-a-roadmap-4jlcl833.md) — 2024
+- [Dark-field X-ray microscopy with structured illumination for three-dimensional imaging](2025-dark-field-x-ray-microscopy-with-structured-illumination-for-three-dimensional-imaging-9hryg8pj.md) — 2025
+- [DDGS-CT: Direction-Disentangled Gaussian Splatting for Realistic Volume Rendering](2024-ddgs-ct-direction-disentangled-gaussian-splatting-for-realistic-volume-rendering-cxdbv5v9.md) — 2024
+- [Deep 3D reconstruction of synchrotron X-ray computed tomography for intact lungs](2023-deep-3d-reconstruction-of-synchrotron-x-ray-computed-tomography-for-intact-lungs-ppj8rzvb.md) — 2023
+- [Deep denoising for multi-dimensional synchrotron X-ray tomography without high-quality reference data](2021-deep-denoising-for-multi-dimensional-synchrotron-x-ray-tomography-without-high-quality-ref-mxbwpi6y.md) — 2021
+- [Deep learning based classification of dynamic processes in time-resolved X-ray tomographic microscopy](2021-deep-learning-based-classification-of-dynamic-processes-in-time-resolved-x-ray-tomographic-szkbabt2.md) — 2021
+- [Deep learning enables nanoscale X-ray 3D imaging with limited data](2023-deep-learning-enables-nanoscale-x-ray-3d-imaging-with-limited-data-vgfv596y.md) — 2023
+- [Deep learning for tomographic image reconstruction](2020-deep-learning-for-tomographic-image-reconstruction-zfakz7z7.md) — 2020
+- [Deep learning-based spatio-temporal fusion for high-fidelity ultra-high-speed X-ray radiography](2025-deep-learning-based-spatio-temporal-fusion-for-high-fidelity-ultra-high-speed-x-ray-radiog-7bt8wvw9.md) — 2025
+- [Detailed analysis of the interference patterns measured in lab-based X-ray dual-phase grating interferometry through wave propagation simulation](2023-detailed-analysis-of-the-interference-patterns-measured-in-lab-based-x-ray-dual-phase-grat-q3mbv5zl.md) — 2023
+- [Detecting lithium plating dynamics in a solid-state battery with operando X-ray computed tomography using machine learning](2023-detecting-lithium-plating-dynamics-in-a-solid-state-battery-with-operando-x-ray-computed-t-lclbe65i.md) — 2023
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-u2dqhc4z.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-xzt6e9fa.md) — undated
+- [Development of microtomographic in vivo imaging to study lung dynamics at the TOMCAT beamline](undated-development-of-microtomographic-in-vivo-imaging-to-study-lung-dynamics-at-the-tomcat-beaml-hmpw48h9.md) — undated
+- [Development towards high-resolution kHz-speed rotation-free volumetric imaging](2024-development-towards-high-resolution-khz-speed-rotation-free-volumetric-imaging-uxft5ibu.md) — 2024
+- [Differential phase-contrast X-ray computed tomography: From model discretization to image reconstruction](2012-differential-phase-contrast-x-ray-computed-tomography-from-model-discretization-to-image-r-kqxmsnyz.md) — 2012
+- [Diffraction-limited storage rings – a window to the science of tomorrow](2014-diffraction-limited-storage-rings-a-window-to-the-science-of-tomorrow-qwpbxkpe.md) — 2014
+- [Dose optimization approach to fast X-ray microtomography of the lung alveoli](2013-dose-optimization-approach-to-fast-x-ray-microtomography-of-the-lung-alveoli-hb9cwp7y.md) — 2013
+- [Dual-Domain deep prior guided sparse-view CT reconstruction with multi-scale fusion attention](2025-dual-domain-deep-prior-guided-sparse-view-ct-reconstruction-with-multi-scale-fusion-attent-894qgxtg.md) — 2025
+- [Dynamic compression of 3D printed metallic mesostructures with in-situ X-ray imaging](2019-dynamic-compression-of-3d-printed-metallic-mesostructures-with-in-situ-x-ray-imaging-ywckxgu4.md) — 2019
+- [Dynamic Tomography Reconstruction by Projection-Domain Separable Modeling](2022-dynamic-tomography-reconstruction-by-projection-domain-separable-modeling-sf6ujjep.md) — 2022
+- [Dynamic Tomography Reconstruction via Low-Rank Modeling with a RED Spatial Prior](2023-dynamic-tomography-reconstruction-via-low-rank-modeling-with-a-red-spatial-prior-w26mnegg.md) — 2023
+- [Dynamic X-ray computed tomography](2003-dynamic-x-ray-computed-tomography-6x7s2q7c.md) — 2003
+- [Dynamic X-ray imaging with screen-printed perovskite CMOS array](2024-dynamic-x-ray-imaging-with-screen-printed-perovskite-cmos-array-qa3hr5tj.md) — 2024
+- [End-to-End Deep Learning for Interior Tomography with Low-Dose X-ray CT](2025-end-to-end-deep-learning-for-interior-tomography-with-low-dose-x-ray-ct-67ce426h.md) — 2025
+- [Event-based x-ray imager with ghosting-free scintillator film](2024-event-based-x-ray-imager-with-ghosting-free-scintillator-film-p2bnd4ff.md) — 2024
+- [Event-guided temporally super-resolved synchrotron X-ray imaging](2025-event-guided-temporally-super-resolved-synchrotron-x-ray-imaging-i586mn8f.md) — 2025
+- [Exploring frontiers of 4D X-ray tomography](2021-exploring-frontiers-of-4d-x-ray-tomography-38bj6bxx.md) — 2021
+- [Feature-enhanced X-ray imaging using fused neural network strategy with designable metasurface](2023-feature-enhanced-x-ray-imaging-using-fused-neural-network-strategy-with-designable-metasur-jetrnp54.md) — 2023
+- [FMT-XCT: in vivo animal studies with hybrid fluorescence molecular tomography–X-ray computed tomography](2012-fmt-xct-in-vivo-animal-studies-with-hybrid-fluorescence-molecular-tomographyx-ray-computed-6xmrtx9j.md) — 2012
+- [Four-dimensional in vivo X-ray microscopy with projection-guided gating](2015-four-dimensional-in-vivo-x-ray-microscopy-with-projection-guided-gating-2z62g6ee.md) — 2015
+- [Fourth-generation light sources](2023-fourth-generation-light-sources-ifef8vwq.md) — 2023
+- [From micro- to nano- and time-resolved x-ray computed tomography: Bio-based applications, synchrotron capabilities, and data-driven processing](2023-from-micro-to-nano-and-time-resolved-x-ray-computed-tomography-bio-based-applications-sync-zmkxu3l3.md) — 2023
+- [Generalizable Structure-Aware INF: Biplanar-View CT Reconstruction via Disentangled Implicit Neural Field](2025-generalizable-structure-aware-inf-biplanar-view-ct-reconstruction-via-disentangled-implici-89cfe8eu.md) — 2025
+- [Geometry-Aware Attenuation Learning for Sparse-View CBCT Reconstruction](2023-geometry-aware-attenuation-learning-for-sparse-view-cbct-reconstruction-fyethquf.md) — 2023
+- [GigaFRoST: the gigabit fast readout system for tomography](2017-gigafrost-the-gigabit-fast-readout-system-for-tomography-pybdrfx4.md) — 2017
+- [GLIMPSE: Generalized Locality for Scalable and Robust CT](2025-glimpse-generalized-locality-for-scalable-and-robust-ct-w6cae4i9.md) — 2025
+- [Hard x-ray multi-projection imaging for single-shot approaches](2018-hard-x-ray-multi-projection-imaging-for-single-shot-approaches-23zs8zim.md) — 2018
+- [High-numerical-aperture macroscope optics for time-resolved experiments](2019-high-numerical-aperture-macroscope-optics-for-time-resolved-experiments-uvea4fj4.md) — 2019
+- [High-performance 4-nm-resolution X-ray tomography using burst ptychography](2024-high-performance-4-nm-resolution-x-ray-tomography-using-burst-ptychography-ifjy2kpc.md) — 2024
+- [High-resolution fast-tomography brain-imaging beamline at the Taiwan Photon Source](2021-high-resolution-fast-tomography-brain-imaging-beamline-at-the-taiwan-photon-source-bp7llnux.md) — 2021
+- [Hybrid CMOS detectors for high-speed X-ray imaging](2023-hybrid-cmos-detectors-for-high-speed-x-ray-imaging-6ncar6j4.md) — 2023
+- [Image reconstruction in circular cone-beam computed tomography by constrained, total-variation minimization](2008-image-reconstruction-in-circular-cone-beam-computed-tomography-by-constrained-total-variat-48h2cb3c.md) — 2008
+- [Imaging atelectrauma in Ventilator-Induced Lung Injury using 4D X-ray microscopy](2021-imaging-atelectrauma-in-ventilator-induced-lung-injury-using-4d-x-ray-microscopy-2r796e27.md) — 2021
+- [Implementation of a dual-phase grating interferometer for multi-scale characterization of building materials by tunable dark-field imaging](2024-implementation-of-a-dual-phase-grating-interferometer-for-multi-scale-characterization-of-8dtp5f29.md) — 2024
+- [Implicit neural representation for fast 4D computed tomography of multiphase flow in porous media](2025-implicit-neural-representation-for-fast-4d-computed-tomography-of-multiphase-flow-in-porou-g2x8naxu.md) — 2025
+- [In situ chamber for studying battery failure using high-speed synchrotron radiography](2023-in-situ-chamber-for-studying-battery-failure-using-high-speed-synchrotron-radiography-mpqgvrci.md) — 2023
+- [In Situ Loading and Time-Resolved Synchrotron-Based Phase Contrast Tomography for the Mechanical Investigation of Connective Knee Tissues: A Proof-of-Concept Study](2024-in-situ-loading-and-time-resolved-synchrotron-based-phase-contrast-tomography-for-the-mech-9sisc9ld.md) — 2024
+- [In situ X-ray area detector flat-field correction at an operating photon energy without flat illumination](2023-in-situ-x-ray-area-detector-flat-field-correction-at-an-operating-photon-energy-without-fl-svllw96w.md) — 2023
+- [In vivo study of lung physiology with dynamic synchrotron-based tomographic microscopy](2015-in-vivo-study-of-lung-physiology-with-dynamic-synchrotron-based-tomographic-microscopy-pxmvblyh.md) — 2015
+- [In Vivo Time-Resolved Microtomography Reveals the Mechanics of the Blowfly Flight Motor](2014-in-vivo-time-resolved-microtomography-reveals-the-mechanics-of-the-blowfly-flight-motor-b2ccpd7v.md) — 2014
+- [Increased dose efficiency of breast CT with grating interferometry](2023-increased-dose-efficiency-of-breast-ct-with-grating-interferometry-4wtmlzqm.md) — 2023
+- [Innovations in laboratory-based dynamic micro-CT to accelerate in situ research](2020-innovations-in-laboratory-based-dynamic-micro-ct-to-accelerate-in-situ-research-4ashvi3x.md) — 2020
+- [IntraTomo: Self-supervised Learning-based Tomography via Sinogram Synthesis and Prediction](2021-intratomo-self-supervised-learning-based-tomography-via-sinogram-synthesis-and-prediction-bu2wjetg.md) — 2021
+- [Iterative phase contrast CT reconstruction with novel tomographic operator and data-driven prior](2022-iterative-phase-contrast-ct-reconstruction-with-novel-tomographic-operator-and-data-driven-spl2bsqb.md) — 2022
+- [Jungfraujoch: hardware-accelerated data-acquisition system for kilohertz pixel-array X-ray detectors](2023-jungfraujoch-hardware-accelerated-data-acquisition-system-for-kilohertz-pixel-array-x-ray-9cvcj36u.md) — 2023
+- [Laboratory based study of dynamical processes by 4D X-ray CT with sub-second temporal resolution](2017-laboratory-based-study-of-dynamical-processes-by-4d-x-ray-ct-with-sub-second-temporal-reso-z54xeunh.md) — 2017
+- [Learned Primal-Dual Reconstruction](2018-learned-primal-dual-reconstruction-iuwuba9m.md) — 2018
+- [Learning 3D Gaussians for Extremely Sparse-View Cone-Beam CT Reconstruction](2024-learning-3d-gaussians-for-extremely-sparse-view-cone-beam-ct-reconstruction-fv3la2i7.md) — 2024
+- [Learning to Distill Global Representation for Sparse-View CT](2023-learning-to-distill-global-representation-for-sparse-view-ct-8l24wy94.md) — 2023
+- [Limited View Tomographic Reconstruction Using a Cascaded Residual Dense Spatial-Channel Attention Network With Projection Data Fidelity Layer](2021-limited-view-tomographic-reconstruction-using-a-cascaded-residual-dense-spatial-channel-at-c2jnp2ua.md) — 2021
+- [Limited-angle computed tomography with deep image and physics priors | Scientific Reports](undated-limited-angle-computed-tomography-with-deep-image-and-physics-priors-scientific-reports-hdcij5be.md) — undated
+- [Liquid-shaped microlens for scalable production of ultrahigh-resolution optical coherence tomography microendoscope](2024-liquid-shaped-microlens-for-scalable-production-of-ultrahigh-resolution-optical-coherence-x66pkk2c.md) — 2024
+- [Local computed tomography via iterative deblurring](1996-local-computed-tomography-via-iterative-deblurring-nfrwt7xq.md) — 1996
+- [MedNeRF: Medical Neural Radiance Fields for Reconstructing 3D-aware CT-Projections from a Single X-ray](2022-mednerf-medical-neural-radiance-fields-for-reconstructing-3d-aware-ct-projections-from-a-s-bqbeet8q.md) — 2022
+- [Megahertz x-ray microscopy at x-ray free-electron laser and synchrotron sources](2019-megahertz-x-ray-microscopy-at-x-ray-free-electron-laser-and-synchrotron-sources-k9yfjbu5.md) — 2019
+- [Megahertz X-ray Multi-projection imaging](2023-megahertz-x-ray-multi-projection-imaging-9vr4emug.md) — 2023
+- [MHz frame rate hard X-ray phase-contrast imaging using synchrotron radiation](2017-mhz-frame-rate-hard-x-ray-phase-contrast-imaging-using-synchrotron-radiation-573iz7ve.md) — 2017
+- [Micrometer-resolution X-ray tomographic full-volume reconstruction of an intact post-mortem juvenile rat lung](2021-micrometer-resolution-x-ray-tomographic-full-volume-reconstruction-of-an-intact-post-morte-tyfttmlr.md) — 2021
+- [Multibeam x-ray optical system for high-speed tomography](2020-multibeam-x-ray-optical-system-for-high-speed-tomography-868e9dhy.md) — 2020
+- [Multiscale and Dynamic Synchrotron-based Tomographic Microscopy for Cardiovascular Applications](2021-multiscale-and-dynamic-synchrotron-based-tomographic-microscopy-for-cardiovascular-applica-ik4myuqy.md) — 2021
+- [Multiscale pink-beam microCT imaging at the ESRF-ID17 biomedical beamline](2020-multiscale-pink-beam-microct-imaging-at-the-esrf-id17-biomedical-beamline-5tubuseh.md) — 2020
+- [NAF: Neural Attenuation Fields for Sparse-View CBCT Reconstruction](2022-naf-neural-attenuation-fields-for-sparse-view-cbct-reconstruction-n5ieecna.md) — 2022
+- [Needs, Trends, and Advances in Scintillators for Radiographic Imaging and Tomography](2023-needs-trends-and-advances-in-scintillators-for-radiographic-imaging-and-tomography-tl56iuca.md) — 2023
+- [On the possibilities of hard X-ray imaging with high spatio-temporal resolution using polychromatic synchrotron radiation](2010-on-the-possibilities-of-hard-x-ray-imaging-with-high-spatio-temporal-resolution-using-poly-xigrnfc3.md) — 2010
+- [ONIX: An X-ray deep-learning tool for 3D reconstructions from sparse views](2023-onix-an-x-ray-deep-learning-tool-for-3d-reconstructions-from-sparse-views-l4inulql.md) — 2023
+- [Optimising 4D imaging of fast-oscillating structures using X-ray microtomography with retrospective gating](2024-optimising-4d-imaging-of-fast-oscillating-structures-using-x-ray-microtomography-with-retr-63xpzyr4.md) — 2024
+- [Optimization-based Image Reconstruction from Sparse-view Data in Offset-Detector CBCT](2013-optimization-based-image-reconstruction-from-sparse-view-data-in-offset-detector-cbct-ktm7e8hb.md) — 2013
+- [Oral-3Dv2: 3D Oral Reconstruction from Panoramic X-Ray Imaging with Implicit Neural Representation](2023-oral-3dv2-3d-oral-reconstruction-from-panoramic-x-ray-imaging-with-implicit-neural-represe-6kjru8as.md) — 2023
+- [Perovskite computed tomography imager and three-dimensional reconstruction](2024-perovskite-computed-tomography-imager-and-three-dimensional-reconstruction-cvu3kwih.md) — 2024
+- [Phase objects in synchrotron radiation hard x-ray imaging](1996-phase-objects-in-synchrotron-radiation-hard-x-ray-imaging-i6bfv7zv.md) — 1996
+- [Phase retrieval and differential phase-contrast imaging with low-brilliance X-ray sources](2006-phase-retrieval-and-differential-phase-contrast-imaging-with-low-brilliance-x-ray-sources-ddwkpkpf.md) — 2006
+- [Physics-informed 4D X-ray image reconstruction from ultra-sparse spatiotemporal data](2025-physics-informed-4d-x-ray-image-reconstruction-from-ultra-sparse-spatiotemporal-data-2w2lbfc7.md) — 2025
+- [Pore evolution mechanisms during directed energy deposition additive manufacturing](2024-pore-evolution-mechanisms-during-directed-energy-deposition-additive-manufacturing-qc7lheuj.md) — 2024
+- [Practical cone-beam algorithm](1984-practical-cone-beam-algorithm-aj2f9ef7.md) — 1984
+- [Principles of computerized tomographic imaging](2001-principles-of-computerized-tomographic-imaging-g9f3b82l.md) — 2001
+- [Proof of principle study: synchrotron X-ray fluorescence microscopy for identification of previously radioactive microparticles and elemental mapping of FFPE tissues](2023-proof-of-principle-study-synchrotron-x-ray-fluorescence-microscopy-for-identification-of-p-c2bm3tsl.md) — 2023
+- [Quantitative localisation of titanium in the framework of titanium silicalite-1 using anomalous X-ray powder diffraction](2024-quantitative-localisation-of-titanium-in-the-framework-of-titanium-silicalite-1-using-anom-3ayevs7p.md) — 2024
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-t85us2m7.md) — 2024
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-63tp2hlt.md) — 2024
+- [Radiative Gaussian Splatting for Efficient X-ray Novel View Synthesis](2024-radiative-gaussian-splatting-for-efficient-x-ray-novel-view-synthesis-fz9cdb5u.md) — 2024
+- [Real-time observation of compressive fracture of porous material by 10-millisecond 4D X-ray microtomography](2023-real-time-observation-of-compressive-fracture-of-porous-material-by-10-millisecond-4d-x-ra-brw3597u.md) — 2023
+- [Real-time streaming tomographic reconstruction with on-demand data capturing and 3D zooming to regions of interest](2022-real-time-streaming-tomographic-reconstruction-with-on-demand-data-capturing-and-3d-zoomin-zt5b2rba.md) — 2022
+- [Recent developments in MHz radioscopy: Towards the ultimate temporal resolution using storage ring-based light sources](2024-recent-developments-in-mhz-radioscopy-towards-the-ultimate-temporal-resolution-using-stora-qbxxnzy9.md) — 2024
+- [Reconstructing Knee CT Volumes from Biplanar X-Rays Via Self-Supervised Neural Field](2024-reconstructing-knee-ct-volumes-from-biplanar-x-rays-via-self-supervised-neural-field-lb5w5nzr.md) — 2024
+- [Region-of-Interest Tomography for Grating-Based X-Ray Differential Phase-Contrast Imaging](2008-region-of-interest-tomography-for-grating-based-x-ray-differential-phase-contrast-imaging-f9n5ehnc.md) — 2008
+- [Regridding reconstruction algorithm for real-time tomographic imaging](2012-regridding-reconstruction-algorithm-for-real-time-tomographic-imaging-5ewhk8mw.md) — 2012
+- [Review of high-speed imaging with lab-based x-ray computed tomography](2021-review-of-high-speed-imaging-with-lab-based-x-ray-computed-tomography-8qqrq88t.md) — 2021
+- [Ring Artifacts Removal Based on Implicit Neural Representation of Sinogram Data](2025-ring-artifacts-removal-based-on-implicit-neural-representation-of-sinogram-data-5rj3997d.md) — 2025
+- [Scanning high-sensitive x-ray polarization microscopy](2022-scanning-high-sensitive-x-ray-polarization-microscopy-mefbm8jb.md) — 2022
+- [Simulation framework for X-ray grating interferometry optimization](2025-simulation-framework-for-x-ray-grating-interferometry-optimization-hmscixdm.md) — 2025
+- [Simultaneous Algebraic Reconstruction Technique (SART): A Superior Implementation of the Art Algorithm](1984-simultaneous-algebraic-reconstruction-technique-sart-a-superior-implementation-of-the-art-4t3adqqc.md) — 1984
+- [Simultaneous Reciprocal and Real Space X-Ray Imaging of Time-EvolvingSystems](2021-simultaneous-reciprocal-and-real-space-x-ray-imaging-of-time-evolvingsystems-2mfgybx5.md) — 2021
+- [SNAF: Sparse-view CBCT Reconstruction with Neural Attenuation Fields](2022-snaf-sparse-view-cbct-reconstruction-with-neural-attenuation-fields-gbemt752.md) — 2022
+- [Space-Time Tomographic Reconstruction of Deforming Objects](2020-space-time-tomographic-reconstruction-of-deforming-objects-pafx44ix.md) — 2020
+- [Space-time tomography for continuously deforming objects](2018-space-time-tomography-for-continuously-deforming-objects-79qkvbij.md) — 2018
+- [Spatial coherence of synchrotron radiation degraded by grating monochromators](2024-spatial-coherence-of-synchrotron-radiation-degraded-by-grating-monochromators-c44xbcsk.md) — 2024
+- [Spatial coherence of synchrotron radiation degraded by grating monochromators](2024-spatial-coherence-of-synchrotron-radiation-degraded-by-grating-monochromators-3jcrkqxb.md) — 2024
+- [SplineSplat: 3D Ray Tracing for Higher-Quality Tomography](2025-splinesplat-3d-ray-tracing-for-higher-quality-tomography-xk9w3nv7.md) — 2025
+- [Split Hopkinson Tension Bar and Universal Testing Machine for High-Speed X-ray Imaging of Materials under Tension](2022-split-hopkinson-tension-bar-and-universal-testing-machine-for-high-speed-x-ray-imaging-of-5jfg9tul.md) — 2022
+- [Structure-Aware Sparse-View X-Ray 3D Reconstruction](2024-structure-aware-sparse-view-x-ray-3d-reconstruction-699xuz9m.md) — 2024
+- [Sub-millisecond 4D X-ray tomography achieved with a multibeam X-ray imaging system](2023-sub-millisecond-4d-x-ray-tomography-achieved-with-a-multibeam-x-ray-imaging-system-84ucihwx.md) — 2023
+- [Sub-second X-ray tomographic microscopy of liquid water dynamics in polymer electrolyte fuel cells](undated-sub-second-x-ray-tomographic-microscopy-of-liquid-water-dynamics-in-polymer-electrolyte-fu-vhec5pqg.md) — undated
+- [Super Time-Resolved Tomography](2026-super-time-resolved-tomography-elarn86c.md) — 2026
+- [Synchrotron big data science](2018-synchrotron-big-data-science-fqettvl2.md) — 2018
+- [Synchrotron radiation sparse-view CT artifact correction through deep learning neural networks](2025-synchrotron-radiation-sparse-view-ct-artifact-correction-through-deep-learning-neural-netw-rwwiqgp5.md) — 2025
+- [Synchrotron-based radioscopy employing spatio-temporal micro-resolution for studying fast phenomena in liquid metal foams](2009-synchrotron-based-radioscopy-employing-spatio-temporal-micro-resolution-for-studying-fast-a3csnbvi.md) — 2009
+- [Target Prior-enriched Implicit 3D CT Reconstruction with Adaptive Ray Sampling](2026-target-prior-enriched-implicit-3d-ct-reconstruction-with-adaptive-ray-sampling-6kqafipu.md) — 2026
+- [The fractional Talbot effect in differential x-ray phase-contrast imaging for extended and polychromatic x-ray sources](2008-the-fractional-talbot-effect-in-differential-x-ray-phase-contrast-imaging-for-extended-and-kr6qcu2b.md) — 2008
+- [The human middle ear in motion: 3D visualization and quantification using dynamic synchrotron-based X-ray imaging](2024-the-human-middle-ear-in-motion-3d-visualization-and-quantification-using-dynamic-synchrotr-jvymqy2s.md) — 2024
+- [The new X-ray imaging and biomedical application beamline BL13HB at SSRF](2023-the-new-x-ray-imaging-and-biomedical-application-beamline-bl13hb-at-ssrf-2w7aa9hf.md) — 2023
+- [Thymic health and immunotherapy outcomes in patients with cancer](2026-thymic-health-and-immunotherapy-outcomes-in-patients-with-cancer-aks89aw4.md) — 2026
+- [TIGRE: a MATLAB-GPU toolbox for CBCT image reconstruction](2016-tigre-a-matlab-gpu-toolbox-for-cbct-image-reconstruction-l92hskv8.md) — 2016
+- [Time of flight dual photon emission computed tomography](2020-time-of-flight-dual-photon-emission-computed-tomography-qqtrtbrl.md) — 2020
+- [Time Resolved in situ X-Ray Tomographic Microscopy Unraveling Dynamic Processes in Geologic Systems](2020-time-resolved-in-situ-x-ray-tomographic-microscopy-unraveling-dynamic-processes-in-geologi-6njdcygc.md) — 2020
+- [Time-of-arrival detection for time-resolved scanning transmission X-ray microscopy imaging](2020-time-of-arrival-detection-for-time-resolved-scanning-transmission-x-ray-microscopy-imaging-4dkxdci6.md) — 2020
+- [Time-resolved 3D imaging of two-phase fluid flow inside a steel fuel injector using synchrotron X-ray tomography](2020-time-resolved-3d-imaging-of-two-phase-fluid-flow-inside-a-steel-fuel-injector-using-synchr-nsk4njva.md) — 2020
+- [Time-resolved ultra-small-angle X-ray scattering beamline (BL10U1) at SSRF](2024-time-resolved-ultra-small-angle-x-ray-scattering-beamline-bl10u1-at-ssrf-w7nnrqwe.md) — 2024
+- [Time-Resolved X-Ray Microscopy for Materials Science](2019-time-resolved-x-ray-microscopy-for-materials-science-94q2pgy4.md) — 2019
+- [TomoBank: a tomographic data repository for computational x-ray science](2018-tomobank-a-tomographic-data-repository-for-computational-x-ray-science-fghplbr6.md) — 2018
+- [Tomographic Image Reconstruction. - An Introduction.](undated-tomographic-image-reconstruction-an-introduction-rg6fbi6n.md) — undated
+- [Tomographic in vivo microscopy for the study of lung physiology at the alveolar level](2017-tomographic-in-vivo-microscopy-for-the-study-of-lung-physiology-at-the-alveolar-level-wfsdk96b.md) — 2017
+- [Tomography with grating interferometers at low-brilliance sources](2006-tomography-with-grating-interferometers-at-low-brilliance-sources-uypsttzw.md) — 2006
+- [TomoPhantom, a software package to generate 2D–4D analytical phantoms for CT image reconstruction algorithm benchmarks](2018-tomophantom-a-software-package-to-generate-2d4d-analytical-phantoms-for-ct-image-reconstru-s827xyxa.md) — 2018
+- [TomoPy: a framework for the analysis of synchrotron tomographic data](2014-tomopy-a-framework-for-the-analysis-of-synchrotron-tomographic-data-ix96qyrv.md) — 2014
+- [Tomoscopy: Time-resolved tomography for dynamic processes in materials](2021-tomoscopy-time-resolved-tomography-for-dynamic-processes-in-materials-musnhlki.md) — 2021
+- [Towards full-stack deep learning-empowered data processing pipeline for synchrotron tomography experiments](2024-towards-full-stack-deep-learning-empowered-data-processing-pipeline-for-synchrotron-tomogr-cmu6b3g7.md) — 2024
+- [Towards on-the-fly data post-processing for real-time tomographic imaging at TOMCAT](2017-towards-on-the-fly-data-post-processing-for-real-time-tomographic-imaging-at-tomcat-ycpfy4et.md) — 2017
+- [Trends in synchrotron-based tomographic imaging: the SLS experience](2006-trends-in-synchrotron-based-tomographic-imaging-the-sls-experience-tjatsgia.md) — 2006
+- [Ultra-high-speed indirect x-ray imaging system with versatile spatiotemporal sampling capabilities](2018-ultra-high-speed-indirect-x-ray-imaging-system-with-versatile-spatiotemporal-sampling-capa-hid6ulr6.md) — 2018
+- [Ultrafast three-dimensional x-ray computed tomography](2011-ultrafast-three-dimensional-x-ray-computed-tomography-sla47wzv.md) — 2011
+- [Ultrasparse View X-ray Computed Tomography for 4D Imaging](2023-ultrasparse-view-x-ray-computed-tomography-for-4d-imaging-asus4tsp.md) — 2023
+- [Using X-ray tomoscopy to explore the dynamics of foaming metal](2019-using-x-ray-tomoscopy-to-explore-the-dynamics-of-foaming-metal-tafpmbsi.md) — 2019
+- [Versatile tabletop setup for picosecond time-resolved resonant soft-x-ray scattering and spectroscopy](2023-versatile-tabletop-setup-for-picosecond-time-resolved-resonant-soft-x-ray-scattering-and-s-zyqhqbhn.md) — 2023
+- [Warp-and-project tomography for rapidly deforming objects](2019-warp-and-project-tomography-for-rapidly-deforming-objects-e3iz9swn.md) — 2019
+- [X-Field: A Physically Grounded Representation for 3D X-ray Reconstruction](2025-x-field-a-physically-grounded-representation-for-3d-x-ray-reconstruction-gb3g868c.md) — 2025
+- [X-LRM: X-ray Large Reconstruction Model for Extremely Sparse-View Computed Tomography Recovery in One Second](2025-x-lrm-x-ray-large-reconstruction-model-for-extremely-sparse-view-computed-tomography-recov-8d4etl4b.md) — 2025
+- [X-ray computed laminography: A brief review of mechanisms, reconstruction, applications and perspectives](2025-x-ray-computed-laminography-a-brief-review-of-mechanisms-reconstruction-applications-and-p-be6b3ut7.md) — 2025
+- [X-ray computed tomography](2021-x-ray-computed-tomography-7fh5r4t7.md) — 2021
+- [X-ray computed tomography using curvelet sparse regularization](2015-x-ray-computed-tomography-using-curvelet-sparse-regularization-qgsxmz45.md) — 2015
+- [X-ray imaging with ePix100a: a high-speed, high-resolution, low-noise camera](2016-x-ray-imaging-with-epix100a-a-high-speed-high-resolution-low-noise-camera-ehyse8fk.md) — 2016
+- [X-ray tracking using a perovskite scintillator with an event-based sensor](2023-x-ray-tracking-using-a-perovskite-scintillator-with-an-event-based-sensor-kymndzwy.md) — 2023
+- [XIDER: a novel X-ray detector for the next generation of high-energy synchrotron radiation sources](2022-xider-a-novel-x-ray-detector-for-the-next-generation-of-high-energy-synchrotron-radiation-d4cgsgib.md) — 2022
+- [Zhentang Zhao: past and future of the Shanghai Synchrotron Radiation Facility](2021-zhentang-zhao-past-and-future-of-the-shanghai-synchrotron-radiation-facility-fc2kcn3y.md) — 2021
+
+### 整理_按主题 / 03 Computational Imaging / Optics
+- [A large-scale coherent 4D imaging sensor](2026-a-large-scale-coherent-4d-imaging-sensor-76upuxmh.md) — 2026
+- [Digital Copy of First Edition - Accepted for Printing by MIT Press](2022-digital-copy-of-first-edition-accepted-for-printing-by-mit-press-km9xwh2d.md) — 2022
+- [Direct observation of atmospheric turbulence with a video-rate wide-field wavefront sensor](2024-direct-observation-of-atmospheric-turbulence-with-a-video-rate-wide-field-wavefront-sensor-eu73m33u.md) — 2024
+- [Dynamic X-ray speckle-tracking imaging with high-accuracy phase retrieval based on deep learning](2024-dynamic-x-ray-speckle-tracking-imaging-with-high-accuracy-phase-retrieval-based-on-deep-le-lw8589ps.md) — 2024
+- [Eliminating Decoherence Effects and Improving Reconstructed Image Quality in Soft X-ray Ptychography.](2018-eliminating-decoherence-effects-and-improving-reconstructed-image-quality-in-soft-x-ray-pt-8fm7zjsk.md) — 2018
+- [EVA2: Event-Assisted Video Frame Interpolation via Cross-Modal Alignment and Aggregation](2022-eva2-event-assisted-video-frame-interpolation-via-cross-modal-alignment-and-aggregation-x6jcf2aw.md) — 2022
+- [Implementation of a dual-phase grating interferometer for multi-scale characterization of building materials by tunable dark-field imaging](2024-implementation-of-a-dual-phase-grating-interferometer-for-multi-scale-characterization-of-8dtp5f29.md) — 2024
+- [Metal assisted chemical etching of silicon in the gas phase: a nanofabrication platform for X-ray optics](2020-metal-assisted-chemical-etching-of-silicon-in-the-gas-phase-a-nanofabrication-platform-for-viutmzj9.md) — 2020
+- [Noise-tolerant single photon sensitive three-dimensional imager](2020-noise-tolerant-single-photon-sensitive-three-dimensional-imager-383yy8me.md) — 2020
+- [Nonlinear optical encoding enabled by recurrent linear scattering](2024-nonlinear-optical-encoding-enabled-by-recurrent-linear-scattering-x2ydyd5f.md) — 2024
+- [Soft X-ray ptychography method at SSRF](2017-soft-x-ray-ptychography-method-at-ssrf-yrxpgzy7.md) — 2017
+- [Soft X-ray Spectro-Ptychography for Air Pollution Particulates](2018-soft-x-ray-spectro-ptychography-for-air-pollution-particulates-mb9i5vzx.md) — 2018
+
+### 整理_按主题 / 04 ML / Computer Vision / 3D
+- [2D Gaussian Splatting for Geometrically Accurate Radiance Fields](2024-2d-gaussian-splatting-for-geometrically-accurate-radiance-fields-22zgud83.md) — 2024
+- [3D Gaussian Splatting as New Era: A Survey](2024-3d-gaussian-splatting-as-new-era-a-survey-8uq38jpr.md) — 2024
+- [3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis](2024-3d-geometry-aware-deformable-gaussian-splatting-for-dynamic-view-synthesis-3kbtadn7.md) — 2024
+- [3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis](2024-3d-geometry-aware-deformable-gaussian-splatting-for-dynamic-view-synthesis-22t5ufam.md) — 2024
+- [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](2024-4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-iv8fvufy.md) — 2024
+- [4D Gaussian Splatting for Real-Time Dynamic Scene Rendering](2024-4d-gaussian-splatting-for-real-time-dynamic-scene-rendering-v8yiiuv4.md) — 2024
+- [A 128 × 128 Asynchronous Temporal Contrast Vision Sensor with 120 dB Dynamic Range and 15 μs Latency](2008-a-128-128-asynchronous-temporal-contrast-vision-sensor-with-120-db-dynamic-range-and-15-μs-7zfbidup.md) — 2008
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-4v8s2qkf.md) — undated
+- [A chip based on the neural architecture of the eye proves a new, more powerful way of doing computations](undated-a-chip-based-on-the-neural-architecture-of-the-eye-proves-a-new-more-powerful-way-of-doing-2b5ymr2e.md) — undated
+- [A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets](2024-a-hierarchical-3d-gaussian-representation-for-real-time-rendering-of-very-large-datasets-5wk8b8j4.md) — 2024
+- [A Review of Artificial Spiking Neuron Devices for Neural Processing and Sensing](2022-a-review-of-artificial-spiking-neuron-devices-for-neural-processing-and-sensing-eqwvdefi.md) — 2022
+- [A silicon neuron](1991-a-silicon-neuron-sjzy6mlt.md) — 1991
+- [A Survey on 3D Gaussian Splatting](2024-a-survey-on-3d-gaussian-splatting-5fl5hi4i.md) — 2024
+- [A Survey on Event-driven 3D Reconstruction: Development under Different Categories](2025-a-survey-on-event-driven-3d-reconstruction-development-under-different-categories-9ftz4969.md) — 2025
+- [Adaptive deconvolutional networks for mid and high level feature learning](2011-adaptive-deconvolutional-networks-for-mid-and-high-level-feature-learning-l8l5vhgc.md) — 2011
+- [Advances in neural rendering](2021-advances-in-neural-rendering-jitecylq.md) — 2021
+- [Advancing X-ray imaging with deep learning](undated-advancing-x-ray-imaging-with-deep-learning-lv2tiqqa.md) — undated
+- [AgriNeRF: Neural Radiance Fields for Agriculture in Challenging Lighting Conditions](2024-agrinerf-neural-radiance-fields-for-agriculture-in-challenging-lighting-conditions-udns4hca.md) — 2024
+- [Asynchronous Stereo Vision for Event-Driven Dynamic Stereo Sensor Using an Adaptive Cooperative Approach](2013-asynchronous-stereo-vision-for-event-driven-dynamic-stereo-sensor-using-an-adaptive-cooper-dp4a33uq.md) — 2013
+- [Baking Neural Radiance Fields for Real-Time View Synthesis](2021-baking-neural-radiance-fields-for-real-time-view-synthesis-ryaytnf6.md) — 2021
+- [Benchmarking Implicit Neural Representation and Geometric Rendering in Real-Time RGB-D SLAM](2024-benchmarking-implicit-neural-representation-and-geometric-rendering-in-real-time-rgb-d-sla-wxyy8j5f.md) — 2024
+- [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](2025-benerf-neural-radiance-fields-from-a-single-blurry-image-and-event-stream-iscij2sf.md) — 2025
+- [BeNeRF: Neural Radiance Fields from a Single Blurry Image and Event Stream](2024-benerf-neural-radiance-fields-from-a-single-blurry-image-and-event-stream-d5cdjcvg.md) — 2024
+- [Biologically inspired evolution and adaptation in artificial neural networks](undated-biologically-inspired-evolution-and-adaptation-in-artificial-neural-networks-4suj3atp.md) — undated
+- [Bringing Alive Blurred Moments](2019-bringing-alive-blurred-moments-7iw4t9xj.md) — 2019
+- [CoGS: Controllable Gaussian Splatting](2024-cogs-controllable-gaussian-splatting-ukb4ig2f.md) — 2024
+- [CoGS: Controllable Gaussian Splatting](2024-cogs-controllable-gaussian-splatting-8l2q7zjh.md) — 2024
+- [Coherent Event Guided Low-Light Video Enhancement](2023-coherent-event-guided-low-light-video-enhancement-bi6b4bsx.md) — 2023
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](2024-compact-3d-gaussian-splatting-for-static-and-dynamic-radiance-fields-j688r9et.md) — 2024
+- [Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields](2024-compact-3d-gaussian-splatting-for-static-and-dynamic-radiance-fields-k9i9itkh.md) — 2024
+- [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout](2023-componerf-text-guided-multi-object-compositional-nerf-with-editable-3d-scene-layout-vupg97m5.md) — 2023
+- [Computer Vision: Algorithms and Applications](2022-computer-vision-algorithms-and-applications-gimhdrb4.md) — 2022
+- [Computer Vision: Algorithms and Applications, 2nd Edition](undated-computer-vision-algorithms-and-applications-2nd-edition-zyndge2v.md) — undated
+- [Continuous Learning and Adaptation with Membrane Potential and Activation Threshold Homeostasis](2021-continuous-learning-and-adaptation-with-membrane-potential-and-activation-threshold-homeos-nchlnw9w.md) — 2021
+- [CS5242 : Neural Networks and Deep Learning](undated-cs5242-neural-networks-and-deep-learning-q3hfu6gs.md) — undated
+- [D-NeRF: Neural Radiance Fields for Dynamic Scenes](2021-d-nerf-neural-radiance-fields-for-dynamic-scenes-r8t487bm.md) — 2021
+- [DE-NAF: decoupled neural attenuation fields for sparse-view CBCT reconstruction](2025-de-naf-decoupled-neural-attenuation-fields-for-sparse-view-cbct-reconstruction-8ytl5ezk.md) — 2025
+- [Deblur-NeRF: Neural Radiance Fields from Blurry Images](2022-deblur-nerf-neural-radiance-fields-from-blurry-images-qhnc9d3b.md) — 2022
+- [Deblurring Neural Radiance Fields with Event-driven Bundle Adjustment](2024-deblurring-neural-radiance-fields-with-event-driven-bundle-adjustment-wiwfl3tx.md) — 2024
+- [DeblurSplat: SfM-free 3D Gaussian Splatting with Event Camera for Robust Deblurring](2025-deblursplat-sfm-free-3d-gaussian-splatting-with-event-camera-for-robust-deblurring-rgbdsinj.md) — 2025
+- [Deep Image Deblurring: A Survey](2022-deep-image-deblurring-a-survey-bwstuh5e.md) — 2022
+- [Deep learning](2015-deep-learning-68uqm9gh.md) — 2015
+- [Deep Learning for Detecting Multiple Space-Time Action Tubes in Videos](2016-deep-learning-for-detecting-multiple-space-time-action-tubes-in-videos-kxnnm884.md) — 2016
+- [Deep Residual Learning for Image Recognition](2016-deep-residual-learning-for-image-recognition-6l2yyebh.md) — 2016
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2024-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-gx3d2x2n.md) — 2024
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2024-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-vjzqrhei.md) — 2024
+- [Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction](2023-deformable-3d-gaussians-for-high-fidelity-monocular-dynamic-scene-reconstruction-a8cqwmmn.md) — 2023
+- [Deformable Convolutional Networks](2017-deformable-convolutional-networks-tvgdskrd.md) — 2017
+- [Deformable Neural Radiance Fields using RGB and Event Cameras](2023-deformable-neural-radiance-fields-using-rgb-and-event-cameras-wapf6ctq.md) — 2023
+- [Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images](2024-depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-t9liww63.md) — 2024
+- [Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images](2024-depth-regularized-optimization-for-3d-gaussian-splatting-in-few-shot-images-bgi2j92k.md) — 2024
+- [Differentiable Rendering: A Survey](2020-differentiable-rendering-a-survey-nnnk7hkc.md) — 2020
+- [Discretized Gaussian Representation for Tomographic Reconstruction](2025-discretized-gaussian-representation-for-tomographic-reconstruction-96l4jfhp.md) — 2025
+- [Dynamic 3D Gaussian Fields for Urban Areas](2024-dynamic-3d-gaussian-fields-for-urban-areas-6cx6bl64.md) — 2024
+- [Dynamic 3D Gaussian Fields for Urban Areas](2024-dynamic-3d-gaussian-fields-for-urban-areas-bafziknv.md) — 2024
+- [Dynamic CT Reconstruction from Limited Views with Implicit Neural Representations and Parametric Motion Fields](2021-dynamic-ct-reconstruction-from-limited-views-with-implicit-neural-representations-and-para-rczdpfd3.md) — 2021
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](2023-dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-sp-zu7b8imv.md) — 2023
+- [DynMF: Neural Motion Factorization for Real-time Dynamic View Synthesis with 3D Gaussian Splatting](2023-dynmf-neural-motion-factorization-for-real-time-dynamic-view-synthesis-with-3d-gaussian-sp-mg2zlxk9.md) — 2023
+- [E$^3$NeRF: Efficient Event-Enhanced Neural Radiance Fields from Blurry Images](2024-e3nerf-efficient-event-enhanced-neural-radiance-fields-from-blurry-images-spqr8c2r.md) — 2024
+- [E-3DGS: Gaussian Splatting with Exposure and Motion Events](2024-e-3dgs-gaussian-splatting-with-exposure-and-motion-events-44ec9g44.md) — 2024
+- [E-NeRF: Neural Radiance Fields From a Moving Event Camera](2023-e-nerf-neural-radiance-fields-from-a-moving-event-camera-49aajbjk.md) — 2023
+- [E2GS: Event Enhanced Gaussian Splatting](2024-e2gs-event-enhanced-gaussian-splatting-72x2tgt2.md) — 2024
+- [E2NeRF: Event Enhanced Neural Radiance Fields from Blurry Images](2023-e2nerf-event-enhanced-neural-radiance-fields-from-blurry-images-bziygkci.md) — 2023
+- [EaDeblur-GS: Event assisted 3D Deblur Reconstruction with Gaussian Splatting](2024-eadeblur-gs-event-assisted-3d-deblur-reconstruction-with-gaussian-splatting-juldtb7x.md) — 2024
+- [Elite-EvGS: Learning Event-based 3D Gaussian Splatting by Distilling Event-to-Video Priors](2024-elite-evgs-learning-event-based-3d-gaussian-splatting-by-distilling-event-to-video-priors-hbmbkseh.md) — 2024
+- [End-to-End Learning of Representations for Asynchronous Event-Based Data](2019-end-to-end-learning-of-representations-for-asynchronous-event-based-data-jpcymfqz.md) — 2019
+- [Energy-conserving equivariant GNN for elasticity of lattice architected metamaterials](2024-energy-conserving-equivariant-gnn-for-elasticity-of-lattice-architected-metamaterials-kjv6dukj.md) — 2024
+- [Enhancing Dynamic CT Image Reconstruction with Neural Fields and Optical Flow](2025-enhancing-dynamic-ct-image-reconstruction-with-neural-fields-and-optical-flow-9pejfv5v.md) — 2025
+- [Ev-NeRF: Event Based Neural Radiance Field](2023-ev-nerf-event-based-neural-radiance-field-fqsbynsm.md) — 2023
+- [Event-3DGS: Event-based 3D Reconstruction Using 3D Gaussian Splatting](2024-event-3dgs-event-based-3d-reconstruction-using-3d-gaussian-splatting-2bwlx4ud.md) — 2024
+- [Event-based 3D reconstruction from neuromorphic retinas](2013-event-based-3d-reconstruction-from-neuromorphic-retinas-6dfz8il9.md) — 2013
+- [EventNeRF: neural radiance fields from a single colour event camera](2023-eventnerf-neural-radiance-fields-from-a-single-colour-event-camera-p9xrcf8b.md) — 2023
+- [EventNeRF: Neural Radiance Fields from a Single Colour Event Camera](2023-eventnerf-neural-radiance-fields-from-a-single-colour-event-camera-yy7xd8mm.md) — 2023
+- [Fast Image Reconstruction with an Event Camera](2020-fast-image-reconstruction-with-an-event-camera-jhtd34gd.md) — 2020
+- [Feedback control of event cameras](2021-feedback-control-of-event-cameras-lw39zdxa.md) — 2021
+- [Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains](2020-fourier-features-let-networks-learn-high-frequency-functions-in-low-dimensional-domains-wiymy2hs.md) — 2020
+- [Gaussian Splatting: 3D Reconstruction and Novel View Synthesis: A Review](2024-gaussian-splatting-3d-reconstruction-and-novel-view-synthesis-a-review-wtfukajz.md) — 2024
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](2024-gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-7859iuzi.md) — 2024
+- [Gaussian-Flow: 4D Reconstruction with Dynamic 3D Gaussian Particle](2024-gaussian-flow-4d-reconstruction-with-dynamic-3d-gaussian-particle-ygpqywgj.md) — 2024
+- [Grating-based coded aperture compressive spectral imaging to reconstruct over 190 spectral bands from a snapshot measurement](2023-grating-based-coded-aperture-compressive-spectral-imaging-to-reconstruct-over-190-spectral-qafgr9pg.md) — 2023
+- [gsplat: An Open-Source Library for Gaussian Splatting](2024-gsplat-an-open-source-library-for-gaussian-splatting-7x2yvj25.md) — 2024
+- [HashEncoding: Autoencoding with Multiscale Coordinate Hashing](2022-hashencoding-autoencoding-with-multiscale-coordinate-hashing-4cv8e348.md) — 2022
+- [HDPNERF: Hybrid Depth Priors for Neural Radiance Fields from Sparse Input Views](2024-hdpnerf-hybrid-depth-priors-for-neural-radiance-fields-from-sparse-input-views-abmjw53m.md) — 2024
+- [Hi-Map: Hierarchical Factorized Radiance Field for High-Fidelity Monocular Dense Mapping](2024-hi-map-hierarchical-factorized-radiance-field-for-high-fidelity-monocular-dense-mapping-d6y6mc9u.md) — 2024
+- [High-resolution single-photon imaging with physics-informed deep learning](2023-high-resolution-single-photon-imaging-with-physics-informed-deep-learning-e84j2br4.md) — 2023
+- [HR-INR: Continuous Space-Time Video Super-Resolution via Event Camera](2024-hr-inr-continuous-space-time-video-super-resolution-via-event-camera-ddp6fy2s.md) — 2024
+- [ICARUS: A Specialized Architecture for Neural Radiance Fields Rendering](2022-icarus-a-specialized-architecture-for-neural-radiance-fields-rendering-6mmts7xg.md) — 2022
+- [IDO-VFI: Identifying Dynamics via Optical Flow Guidance for Video Frame Interpolation with Events](2023-ido-vfi-identifying-dynamics-via-optical-flow-guidance-for-video-frame-interpolation-with-jxmlcisd.md) — 2023
+- [Image reconstruction by domain-transform manifold learning](2018-image-reconstruction-by-domain-transform-manifold-learning-b6xx4rve.md) — 2018
+- [Imaging Interiors: An Implicit Solution to Electromagnetic Inverse Scattering Problems](2024-imaging-interiors-an-implicit-solution-to-electromagnetic-inverse-scattering-problems-qssqvgn7.md) — 2024
+- [Improving 3D Imaging with Pre-Trained Perpendicular 2D Diffusion Models](2023-improving-3d-imaging-with-pre-trained-perpendicular-2d-diffusion-models-84vm4dck.md) — 2023
+- [IncEventGS: Pose-Free Gaussian Splatting from a Single Event Camera](2024-inceventgs-pose-free-gaussian-splatting-from-a-single-event-camera-prbvcky9.md) — 2024
+- [INeAT: Iterative Neural Adaptive Tomography](2023-ineat-iterative-neural-adaptive-tomography-e5c8g5d3.md) — 2023
+- [Instant neural graphics primitives with a multiresolution hash encoding](2022-instant-neural-graphics-primitives-with-a-multiresolution-hash-encoding-zibtbsnu.md) — 2022
+- [Integer-Valued Training and Spike-Driven Inference Spiking Neural Network for High-Performance and Energy-Efficient Object Detection](2025-integer-valued-training-and-spike-driven-inference-spiking-neural-network-for-high-perform-syfafnv7.md) — 2025
+- [Integral Neural Networks](2023-integral-neural-networks-tlqf7k8v.md) — 2023
+- [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](2023-k-planes-explicit-radiance-fields-in-space-time-and-appearance-52riyz4b.md) — 2023
+- [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance](2023-k-planes-explicit-radiance-fields-in-space-time-and-appearance-jx2e8ign.md) — 2023
+- [Knowledge Distillation: A Survey](2021-knowledge-distillation-a-survey-euvmtzib.md) — 2021
+- [Learned Initializations for Optimizing Coordinate-Based Neural Representations](2021-learned-initializations-for-optimizing-coordinate-based-neural-representations-z28u55pk.md) — 2021
+- [Learning a Multi-View Stereo Machine](2017-learning-a-multi-view-stereo-machine-9wft7mam.md) — 2017
+- [Learning a Multi-View Stereo Machine](2017-learning-a-multi-view-stereo-machine-5jfxs3be.md) — 2017
+- [Learning Fast Approximations of Sparse Coding](2010-learning-fast-approximations-of-sparse-coding-d3vydz8u.md) — 2010
+- [Learning High-Quality Navigation and Zooming on Omnidirectional Images in Virtual Reality](2024-learning-high-quality-navigation-and-zooming-on-omnidirectional-images-in-virtual-reality-gc6cwz65.md) — 2024
+- [Learning INR for Event-guided Rolling Shutter Frame Correction, Deblur, and Interpolation](2023-learning-inr-for-event-guided-rolling-shutter-frame-correction-deblur-and-interpolation-u2cf3dxd.md) — 2023
+- [Learning Spatial-Temporal Implicit Neural Representations for Event-Guided Video Super-Resolution](2023-learning-spatial-temporal-implicit-neural-representations-for-event-guided-video-super-res-h8bt6szf.md) — 2023
+- [Learning to Extract a Video Sequence from a Single Motion-Blurred Image](2018-learning-to-extract-a-video-sequence-from-a-single-motion-blurred-image-zvgifppt.md) — 2018
+- [Learning to Super-Resolve Blurry Images with Events](2023-learning-to-super-resolve-blurry-images-with-events-yul7chdy.md) — 2023
+- [Live Demonstration: Unsupervised Event-Based Learning of Optical Flow, Depth and Egomotion](2019-live-demonstration-unsupervised-event-based-learning-of-optical-flow-depth-and-egomotion-5cjpvytu.md) — 2019
+- [Local Implicit Grid Representations for 3D Scenes](2020-local-implicit-grid-representations-for-3d-scenes-mvhm2wbp.md) — 2020
+- [Low-dose CT via convolutional neural network](2017-low-dose-ct-via-convolutional-neural-network-vxb88rgp.md) — 2017
+- [Lucas-Kanade 20 Years On: A Unifying Framework](2004-lucas-kanade-20-years-on-a-unifying-framework-48wtrtc3.md) — 2004
+- [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](2023-mamba-linear-time-sequence-modeling-with-selective-state-spaces-ht2t9e6z.md) — 2023
+- [Minimalist Vision with Freeform Pixels](2025-minimalist-vision-with-freeform-pixels-22p27q56.md) — 2025
+- [Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields](2022-mip-nerf-360-unbounded-anti-aliased-neural-radiance-fields-kbdxtugr.md) — 2022
+- [Mitigating Motion Blur in Neural Radiance Fields with Events and Frames](2024-mitigating-motion-blur-in-neural-radiance-fields-with-events-and-frames-6rmywv37.md) — 2024
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos](2024-modgs-dynamic-gaussian-splatting-from-casually-captured-monocular-videos-rq259clb.md) — 2024
+- [MoDGS: Dynamic Gaussian Splatting from Casually-captured Monocular Videos](2024-modgs-dynamic-gaussian-splatting-from-casually-captured-monocular-videos-2myvwen5.md) — 2024
+- [Navigating the Latent Spaces  of Deep Neural Networks](undated-navigating-the-latent-spaces-of-deep-neural-networks-hcdms43f.md) — undated
+- [NeAT: Neural Adaptive Tomography](2022-neat-neural-adaptive-tomography-fu336n8l.md) — 2022
+- [NeAT: Neural Adaptive Tomography](2022-neat-neural-adaptive-tomography-debmybvg.md) — 2022
+- [NeRF for 3D Reconstruction from X-ray Angiography](2023-nerf-for-3d-reconstruction-from-x-ray-angiography-bd7fpbvy.md) — 2023
+- [NeRF-XL: Scaling NeRFs with Multiple GPUs](2024-nerf-xl-scaling-nerfs-with-multiple-gpus-a6zadz9s.md) — 2024
+- [NeRF: representing scenes as neural radiance fields for view synthesis](2022-nerf-representing-scenes-as-neural-radiance-fields-for-view-synthesis-k9p9htgg.md) — 2022
+- [Nerfies: Deformable Neural Radiance Fields](2021-nerfies-deformable-neural-radiance-fields-uullrap4.md) — 2021
+- [Neural Fields in Visual Computing and Beyond](2022-neural-fields-in-visual-computing-and-beyond-5qgxw7wp.md) — 2022
+- [Neural Inverse Rendering from Propagating Light](2025-neural-inverse-rendering-from-propagating-light-5y9xkn9q.md) — 2025
+- [Neural Radiance Fields in Medical Imaging: Challenges and Next Steps](2024-neural-radiance-fields-in-medical-imaging-challenges-and-next-steps-2t6yzmjf.md) — 2024
+- [Neural rendering enables dynamic tomography](2024-neural-rendering-enables-dynamic-tomography-ncwwekc3.md) — 2024
+- [On the use of deep learning for computational imaging](2019-on-the-use-of-deep-learning-for-computational-imaging-xciwbdn5.md) — 2019
+- [PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification](2023-pac-nerf-physics-augmented-continuum-neural-radiance-fields-for-geometry-agnostic-system-i-6bfxgj4p.md) — 2023
+- [PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification](2023-pac-nerf-physics-augmented-continuum-neural-radiance-fields-for-geometry-agnostic-system-i-5etvr8fv.md) — 2023
+- [PDAVIS: Bio-inspired Polarization Event Camera](2023-pdavis-bio-inspired-polarization-event-camera-qc48nuwb.md) — 2023
+- [PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics](2024-physgaussian-physics-integrated-3d-gaussians-for-generative-dynamics-ng8l6jsc.md) — 2024
+- [Physics-informed machine learning](2021-physics-informed-machine-learning-3ffwuhsd.md) — 2021
+- [Physics-informed neural networks for modeling physiological time series for cuffless blood pressure estimation](2023-physics-informed-neural-networks-for-modeling-physiological-time-series-for-cuffless-blood-fjzdn5wz.md) — 2023
+- [pixelNeRF: Neural Radiance Fields from One or Few Images](2021-pixelnerf-neural-radiance-fields-from-one-or-few-images-2isn9lxs.md) — 2021
+- [Plenoxels: Radiance Fields without Neural Networks](2021-plenoxels-radiance-fields-without-neural-networks-pju7itiz.md) — 2021
+- [Plug-and-Play Algorithms for Video Snapshot Compressive Imaging](2022-plug-and-play-algorithms-for-video-snapshot-compressive-imaging-a44xl7y9.md) — 2022
+- [Point-Based Neural Rendering with Per-View Optimization](2021-point-based-neural-rendering-with-per-view-optimization-t3avam28.md) — 2021
+- [Projective image alignment by using ECC maximization](2008-projective-image-alignment-by-using-ecc-maximization-vwd9mazx.md) — 2008
+- [R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction](2024-r2-gaussian-rectifying-radiative-gaussian-splatting-for-tomographic-reconstruction-iffvts6t.md) — 2024
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](2023-real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splat-yypviyfp.md) — 2023
+- [Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting](2023-real-time-photorealistic-dynamic-scene-representation-and-rendering-with-4d-gaussian-splat-u69pssck.md) — 2023
+- [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](2016-real-time-single-image-and-video-super-resolution-using-an-efficient-sub-pixel-convolution-ky78sse7.md) — 2016
+- [Reconstructing Satellites in 3D from Amateur Telescope Images](2024-reconstructing-satellites-in-3d-from-amateur-telescope-images-eglfnk4f.md) — 2024
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-zvxk3ulq.md) — 2024
+- [Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians](2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians-iwsxqaia.md) — 2024
+- [Representation Learning on Visual-Symbolic Graphs for Video Understanding](2020-representation-learning-on-visual-symbolic-graphs-for-video-understanding-ceej2jlp.md) — 2020
+- [Representation Learning on Visual-Symbolic Graphs for Video Understanding](2020-representation-learning-on-visual-symbolic-graphs-for-video-understanding-pxx4rezd.md) — 2020
+- [Revisit Event Generation Model: Self-Supervised Learning of Event-to-Video Reconstruction with Implicit Neural Representations](2024-revisit-event-generation-model-self-supervised-learning-of-event-to-video-reconstruction-w-fa9sqw4c.md) — 2024
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](2024-sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes-ixpvrr2z.md) — 2024
+- [SC-GS: Sparse-Controlled Gaussian Splatting for Editable Dynamic Scenes](2024-sc-gs-sparse-controlled-gaussian-splatting-for-editable-dynamic-scenes-ih8xq5vk.md) — 2024
+- [Self-Supervised Blind Motion Deblurring With Deep Expectation Maximization](2023-self-supervised-blind-motion-deblurring-with-deep-expectation-maximization-5srzditd.md) — 2023
+- [Self-supervised Learning of Event-guided Video Frame Interpolation for Rolling Shutter Frames](2023-self-supervised-learning-of-event-guided-video-frame-interpolation-for-rolling-shutter-fra-x43ii8t3.md) — 2023
+- [Simultaneous Optical Flow and Intensity Estimation from an Event Camera](2016-simultaneous-optical-flow-and-intensity-estimation-from-an-event-camera-udg4mqb6.md) — 2016
+- [SLAYER: Spike Layer Error Reassignment in Time](2018-slayer-spike-layer-error-reassignment-in-time-jm7zcaml.md) — 2018
+- [Spatial-Temporal Transformer for Video Snapshot Compressive Imaging](2022-spatial-temporal-transformer-for-video-snapshot-compressive-imaging-sm4wlrxp.md) — 2022
+- [Spatial-Temporal Transformer for Video Snapshot Compressive Imaging](2022-spatial-temporal-transformer-for-video-snapshot-compressive-imaging-5xmhi3rt.md) — 2022
+- [Spatiotemporal-Aware Neural Fields for Dynamic CT Reconstruction](2025-spatiotemporal-aware-neural-fields-for-dynamic-ct-reconstruction-p3jcmabr.md) — 2025
+- [SpikeNVS: Enhancing Novel View Synthesis from Blurry Images via Spike Camera](2024-spikenvs-enhancing-novel-view-synthesis-from-blurry-images-via-spike-camera-tjrn3k6i.md) — 2024
+- [Structure-from-Motion Revisited](2016-structure-from-motion-revisited-7z6afkkc.md) — 2016
+- [SuGaR: Surface-Aligned Gaussian Splatting for Efficient 3D Mesh Reconstruction and High-Quality Mesh Rendering](2023-sugar-surface-aligned-gaussian-splatting-for-efficient-3d-mesh-reconstruction-and-high-qua-fdf4fvs9.md) — 2023
+- [Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation](2018-super-slomo-high-quality-estimation-of-multiple-intermediate-frames-for-video-interpolatio-wnu74g2q.md) — 2018
+- [Time encoding with an integrate-and-fire neuron with a refractory period](2004-time-encoding-with-an-integrate-and-fire-neuron-with-a-refractory-period-nhvuj2lw.md) — 2004
+- [Time Lens++: Event-based Frame Interpolation with Parametric Nonlinear Flow and Multi-scale Fusion](2022-time-lens-event-based-frame-interpolation-with-parametric-nonlinear-flow-and-multi-scale-f-qyrm58tx.md) — 2022
+- [Towards real-time photorealistic 3D holography with deep neural networks](2021-towards-real-time-photorealistic-3d-holography-with-deep-neural-networks-ygtewwek.md) — 2021
+- [Towards Robust Event-guided Low-Light Image Enhancement: A Large-Scale Real-World Event-Image Dataset and Novel Approach](2024-towards-robust-event-guided-low-light-image-enhancement-a-large-scale-real-world-event-ima-88dwvltv.md) — 2024
+- [Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion](2019-unsupervised-event-based-learning-of-optical-flow-depth-and-egomotion-bu8874tk.md) — 2019
+- [VGGT: Visual Geometry Grounded Transformer](2025-vggt-visual-geometry-grounded-transformer-meixjab3.md) — 2025
+- [Video super-resolution based on deep learning: a comprehensive survey](2022-video-super-resolution-based-on-deep-learning-a-comprehensive-survey-89ha953j.md) — 2022
+- [X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time Tomographic Reconstruction](2025-x2-gaussian-4d-radiative-gaussian-splatting-for-continuous-time-tomographic-reconstruction-kab73x8b.md) — 2025
+
+### 整理_按主题 / 05 Signal Processing / Optimization / Math
+- [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](2025-3d-gaussian-splatting-survey-technologies-challenges-and-opportunities-d8pmd58g.md) — 2025
+- [A Time-Based Sampling Framework for Finite-Rate-of-Innovation Signals](2020-a-time-based-sampling-framework-for-finite-rate-of-innovation-signals-89ixsxsb.md) — 2020
+- [Adaptive Integrate-and-Fire Time Encoding Machine with Quantization](2024-adaptive-integrate-and-fire-time-encoding-machine-with-quantization-23npxndk.md) — 2024
+- [Auto-Encoding Variational Bayes](2013-auto-encoding-variational-bayes-un4kcmcq.md) — 2013
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-3i9y2zlv.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-eupj4yq8.md) — undated
+- [Data-Driven Control and Optimization under Noisy and Uncertain Conditions](undated-data-driven-control-and-optimization-under-noisy-and-uncertain-conditions-z8w8bgwe.md) — undated
+- [Digital simulation of scalar optical diffraction: revisiting chirp function sampling criteria and consequences](2009-digital-simulation-of-scalar-optical-diffraction-revisiting-chirp-function-sampling-criter-di9y3qab.md) — 2009
+- [Direct Voxel Grid Optimization: Super-fast Convergence for Radiance Fields Reconstruction](2022-direct-voxel-grid-optimization-super-fast-convergence-for-radiance-fields-reconstruction-ykkuwt7z.md) — 2022
+- [Distributed Stochastic Optimization of a Neural Representation Network for Time-Space Tomography Reconstruction](2025-distributed-stochastic-optimization-of-a-neural-representation-network-for-time-space-tomo-ts9a8adt.md) — 2025
+- [Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos](2024-dynamic-gaussian-marbles-for-novel-view-synthesis-of-casual-monocular-videos-ii4qa7dq.md) — 2024
+- [Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos](2024-dynamic-gaussian-marbles-for-novel-view-synthesis-of-casual-monocular-videos-jcmz5pj9.md) — 2024
+- [Dynamic PlenOctree for Adaptive Sampling Refinement in Explicit NeRF](2023-dynamic-plenoctree-for-adaptive-sampling-refinement-in-explicit-nerf-kiura8y6.md) — 2023
+- [EVS-Assisted Joint Deblurring, Rolling-Shutter Correction and Video Frame Interpolation Through Sensor Inverse Modeling](2024-evs-assisted-joint-deblurring-rolling-shutter-correction-and-video-frame-interpolation-thr-pmlcb5zu.md) — 2024
+- [EvSTVSR: Event Guided Space-Time Video Super-Resolution](2025-evstvsr-event-guided-space-time-video-super-resolution-l6w2flrw.md) — 2025
+- [Exact Matrix Completion via Convex Optimization](2008-exact-matrix-completion-via-convex-optimization-2kiy32du.md) — 2008
+- [Extraction of In-Phase and Quadrature Components by Time-Encoding Sampling](2024-extraction-of-in-phase-and-quadrature-components-by-time-encoding-sampling-rqi6q4zq.md) — 2024
+- [Fast recovery algorithms for time encoded bandlimited signals](2005-fast-recovery-algorithms-for-time-encoded-bandlimited-signals-azzip9g2.md) — 2005
+- [FRI-TEM: Time Encoding Sampling of Finite-Rate-of-Innovation Signals](2022-fri-tem-time-encoding-sampling-of-finite-rate-of-innovation-signals-i5csaesz.md) — 2022
+- [Improving 3D Imaging with Pre-Trained Perpendicular 2D Diffusion Models](2023-improving-3d-imaging-with-pre-trained-perpendicular-2d-diffusion-models-84vm4dck.md) — 2023
+- [Interpolation with nonuniform B-splines](2004-interpolation-with-nonuniform-b-splines-7qwdedj3.md) — 2004
+- [Local Implicit Grid Representations for 3D Scenes](2020-local-implicit-grid-representations-for-3d-scenes-keygsfru.md) — 2020
+- [Local Light Field Fusion: Practical View Synthesis with Prescriptive Sampling Guidelines](2019-local-light-field-fusion-practical-view-synthesis-with-prescriptive-sampling-guidelines-ztgptudl.md) — 2019
+- [Neuromorphic Sampling of Signals in Shift-Invariant Spaces](2023-neuromorphic-sampling-of-signals-in-shift-invariant-spaces-fkgylult.md) — 2023
+- [Neuromorphic Sensing Meets Unlimited Sampling](2024-neuromorphic-sensing-meets-unlimited-sampling-84t29hjb.md) — 2024
+- [Neuromorphic Unlimited Sampling for High-Dynamic-Range Video Acquisition](2025-neuromorphic-unlimited-sampling-for-high-dynamic-range-video-acquisition-f4yqndf3.md) — 2025
+- [Nonuniform Sampling and Reconstruction in Shift-Invariant Spaces](2001-nonuniform-sampling-and-reconstruction-in-shift-invariant-spaces-byxlpsls.md) — 2001
+- [Over 100 Million Frames per Second 368 Frames Global Shutter Burst CMOS Image Sensor with Pixel-wise Trench Capacitor Memory Array](2020-over-100-million-frames-per-second-368-frames-global-shutter-burst-cmos-image-sensor-with-hdmgfr8v.md) — 2020
+- [Parametric Image Alignment Using Enhanced Correlation Coefficient Maximization](2008-parametric-image-alignment-using-enhanced-correlation-coefficient-maximization-lry4dckt.md) — 2008
+- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos-wlxq9ieb.md) — 2025
+- [PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos](2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos-vxtez538.md) — 2025
+- [Sampling based on timing: Time encoding machines on shift-invariant subspaces](2014-sampling-based-on-timing-time-encoding-machines-on-shift-invariant-subspaces-2g3zml8s.md) — 2014
+- [Sampling Continuous-Time Sparse Signals: A Frequency-Domain Perspective](2018-sampling-continuous-time-sparse-signals-a-frequency-domain-perspective-yue82wkl.md) — 2018
+- [Sampling Signals of Finite Rate of Innovation](2002-sampling-signals-of-finite-rate-of-innovation-7nzhis8s.md) — 2002
+- [Software Infrastructure](2015-software-infrastructure-auma35yr.md) — 2015
+- [Solving 3D Inverse Problems Using Pre-Trained 2D Diffusion Models](2023-solving-3d-inverse-problems-using-pre-trained-2d-diffusion-models-3qsbrmm2.md) — 2023
+- [SpikeReveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams](2024-spikereveal-unlocking-temporal-sequences-from-real-blurry-inputs-with-spike-streams-k4gwhzsy.md) — 2024
+- [Stable signal recovery from incomplete and inaccurate measurements](2006-stable-signal-recovery-from-incomplete-and-inaccurate-measurements-ulpguxtd.md) — 2006
+- [Super-Resolution and Sparse View CT Reconstruction](2018-super-resolution-and-sparse-view-ct-reconstruction-wqi9ylwh.md) — 2018
+- [The fastest L1,oo prox in the west](2021-the-fastest-l1oo-prox-in-the-west-5f82ek2h.md) — 2021
+- [Time encoding and perfect recovery of bandlimited signals](2003-time-encoding-and-perfect-recovery-of-bandlimited-signals-86394c4a.md) — 2003
+- [Tomographic Approach for Sampling Multidimensional Signals with Finite Rate of Innovation](2006-tomographic-approach-for-sampling-multidimensional-signals-with-finite-rate-of-innovation-k2esuywg.md) — 2006
+- [Towards Interpretable Video Super-Resolution via Alternating Optimization](2022-towards-interpretable-video-super-resolution-via-alternating-optimization-dh3nh5ae.md) — 2022
+- [Ultrafast Radiographic Imaging and Tracking: An overview of instruments, methods, data, and applications](2023-ultrafast-radiographic-imaging-and-tracking-an-overview-of-instruments-methods-data-and-ap-ir88rj6h.md) — 2023
+- [Unleashing the Potential of Multi-modal Foundation Models and Video Diffusion for 4D Dynamic Physical Scene Simulation](2024-unleashing-the-potential-of-multi-modal-foundation-models-and-video-diffusion-for-4d-dynam-buv5njax.md) — 2024
+
+### 整理_按主题 / 06 Admin / CV / Thesis / Patent
+- [3D Gaussian Splatting for Real-Time Radiance Field Rendering](2023-3d-gaussian-splatting-for-real-time-radiance-field-rendering-t6e3t6kp.md) — 2023
+- [Colorizing Monochromatic Radiance Fields](2024-colorizing-monochromatic-radiance-fields-7r6csfxi.md) — 2024
+- [Differentiable surface splatting for point-based geometry processing](2019-differentiable-surface-splatting-for-point-based-geometry-processing-beldvtji.md) — 2019
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](2024-dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-dyk6mbr5.md) — 2024
+- [Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis](2024-dynamic-3d-gaussians-tracking-by-persistent-dynamic-view-synthesis-w986l2dm.md) — 2024
+- [E-3DGS: Event-Based Novel View Rendering of Large-Scale Scenes Using 3D Gaussian Splatting](2025-e-3dgs-event-based-novel-view-rendering-of-large-scale-scenes-using-3d-gaussian-splatting-buz2xbr4.md) — 2025
+- [Freeze casting](2024-freeze-casting-rx5yfseh.md) — 2024
+- [GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis](2023-gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis-wyfstel4.md) — 2023
+- [GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis](2023-gaufre-gaussian-deformation-fields-for-real-time-dynamic-novel-view-synthesis-v3i9u6iw.md) — 2023
+- [GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis](2020-graf-generative-radiance-fields-for-3d-aware-image-synthesis-4eh94rur.md) — 2020
+- [IntraTomo: Self-supervised Learning-based Tomography via Sinogram Synthesis and Prediction](2021-intratomo-self-supervised-learning-based-tomography-via-sinogram-synthesis-and-prediction-bu2wjetg.md) — 2021
+- [NeRFE: Free View Synthesis for Event Data](2023-nerfe-free-view-synthesis-for-event-data-rcppuzkk.md) — 2023
+- [PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation](2024-physdreamer-physics-based-interaction-with-3d-objects-via-video-generation-8nst9m7x.md) — 2024
+- [Review on mechanical properties of metal lattice structures](2024-review-on-mechanical-properties-of-metal-lattice-structures-7nzjlnuw.md) — 2024
+- [Sparse Synthesis for Hyperdimensional Ptychographic Tomography](2022-sparse-synthesis-for-hyperdimensional-ptychographic-tomography-zpc3sxw5.md) — 2022
+- [SuperFast: 200× Video Frame Interpolation via Event Camera](2023-superfast-200-video-frame-interpolation-via-event-camera-kwm7jqvd.md) — 2023
+- [TOWARDS FASTER AND STABILIZED GAN TRAINING FOR HIGH-FIDELITY FEW-SHOT IMAGE SYNTHESIS](2021-towards-faster-and-stabilized-gan-training-for-high-fidelity-few-shot-image-synthesis-vnqgphbp.md) — 2021
+- [VLSI analogs of neuronal visual processing: a synthesis of form and function](1992-vlsi-analogs-of-neuronal-visual-processing-a-synthesis-of-form-and-function-htlt59pn.md) — 1992
+
+### 整理_按主题 / 99 Needs Review
+- [[PDF] Deep Polarization Reconstruction with PDAVIS Events | Semantic Scholar](undated-pdf-deep-polarization-reconstruction-with-pdavis-events-semantic-scholar-ixu6fa93.md) — undated
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-wgpxq6i4.md) — 2013
+- [A material point method for snow simulation](2013-a-material-point-method-for-snow-simulation-5zgyx79y.md) — 2013
+- [A Review of Optical Sensors in CMOS](2024-a-review-of-optical-sensors-in-cmos-mbpjzm8y.md) — 2024
+- [A Short Course on Frame Theory](2017-a-short-course-on-frame-theory-xemtvrhq.md) — 2017
+- [A superconducting nanowire single-photon camera with 400,000 pixels](2023-a-superconducting-nanowire-single-photon-camera-with-400000-pixels-p58gaemd.md) — 2023
+- [A Toolbox for Easily Calibrating Omnidirectional Cameras](2010-a-toolbox-for-easily-calibrating-omnidirectional-cameras-2l9k5hqw.md) — 2010
+- [Accurate event simulation using high-speed video](2022-accurate-event-simulation-using-high-speed-video-ae5jdhme.md) — 2022
+- [Automated computer-assisted quantitative analysis of intact murine lungs at the alveolar scale](2017-automated-computer-assisted-quantitative-analysis-of-intact-murine-lungs-at-the-alveolar-s-sg73pq8f.md) — 2017
+- [Bringing Events Into Video Deblurring With Non-Consecutively Blurry Frames](2021-bringing-events-into-video-deblurring-with-non-consecutively-blurry-frames-ktejvx9j.md) — 2021
+- [Cameras with On-chip Memory CMOS Image Sensors](2018-cameras-with-on-chip-memory-cmos-image-sensors-tpiuzbkb.md) — 2018
+- [Champion-level drone racing using deep reinforcement learning](2023-champion-level-drone-racing-using-deep-reinforcement-learning-tumeinlm.md) — 2023
+- [Compressive Coded Aperture Superresolution Image Reconstruction](2008-compressive-coded-aperture-superresolution-image-reconstruction-9c3hkjgi.md) — 2008
+- [Current Trends in Automotive Lightweighting Strategies and Materials](2021-current-trends-in-automotive-lightweighting-strategies-and-materials-j4zlhceb.md) — 2021
+- [Deblur e-NeRF: NeRF from Motion-Blurred Events under High-speed or Low-light Conditions](2024-deblur-e-nerf-nerf-from-motion-blurred-events-under-high-speed-or-low-light-conditions-4wdza33j.md) — 2024
+- [Deep Polarization Reconstruction With PDAVIS Events](2023-deep-polarization-reconstruction-with-pdavis-events-7utnmlyl.md) — 2023
+- [DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning](2025-deepseek-r1-incentivizes-reasoning-in-llms-through-reinforcement-learning-tnfkts8x.md) — 2025
+- [Depth-Supervised NeRF: Fewer Views and Faster Training for Free](2022-depth-supervised-nerf-fewer-views-and-faster-training-for-free-cjjwl4zz.md) — 2022
+- [Disentangled Cross-modal Fusion for Event-Guided Image Super-resolution](2024-disentangled-cross-modal-fusion-for-event-guided-image-super-resolution-rjpzjk3i.md) — 2024
+- [Dynamic impact testing of cellular solids and lattice structures: Application of two-sided direct impact Hopkinson bar](2021-dynamic-impact-testing-of-cellular-solids-and-lattice-structures-application-of-two-sided-7v8l4rq4.md) — 2021
+- [EVA-: Event-Assisted Video Frame Interpolation via Cross-Modal Alignment and Aggregation | IEEE Journals & Magazine | IEEE Xplore](undated-eva-event-assisted-video-frame-interpolation-via-cross-modal-alignment-and-aggregation-iee-zjvkfc3w.md) — undated
+- [Fourth Generation Light Sources](undated-fourth-generation-light-sources-n5lvah94.md) — undated
+- [Framing Theory](2007-framing-theory-jcnlqzvq.md) — 2007
+- [Genetic and Evolutionary Computation](undated-genetic-and-evolutionary-computation-tzjjih8b.md) — undated
+- [High-resolution non-destructive three- dimensional imaging of integrated circuits](2017-high-resolution-non-destructive-three-dimensional-imaging-of-integrated-circuits-bpww8j7u.md) — 2017
+- [High-Throughput Screening of 3D-Printed Architected Materials Inspired by Crystal Lattices: Procedure, Challenges, and Mechanical Properties](2023-high-throughput-screening-of-3d-printed-architected-materials-inspired-by-crystal-lattices-g4a2tc48.md) — 2023
+- [Image Alignment and Stitching: A Tutorial](2007-image-alignment-and-stitching-a-tutorial-3hpb88qn.md) — 2007
+- [Index](2015-index-zf9gsy2r.md) — 2015
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-9kmbu2ix.md) — undated
+- [JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling](undated-jhu-isi-gesture-and-skill-assessment-working-set-jigsaws-a-surgical-activity-dataset-for-h-zinl9usm.md) — undated
+- [Least Angle Regression](2004-least-angle-regression-7li9pbxc.md) — 2004
+- [Local Deep Implicit Functions for 3D Shape](2020-local-deep-implicit-functions-for-3d-shape-cindiecr.md) — 2020
+- [Low Temperature Kerr Eﬀect Study of Magnetic Topological Insulators and Other Magnetic Structures](undated-low-temperature-kerr-eﬀect-study-of-magnetic-topological-insulators-and-other-magnetic-str-fs9vbu2z.md) — undated
+- [Medical imaging systems: an introductory guide](2018-medical-imaging-systems-an-introductory-guide-dl34i8pn.md) — 2018
+- [Metasurface-Enabled Holographic Lithography for Impact-Absorbing Nanoarchitected Sheets](2023-metasurface-enabled-holographic-lithography-for-impact-absorbing-nanoarchitected-sheets-qv98bamh.md) — 2023
+- [Microlattice Metamaterials for Tailoring Ultrasonic Transmission with Elastoacoustic Hybridization](2016-microlattice-metamaterials-for-tailoring-ultrasonic-transmission-with-elastoacoustic-hybri-c5sund4g.md) — 2016
+- [Microscopie de second harmonique résolue en polarisations linéaire et circulaire pour caractériser l'organisation 3D du collagène](undated-microscopie-de-second-harmonique-résolue-en-polarisations-linéaire-et-circulaire-pour-cara-yfdqm9zg.md) — undated
+- [Millimetre-deep micrometre-resolution vibrational imaging by shortwave infrared photothermal microscopy](2024-millimetre-deep-micrometre-resolution-vibrational-imaging-by-shortwave-infrared-phototherm-ipk7imbl.md) — 2024
+- [Noninvasive quantitative assessment of collagen degradation in parchments by polarization-resolved SHG microscopy](2023-noninvasive-quantitative-assessment-of-collagen-degradation-in-parchments-by-polarization-mymkq7xu.md) — 2023
+- [Observation of polar vortices in oxide superlattices](2016-observation-of-polar-vortices-in-oxide-superlattices-c623hnqa.md) — 2016
+- [Online Real-Time Multiple Spatiotemporal Action Localisation and Prediction](2017-online-real-time-multiple-spatiotemporal-action-localisation-and-prediction-xxj5b8a4.md) — 2017
+- [Photon-efficient imaging with a single-photon camera](2016-photon-efficient-imaging-with-a-single-photon-camera-ywb4ybhh.md) — 2016
+- [Photonic signal processor based on a Kerr microcomb for real-time video image processing](2024-photonic-signal-processor-based-on-a-kerr-microcomb-for-real-time-video-image-processing-sasiwynl.md) — 2024
+- [Ray tracing volume densities](1984-ray-tracing-volume-densities-ywu4fyi7.md) — 1984
+- [RE-THINKING COMPUTING WITH NEURO-INSPIRED LEARNING: ALGORITHMS TO HARDWARE](undated-re-thinking-computing-with-neuro-inspired-learning-algorithms-to-hardware-vi9a56aj.md) — undated
+- [Science research writing for non-native speakers of English](2009-science-research-writing-for-non-native-speakers-of-english-slp2khxm.md) — 2009
+- [Single-photon sensitive light-in-fight imaging](2015-single-photon-sensitive-light-in-fight-imaging-i7pz6k33.md) — 2015
+- [Smart lattice light-sheet microscopy for imaging rare and complex cellular events](2023-smart-lattice-light-sheet-microscopy-for-imaging-rare-and-complex-cellular-events-ewihefn2.md) — 2023
+- [Supersonic impact resilience of nanoarchitected carbon](2021-supersonic-impact-resilience-of-nanoarchitected-carbon-454kfewh.md) — 2021
+- [Surgical Gesture Classification from Video Data](2012-surgical-gesture-classification-from-video-data-7ajtjf9c.md) — 2012
+- [Technical Note : EVS characteristics definition](undated-technical-note-evs-characteristics-definition-qu7wg4ah.md) — undated
+- [The cell biology of vision](2010-the-cell-biology-of-vision-m4gmtwsr.md) — 2010
+- [The high speed microstrip detector Gotthard-II: Architecture, features and applications](undated-the-high-speed-microstrip-detector-gotthard-ii-architecture-features-and-applications-w42xtmhr.md) — undated
+- [The interplay between events and frames: A comprehensive explanation](undated-the-interplay-between-events-and-frames-a-comprehensive-explanation-28ftrplk.md) — undated
+- [The material point method for simulating continuum materials](2016-the-material-point-method-for-simulating-continuum-materials-8hq663kt.md) — 2016
+- [Three-dimensional mechanical metamaterials with a twist](2017-three-dimensional-mechanical-metamaterials-with-a-twist-c4d82nem.md) — 2017
+- [Time Encoding of Bandlimited Signals, an Overview](2005-time-encoding-of-bandlimited-signals-an-overview-gay8gh7z.md) — 2005
+- [TomoPhantom, a software package to generate 2D–4D analytical phantoms for CT image reconstruction algorithm benchmarks](2018-tomophantom-a-software-package-to-generate-2d4d-analytical-phantoms-for-ct-image-reconstru-s827xyxa.md) — 2018
+- [TPG-INR: Target Prior-Guided Implicit 3D CT Reconstruction for Enhanced Sparse-view Imaging](2025-tpg-inr-target-prior-guided-implicit-3d-ct-reconstruction-for-enhanced-sparse-view-imaging-s9nlpxih.md) — 2025
+- [上海光源硬X射线相干衍射成像实验方法初探](2021-上海光源硬x射线相干衍射成像实验方法初探-7z63z84d.md) — 2021
+- [光场调控专题导读](2022-光场调控专题导读-chnbxadw.md) — 2022
+- [深度学习下的计算成像:现状、挑战与未来 下载： 11817次特邀综述 | 光学学报 -- 中国光学期刊网](undated-深度学习下的计算成像现状挑战与未来-下载-11817次特邀综述-光学学报-中国光学期刊网-hliuicin.md) — undated
+- [部分相干衍射成像综述](undated-部分相干衍射成像综述-xmzflzd8.md) — undated
