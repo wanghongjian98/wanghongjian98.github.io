@@ -6,7 +6,7 @@ This repository publishes the root GitHub Pages site:
 https://wanghongjian98.github.io/
 ```
 
-The homepage is a static `index.html` page for Hongjian Wang, PhD student at ETH Zürich and member of TOMCAT at the Paul Scherrer Institute.
+The homepage is a static `index.html` page for Hongjian Wang, PhD student at ETH Zurich and member of TOMCAT at the Paul Scherrer Institute.
 
 ## Click Recorder
 
@@ -40,7 +40,22 @@ After deploying the Worker, set `visitorGlobeEndpoint` in `index.html` to the Wo
 ## Related Site
 
 - Computational Imaging Frontier: <https://wanghongjian98.github.io/computational-imaging-frontier/>
-- Local Notes: <https://wanghongjian98.github.io/obsidian-notes/>，可把笔记同步为仓库 `obsidian-notes/` 目录下的 `.md` 文件。
+- Local Notes: <https://wanghongjian98.github.io/obsidian-notes/>. Notes are synced as Markdown files under `obsidian-notes/`.
+
+## Paper Wiki Tool
+
+Use the local wrapper to rebuild and maintain the Zotero paper wiki:
+
+```powershell
+.\paper-wiki.ps1 status
+.\paper-wiki.ps1 sync
+.\paper-wiki.ps1 search "gaussian splatting"
+.\paper-wiki.ps1 question "How do neural fields help sparse-view CT?"
+.\paper-wiki.ps1 lint
+.\paper-wiki.ps1 publish -m "Update paper wiki"
+```
+
+See `PAPER_WIKI_TOOL.md` for the full workflow.
 
 ## Deployment
 
