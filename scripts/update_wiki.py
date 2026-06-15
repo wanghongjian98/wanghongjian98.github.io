@@ -255,6 +255,27 @@ def page_links(directory: Path) -> list[str]:
     return links
 
 
+def page_count(path: Path) -> int:
+    if not path.exists():
+        return 0
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    return len(re.findall(r"^- \[\[", text, re.M))
+
+
+def link_for(directory: Path, slug: str, label: str) -> str:
+    return f"[{label}]({directory.name}/{slug}.md)"
+
+
+def ranked_links(directory: Path, limit: int = 8) -> list[str]:
+    rows = []
+    for path in sorted(directory.glob("*.md")):
+        if path.name == "index.md":
+            continue
+        rows.append((page_count(path), title_from_filename(path), path.relative_to(WIKI).as_posix()))
+    rows.sort(key=lambda row: (-row[0], row[1].lower()))
+    return [f"- [{title}]({rel}) - {count} linked papers" for count, title, rel in rows[:limit]]
+
+
 def write_indexes() -> None:
     paper_links = page_links(PAPER_DIR)
     concept_links = page_links(CONCEPT_DIR)
@@ -265,13 +286,111 @@ def write_indexes() -> None:
     root_lines = [
         "# Research Wiki",
         "",
-        "Generated entry point for the local Zotero-derived research knowledge base.",
+        "这是从本地 Zotero PDF 自动生成、再逐步人工迭代的 Obsidian-style research wiki。它的目标不是替代精读，而是把几百篇论文沉淀成可导航、可追问、可扩展的研究地图。",
         "",
-        f"- Papers: {len(paper_links)}",
-        f"- Concepts: {len(concept_links)}",
-        f"- Methods: {len(method_links)}",
-        f"- Datasets: {len(dataset_links)}",
+        "## Dashboard",
+        "",
+        f"- Paper summaries: {len(paper_links)}",
+        f"- Concept pages: {len(concept_links)}",
+        f"- Method pages: {len(method_links)}",
+        f"- Dataset pages: {len(dataset_links)}",
         f"- Open problem pages: {len(open_problem_links)}",
+        "",
+        "## How To Use This Wiki",
+        "",
+        "1. 从下面的 `Research Map` 进入一个主题，而不是从 587 篇论文逐篇翻。",
+        "2. 在概念页或方法页里看 `Paper Mentions`，找到高频论文和交叉方向。",
+        "3. 把真正精读后的判断写回概念页的 `Summary`、`Key Questions` 或新建 `research_ideas/` 页面。",
+        "4. Zotero 新增论文后运行 `python scripts/ingest_zotero.py --max-pages 12` 和 `python scripts/update_wiki.py` 刷新索引。",
+        "",
+        "## Research Map",
+        "",
+        "### Event-based Sensing and Neuromorphic Vision",
+        "",
+        f"- Core concepts: {link_for(CONCEPT_DIR, 'event-camera', 'Event Camera')}, {link_for(CONCEPT_DIR, 'neuromorphic-vision', 'Neuromorphic Vision')}",
+        f"- Closely related methods: {link_for(METHOD_DIR, 'deblurring', 'Deblurring')}, {link_for(METHOD_DIR, 'image-restoration', 'Image Restoration')}",
+        "- Typical questions: event streams for deblurring, HDR, frame interpolation, optical flow, 3D reconstruction, and low-latency sensing.",
+        "",
+        "### X-ray CT, Tomography, and Dynamic Imaging",
+        "",
+        f"- Core concepts: {link_for(CONCEPT_DIR, 'tomography', 'Tomography')}, {link_for(CONCEPT_DIR, 'x-ray-ct', 'X-ray CT')}, {link_for(CONCEPT_DIR, 'dynamic-imaging', 'Dynamic Imaging')}, {link_for(CONCEPT_DIR, '4d-imaging', '4D Imaging')}",
+        f"- Closely related methods: {link_for(METHOD_DIR, 'tomography', 'Tomography')}, {link_for(METHOD_DIR, 'sparse-view-reconstruction', 'Sparse-view Reconstruction')}, {link_for(METHOD_DIR, 'neural-field', 'Neural Field')}",
+        "- Typical questions: sparse-view CT, limited-angle reconstruction, dynamic/4D tomography, synchrotron imaging, physics-informed reconstruction, and beamline data processing.",
+        "",
+        "### Neural Representations and Gaussian Splatting",
+        "",
+        f"- Core concepts: {link_for(CONCEPT_DIR, 'neural-field', 'Neural Field')}, {link_for(CONCEPT_DIR, 'implicit-neural-representation', 'Implicit Neural Representation')}, {link_for(CONCEPT_DIR, 'gaussian-splatting', 'Gaussian Splatting')}",
+        f"- Closely related methods: {link_for(METHOD_DIR, 'gaussian-splatting', 'Gaussian Splatting')}, {link_for(METHOD_DIR, 'implicit-neural-representation', 'Implicit Neural Representation')}, {link_for(METHOD_DIR, 'diffusion-model', 'Diffusion Model')}",
+        "- Typical questions: continuous scene/volume representation, 3DGS for CT, radiative Gaussian splatting, NeRF/INR baselines, dynamic view synthesis, and physical consistency.",
+        "",
+        "### Restoration, Priors, and Generative Models",
+        "",
+        f"- Core concepts: {link_for(CONCEPT_DIR, 'deblurring', 'Deblurring')}, {link_for(CONCEPT_DIR, 'image-restoration', 'Image Restoration')}, {link_for(CONCEPT_DIR, 'diffusion-model', 'Diffusion Model')}",
+        f"- Closely related methods: {link_for(METHOD_DIR, 'deblurring', 'Deblurring')}, {link_for(METHOD_DIR, 'image-restoration', 'Image Restoration')}, {link_for(METHOD_DIR, 'diffusion-model', 'Diffusion Model')}",
+        "- Typical questions: learned priors, event-guided restoration, low-light/HDR recovery, super-resolution, denoising, and diffusion priors for inverse problems.",
+        "",
+        "## High-Signal Intersections",
+        "",
+        f"- {link_for(CONCEPT_DIR, 'event-camera', 'Event Camera')} x {link_for(CONCEPT_DIR, 'gaussian-splatting', 'Gaussian Splatting')}: event-aided 3D reconstruction, deblurring, and novel view synthesis.",
+        f"- {link_for(CONCEPT_DIR, 'x-ray-ct', 'X-ray CT')} x {link_for(CONCEPT_DIR, 'gaussian-splatting', 'Gaussian Splatting')}: radiative Gaussian representations and sparse-view tomographic reconstruction.",
+        f"- {link_for(CONCEPT_DIR, 'tomography', 'Tomography')} x {link_for(CONCEPT_DIR, 'neural-field', 'Neural Field')}: implicit continuous reconstruction, dynamic CT, and physics-informed neural fields.",
+        f"- {link_for(CONCEPT_DIR, 'dynamic-imaging', 'Dynamic Imaging')} x {link_for(CONCEPT_DIR, '4d-imaging', '4D Imaging')}: time-resolved acquisition, motion modeling, and continuous-time reconstruction.",
+        f"- {link_for(CONCEPT_DIR, 'diffusion-model', 'Diffusion Model')} x {link_for(METHOD_DIR, 'sparse-view-reconstruction', 'Sparse-view Reconstruction')}: generative priors for underdetermined inverse problems.",
+        "",
+        "## Suggested Reading Routes",
+        "",
+        "### Route A: Event Cameras to 3D Reconstruction",
+        "",
+        f"1. {link_for(CONCEPT_DIR, 'event-camera', 'Event Camera')}",
+        f"2. {link_for(METHOD_DIR, 'deblurring', 'Deblurring')}",
+        f"3. {link_for(METHOD_DIR, 'gaussian-splatting', 'Gaussian Splatting')}",
+        f"4. {link_for(CONCEPT_DIR, 'dynamic-imaging', 'Dynamic Imaging')}",
+        "",
+        "### Route B: Sparse-view CT to Neural Reconstruction",
+        "",
+        f"1. {link_for(CONCEPT_DIR, 'x-ray-ct', 'X-ray CT')}",
+        f"2. {link_for(METHOD_DIR, 'tomography', 'Tomography')}",
+        f"3. {link_for(METHOD_DIR, 'sparse-view-reconstruction', 'Sparse-view Reconstruction')}",
+        f"4. {link_for(METHOD_DIR, 'neural-field', 'Neural Field')}",
+        f"5. {link_for(METHOD_DIR, 'gaussian-splatting', 'Gaussian Splatting')}",
+        "",
+        "### Route C: Dynamic 4D Imaging",
+        "",
+        f"1. {link_for(CONCEPT_DIR, 'dynamic-imaging', 'Dynamic Imaging')}",
+        f"2. {link_for(CONCEPT_DIR, '4d-imaging', '4D Imaging')}",
+        f"3. {link_for(CONCEPT_DIR, 'tomography', 'Tomography')}",
+        f"4. {link_for(METHOD_DIR, 'image-restoration', 'Image Restoration')}",
+        "",
+        "## Most Connected Pages",
+        "",
+        "### Concepts",
+        "",
+        *(ranked_links(CONCEPT_DIR) or ["- None yet."]),
+        "",
+        "### Methods",
+        "",
+        *(ranked_links(METHOD_DIR) or ["- None yet."]),
+        "",
+        "### Datasets",
+        "",
+        *(ranked_links(DATASET_DIR) or ["- None yet."]),
+        "",
+        "## Maintenance Loop",
+        "",
+        "```powershell",
+        "cd \"C:\\Users\\wang_h3\\Documents\\personal page\"",
+        "python scripts\\ingest_zotero.py --max-pages 12",
+        "python scripts\\update_wiki.py",
+        "git add wiki scripts templates README.md .gitignore",
+        "git commit -m \"Update research wiki\"",
+        "git push origin main",
+        "```",
+        "",
+        "## Quality Notes",
+        "",
+        "- `wiki/papers/` 里的单篇页是 public-safe 自动摘要，只保存元数据、关键词级信号和 Obsidian 链接，不保存 PDF 全文或大段原文。",
+        "- 概念页、方法页和数据集页是自动链接骨架。真正有价值的 synthesis 应该逐步人工写入 `Summary`、`Key Questions` 和 `research_ideas/`。",
+        "- `open_problems/extracted-open-problems.md` 是候选池，不是最终研究问题清单。需要人工合并、改写和去噪。",
         "",
         "## Sections",
         "",
@@ -280,6 +399,7 @@ def write_indexes() -> None:
         "- [Methods](#methods)",
         "- [Datasets](#datasets)",
         "- [Open Problems](#open-problems)",
+        "- [Research ideas](research_ideas/)",
         "",
         "## Concepts",
         "",
