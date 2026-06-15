@@ -7,11 +7,31 @@ type: concept
 
 ## Summary
 
-TODO: define this concept and explain why it matters.
+Implicit Neural Representation (INR) 用神经网络把连续坐标映射到信号值，例如 density、attenuation、radiance、occupancy、deformation 或 intensity。它适合表示连续空间/时间信号，因此常用于 sparse-view CT、dynamic reconstruction、NeRF、medical imaging 和 scientific imaging。
+
+INR 的价值在于连续性、可微性和 compact representation；风险在于优化慢、先验难解释、可能过平滑或 hallucinate。它和 [[Neural Field]] 基本同源，但本页更强调坐标网络作为通用表示形式。
 
 ## Key Questions
 
-- TODO
+- 网络输入是 2D/3D/4D coordinates、view direction、time、projection angle，还是 latent code？
+- INR 是直接表示对象，还是表示 correction、residual、motion field 或 prior？
+- positional encoding、hash encoding、multi-resolution grid 对高频细节和稳定性有什么影响？
+- 如何把物理 forward model 嵌入训练，而不是只拟合图像域？
+- sparse-view / limited-angle 下 INR 的 implicit bias 是帮助还是风险？
+
+## Related Concepts
+
+- [[Neural Field]]
+- [[Tomography]]
+- [[Sparse-view Reconstruction]]
+- [[Gaussian Splatting]]
+- [[Dynamic Imaging]]
+
+## Reading Focus
+
+- 关注 coordinate representation、encoding、regularization 和 data consistency。
+- 对 CT/CBCT 论文，记录 forward projector、projection loss 和几何假设。
+- 对 dynamic tasks，记录 time/deformation 如何建模。
 
 ## Paper Mentions
 - [[CoIL: Coordinate-based Internal Learning for Imaging Inverse Problems]]

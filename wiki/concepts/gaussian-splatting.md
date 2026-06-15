@@ -7,11 +7,32 @@ type: concept
 
 ## Summary
 
-TODO: define this concept and explain why it matters.
+Gaussian Splatting 用一组可优化的 Gaussian primitives 表示场景或体数据，并通过 differentiable splatting / rendering 实现高效渲染和重建。最初它在 real-time novel view synthesis 中快速发展，现在已经扩展到 dynamic scenes、event cameras、X-ray/tomography 和 physics-aware reconstruction。
+
+在本库中，Gaussian Splatting 是 [[Neural Field]] 和 explicit representation 之间的重要桥梁：它比纯 MLP 神经场更显式、更快，但如何加入物理 forward model、稀疏视角约束和连续时间运动仍是核心问题。
 
 ## Key Questions
 
-- TODO
+- Gaussian 表示的是 surface、radiance field、density/attenuation field，还是 dynamic particles？
+- 在 X-ray / tomography 中，Gaussian splatting 如何满足投影物理和 attenuation model？
+- 3DGS 在 sparse-view、motion blur、event data 或 dynamic scenes 下如何避免漂移和伪结构？
+- 显式 Gaussian primitives 与 implicit neural field 相比，优化稳定性、内存和泛化能力如何权衡？
+- 如何把 deformation、time、material property 和 physical constraints 加入 Gaussian representation？
+
+## Related Concepts
+
+- [[Neural Field]]
+- [[Implicit Neural Representation]]
+- [[Tomography]]
+- [[X-ray CT]]
+- [[Event Camera]]
+- [[Dynamic Imaging]]
+
+## Reading Focus
+
+- 区分 RGB novel view synthesis、dynamic 3DGS、event-guided 3DGS、radiative/X-ray 3DGS。
+- 记录每篇论文的 primitive parameterization、rendering equation、regularization 和 data requirement。
+- 特别关注 sparse-view CT 和 event-based deblurring 两条交叉线。
 
 ## Paper Mentions
 - [[3D Gaussian Splatting for Real-Time Radiance Field Rendering]]

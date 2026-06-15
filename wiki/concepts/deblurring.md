@@ -7,11 +7,31 @@ type: concept
 
 ## Summary
 
-TODO: define this concept and explain why it matters.
+Deblurring 是从运动模糊、离焦、低照度曝光或系统点扩散造成的退化图像中恢复清晰结构的逆问题。它在本库中不是孤立的图像增强任务，而是和 [[Event Camera]]、[[Image Restoration]]、[[Dynamic Imaging]]、[[Neural Field]] 以及 [[Gaussian Splatting]] 紧密相连。
+
+对 event-based imaging 来说，Deblurring 的核心价值是利用事件流提供的高时间分辨率来补偿传统帧相机的长曝光模糊。对 neural rendering / 3DGS 来说，Deblurring 则影响相机位姿、几何重建和 novel view synthesis 的可靠性。
 
 ## Key Questions
 
-- TODO
+- 模糊来自 camera motion、object motion、defocus、rolling shutter，还是传感器响应？
+- 事件流、光流、深度、相机轨迹和神经表示分别能提供哪些约束？
+- Deblurring 方法恢复的是 sharp frame、latent video、3D scene，还是可渲染的动态表示？
+- 如何区分视觉锐化和真实几何/运动恢复？
+- 在低光、高速运动、非线性曝光和真实噪声下，哪些先验最稳健？
+
+## Related Concepts
+
+- [[Event Camera]]
+- [[Image Restoration]]
+- [[Dynamic Imaging]]
+- [[Gaussian Splatting]]
+- [[Neural Field]]
+
+## Reading Focus
+
+- 先看 event-guided deblurring，再看 NeRF/3DGS deblurring。
+- 记录每篇论文是否使用 events、frames、optical flow、depth、pose 或 learned prior。
+- 特别关注 real-world generalization 和 blur formation model 是否可信。
 
 ## Paper Mentions
 - [[Local computed tomography via iterative deblurring]]

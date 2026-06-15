@@ -7,11 +7,31 @@ type: concept
 
 ## Summary
 
-TODO: define this concept and explain why it matters.
+Neural Field 是用神经网络表示连续场的总称，包括 radiance field、density field、attenuation field、signed distance field、motion field 和 dynamic field。它把离散图像或体素重建转化为连续函数拟合，因此在 NeRF、medical imaging、tomography、dynamic reconstruction 和 inverse problems 中都很重要。
+
+和 [[Implicit Neural Representation]] 相比，本页更强调“场”的物理或几何含义：网络不是只输出像素，而是在某个空间/时间域中表示可查询、可渲染、可微分的连续对象。
 
 ## Key Questions
 
-- TODO
+- neural field 表示的是 radiance、attenuation、density、geometry、motion，还是多物理量耦合场？
+- 训练信号来自 images、projections、events、depth，还是 simulation/physics constraints？
+- 连续表示如何处理 high-frequency detail、sharp boundary 和 discontinuity？
+- neural field 与 Gaussian splatting、voxel/grid、mesh 等显式表示如何取舍？
+- 在 scientific imaging 中，neural field 的 uncertainty 和 physical validity 如何评估？
+
+## Related Concepts
+
+- [[Implicit Neural Representation]]
+- [[Gaussian Splatting]]
+- [[Tomography]]
+- [[Dynamic Imaging]]
+- [[4D Imaging]]
+
+## Reading Focus
+
+- 先区分 visual NeRF、medical neural field、tomographic neural field 和 dynamic neural field。
+- 记录每篇论文的 field type、coordinate system、rendering/projection model 和 regularization。
+- 重点关注 sparse data 下的 inductive bias。
 
 ## Paper Mentions
 - [[Neural Fields in Visual Computing and Beyond]]

@@ -7,11 +7,31 @@ type: concept
 
 ## Summary
 
-TODO: define this concept and explain why it matters.
+Event Camera 是一种异步视觉传感器，每个像素在亮度变化超过阈值时独立触发事件，而不是按固定帧率输出完整图像。它的优势是高时间分辨率、高动态范围、低延迟和稀疏输出；代价是缺少绝对强度、事件噪声复杂、算法需要重新设计。
+
+在本库中，Event Camera 是连接 neuromorphic sensing、video restoration、motion estimation、3D reconstruction、Gaussian splatting 和 ultrafast imaging 的核心入口。很多论文都在探索如何把事件流和传统 frames、depth、pose、neural rendering 或 X-ray imaging 结合。
 
 ## Key Questions
 
-- TODO
+- 事件表示应该用 raw event stream、voxel grid、time surface、event frame，还是 learned representation？
+- 事件与 RGB frame 的互补性在哪里：deblurring、HDR、interpolation、optical flow、3D reconstruction 还是 low latency control？
+- 事件相机的 bias、latency、refractory period、noise 和 calibration 如何影响下游重建？
+- 如何从异步稀疏事件恢复连续时间 intensity、motion 或 3D scene？
+- event-based 方法在真实复杂场景中是否比高帧率相机更有实际优势？
+
+## Related Concepts
+
+- [[Neuromorphic Vision]]
+- [[Deblurring]]
+- [[Dynamic Imaging]]
+- [[Gaussian Splatting]]
+- [[Image Restoration]]
+
+## Reading Focus
+
+- 先按任务分类：reconstruction、deblurring、interpolation、optical flow、SLAM、3DGS/NeRF。
+- 对每篇论文记录事件表示、是否使用 frames、是否需要 simulator、是否真实数据验证。
+- 特别关注 sensor model 和 latency/bias calibration，因为它们常决定真实性能。
 
 ## Paper Mentions
 - [[A Toolbox for Easily Calibrating Omnidirectional Cameras]]

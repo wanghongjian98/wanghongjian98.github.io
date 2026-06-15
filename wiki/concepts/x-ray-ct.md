@@ -7,11 +7,32 @@ type: concept
 
 ## Summary
 
-TODO: define this concept and explain why it matters.
+X-ray CT 用 X-ray 投影从多个角度恢复物体内部的 attenuation / density 结构，是医学影像、材料科学、生命科学和 synchrotron imaging 的基础技术。它是 [[Tomography]] 的核心实例，但更强调 X-ray 物理、探测器、剂量、扫描几何和实际系统限制。
+
+在本库中，X-ray CT 与 sparse-view reconstruction、dynamic CT、4D imaging、neural fields 和 Gaussian splatting 直接相连。很多近期论文都在尝试用 learned priors 或 continuous representation 减少投影数量、提升速度或处理动态样品。
 
 ## Key Questions
 
-- TODO
+- CT 几何是 parallel-beam、fan-beam、cone-beam、laminography，还是 beamline-specific setup？
+- 主要限制是 dose、scan speed、detector readout、sample motion、limited angle，还是 reconstruction artifact？
+- learned reconstruction 是否遵守 X-ray projection physics？
+- 对 dynamic / 4D CT，运动建模和 temporal sampling 如何影响可重建性？
+- 如何在实验数据中验证真实结构，而不是只用 simulated phantom？
+
+## Related Concepts
+
+- [[Tomography]]
+- [[Sparse-view Reconstruction]]
+- [[Dynamic Imaging]]
+- [[4D Imaging]]
+- [[Implicit Neural Representation]]
+- [[Gaussian Splatting]]
+
+## Reading Focus
+
+- 重点看 sparse-view CT、dynamic CT、CBCT、synchrotron CT 和 neural/3DGS CT。
+- 记录投影数量、角度覆盖、dose/exposure、reconstruction baseline 和 data availability。
+- 对医学或材料论文，关注定量指标和物理可解释性。
 
 ## Paper Mentions
 - [[Principles of computerized tomographic imaging]]

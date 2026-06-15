@@ -7,11 +7,32 @@ type: concept
 
 ## Summary
 
-TODO: define this concept and explain why it matters.
+Tomography 是从多个投影或间接测量中重建物体内部结构的成像框架。典型例子包括 X-ray CT、phase contrast tomography、synchrotron tomography、CBCT、dynamic tomography 和 computed laminography。它的核心是 forward projection model 和 inverse reconstruction problem。
+
+在本知识库中，Tomography 是最大的一类主题，连接 [[X-ray CT]]、[[Sparse-view Reconstruction]]、[[Dynamic Imaging]]、[[4D Imaging]]、[[Neural Field]] 和 [[Gaussian Splatting]]。它是你的研究库里最重要的物理成像主线。
 
 ## Key Questions
 
-- TODO
+- forward model 是 absorption、phase contrast、dark-field、diffraction，还是 radiative / learned projection？
+- 重建是 analytic、iterative、deep learning、INR/neural field，还是 Gaussian representation？
+- 采集限制来自 dose、scan time、limited angle、sparse view、detector bandwidth，还是 sample motion？
+- 如何在高分辨率、高时间分辨率和低剂量之间取舍？
+- scientific imaging 中如何验证 reconstruction 的真实性，而不仅是图像质量？
+
+## Related Concepts
+
+- [[X-ray CT]]
+- [[Sparse-view Reconstruction]]
+- [[Dynamic Imaging]]
+- [[4D Imaging]]
+- [[Neural Field]]
+- [[Gaussian Splatting]]
+
+## Reading Focus
+
+- 先按 acquisition modality 分类，再按 reconstruction method 分类。
+- 对每篇论文记录 geometry、number of views、dose/exposure、detector、forward model 和 validation data。
+- 重点关注 TOMCAT/synchrotron、dynamic CT、sparse-view neural reconstruction 三条线。
 
 ## Paper Mentions
 - [[Practical cone-beam algorithm]]
