@@ -90,11 +90,6 @@
         font-size: 17px;
       }
 
-      .authors strong {
-        color: var(--ink);
-        font-weight: 600;
-      }
-
       .links {
         display: flex;
         flex-wrap: wrap;
@@ -207,32 +202,6 @@
         margin-top: 8px;
       }
 
-      .metrics {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 16px;
-        width: min(860px, 100%);
-        margin: 18px auto 0;
-      }
-
-      .metric {
-        border-top: 1px solid var(--line);
-        padding-top: 10px;
-        text-align: center;
-      }
-
-      .metric strong {
-        display: block;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 1.2;
-      }
-
-      .metric span {
-        color: var(--muted);
-        font-size: 14px;
-      }
-
       .bibtex {
         width: min(860px, 100%);
         margin: 0 auto;
@@ -281,8 +250,7 @@
           text-align: left;
         }
 
-        .two-col,
-        .metrics {
+        .two-col {
           grid-template-columns: 1fr;
         }
       }
@@ -294,7 +262,7 @@
         <h1>Neuromorphic X-ray Computed Tomography</h1>
         <p class="venue">ECCV 2026</p>
         <p class="authors">
-          <strong>Hongjian Wang</strong>, Goran Lovric, Benjam&iacute;n B&eacute;jar
+          Hongjian Wang, Goran Lovric, Benjam&iacute;n B&eacute;jar
         </p>
         <p class="affiliations">
           ETH Zurich &nbsp;&nbsp; Paul Scherrer Institute &nbsp;&nbsp; Swiss Data Science Center
@@ -356,20 +324,6 @@
           sparse-view CT benchmarks and a real-world nano-architected lattice dataset acquired at
           the TOMCAT beamline.
         </p>
-        <div class="metrics" aria-label="Key results">
-          <div class="metric">
-            <strong>+12.00 dB</strong>
-            <span>PSNR gain over NAF on 5-view Chest.</span>
-          </div>
-          <div class="metric">
-            <strong>51.26M</strong>
-            <span>Events in the real-world lattice dataset.</span>
-          </div>
-          <div class="metric">
-            <strong>&lt;5 min</strong>
-            <span>Training time to reach 30 dB on 5-view Chest.</span>
-          </div>
-        </div>
         <div class="result-gallery">
           <figure class="result-figure">
             <img
