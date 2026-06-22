@@ -200,8 +200,51 @@
         gap: 22px;
       }
 
+      .publication {
+        display: grid;
+        grid-template-columns: 210px minmax(0, 1fr);
+        gap: 20px;
+        align-items: start;
+      }
+
+      .publication-thumb {
+        display: block;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--soft);
+      }
+
+      .publication-thumb img {
+        display: block;
+        width: 100%;
+        height: 128px;
+        object-fit: cover;
+      }
+
+      .publication-body p {
+        margin-bottom: 5px;
+      }
+
+      .publication-authors,
+      .publication-venue {
+        color: var(--muted);
+      }
+
+      .publication-venue {
+        font-weight: 600;
+      }
+
+      .publication-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 8px;
+      }
+
       .interest-figure {
-        margin: 24px 0 0;
+        width: min(690px, 100%);
+        margin: 20px auto 0;
         min-width: 0;
         overflow: hidden;
         border: 1px solid var(--line);
@@ -316,9 +359,14 @@
           font-size: 32px;
         }
 
-        .research-grid {
+        .research-grid,
+        .publication {
           grid-template-columns: 1fr;
           gap: 16px;
+        }
+
+        .publication-thumb img {
+          height: auto;
         }
 
         .interest-figure {
@@ -337,10 +385,10 @@
       <div class="header-inner">
         <a class="brand" href="#" aria-current="page"><strong>Hongjian Wang</strong></a>
         <nav aria-label="Primary navigation">
-          <a href="#about">about</a>
-          <a href="#research">research</a>
-          <a href="#education">education</a>
-          <a href="obsidian-notes/">notes</a>
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#research">Research Interest</a>
+          <a href="obsidian-notes/">Notes</a>
         </nav>
       </div>
     </header>
@@ -364,14 +412,41 @@
           </p>
           <ul class="links" aria-label="Contact and profile links">
             <li><a data-track="email" href="mailto:wanghon@ethz.ch">Email</a></li>
-            <li><a data-track="tomcat" href="https://www.psi.ch/en/sls/tomcat">TOMCAT</a></li>
-            <li><a data-track="eth-eeit" href="https://ee.ethz.ch/">ETH EEIT</a></li>
           </ul>
         </div>
       </section>
 
+      <section id="publications" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications</h2>
+        <article class="publication">
+          <a class="publication-thumb" href="projects/neuroxct/" aria-label="Open NeuroXCT project page">
+            <img
+              src="projects/neuroxct/assets/paper-page-02-image-1.png"
+              alt="Neuromorphic X-ray CT acquisition overview"
+            />
+          </a>
+          <div class="publication-body">
+            <h3>
+              <a href="projects/neuroxct/">Neuromorphic X-ray Computed Tomography</a>
+            </h3>
+            <p class="publication-authors">
+              <strong>Hongjian Wang</strong>, Goran Lovric, Benjamín Béjar
+            </p>
+            <p class="publication-venue">ECCV 2026</p>
+            <p class="muted">
+              Event-enhanced sparse-view CT reconstruction with an Event-enhanced Neural
+              Attenuation Field (ENAF).
+            </p>
+            <p class="publication-links">
+              <a href="projects/neuroxct/">Project</a>
+              <a href="projects/neuroxct/assets/neuroxct.pdf">Paper</a>
+            </p>
+          </div>
+        </article>
+      </section>
+
       <section id="research" aria-labelledby="research-heading">
-        <h2 id="research-heading">Research</h2>
+        <h2 id="research-heading">Research Interest</h2>
         <div class="research-grid">
           <article class="research-item">
             <h3>Acquisition</h3>
@@ -463,19 +538,6 @@
         </figure>
       </section>
 
-      <section id="education" aria-labelledby="education-heading">
-        <h2 id="education-heading">Education</h2>
-        <ul class="timeline">
-          <li>
-            <span class="date">Since Aug 2023</span>
-            <p>PhD student at ETH Zürich and Paul Scherrer Institute.</p>
-          </li>
-          <li>
-            <span class="date">2023</span>
-            <p>MSE, Tsinghua University.</p>
-          </li>
-        </ul>
-      </section>
     </main>
 
     <footer>

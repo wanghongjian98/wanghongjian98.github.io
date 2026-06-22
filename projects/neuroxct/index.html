@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neuromorphic X-ray Computed Tomography</title>
+    <meta
+      name="description"
+      content="Project page for Neuromorphic X-ray Computed Tomography."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #ffffff;
+        --ink: #202124;
+        --muted: #555555;
+        --line: #dddddd;
+        --link: #1772b8;
+        --soft: #f7f7f7;
+        --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+          "Noto Sans", "Liberation Sans", sans-serif;
+        --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: var(--sans);
+        font-size: 17px;
+        line-height: 1.62;
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      main,
+      footer {
+        width: min(980px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      main {
+        padding: 46px 0 36px;
+      }
+
+      .paper-header {
+        text-align: center;
+      }
+
+      h1,
+      h2,
+      p,
+      figure {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 900px;
+        margin: 0 auto 12px;
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 1.15;
+      }
+
+      .venue {
+        margin-bottom: 16px;
+        color: #222222;
+        font-size: 21px;
+      }
+
+      .authors,
+      .affiliations {
+        margin-bottom: 7px;
+        color: var(--muted);
+        font-size: 17px;
+      }
+
+      .authors strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 22px 0 28px;
+      }
+
+      .links a,
+      .links span {
+        display: inline-flex;
+        min-height: 34px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        padding: 5px 12px;
+        background: #ffffff;
+        color: #333333;
+        font-size: 15px;
+      }
+
+      .links a:hover {
+        border-color: #b8cfe1;
+        background: #f4f9fd;
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      .links span {
+        color: #777777;
+      }
+
+      .teaser {
+        margin: 0 auto 20px;
+      }
+
+      .teaser img,
+      .full-figure img,
+      .side-figure img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .caption {
+        max-width: 900px;
+        margin: 10px auto 0;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.5;
+        text-align: center;
+      }
+
+      section {
+        padding: 30px 0 8px;
+      }
+
+      h2 {
+        margin-bottom: 12px;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.25;
+        text-align: center;
+      }
+
+      .section-text {
+        width: min(860px, 100%);
+        margin: 0 auto;
+        color: #333333;
+        text-align: justify;
+      }
+
+      .full-figure {
+        width: min(920px, 100%);
+        margin: 20px auto 0;
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 20px;
+      }
+
+      .side-figure {
+        margin-bottom: 0;
+      }
+
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        width: min(860px, 100%);
+        margin: 18px auto 0;
+      }
+
+      .metric {
+        border-top: 1px solid var(--line);
+        padding-top: 10px;
+        text-align: center;
+      }
+
+      .metric strong {
+        display: block;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+      .metric span {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .bibtex {
+        width: min(860px, 100%);
+        margin: 0 auto;
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        padding: 14px;
+        background: var(--soft);
+        color: #222222;
+        font-family: var(--mono);
+        font-size: 13px;
+        line-height: 1.55;
+        text-align: left;
+        white-space: pre;
+      }
+
+      footer {
+        padding: 22px 0 38px;
+        color: #777777;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      @media (max-width: 760px) {
+        body {
+          font-size: 16px;
+        }
+
+        main {
+          padding-top: 30px;
+        }
+
+        h1 {
+          font-size: 31px;
+        }
+
+        .venue {
+          font-size: 18px;
+        }
+
+        h2 {
+          font-size: 25px;
+        }
+
+        .section-text {
+          text-align: left;
+        }
+
+        .two-col,
+        .metrics {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="paper-header">
+        <h1>Neuromorphic X-ray Computed Tomography</h1>
+        <p class="venue">ECCV 2026</p>
+        <p class="authors">
+          <strong>Hongjian Wang</strong>, Goran Lovric, Benjam&iacute;n B&eacute;jar
+        </p>
+        <p class="affiliations">
+          ETH Zurich &nbsp;&nbsp; Paul Scherrer Institute &nbsp;&nbsp; Swiss Data Science Center
+        </p>
+        <nav class="links" aria-label="Project links">
+          <a href="assets/neuroxct.pdf">[Paper]</a>
+          <a href="#citation">[BibTeX]</a>
+          <a href="../../">[Homepage]</a>
+          <span>[Code Coming Soon]</span>
+        </nav>
+      </header>
+
+      <figure class="teaser">
+        <img
+          src="assets/paper-page-02-image-1.png"
+          alt="Neuromorphic X-ray CT acquisition with sparse frames and asynchronous events"
+        />
+        <figcaption class="caption">
+          NeuroXCT combines sparse frame projections with asynchronous event streams. The sparse
+          projections provide absolute structural information, while events capture high-temporal-
+          resolution angular changes between frames.
+        </figcaption>
+      </figure>
+
+      <section id="abstract" aria-labelledby="abstract-heading">
+        <h2 id="abstract-heading">Abstract</h2>
+        <p class="section-text">
+          X-ray computed tomography reconstruction is inherently an ill-posed inverse problem,
+          particularly under sparse-view projections. Unlike traditional frame-based sensors,
+          neuromorphic event cameras operate asynchronously at the pixel level and trigger events
+          only when log-intensity changes exceed a threshold. This asynchronous sensing naturally
+          captures high-frequency angular variations during object rotation, providing
+          complementary information between sparsely sampled projections. We introduce a
+          Neuromorphic X-ray CT framework and propose an Event-enhanced Neural Attenuation Field
+          (ENAF) that jointly leverages sparse projections and event streams. Experiments on
+          synthetic and real-world datasets show that ENAF improves sparse-view reconstruction
+          quality over frame-only methods while maintaining practical training efficiency.
+        </p>
+      </section>
+
+      <section id="method" aria-labelledby="method-heading">
+        <h2 id="method-heading">The Proposed Method</h2>
+        <p class="section-text">
+          ENAF represents the volumetric attenuation field as a continuous neural function. During
+          training, projection supervision anchors the absolute attenuation scale, while event
+          supervision compares predicted projection differences against accumulated event maps over
+          arbitrary angular windows.
+        </p>
+        <figure class="full-figure">
+          <img
+            src="assets/paper-page-06-image-1.png"
+            alt="Overview of the Event-enhanced Neural Attenuation Field method"
+          />
+        </figure>
+      </section>
+
+      <section id="results" aria-labelledby="results-heading">
+        <h2 id="results-heading">Results</h2>
+        <p class="section-text">
+          ENAF suppresses streak artifacts and preserves fine structures in both synthetic
+          sparse-view CT benchmarks and a real-world nano-architected lattice dataset acquired at
+          the TOMCAT beamline.
+        </p>
+        <div class="metrics" aria-label="Key results">
+          <div class="metric">
+            <strong>+12.00 dB</strong>
+            <span>PSNR gain over NAF on 5-view Chest.</span>
+          </div>
+          <div class="metric">
+            <strong>51.26M</strong>
+            <span>Events in the real-world lattice dataset.</span>
+          </div>
+          <div class="metric">
+            <strong>&lt;5 min</strong>
+            <span>Training time to reach 30 dB on 5-view Chest.</span>
+          </div>
+        </div>
+        <div class="two-col">
+          <figure class="side-figure">
+            <img
+              src="assets/paper-page-11-image-1.png"
+              alt="Qualitative comparison of 5-view CT reconstruction"
+            />
+          </figure>
+          <figure class="side-figure">
+            <img
+              src="assets/paper-page-14-image-1.png"
+              alt="Event-only and event-enhanced reconstruction on the real-world lattice dataset"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="citation" aria-labelledby="citation-heading">
+        <h2 id="citation-heading">BibTeX</h2>
+        <pre class="bibtex">@inproceedings{wang2026neuroxct,
+  title     = {Neuromorphic X-ray Computed Tomography},
+  author    = {Wang, Hongjian and Lovric, Goran and B&eacute;jar, Benjam&iacute;n},
+  booktitle = {European Conference on Computer Vision},
+  year      = {2026}
+}</pre>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Hongjian Wang</p>
+    </footer>
+  </body>
+</html>
