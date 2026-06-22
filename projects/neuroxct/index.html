@@ -134,6 +134,7 @@
 
       .teaser img,
       .full-figure img,
+      .result-figure img,
       .side-figure img {
         display: block;
         width: 100%;
@@ -180,8 +181,20 @@
         margin-top: 20px;
       }
 
+      .result-gallery {
+        display: grid;
+        gap: 26px;
+        margin-top: 24px;
+      }
+
+      .result-figure,
       .side-figure {
         margin-bottom: 0;
+      }
+
+      .result-figure .caption,
+      .side-figure .caption {
+        margin-top: 8px;
       }
 
       .metrics {
@@ -277,10 +290,8 @@
           ETH Zurich &nbsp;&nbsp; Paul Scherrer Institute &nbsp;&nbsp; Swiss Data Science Center
         </p>
         <nav class="links" aria-label="Project links">
-          <a href="assets/neuroxct.pdf">[Paper]</a>
           <a href="#citation">[BibTeX]</a>
-          <a href="../../">[Homepage]</a>
-          <span>[Code Coming Soon]</span>
+          <span aria-disabled="true">[Code]</span>
         </nav>
       </header>
 
@@ -349,18 +360,62 @@
             <span>Training time to reach 30 dB on 5-view Chest.</span>
           </div>
         </div>
-        <div class="two-col">
-          <figure class="side-figure">
+        <div class="result-gallery">
+          <figure class="result-figure">
             <img
               src="assets/paper-page-11-image-1.png"
-              alt="Qualitative comparison of 5-view CT reconstruction"
+              alt="Qualitative comparison of 5-view sparse-view CT reconstruction"
             />
+            <figcaption class="caption">
+              5-view sparse-view CT reconstruction on synthetic datasets.
+            </figcaption>
           </figure>
-          <figure class="side-figure">
+          <figure class="result-figure">
+            <img
+              src="assets/paper-page-11-image-2.png"
+              alt="Qualitative comparison of 25-view sparse-view CT reconstruction"
+            />
+            <figcaption class="caption">
+              25-view sparse-view CT reconstruction on synthetic datasets.
+            </figcaption>
+          </figure>
+          <div class="two-col">
+            <figure class="side-figure">
+              <img
+                src="assets/paper-page-12-image-1.png"
+                alt="Reference 3D reconstruction of the real-world lattice dataset"
+              />
+              <figcaption class="caption">
+                Reference 3D reconstruction of the real-world lattice dataset.
+              </figcaption>
+            </figure>
+            <figure class="side-figure">
+              <img
+                src="assets/paper-page-12-image-2.png"
+                alt="Central slice of the reference real-world lattice reconstruction"
+              />
+              <figcaption class="caption">
+                Central slice of the reference real-world lattice reconstruction.
+              </figcaption>
+            </figure>
+          </div>
+          <figure class="result-figure">
             <img
               src="assets/paper-page-14-image-1.png"
               alt="Event-only and event-enhanced reconstruction on the real-world lattice dataset"
             />
+            <figcaption class="caption">
+              Event-only and event-enhanced reconstructions on the real-world lattice dataset.
+            </figcaption>
+          </figure>
+          <figure class="result-figure">
+            <img
+              src="assets/paper-page-14-image-2.png"
+              alt="Reconstruction quality versus training time"
+            />
+            <figcaption class="caption">
+              Reconstruction quality versus training time.
+            </figcaption>
           </figure>
         </div>
       </section>
