@@ -129,6 +129,7 @@
       }
 
       .teaser {
+        width: min(820px, 100%);
         margin: 0 auto 20px;
       }
 
@@ -170,7 +171,7 @@
       }
 
       .full-figure {
-        width: min(920px, 100%);
+        width: min(760px, 100%);
         margin: 20px auto 0;
       }
 
@@ -184,12 +185,21 @@
       .result-gallery {
         display: grid;
         gap: 26px;
+        width: min(780px, 100%);
         margin-top: 24px;
+        margin-right: auto;
+        margin-left: auto;
       }
 
       .result-figure,
       .side-figure {
         margin-bottom: 0;
+      }
+
+      .result-figure.compact {
+        width: min(620px, 100%);
+        margin-right: auto;
+        margin-left: auto;
       }
 
       .result-figure .caption,
@@ -379,6 +389,15 @@
               25-view sparse-view CT reconstruction on synthetic datasets.
             </figcaption>
           </figure>
+          <figure class="result-figure">
+            <img
+              src="assets/paper-page-13-image-1.png"
+              alt="Qualitative comparison on the real-world lattice dataset"
+            />
+            <figcaption class="caption">
+              Real-world lattice reconstruction using 5, 10, and 25 frame projections.
+            </figcaption>
+          </figure>
           <div class="two-col">
             <figure class="side-figure">
               <img
@@ -408,7 +427,7 @@
               Event-only and event-enhanced reconstructions on the real-world lattice dataset.
             </figcaption>
           </figure>
-          <figure class="result-figure">
+          <figure class="result-figure compact">
             <img
               src="assets/paper-page-14-image-2.png"
               alt="Reconstruction quality versus training time"
